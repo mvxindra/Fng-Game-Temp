@@ -1,0 +1,398 @@
+{
+  "recipes": [
+    {
+      "recipeId": "craft_rare_sword",
+      "recipeName": "Rare Steel Sword",
+      "recipeCategory": "weapon",
+      "recipeType": "craft",
+      "requiredCrafterLevel": 1,
+      "requiredFacility": "forge",
+      "prerequisiteRecipes": [],
+      "materials": [
+        {"materialId": "steel_ingot", "quantity": 10},
+        {"materialId": "leather_strap", "quantity": 5},
+        {"materialId": "essence_dust", "quantity": 20}
+      ],
+      "goldCost": 5000,
+      "energyCost": 10,
+      "resultItemId": "weapon_sword_rare",
+      "resultQuantity": 1,
+      "resultMinRarity": 3,
+      "resultMaxRarity": 3,
+      "craftingTime": 0,
+      "successChance": 1.0,
+      "maxCrafts": -1,
+      "canCriticalCraft": true,
+      "criticalChance": 0.10,
+      "critBonus": {
+        "bonusQuantity": 0,
+        "bonusRarity": 1,
+        "bonusQuality": 0.2,
+        "guaranteeSocket": true,
+        "guaranteeAffix": true
+      },
+      "isDiscovered": true,
+      "unlockMethod": "default"
+    },
+    {
+      "recipeId": "craft_epic_armor",
+      "recipeName": "Epic Plate Armor",
+      "recipeCategory": "armor",
+      "recipeType": "craft",
+      "requiredCrafterLevel": 5,
+      "requiredFacility": "forge",
+      "prerequisiteRecipes": ["craft_rare_armor"],
+      "materials": [
+        {"materialId": "mithril_ingot", "quantity": 20},
+        {"materialId": "dragon_scale", "quantity": 5},
+        {"materialId": "essence_crystal", "quantity": 10}
+      ],
+      "goldCost": 25000,
+      "energyCost": 30,
+      "resultItemId": "armor_plate_epic",
+      "resultQuantity": 1,
+      "resultMinRarity": 4,
+      "resultMaxRarity": 5,
+      "craftingTime": 3600,
+      "successChance": 0.85,
+      "maxCrafts": -1,
+      "canCriticalCraft": true,
+      "criticalChance": 0.15,
+      "critBonus": {
+        "bonusQuantity": 0,
+        "bonusRarity": 1,
+        "bonusQuality": 0.3,
+        "guaranteeSocket": true,
+        "guaranteeAffix": true
+      },
+      "isDiscovered": false,
+      "unlockMethod": "quest"
+    },
+    {
+      "recipeId": "craft_legendary_weapon",
+      "recipeName": "Legendary Dragonbane",
+      "recipeCategory": "weapon",
+      "recipeType": "craft",
+      "requiredCrafterLevel": 10,
+      "requiredFacility": "forge",
+      "prerequisiteRecipes": ["craft_epic_weapon", "quest_dragon_slayer"],
+      "materials": [
+        {"materialId": "dragon_fang", "quantity": 1},
+        {"materialId": "mythril_ingot", "quantity": 50},
+        {"materialId": "legendary_essence", "quantity": 10},
+        {"materialId": "phoenix_feather", "quantity": 3}
+      ],
+      "goldCost": 100000,
+      "energyCost": 100,
+      "resultItemId": "weapon_dragonbane",
+      "resultQuantity": 1,
+      "resultMinRarity": 5,
+      "resultMaxRarity": 6,
+      "craftingTime": 86400,
+      "successChance": 0.50,
+      "maxCrafts": 1,
+      "canCriticalCraft": true,
+      "criticalChance": 0.25,
+      "critBonus": {
+        "bonusQuantity": 0,
+        "bonusRarity": 2,
+        "bonusQuality": 0.5,
+        "guaranteeSocket": true,
+        "guaranteeAffix": true
+      },
+      "isDiscovered": false,
+      "unlockMethod": "quest"
+    }
+  ],
+  "transmutations": [
+    {
+      "minRarity": 3,
+      "maxRarity": 3,
+      "gearSlot": "weapon",
+      "baseRewards": [
+        {"materialId": "steel_ingot", "quantity": 5},
+        {"materialId": "essence_dust", "quantity": 15}
+      ],
+      "rarityMultiplier": 1.0,
+      "affixBonusPerAffix": 0.20,
+      "socketBonusPerSocket": 0.15,
+      "uniqueBonus": []
+    },
+    {
+      "minRarity": 4,
+      "maxRarity": 4,
+      "gearSlot": "any",
+      "baseRewards": [
+        {"materialId": "mithril_ingot", "quantity": 8},
+        {"materialId": "essence_crystal", "quantity": 5}
+      ],
+      "rarityMultiplier": 1.5,
+      "affixBonusPerAffix": 0.25,
+      "socketBonusPerSocket": 0.20,
+      "uniqueBonus": []
+    },
+    {
+      "minRarity": 5,
+      "maxRarity": 7,
+      "gearSlot": "any",
+      "baseRewards": [
+        {"materialId": "mythril_ingot", "quantity": 15},
+        {"materialId": "legendary_essence", "quantity": 3},
+        {"materialId": "hero_soul", "quantity": 1}
+      ],
+      "rarityMultiplier": 2.0,
+      "affixBonusPerAffix": 0.30,
+      "socketBonusPerSocket": 0.25,
+      "uniqueBonus": [
+        {"materialId": "unique_token", "quantity": 1}
+      ]
+    }
+  ],
+  "forgeUpgrades": [
+    {
+      "upgradeType": "quality",
+      "recipeName": "Enhance Quality",
+      "materials": [
+        {"materialId": "enhancement_stone", "quantity": 5},
+        {"materialId": "essence_dust", "quantity": 50}
+      ],
+      "goldCost": 10000,
+      "qualityIncrease": 0.1,
+      "socketsToAdd": 0,
+      "socketUnlockChance": 0,
+      "affixesToAdd": 0,
+      "rerollAffixes": false,
+      "minAffixTier": 0,
+      "canUpgradeRarity": false,
+      "rarityUpgradeChance": 0
+    },
+    {
+      "upgradeType": "sockets",
+      "recipeName": "Add Socket",
+      "materials": [
+        {"materialId": "socket_crystal", "quantity": 1},
+        {"materialId": "essence_crystal", "quantity": 10}
+      ],
+      "goldCost": 20000,
+      "qualityIncrease": 0,
+      "socketsToAdd": 1,
+      "socketUnlockChance": 1.0,
+      "affixesToAdd": 0,
+      "rerollAffixes": false,
+      "minAffixTier": 0,
+      "canUpgradeRarity": false,
+      "rarityUpgradeChance": 0
+    },
+    {
+      "upgradeType": "affixes",
+      "recipeName": "Reroll Affixes",
+      "materials": [
+        {"materialId": "reforge_stone", "quantity": 3},
+        {"materialId": "essence_dust", "quantity": 100}
+      ],
+      "goldCost": 15000,
+      "qualityIncrease": 0,
+      "socketsToAdd": 0,
+      "socketUnlockChance": 0,
+      "affixesToAdd": 0,
+      "rerollAffixes": true,
+      "minAffixTier": 1,
+      "canUpgradeRarity": false,
+      "rarityUpgradeChance": 0
+    },
+    {
+      "upgradeType": "rarity",
+      "recipeName": "Upgrade Rarity",
+      "materials": [
+        {"materialId": "ascension_stone", "quantity": 1},
+        {"materialId": "legendary_essence", "quantity": 5}
+      ],
+      "goldCost": 50000,
+      "qualityIncrease": 0,
+      "socketsToAdd": 0,
+      "socketUnlockChance": 0,
+      "affixesToAdd": 0,
+      "rerollAffixes": false,
+      "minAffixTier": 0,
+      "canUpgradeRarity": true,
+      "rarityUpgradeChance": 0.30
+    }
+  ],
+  "conversions": [
+    {
+      "recipeId": "convert_steel_to_mithril",
+      "recipeName": "Steel to Mithril",
+      "inputMaterialId": "steel_ingot",
+      "inputQuantity": 10,
+      "outputMaterialId": "mithril_ingot",
+      "outputQuantity": 1,
+      "catalystMaterialId": "essence_crystal",
+      "catalystQuantity": 1,
+      "catalystBonus": 0.50,
+      "goldCost": 5000
+    },
+    {
+      "recipeId": "convert_essence_dust_to_crystal",
+      "recipeName": "Essence Dust to Crystal",
+      "inputMaterialId": "essence_dust",
+      "inputQuantity": 100,
+      "outputMaterialId": "essence_crystal",
+      "outputQuantity": 1,
+      "catalystMaterialId": "",
+      "catalystQuantity": 0,
+      "catalystBonus": 0,
+      "goldCost": 2000
+    }
+  ],
+  "salvageRecipes": [
+    {
+      "gearSlot": "any",
+      "minRarity": 1,
+      "maxRarity": 2,
+      "baseYield": [
+        {"materialId": "scrap_metal", "quantity": 3},
+        {"materialId": "essence_dust", "quantity": 5}
+      ],
+      "levelMultiplier": 0.05,
+      "enhanceMultiplier": 0.10,
+      "qualityMultiplier": 1.0,
+      "extractRunes": true,
+      "runeExtractChance": 0.80,
+      "affixMaterials": [
+        {"materialId": "essence_dust", "quantity": 2}
+      ]
+    },
+    {
+      "gearSlot": "any",
+      "minRarity": 3,
+      "maxRarity": 4,
+      "baseYield": [
+        {"materialId": "steel_ingot", "quantity": 5},
+        {"materialId": "essence_crystal", "quantity": 2}
+      ],
+      "levelMultiplier": 0.08,
+      "enhanceMultiplier": 0.15,
+      "qualityMultiplier": 1.2,
+      "extractRunes": true,
+      "runeExtractChance": 0.90,
+      "affixMaterials": [
+        {"materialId": "essence_crystal", "quantity": 1}
+      ]
+    },
+    {
+      "gearSlot": "any",
+      "minRarity": 5,
+      "maxRarity": 7,
+      "baseYield": [
+        {"materialId": "mythril_ingot", "quantity": 10},
+        {"materialId": "legendary_essence", "quantity": 2},
+        {"materialId": "hero_soul", "quantity": 1}
+      ],
+      "levelMultiplier": 0.10,
+      "enhanceMultiplier": 0.20,
+      "qualityMultiplier": 1.5,
+      "extractRunes": true,
+      "runeExtractChance": 1.0,
+      "affixMaterials": [
+        {"materialId": "legendary_essence", "quantity": 1}
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "facilityId": "forge",
+      "facilityName": "Blacksmith Forge",
+      "description": "Craft weapons and armor",
+      "maxLevel": 10,
+      "goldCost": 10000,
+      "materials": [
+        {"materialId": "stone_block", "quantity": 50},
+        {"materialId": "steel_ingot", "quantity": 20}
+      ],
+      "levelBonuses": [
+        {
+          "level": 1,
+          "successChanceBonus": 0,
+          "criticalChanceBonus": 0,
+          "costReduction": 0,
+          "unlockRecipeCount": 3,
+          "unlockedRecipes": ["craft_common_sword", "craft_common_armor", "craft_common_accessory"]
+        },
+        {
+          "level": 5,
+          "successChanceBonus": 0.10,
+          "criticalChanceBonus": 0.05,
+          "costReduction": 0.10,
+          "unlockRecipeCount": 2,
+          "unlockedRecipes": ["craft_epic_weapon", "craft_epic_armor"]
+        },
+        {
+          "level": 10,
+          "successChanceBonus": 0.20,
+          "criticalChanceBonus": 0.15,
+          "costReduction": 0.20,
+          "unlockRecipeCount": 1,
+          "unlockedRecipes": ["craft_legendary_weapon"]
+        }
+      ]
+    },
+    {
+      "facilityId": "enchanter",
+      "facilityName": "Enchanting Tower",
+      "description": "Add and modify affixes on gear",
+      "maxLevel": 10,
+      "goldCost": 15000,
+      "materials": [
+        {"materialId": "essence_crystal", "quantity": 50},
+        {"materialId": "mana_stone", "quantity": 30}
+      ],
+      "levelBonuses": [
+        {
+          "level": 1,
+          "successChanceBonus": 0,
+          "criticalChanceBonus": 0,
+          "costReduction": 0,
+          "unlockRecipeCount": 1,
+          "unlockedRecipes": ["reroll_affixes_basic"]
+        },
+        {
+          "level": 5,
+          "successChanceBonus": 0.15,
+          "criticalChanceBonus": 0.10,
+          "costReduction": 0.15,
+          "unlockRecipeCount": 1,
+          "unlockedRecipes": ["add_affix_advanced"]
+        }
+      ]
+    },
+    {
+      "facilityId": "jeweler",
+      "facilityName": "Jeweler's Workshop",
+      "description": "Craft runes and manage sockets",
+      "maxLevel": 10,
+      "goldCost": 12000,
+      "materials": [
+        {"materialId": "precious_gem", "quantity": 20},
+        {"materialId": "gold_ingot", "quantity": 10}
+      ],
+      "levelBonuses": [
+        {
+          "level": 1,
+          "successChanceBonus": 0,
+          "criticalChanceBonus": 0,
+          "costReduction": 0,
+          "unlockRecipeCount": 4,
+          "unlockedRecipes": ["craft_ruby_tier1", "craft_sapphire_tier1", "craft_emerald_tier1", "craft_topaz_tier1"]
+        },
+        {
+          "level": 5,
+          "successChanceBonus": 0.10,
+          "criticalChanceBonus": 0.20,
+          "costReduction": 0.10,
+          "unlockRecipeCount": 1,
+          "unlockedRecipes": ["craft_diamond"]
+        }
+      ]
+    }
+  ]
+}

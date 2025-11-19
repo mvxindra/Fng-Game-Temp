@@ -1,0 +1,275 @@
+{
+  "rarities": [
+    {
+      "rarityId": "common",
+      "rarityTier": 1,
+      "displayName": "Common",
+      "colorHex": "#FFFFFF",
+      "dropWeight": 50.0,
+      "craftingCostMultiplier": 1,
+      "statMultiplier": 1.0,
+      "minAffixes": 0,
+      "maxAffixes": 1,
+      "minSockets": 0,
+      "maxSockets": 1,
+      "canHaveSetBonus": false,
+      "canHaveUniquePassive": false,
+      "maxEnhanceLevel": 10,
+      "maxAugmentTier": 5
+    },
+    {
+      "rarityId": "uncommon",
+      "rarityTier": 2,
+      "displayName": "Uncommon",
+      "colorHex": "#1EFF00",
+      "dropWeight": 30.0,
+      "craftingCostMultiplier": 2,
+      "statMultiplier": 1.2,
+      "minAffixes": 1,
+      "maxAffixes": 2,
+      "minSockets": 0,
+      "maxSockets": 2,
+      "canHaveSetBonus": false,
+      "canHaveUniquePassive": false,
+      "maxEnhanceLevel": 15,
+      "maxAugmentTier": 7
+    },
+    {
+      "rarityId": "rare",
+      "rarityTier": 3,
+      "displayName": "Rare",
+      "colorHex": "#0070DD",
+      "dropWeight": 15.0,
+      "craftingCostMultiplier": 3,
+      "statMultiplier": 1.5,
+      "minAffixes": 2,
+      "maxAffixes": 3,
+      "minSockets": 1,
+      "maxSockets": 2,
+      "canHaveSetBonus": true,
+      "canHaveUniquePassive": false,
+      "maxEnhanceLevel": 20,
+      "maxAugmentTier": 10
+    },
+    {
+      "rarityId": "epic",
+      "rarityTier": 4,
+      "displayName": "Epic",
+      "colorHex": "#A335EE",
+      "dropWeight": 4.0,
+      "craftingCostMultiplier": 5,
+      "statMultiplier": 2.0,
+      "minAffixes": 3,
+      "maxAffixes": 4,
+      "minSockets": 1,
+      "maxSockets": 3,
+      "canHaveSetBonus": true,
+      "canHaveUniquePassive": false,
+      "maxEnhanceLevel": 25,
+      "maxAugmentTier": 15
+    },
+    {
+      "rarityId": "legendary",
+      "rarityTier": 5,
+      "displayName": "Legendary",
+      "colorHex": "#FF8000",
+      "dropWeight": 0.9,
+      "craftingCostMultiplier": 10,
+      "statMultiplier": 3.0,
+      "minAffixes": 4,
+      "maxAffixes": 5,
+      "minSockets": 2,
+      "maxSockets": 4,
+      "canHaveSetBonus": true,
+      "canHaveUniquePassive": false,
+      "maxEnhanceLevel": 30,
+      "maxAugmentTier": 20
+    },
+    {
+      "rarityId": "unique",
+      "rarityTier": 6,
+      "displayName": "Unique",
+      "colorHex": "#FFD700",
+      "dropWeight": 0.09,
+      "craftingCostMultiplier": 20,
+      "statMultiplier": 4.0,
+      "minAffixes": 5,
+      "maxAffixes": 6,
+      "minSockets": 2,
+      "maxSockets": 4,
+      "canHaveSetBonus": true,
+      "canHaveUniquePassive": true,
+      "maxEnhanceLevel": 35,
+      "maxAugmentTier": 25
+    },
+    {
+      "rarityId": "mythic",
+      "rarityTier": 7,
+      "displayName": "Mythic",
+      "colorHex": "#FF0000",
+      "dropWeight": 0.01,
+      "craftingCostMultiplier": 50,
+      "statMultiplier": 5.0,
+      "minAffixes": 6,
+      "maxAffixes": 8,
+      "minSockets": 3,
+      "maxSockets": 6,
+      "canHaveSetBonus": true,
+      "canHaveUniquePassive": true,
+      "maxEnhanceLevel": 50,
+      "maxAugmentTier": 30
+    }
+  ],
+  "uniqueGear": [
+    {
+      "uniqueId": "frostmourne",
+      "gearConfigId": "weapon_sword_legendary",
+      "uniqueName": "Frostmourne",
+      "loreText": "The cursed runeblade of the Lich King. Its touch brings eternal winter.",
+      "requiredLevel": 50,
+      "requiredClass": "",
+      "requiredElement": "ice",
+      "guaranteedAffixes": ["affix_ice_damage", "affix_life_steal"],
+      "uniquePassiveId": "passive_soul_reaper",
+      "uniquePassive": {
+        "passiveId": "passive_soul_reaper",
+        "passiveName": "Soul Reaper",
+        "description": "On kill, restore 20% HP and gain +30% ATK for 5 turns",
+        "triggerType": "on_kill",
+        "triggerChance": 1.0,
+        "effects": [
+          {
+            "effectType": "heal",
+            "value": 0.2,
+            "targetType": "self"
+          },
+          {
+            "effectType": "buff",
+            "value": 0.3,
+            "duration": 5,
+            "targetType": "self"
+          }
+        ]
+      },
+      "setId": "",
+      "isSoulbound": false
+    },
+    {
+      "uniqueId": "dragons_wrath",
+      "gearConfigId": "weapon_axe_legendary",
+      "uniqueName": "Dragon's Wrath",
+      "loreText": "Forged from the fang of an ancient dragon. Burns with eternal flame.",
+      "requiredLevel": 60,
+      "requiredClass": "warrior",
+      "requiredElement": "fire",
+      "guaranteedAffixes": ["affix_fire_damage", "affix_crit_damage"],
+      "uniquePassiveId": "passive_dragon_fury",
+      "uniquePassive": {
+        "passiveId": "passive_dragon_fury",
+        "passiveName": "Dragon's Fury",
+        "description": "Critical hits summon a dragon spirit that deals 500% fire damage to all enemies",
+        "triggerType": "on_crit",
+        "triggerChance": 0.15,
+        "effects": [
+          {
+            "effectType": "summon_entity",
+            "summonEntityId": "dragon_spirit",
+            "targetType": "enemies"
+          }
+        ]
+      },
+      "setId": "",
+      "isSoulbound": true
+    }
+  ],
+  "namedSets": [
+    {
+      "setId": "dragon_slayer_set",
+      "setName": "Dragon Slayer's Regalia",
+      "setDescription": "Armor worn by legendary dragon hunters",
+      "setTheme": "dragon",
+      "setGearIds": ["weapon_dragon_blade", "armor_dragon_plate", "accessory_dragon_amulet", "accessory_dragon_ring"],
+      "twoPieceBonus": {
+        "requiredPieces": 2,
+        "bonusName": "Dragon's Resistance",
+        "bonusDescription": "+25% Fire Resistance, +15% All Stats",
+        "statBonuses": {},
+        "statPercentages": {
+          "atk": 15,
+          "def": 15,
+          "hp": 15,
+          "spd": 15
+        },
+        "specialEffectId": "fire_resist_aura",
+        "specialEffect": {
+          "effectType": "immunity",
+          "effectValue": 0.25,
+          "statusImmunity": "burn"
+        }
+      },
+      "fourPieceBonus": {
+        "requiredPieces": 4,
+        "bonusName": "Dragon Slayer's Might",
+        "bonusDescription": "+50% damage to Dragon-type enemies, immune to fire damage",
+        "statBonuses": {},
+        "statPercentages": {
+          "atk": 30,
+          "critDamage": 50
+        },
+        "specialEffectId": "dragon_bane",
+        "specialEffect": {
+          "effectType": "damage_aura",
+          "effectValue": 0.5,
+          "statusImmunity": "burn"
+        }
+      },
+      "sixPieceBonus": {
+        "requiredPieces": 6,
+        "bonusName": "Dragonheart",
+        "bonusDescription": "Transform into a dragon for 10 turns when HP drops below 30%",
+        "statBonuses": {},
+        "statPercentages": {
+          "atk": 100,
+          "hp": 50
+        },
+        "specialEffectId": "dragon_transform",
+        "specialEffect": {
+          "effectType": "immunity",
+          "effectValue": 1.0,
+          "statusImmunity": "all"
+        }
+      }
+    },
+    {
+      "setId": "shadow_assassin_set",
+      "setName": "Shadow Assassin's Garb",
+      "setDescription": "Equipment favored by master assassins",
+      "setTheme": "stealth",
+      "setGearIds": ["weapon_shadow_dagger", "armor_shadow_cloak", "accessory_shadow_boots", "accessory_shadow_mask"],
+      "twoPieceBonus": {
+        "requiredPieces": 2,
+        "bonusName": "Shadow Step",
+        "bonusDescription": "+30% SPD, +15% Evasion",
+        "statBonuses": {},
+        "statPercentages": {
+          "spd": 30
+        },
+        "specialEffectId": "",
+        "specialEffect": null
+      },
+      "fourPieceBonus": {
+        "requiredPieces": 4,
+        "bonusName": "Deadly Precision",
+        "bonusDescription": "+40% CRIT Chance, +80% CRIT Damage, attacks from behind deal triple damage",
+        "statBonuses": {},
+        "statPercentages": {
+          "crit": 40,
+          "critDmg": 80
+        },
+        "specialEffectId": "",
+        "specialEffect": null
+      },
+      "sixPieceBonus": null
+    }
+  ]
+}
