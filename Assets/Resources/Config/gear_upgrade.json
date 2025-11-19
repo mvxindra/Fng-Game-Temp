@@ -1,0 +1,24 @@
+{
+  "levelScaling": {
+    "3": { "maxLevel": 10, "atkPerLevel": 3, "magicPerLevel": 3, "hpPerLevel": 20 },
+    "4": { "maxLevel": 12, "atkPerLevel": 5, "magicPerLevel": 5, "hpPerLevel": 35 },
+    "5": { "maxLevel": 15, "atkPerLevel": 8, "magicPerLevel": 8, "hpPerLevel": 50 }
+  },
+
+  "enhanceScaling": {
+    "3": { "maxEnhance": 5, "mainStatPercentPerEnhance": 3 },
+    "4": { "maxEnhance": 8, "mainStatPercentPerEnhance": 4 },
+    "5": { "maxEnhance": 10, "mainStatPercentPerEnhance": 5 }
+  },
+
+  "passiveScaling": {
+    "4": { "maxPassiveLevel": 3, "perLevelBonusPercent": 10 },
+    "5": { "maxPassiveLevel": 5, "perLevelBonusPercent": 12 }
+  },
+
+  "reforge": {
+    "3": { "rerollSubstats": 1 },
+    "4": { "rerollSubstats": 2 },
+    "5": { "rerollSubstats": 3 }
+  }
+}

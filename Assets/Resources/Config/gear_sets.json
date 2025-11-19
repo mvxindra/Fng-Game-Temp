@@ -1,0 +1,204 @@
+{
+  "sets": [
+    {
+      "setId": "ASSAULT_SET",
+      "setName": "Assault",
+      "bonuses": [
+        {
+          "piecesRequired": 2,
+          "description": "+15% ATK",
+          "effect": {
+            "atkPercent": 15,
+            "defPercent": 0,
+            "hpPercent": 0,
+            "spdPercent": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "acc": 0,
+            "res": 0,
+            "damageBonus": 0,
+            "healingBonus": 0,
+            "statusImmunity": ""
+          }
+        },
+        {
+          "piecesRequired": 4,
+          "description": "+20% Crit Damage",
+          "effect": {
+            "atkPercent": 0,
+            "defPercent": 0,
+            "hpPercent": 0,
+            "spdPercent": 0,
+            "critRate": 0,
+            "critDmg": 20,
+            "acc": 0,
+            "res": 0,
+            "damageBonus": 0,
+            "healingBonus": 0,
+            "statusImmunity": ""
+          }
+        }
+      ]
+    },
+    {
+      "setId": "TANK_SET",
+      "setName": "Defender",
+      "bonuses": [
+        {
+          "piecesRequired": 2,
+          "description": "+15% DEF",
+          "effect": {
+            "atkPercent": 0,
+            "defPercent": 15,
+            "hpPercent": 0,
+            "spdPercent": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "acc": 0,
+            "res": 0,
+            "damageBonus": 0,
+            "healingBonus": 0,
+            "statusImmunity": ""
+          }
+        },
+        {
+          "piecesRequired": 4,
+          "description": "+15% HP",
+          "effect": {
+            "atkPercent": 0,
+            "defPercent": 0,
+            "hpPercent": 15,
+            "spdPercent": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "acc": 0,
+            "res": 0,
+            "damageBonus": 0,
+            "healingBonus": 0,
+            "statusImmunity": ""
+          }
+        }
+      ]
+    },
+    {
+      "setId": "SPEED_SET",
+      "setName": "Swift",
+      "bonuses": [
+        {
+          "piecesRequired": 2,
+          "description": "+12% SPD",
+          "effect": {
+            "atkPercent": 0,
+            "defPercent": 0,
+            "hpPercent": 0,
+            "spdPercent": 12,
+            "critRate": 0,
+            "critDmg": 0,
+            "acc": 0,
+            "res": 0,
+            "damageBonus": 0,
+            "healingBonus": 0,
+            "statusImmunity": ""
+          }
+        },
+        {
+          "piecesRequired": 4,
+          "description": "+15% Crit Rate",
+          "effect": {
+            "atkPercent": 0,
+            "defPercent": 0,
+            "hpPercent": 0,
+            "spdPercent": 0,
+            "critRate": 15,
+            "critDmg": 0,
+            "acc": 0,
+            "res": 0,
+            "damageBonus": 0,
+            "healingBonus": 0,
+            "statusImmunity": ""
+          }
+        }
+      ]
+    },
+    {
+      "setId": "SUPPORT_SET",
+      "setName": "Guardian",
+      "bonuses": [
+        {
+          "piecesRequired": 2,
+          "description": "+20% Healing Bonus",
+          "effect": {
+            "atkPercent": 0,
+            "defPercent": 0,
+            "hpPercent": 0,
+            "spdPercent": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "acc": 0,
+            "res": 0,
+            "damageBonus": 0,
+            "healingBonus": 20,
+            "statusImmunity": ""
+          }
+        },
+        {
+          "piecesRequired": 4,
+          "description": "+10% RES",
+          "effect": {
+            "atkPercent": 0,
+            "defPercent": 0,
+            "hpPercent": 0,
+            "spdPercent": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "acc": 0,
+            "res": 10,
+            "damageBonus": 0,
+            "healingBonus": 0,
+            "statusImmunity": ""
+          }
+        }
+      ]
+    },
+    {
+      "setId": "IMMUNITY_SET",
+      "setName": "Immunity",
+      "bonuses": [
+        {
+          "piecesRequired": 2,
+          "description": "Immunity to Stun",
+          "effect": {
+            "atkPercent": 0,
+            "defPercent": 0,
+            "hpPercent": 0,
+            "spdPercent": 0,
+            "critRate": 0,
+            "critDmg": 0,
+            "acc": 0,
+            "res": 0,
+            "damageBonus": 0,
+            "healingBonus": 0,
+            "statusImmunity": "STUN"
+          }
+        },
+        {
+          "piecesRequired": 4,
+          "description": "+10% All Stats",
+          "effect": {
+            "atkPercent": 10,
+            "defPercent": 10,
+            "hpPercent": 10,
+            "spdPercent": 10,
+            "critRate": 0,
+            "critDmg": 0,
+            "acc": 0,
+            "res": 0,
+            "damageBonus": 0,
+            "healingBonus": 0,
+            "statusImmunity": ""
+          }
+        }
+      ]
+    }
+  ]
+}

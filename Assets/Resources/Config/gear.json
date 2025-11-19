@@ -1,0 +1,3553 @@
+[
+  {
+    "id": "GEAR_BLADE_A1",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 85
+    },
+    "subStats": [
+      {
+        "crit": 5
+      },
+      {
+        "spd": 2
+      }
+    ]
+  },
+  {
+    "id": "GEAR_SOLAR_DEVOURER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 155
+    },
+    "subStats": [
+      {
+        "crit": 10
+      },
+      {
+        "hp": 300
+      }
+    ],
+    "passive": {
+      "name": "Sunfire Pulse",
+      "description": "Basic attacks deal bonus damage equal to 8% of the target's max HP.",
+      "effect": {
+        "hpDamagePercent": 8
+      }
+    }
+  },
+  {
+    "id": "GEAR_NOVA_KATANA",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 148
+    },
+    "subStats": [
+      {
+        "spd": 6
+      },
+      {
+        "crit": 8
+      }
+    ],
+    "passive": {
+      "name": "Star Rift",
+      "description": "Critical hits reduce skill cooldowns by 1 turn.",
+      "effect": {
+        "cooldownReduction": 1
+      }
+    }
+  },
+  {
+    "id": "GEAR_ATLAS_BREAKER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 170
+    },
+    "subStats": [
+      {
+        "def": 40
+      }
+    ],
+    "passive": {
+      "name": "Mountain Splitter",
+      "description": "Deals 25% more damage to shielded enemies.",
+      "effect": {
+        "damageToShieldsPercent": 25
+      }
+    }
+  },
+  {
+    "id": "GEAR_QUANTUM_LANCER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 145
+    },
+    "subStats": [
+      {
+        "atk": 95
+      }
+    ],
+    "passive": {
+      "name": "Phase Charge",
+      "description": "Every 3rd attack ignores 40% of enemy DEF.",
+      "effect": {
+        "ignoreDefPercent": 40,
+        "triggerEvery": 3
+      }
+    }
+  },
+  {
+    "id": "GEAR_LUMEN_SCYTHE",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 152
+    },
+    "subStats": [
+      {
+        "critDmg": 18
+      }
+    ],
+    "passive": {
+      "name": "Reaper's Blessing",
+      "description": "Killing an enemy grants +15% ATK for 3 turns.",
+      "effect": {
+        "atkBuffPercent": 15,
+        "durationTurns": 3
+      }
+    }
+  },
+  {
+    "id": "GEAR_INFERNAL_TALISMAN",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 170
+    },
+    "subStats": [
+      {
+        "hp": 350
+      }
+    ],
+    "passive": {
+      "name": "Burning Soul",
+      "description": "Skills inflict Burn for 2 turns.",
+      "effect": {
+        "applyBurnTurns": 2
+      }
+    }
+  },
+  {
+    "id": "GEAR_RADIANT_CLEAVER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 165
+    },
+    "subStats": [
+      {
+        "crit": 11
+      }
+    ],
+    "passive": {
+      "name": "Lightburst",
+      "description": "Every attack deals bonus true damage equal to 12% of ATK.",
+      "effect": {
+        "trueDamageAtkPercent": 12
+      }
+    }
+  },
+  {
+    "id": "GEAR_STARFALL_BOW",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 130
+    },
+    "subStats": [
+      {
+        "magic": 140
+      }
+    ],
+    "passive": {
+      "name": "Meteor Shower",
+      "description": "Multi-hit skills gain +20% damage.",
+      "effect": {
+        "multiHitDamagePercent": 20
+      }
+    }
+  },
+  {
+    "id": "GEAR_GRAVITY_MAUL",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 175
+    },
+    "subStats": [
+      {
+        "hp": 500
+      }
+    ],
+    "passive": {
+      "name": "Graviton Impact",
+      "description": "Attacks have a 30% chance to stun for 1 turn.",
+      "effect": {
+        "stunChancePercent": 30,
+        "stunTurns": 1
+      }
+    }
+  },
+  {
+    "id": "GEAR_VOID_SERPENT",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 150
+    },
+    "subStats": [
+      {
+        "crit": 9
+      }
+    ],
+    "passive": {
+      "name": "Abyssal Venom",
+      "description": "Inflicts Poison for 3 turns on critical hits.",
+      "effect": {
+        "applyPoisonTurns": 3
+      }
+    }
+  },
+  {
+    "id": "GEAR_TITAN_EDGE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 120
+    },
+    "subStats": [
+      {
+        "def": 20
+      }
+    ],
+    "passive": {
+      "name": "Steel Resolve",
+      "description": "Gain +10% DEF when attacked.",
+      "effect": {
+        "defBuffPercent": 10
+      }
+    }
+  },
+  {
+    "id": "GEAR_GLACIAL_BLADE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 100
+    },
+    "subStats": [
+      {
+        "spd": 4
+      }
+    ],
+    "passive": {
+      "name": "Icebrand",
+      "description": "Has a 20% chance to Freeze for 1 turn.",
+      "effect": {
+        "freezeChancePercent": 20,
+        "freezeTurns": 1
+      }
+    }
+  },
+  {
+    "id": "GEAR_ELECTRO_PIKE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 112
+    },
+    "subStats": [
+      {
+        "magic": 50
+      }
+    ],
+    "passive": {
+      "name": "Shock Bite",
+      "description": "Critical hits apply Shock for 2 turns.",
+      "effect": {
+        "applyShockTurns": 2
+      }
+    }
+  },
+  {
+    "id": "GEAR_BOOSTER_GAUNTLET",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 95
+    },
+    "subStats": [
+      {
+        "spd": 6
+      }
+    ],
+    "passive": {
+      "name": "Acceleration Drive",
+      "description": "Gain +6 SPD when using skills.",
+      "effect": {
+        "spdBuff": 6
+      }
+    }
+  },
+  {
+    "id": "GEAR_AERO_CHUCKER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 108
+    },
+    "subStats": [
+      {
+        "crit": 7
+      }
+    ],
+    "passive": {
+      "name": "Windrunner",
+      "description": "Basic attacks grant +5% ATK for 2 turns.",
+      "effect": {
+        "atkBuffPercent": 5,
+        "durationTurns": 2
+      }
+    }
+  },
+  {
+    "id": "GEAR_RAZOR_STAFF",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 120
+    },
+    "subStats": [
+      {
+        "hp": 150
+      }
+    ],
+    "passive": {
+      "name": "Arcane Edge",
+      "description": "Deals +15% damage to debuffed enemies.",
+      "effect": {
+        "damageToDebuffedPercent": 15
+      }
+    }
+  },
+  {
+    "id": "GEAR_WRAITH_DAGGER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 102
+    },
+    "subStats": [
+      {
+        "crit": 10
+      }
+    ],
+    "passive": {
+      "name": "Soul Pierce",
+      "description": "Ignores 20% DEF when attacking enemies below 50% HP.",
+      "effect": {
+        "ignoreDefPercent": 20,
+        "hpThreshold": 50
+      }
+    }
+  },
+  {
+    "id": "GEAR_SONIC_RIFLE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 110
+    },
+    "subStats": [
+      {
+        "spd": 5
+      }
+    ],
+    "passive": {
+      "name": "Soundbreaker",
+      "description": "Deals +12% damage to fast enemies (SPD > 120).",
+      "effect": {
+        "damageToFastPercent": 12,
+        "speedThreshold": 120
+      }
+    }
+  },
+  {
+    "id": "GEAR_PHASE_SLICER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 104
+    },
+    "subStats": [
+      {
+        "magic": 40
+      }
+    ],
+    "passive": {
+      "name": "Phase Rift",
+      "description": "10% chance to evade incoming basic attacks.",
+      "effect": {
+        "evadeChancePercent": 10
+      }
+    }
+  },
+  {
+    "id": "GEAR_FORGE_HAMMER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 118
+    },
+    "subStats": [
+      {
+        "hp": 180
+      }
+    ],
+    "passive": {
+      "name": "Forge Spirit",
+      "description": "Gain +5% DEF and +5% ATK at the start of battle.",
+      "effect": {
+        "atkBuffPercent": 5,
+        "defBuffPercent": 5
+      }
+    }
+  },
+  {
+    "id": "GEAR_PIPE_WRENCH",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 55
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CARBON_MACHETE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 62
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BROKEN_REVOLVER",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 45
+    },
+    "subStats": [
+      {
+        "crit": 2
+      }
+    ]
+  },
+  {
+    "id": "GEAR_COPPER_BLADE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 58
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_TRAINING_SHIELD",
+    "slot": "offhand",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 160
+    },
+    "subStats": [
+      {
+        "def": 25
+      }
+    ]
+  },
+  {
+    "id": "GEAR_RUSTED_BLADE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 50
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_STEEL_PIPE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 52
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CONSTRUCTION_HAMMER",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 56
+    },
+    "subStats": [
+      {
+        "hp": 40
+      }
+    ]
+  },
+  {
+    "id": "GEAR_PLASTIC_KNIFE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 40
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SHORT_SPEAR",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 60
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CLUB_STICK",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 48
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SERRATED_KNIFE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 63
+    },
+    "subStats": [
+      {
+        "crit": 3
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BUCKLER_SHIELD",
+    "slot": "offhand",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 140
+    },
+    "subStats": [
+      {
+        "def": 20
+      }
+    ]
+  },
+  {
+    "id": "GEAR_TRAINING_AXE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 58
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_HAND_DRILL",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 46
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_STEEL_LONGSWORD",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 105
+    },
+    "subStats": [
+      {
+        "def": 15
+      }
+    ]
+  },
+  {
+    "id": "GEAR_IRON_BATTLEAXE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 115
+    },
+    "subStats": [
+      {
+        "hp": 120
+      }
+    ]
+  },
+  {
+    "id": "GEAR_COMBAT_SHOTGUN",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 98
+    },
+    "subStats": [
+      {
+        "crit": 6
+      }
+    ]
+  },
+  {
+    "id": "GEAR_PLASMA_RIFLE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 110
+    },
+    "subStats": [
+      {
+        "spd": 3
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CHAIN_WHIP",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 100
+    },
+    "subStats": [
+      {
+        "critDmg": 10
+      }
+    ]
+  },
+  {
+    "id": "GEAR_DUAL_DAGGERS",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 92
+    },
+    "subStats": [
+      {
+        "spd": 5
+      }
+    ]
+  },
+  {
+    "id": "GEAR_WAR_HAMMER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 122
+    },
+    "subStats": [
+      {
+        "hp": 100
+      }
+    ]
+  },
+  {
+    "id": "GEAR_ARCANE_STAFF",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 115
+    },
+    "subStats": [
+      {
+        "hp": 140
+      }
+    ]
+  },
+  {
+    "id": "GEAR_ENERGY_BLADE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 108
+    },
+    "subStats": [
+      {
+        "magic": 45
+      }
+    ]
+  },
+  {
+    "id": "GEAR_THUNDERBOLT_SPEAR",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 106
+    },
+    "subStats": [
+      {
+        "crit": 7
+      }
+    ]
+  },
+  {
+    "id": "GEAR_SHADOW_KATANA",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 103
+    },
+    "subStats": [
+      {
+        "spd": 4
+      }
+    ]
+  },
+  {
+    "id": "GEAR_HOLY_MACE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 100
+    },
+    "subStats": [
+      {
+        "def": 25
+      }
+    ]
+  },
+  {
+    "id": "GEAR_SNIPER_RIFLE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 95
+    },
+    "subStats": [
+      {
+        "crit": 9
+      }
+    ]
+  },
+  {
+    "id": "GEAR_DEMON_CLAW",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 109
+    },
+    "subStats": [
+      {
+        "critDmg": 12
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CRYSTAL_WAND",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 110
+    },
+    "subStats": [
+      {
+        "spd": 3
+      }
+    ]
+  },
+  {
+    "id": "GEAR_TOXIC_BLADE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 101
+    },
+    "subStats": [
+      {
+        "hp": 110
+      }
+    ]
+  },
+  {
+    "id": "GEAR_LIGHTNING_ROD",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 105
+    },
+    "subStats": [
+      {
+        "crit": 5
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BONE_CRUSHER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 117
+    },
+    "subStats": [
+      {
+        "def": 18
+      }
+    ]
+  },
+  {
+    "id": "GEAR_VOID_SCYTHE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 104
+    },
+    "subStats": [
+      {
+        "magic": 50
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BEAST_CLAWS",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 107
+    },
+    "subStats": [
+      {
+        "spd": 6
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CRIMSON_REAPER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 114
+    },
+    "subStats": [
+      {
+        "crit": 8
+      }
+    ],
+    "passive": {
+      "name": "Blood Harvest",
+      "description": "Critical hits heal for 15% of damage dealt.",
+      "effect": {
+        "critLifestealPercent": 15
+      }
+    }
+  },
+  {
+    "id": "GEAR_STORM_CALLER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 118
+    },
+    "subStats": [
+      {
+        "spd": 4
+      }
+    ],
+    "passive": {
+      "name": "Chain Lightning",
+      "description": "Skills have 25% chance to hit 1 additional enemy.",
+      "effect": {
+        "chainChancePercent": 25,
+        "chainTargets": 1
+      }
+    }
+  },
+  {
+    "id": "GEAR_FROSTBITE_AXE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 116
+    },
+    "subStats": [
+      {
+        "hp": 130
+      }
+    ],
+    "passive": {
+      "name": "Permafrost",
+      "description": "Attacks slow enemies, reducing their SPD by 10% for 2 turns.",
+      "effect": {
+        "slowPercent": 10,
+        "slowDuration": 2
+      }
+    }
+  },
+  {
+    "id": "GEAR_VENOM_FANG",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 105
+    },
+    "subStats": [
+      {
+        "crit": 9
+      }
+    ],
+    "passive": {
+      "name": "Toxic Strike",
+      "description": "25% chance to poison on hit for 3 turns.",
+      "effect": {
+        "poisonChancePercent": 25,
+        "poisonDuration": 3
+      }
+    }
+  },
+  {
+    "id": "GEAR_DRAGON_FANG_LANCE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 119
+    },
+    "subStats": [
+      {
+        "critDmg": 15
+      }
+    ],
+    "passive": {
+      "name": "Dragon's Fury",
+      "description": "Deal 20% more damage to Beast and Creature enemies.",
+      "effect": {
+        "bonusDamageVsFaction": [
+          "Beast",
+          "Creatures"
+        ],
+        "bonusPercent": 20
+      }
+    }
+  },
+  {
+    "id": "GEAR_SOUL_EATER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 112
+    },
+    "subStats": [
+      {
+        "hp": 150
+      }
+    ],
+    "passive": {
+      "name": "Life Drain",
+      "description": "Skills heal for 10% of damage dealt.",
+      "effect": {
+        "skillLifestealPercent": 10
+      }
+    }
+  },
+  {
+    "id": "GEAR_METEOR_SMASHER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 121
+    },
+    "subStats": [
+      {
+        "def": 22
+      }
+    ],
+    "passive": {
+      "name": "Shockwave",
+      "description": "Attacks deal 30% splash damage to adjacent enemies.",
+      "effect": {
+        "splashDamagePercent": 30
+      }
+    }
+  },
+  {
+    "id": "GEAR_PHANTOM_EDGE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 99
+    },
+    "subStats": [
+      {
+        "spd": 7
+      }
+    ],
+    "passive": {
+      "name": "Shadow Step",
+      "description": "15% chance to attack twice.",
+      "effect": {
+        "doubleAttackChance": 15
+      }
+    }
+  },
+  {
+    "id": "GEAR_SUNFIRE_BRAND",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 113
+    },
+    "subStats": [
+      {
+        "crit": 6
+      }
+    ],
+    "passive": {
+      "name": "Solar Flare",
+      "description": "30% chance to burn enemies for 2 turns.",
+      "effect": {
+        "burnChancePercent": 30,
+        "burnDuration": 2
+      }
+    }
+  },
+  {
+    "id": "GEAR_ARCANE_DESTRUCTOR",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 120
+    },
+    "subStats": [
+      {
+        "crit": 7
+      }
+    ],
+    "passive": {
+      "name": "Mana Overload",
+      "description": "Skills deal 12% bonus damage.",
+      "effect": {
+        "skillDamageBonus": 12
+      }
+    }
+  },
+  {
+    "id": "GEAR_CELESTIAL_EXECUTIONER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 168
+    },
+    "subStats": [
+      {
+        "critDmg": 22
+      }
+    ],
+    "passive": {
+      "name": "Divine Judgment",
+      "description": "Deals 50% more damage to enemies below 30% HP.",
+      "effect": {
+        "executeDamagePercent": 50,
+        "executeThreshold": 30
+      }
+    }
+  },
+  {
+    "id": "GEAR_VOID_REAVER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 160
+    },
+    "subStats": [
+      {
+        "crit": 12
+      }
+    ],
+    "passive": {
+      "name": "Reality Tear",
+      "description": "Ignores 50% of enemy DEF.",
+      "effect": {
+        "armorPenetrationPercent": 50
+      }
+    }
+  },
+  {
+    "id": "GEAR_PHOENIX_TALON",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 155
+    },
+    "subStats": [
+      {
+        "spd": 8
+      }
+    ],
+    "passive": {
+      "name": "Rebirth Flame",
+      "description": "On kill, restore 30% HP and gain +20% ATK for 3 turns.",
+      "effect": {
+        "onKillHealPercent": 30,
+        "onKillAtkBuff": 20,
+        "buffDuration": 3
+      }
+    }
+  },
+  {
+    "id": "GEAR_ABYSSAL_DEVOURER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 175
+    },
+    "subStats": [
+      {
+        "hp": 400
+      }
+    ],
+    "passive": {
+      "name": "Soul Consumption",
+      "description": "Heal for 20% of all damage dealt.",
+      "effect": {
+        "lifestealPercent": 20
+      }
+    }
+  },
+  {
+    "id": "GEAR_THUNDERGOD_HAMMER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 178
+    },
+    "subStats": [
+      {
+        "crit": 10
+      }
+    ],
+    "passive": {
+      "name": "Mjolnir's Wrath",
+      "description": "40% chance to stun for 1 turn and deal 25% bonus damage.",
+      "effect": {
+        "stunChancePercent": 40,
+        "stunDuration": 1,
+        "bonusDamagePercent": 25
+      }
+    }
+  },
+  {
+    "id": "GEAR_ETERNAL_FROSTBLADE",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 162
+    },
+    "subStats": [
+      {
+        "spd": 7
+      }
+    ],
+    "passive": {
+      "name": "Glacial Prison",
+      "description": "35% chance to freeze enemies for 2 turns.",
+      "effect": {
+        "freezeChancePercent": 35,
+        "freezeDuration": 2
+      }
+    }
+  },
+  {
+    "id": "GEAR_DEMONIC_GREATBLADE",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 172
+    },
+    "subStats": [
+      {
+        "critDmg": 20
+      }
+    ],
+    "passive": {
+      "name": "Demonic Pact",
+      "description": "Gain 5% ATK per 10% missing HP (max 50%).",
+      "effect": {
+        "rageAtkPerLostHP": 5,
+        "rageMaxBonus": 50
+      }
+    }
+  },
+  {
+    "id": "GEAR_COSMIC_ANNIHILATOR",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 180
+    },
+    "subStats": [
+      {
+        "crit": 11
+      }
+    ],
+    "passive": {
+      "name": "Singularity",
+      "description": "Skills hit all enemies and deal 15% bonus damage.",
+      "effect": {
+        "aoeSkills": true,
+        "skillDamageBonus": 15
+      }
+    }
+  },
+  {
+    "id": "GEAR_DRAGON_KING_FANG",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 169
+    },
+    "subStats": [
+      {
+        "hp": 380
+      }
+    ],
+    "passive": {
+      "name": "Dragon's Dominance",
+      "description": "Deal 30% more damage and take 20% less damage from Beast/Creature enemies.",
+      "effect": {
+        "factionDamageBonus": 30,
+        "factionDefenseBonus": 20,
+        "targetFactions": [
+          "Beast",
+          "Creatures"
+        ]
+      }
+    }
+  },
+  {
+    "id": "GEAR_HOLY_AVENGER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 158
+    },
+    "subStats": [
+      {
+        "def": 45
+      }
+    ],
+    "passive": {
+      "name": "Divine Protection",
+      "description": "Deal 25% more damage to Demon/Undead enemies and gain 15% damage reduction.",
+      "effect": {
+        "bonusDamageVsFaction": [
+          "Demon",
+          "Undead"
+        ],
+        "bonusPercent": 25,
+        "damageReduction": 15
+      }
+    }
+  },
+  {
+    "id": "GEAR_BLOOD_MOON_SCYTHE",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 165
+    },
+    "subStats": [
+      {
+        "crit": 13
+      }
+    ],
+    "passive": {
+      "name": "Crimson Harvest",
+      "description": "Critical hits deal 30% more damage and heal for 25% of damage dealt.",
+      "effect": {
+        "critDamageBonus": 30,
+        "critLifestealPercent": 25
+      }
+    }
+  },
+  {
+    "id": "GEAR_APOCALYPSE_BRINGER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 182
+    },
+    "subStats": [
+      {
+        "critDmg": 25
+      }
+    ],
+    "passive": {
+      "name": "End Times",
+      "description": "Every 4th attack deals 200% damage as true damage.",
+      "effect": {
+        "triggerEvery": 4,
+        "trueDamageMultiplier": 200
+      }
+    }
+  },
+  {
+    "id": "GEAR_STELLAR_DECIMATOR",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 177
+    },
+    "subStats": [
+      {
+        "spd": 9
+      }
+    ],
+    "passive": {
+      "name": "Supernova",
+      "description": "Skills deal 40% splash damage to all enemies.",
+      "effect": {
+        "skillSplashPercent": 40,
+        "splashToAll": true
+      }
+    }
+  },
+  {
+    "id": "GEAR_CHAOS_REAVER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 171
+    },
+    "subStats": [
+      {
+        "crit": 10
+      },
+      {
+        "spd": 5
+      }
+    ],
+    "passive": {
+      "name": "Chaotic Strike",
+      "description": "20% chance to attack 3 times in a row.",
+      "effect": {
+        "multiStrikeChance": 20,
+        "maxMultiStrikes": 3
+      }
+    }
+  },
+  {
+    "id": "GEAR_OMEGA_DESTROYER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 185
+    },
+    "subStats": [
+      {
+        "hp": 450
+      }
+    ],
+    "passive": {
+      "name": "Final Strike",
+      "description": "First attack each battle deals 100% bonus damage and reduces all cooldowns by 2.",
+      "effect": {
+        "firstStrikeDamage": 100,
+        "firstStrikeCDR": 2
+      }
+    }
+  },
+  {
+    "id": "GEAR_RUSTY_SWORD",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 53
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_WOODEN_BAT",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 47
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_MAKESHIFT_SPEAR",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 51
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_IRON_MACE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 57
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CRUDE_AXE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 59
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_STONE_HAMMER",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 54
+    },
+    "subStats": [
+      {
+        "hp": 35
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BRONZE_DAGGER",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 44
+    },
+    "subStats": [
+      {
+        "spd": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BASIC_PISTOL",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 49
+    },
+    "subStats": [
+      {
+        "crit": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_HUNTING_BOW",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 46
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_COMBAT_KNIFE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 42
+    },
+    "subStats": [
+      {
+        "crit": 2
+      }
+    ]
+  },
+  {
+    "id": "GEAR_METAL_POLE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 48
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CROWBAR",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 50
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_FIRE_AXE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 61
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_MACHETE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 56
+    },
+    "subStats": [
+      {
+        "crit": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CLEAVER",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 55
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BASEBALL_BAT",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 52
+    },
+    "subStats": [
+      {
+        "hp": 30
+      }
+    ]
+  },
+  {
+    "id": "GEAR_IRON_CHAIN",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 45
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_WOODEN_STAFF",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "magic": 60
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_APPRENTICE_WAND",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "magic": 55
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BASIC_TOME",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "magic": 58
+    },
+    "subStats": [
+      {
+        "hp": 40
+      }
+    ]
+  },
+  {
+    "id": "GEAR_LEATHER_SHIELD",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 150
+    },
+    "subStats": [
+      {
+        "def": 18
+      }
+    ]
+  },
+  {
+    "id": "GEAR_WOODEN_SHIELD",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 130
+    },
+    "subStats": [
+      {
+        "def": 15
+      }
+    ]
+  },
+  {
+    "id": "GEAR_IRON_SHIELD",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 170
+    },
+    "subStats": [
+      {
+        "def": 22
+      }
+    ]
+  },
+  {
+    "id": "GEAR_KITE_SHIELD",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 165
+    },
+    "subStats": [
+      {
+        "def": 20
+      }
+    ]
+  },
+  {
+    "id": "GEAR_RIOT_SHIELD",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 180
+    },
+    "subStats": [
+      {
+        "def": 24
+      }
+    ]
+  },
+  {
+    "id": "GEAR_SCRAP_ARMOR",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 145
+    },
+    "subStats": [
+      {
+        "def": 17
+      }
+    ]
+  },
+  {
+    "id": "GEAR_LEATHER_VEST",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 120
+    },
+    "subStats": [
+      {
+        "def": 12
+      },
+      {
+        "spd": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CHAINMAIL",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 155
+    },
+    "subStats": [
+      {
+        "def": 21
+      }
+    ]
+  },
+  {
+    "id": "GEAR_COMBAT_VEST",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 135
+    },
+    "subStats": [
+      {
+        "def": 16
+      }
+    ]
+  },
+  {
+    "id": "GEAR_KEVLAR_PLATE",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 160
+    },
+    "subStats": [
+      {
+        "def": 19
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CREATURES_CLAW",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Creatures",
+    "mainStat": {
+      "atk": 25
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SLUM_SHIV",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "SlumGang",
+    "mainStat": {
+      "atk": 22
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_HOLY_RELIC",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "PuritySalvation",
+    "mainStat": {
+      "magic": 20
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_TECH_PROTOTYPE",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "KingsTech",
+    "mainStat": {
+      "atk": 24
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_INFECTED_TALON",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Infected",
+    "mainStat": {
+      "atk": 23
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CONSTRUCT_ARM",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Construct",
+    "mainStat": {
+      "atk": 26
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_ABYSS_SHARD",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Abyss",
+    "mainStat": {
+      "magic": 22
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BEAST_FANG_BLADE",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Beast",
+    "mainStat": {
+      "atk": 27
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CHIMERIC_FANG",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "ChimericEmbrace",
+    "mainStat": {
+      "atk": 24
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CULT_DAGGER",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Cult",
+    "mainStat": {
+      "magic": 21
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_DEMON_HORN_BLADE",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Demon",
+    "mainStat": {
+      "atk": 25
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_DRAGON_TOOTH",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Dragon",
+    "mainStat": {
+      "atk": 28
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_ELEMENTAL_CRYSTAL",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Elemental",
+    "mainStat": {
+      "magic": 23
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_NATURE_THORN",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Nature",
+    "mainStat": {
+      "atk": 23
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_UNDEAD_BONE",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Undead",
+    "mainStat": {
+      "magic": 19
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_UNKNOWN_FRAGMENT",
+    "slot": "weapon",
+    "rarity": 1,
+    "faction": "Unknown",
+    "mainStat": {
+      "atk": 20
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_APPRENTICE_BLADE",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 35
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_TRAINEE_SWORD",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 38
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BASIC_CLEAVER",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 33
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_RUSTIC_AXE",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 37
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_MILITIA_SPEAR",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 36
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_COMMON_MACE",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 34
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_STREET_KNIFE",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 30
+    },
+    "subStats": [
+      {
+        "spd": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_WORN_DAGGER",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 31
+    },
+    "subStats": [
+      {
+        "crit": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_IMPROVISED_CLUB",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 32
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SCAVENGER_BLADE",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 33
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BANDIT_CUTLASS",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 36
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_RUSTY_RAPIER",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 34
+    },
+    "subStats": [
+      {
+        "spd": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CRUDE_HALBERD",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 39
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SALVAGED_LANCE",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 37
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BASIC_CROSSBOW",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 32
+    },
+    "subStats": [
+      {
+        "crit": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_TRAINING_BOW",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 30
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SLING_SHOT",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 28
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_FLINTLOCK_PISTOL",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 33
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_OLD_MUSKET",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 35
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SIMPLE_STAFF",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "magic": 35
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_NOVICE_WAND",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "magic": 33
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BASIC_SCEPTER",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "magic": 36
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_PLAIN_ORB",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "magic": 32
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_COMMON_GRIMOIRE",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "magic": 34
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_STUDENT_TOME",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "magic": 31
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_IRON_KNUCKLES",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 31
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BRASS_KNUCKLES",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 29
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CHAIN_FLAIL",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 35
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SIMPLE_MORNINGSTAR",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 37
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BASIC_SCIMITAR",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 34
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_WORN_SABRE",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 33
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CRUDE_KATANA",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 35
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_PRACTICE_NAGINATA",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 36
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SIMPLE_CHAKRAM",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 30
+    },
+    "subStats": [
+      {
+        "spd": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_THROWING_KNIVES",
+    "slot": "weapon",
+    "rarity": 2,
+    "mainStat": {
+      "atk": 28
+    },
+    "subStats": [
+      {
+        "crit": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_PADDED_ARMOR",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 90
+    },
+    "subStats": [
+      {
+        "def": 8
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CLOTH_ARMOR",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 85
+    },
+    "subStats": [
+      {
+        "def": 7
+      }
+    ]
+  },
+  {
+    "id": "GEAR_HIDE_ARMOR",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 95
+    },
+    "subStats": [
+      {
+        "def": 9
+      }
+    ]
+  },
+  {
+    "id": "GEAR_STUDDED_LEATHER",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 88
+    },
+    "subStats": [
+      {
+        "def": 8
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BASIC_BREASTPLATE",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 100
+    },
+    "subStats": [
+      {
+        "def": 10
+      }
+    ]
+  },
+  {
+    "id": "GEAR_SCALE_MAIL",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 92
+    },
+    "subStats": [
+      {
+        "def": 9
+      }
+    ]
+  },
+  {
+    "id": "GEAR_RING_MAIL",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 87
+    },
+    "subStats": [
+      {
+        "def": 8
+      }
+    ]
+  },
+  {
+    "id": "GEAR_HALF_PLATE",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 98
+    },
+    "subStats": [
+      {
+        "def": 10
+      }
+    ]
+  },
+  {
+    "id": "GEAR_LIGHT_SHIELD",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 82
+    },
+    "subStats": [
+      {
+        "def": 10
+      }
+    ]
+  },
+  {
+    "id": "GEAR_TOWER_SHIELD",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 105
+    },
+    "subStats": [
+      {
+        "def": 11
+      }
+    ]
+  },
+  {
+    "id": "GEAR_HEATER_SHIELD",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 90
+    },
+    "subStats": [
+      {
+        "def": 9
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BASIC_CUIRASS",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 93
+    },
+    "subStats": [
+      {
+        "def": 9
+      }
+    ]
+  },
+  {
+    "id": "GEAR_SIMPLE_PLATE",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 97
+    },
+    "subStats": [
+      {
+        "def": 10
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BRIGANDINE",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 91
+    },
+    "subStats": [
+      {
+        "def": 9
+      }
+    ]
+  },
+  {
+    "id": "GEAR_LAMELLAR_ARMOR",
+    "slot": "armor",
+    "rarity": 2,
+    "mainStat": {
+      "hp": 94
+    },
+    "subStats": [
+      {
+        "def": 9
+      }
+    ]
+  },
+  {
+    "id": "GEAR_IRON_LONGSWORD",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 52
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_STEEL_BATTLEAXE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 55
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_GUARDIAN_SPEAR",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 51
+    },
+    "subStats": [
+      {
+        "crit": 2
+      }
+    ]
+  },
+  {
+    "id": "GEAR_WAR_HAMMER",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 58
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_JAGGED_GREATSWORD",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 60
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_DUAL_DAGGERS",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 48
+    },
+    "subStats": [
+      {
+        "spd": 2
+      },
+      {
+        "crit": 2
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BASTARD_SWORD",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 54
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SPIKED_MACE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 53
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_TWIN_BLADES",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 50
+    },
+    "subStats": [
+      {
+        "spd": 3
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CURVED_SABER",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 52
+    },
+    "subStats": [
+      {
+        "crit": 3
+      }
+    ]
+  },
+  {
+    "id": "GEAR_HEAVY_FLAIL",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 56
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BATTLE_SCYTHE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 57
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_IRON_GLAIVE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 54
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_EXECUTIONER_AXE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 59
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_TRIDENT",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 53
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_COMPOSITE_BOW",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 49
+    },
+    "subStats": [
+      {
+        "crit": 3
+      }
+    ]
+  },
+  {
+    "id": "GEAR_HEAVY_CROSSBOW",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 52
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_LONGBOW",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 50
+    },
+    "subStats": [
+      {
+        "spd": 2
+      }
+    ]
+  },
+  {
+    "id": "GEAR_REPEATING_CROSSBOW",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 48
+    },
+    "subStats": [
+      {
+        "spd": 3
+      }
+    ]
+  },
+  {
+    "id": "GEAR_DOUBLE_BARREL_SHOTGUN",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 54
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_HUNTING_RIFLE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 51
+    },
+    "subStats": [
+      {
+        "crit": 2
+      }
+    ]
+  },
+  {
+    "id": "GEAR_REVOLVER",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 47
+    },
+    "subStats": [
+      {
+        "spd": 2
+      }
+    ]
+  },
+  {
+    "id": "GEAR_THROWING_AXES",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "atk": 50
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_APPRENTICE_STAFF",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "magic": 58
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CRYSTAL_WAND",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "magic": 56
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_ARCANE_TOME",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "magic": 60
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_ELEMENTAL_ORB",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "magic": 57
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_BATTLE_GRIMOIRE",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "magic": 59
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_MYSTIC_SCEPTER",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "magic": 55
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_RITUAL_DAGGER",
+    "slot": "weapon",
+    "rarity": 3,
+    "mainStat": {
+      "magic": 54
+    },
+    "subStats": [
+      {
+        "spd": 2
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CHAINMAIL_ARMOR",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 140
+    },
+    "subStats": [
+      {
+        "def": 15
+      }
+    ]
+  },
+  {
+    "id": "GEAR_PLATE_ARMOR",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 160
+    },
+    "subStats": [
+      {
+        "def": 18
+      }
+    ]
+  },
+  {
+    "id": "GEAR_REINFORCED_LEATHER",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 130
+    },
+    "subStats": [
+      {
+        "def": 14
+      },
+      {
+        "spd": 1
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BATTLE_CUIRASS",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 155
+    },
+    "subStats": [
+      {
+        "def": 17
+      }
+    ]
+  },
+  {
+    "id": "GEAR_KNIGHT_ARMOR",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 165
+    },
+    "subStats": [
+      {
+        "def": 19
+      }
+    ]
+  },
+  {
+    "id": "GEAR_DRAGON_SCALE_VEST",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 145
+    },
+    "subStats": [
+      {
+        "def": 16
+      }
+    ]
+  },
+  {
+    "id": "GEAR_IRON_PLATE",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 150
+    },
+    "subStats": [
+      {
+        "def": 16
+      }
+    ]
+  },
+  {
+    "id": "GEAR_WARRIOR_MAIL",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 142
+    },
+    "subStats": [
+      {
+        "def": 15
+      }
+    ]
+  },
+  {
+    "id": "GEAR_KITE_SHIELD",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 135
+    },
+    "subStats": [
+      {
+        "def": 18
+      }
+    ]
+  },
+  {
+    "id": "GEAR_BULWARK_SHIELD",
+    "slot": "armor",
+    "rarity": 3,
+    "mainStat": {
+      "hp": 148
+    },
+    "subStats": [
+      {
+        "def": 20
+      }
+    ]
+  },
+  {
+    "id": "GEAR_MYTHRIL_BLADE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 98
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_TITAN_HAMMER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 105
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_ORICHALCUM_AXE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 102
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_ADAMANT_SPEAR",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 100
+    },
+    "subStats": [
+      {
+        "crit": 5
+      }
+    ]
+  },
+  {
+    "id": "GEAR_CRYSTAL_GREATSWORD",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 108
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_LIGHTNING_BOW",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 96
+    },
+    "subStats": [
+      {
+        "spd": 4
+      },
+      {
+        "crit": 4
+      }
+    ]
+  },
+  {
+    "id": "GEAR_INFERNO_STAFF",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 112
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_FROST_WAND",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 108
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_THUNDER_SCEPTER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 110
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_ARCANE_GRIMOIRE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 115
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_STELLAR_ORB",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 111
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_RUNIC_BLADE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 103
+    },
+    "subStats": [
+      {
+        "crit": 6
+      }
+    ]
+  },
+  {
+    "id": "GEAR_TEMPEST_KATANA",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 99
+    },
+    "subStats": [
+      {
+        "spd": 5
+      }
+    ]
+  },
+  {
+    "id": "GEAR_OBSIDIAN_MACE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 106
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_CRIMSON_SCYTHE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 104
+    },
+    "subStats": []
+  },
+  {
+    "id": "GEAR_SOUL_EATER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 110
+    },
+    "subStats": [
+      {
+        "crit": 5
+      }
+    ],
+    "passive": {
+      "name": "Soul Drain",
+      "description": "On kill: Restore 15% HP and gain +10% ATK for 2 turns",
+      "trigger": "ON_KILL",
+      "effect": {
+        "healPercent": 15,
+        "buffAtk": 10,
+        "duration": 2
+      }
+    }
+  },
+  {
+    "id": "GEAR_VENOM_FANG",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 105
+    },
+    "subStats": [
+      {
+        "spd": 4
+      }
+    ],
+    "passive": {
+      "name": "Toxic Strike",
+      "description": "Attacks apply Poison dealing 5% max HP over 3 turns",
+      "trigger": "ON_HIT",
+      "effect": {
+        "applyPoison": true,
+        "damagePercent": 5,
+        "duration": 3
+      }
+    }
+  },
+  {
+    "id": "GEAR_GLACIER_BLADE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 108
+    },
+    "subStats": [],
+    "passive": {
+      "name": "Frozen Touch",
+      "description": "20% chance to Freeze target for 1 turn",
+      "trigger": "ON_HIT",
+      "effect": {
+        "freezeChance": 20,
+        "duration": 1
+      }
+    }
+  },
+  {
+    "id": "GEAR_STORM_BREAKER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 112
+    },
+    "subStats": [],
+    "passive": {
+      "name": "Thunder Crash",
+      "description": "Attacks deal 30% bonus damage to enemies with debuffs",
+      "trigger": "ON_HIT",
+      "effect": {
+        "bonusDamageVsDebuffed": 30
+      }
+    }
+  },
+  {
+    "id": "GEAR_VAMPIRIC_EDGE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 107
+    },
+    "subStats": [
+      {
+        "crit": 6
+      }
+    ],
+    "passive": {
+      "name": "Blood Siphon",
+      "description": "Heal for 20% of damage dealt on critical hits",
+      "trigger": "ON_CRIT",
+      "effect": {
+        "lifestealPercent": 20
+      }
+    }
+  },
+  {
+    "id": "GEAR_EARTHQUAKE_MAUL",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 115
+    },
+    "subStats": [],
+    "passive": {
+      "name": "Ground Slam",
+      "description": "Attacks have 25% chance to Stun for 1 turn",
+      "trigger": "ON_HIT",
+      "effect": {
+        "stunChance": 25,
+        "duration": 1
+      }
+    }
+  },
+  {
+    "id": "GEAR_SOLAR_WRATH",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 118
+    },
+    "subStats": [],
+    "passive": {
+      "name": "Burning Light",
+      "description": "Attacks deal +25% damage to Demon and Undead factions",
+      "trigger": "ON_HIT",
+      "effect": {
+        "bonusVsFaction": [
+          "Demon",
+          "Undead"
+        ],
+        "damageBonus": 25
+      }
+    }
+  },
+  {
+    "id": "GEAR_SHADOW_REAPER",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 109
+    },
+    "subStats": [
+      {
+        "spd": 5
+      }
+    ],
+    "passive": {
+      "name": "Backstab",
+      "description": "Deal +40% damage when attacking from higher SPD",
+      "trigger": "ON_HIT",
+      "effect": {
+        "bonusIfFaster": 40
+      }
+    }
+  },
+  {
+    "id": "GEAR_NATURE_WRATH",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "magic": 114
+    },
+    "subStats": [],
+    "passive": {
+      "name": "Thorns",
+      "description": "When hit, reflect 15% damage back to attacker",
+      "trigger": "ON_DAMAGED",
+      "effect": {
+        "reflectPercent": 15
+      }
+    }
+  },
+  {
+    "id": "GEAR_BERSERKER_AXE",
+    "slot": "weapon",
+    "rarity": 4,
+    "mainStat": {
+      "atk": 113
+    },
+    "subStats": [],
+    "passive": {
+      "name": "Rage",
+      "description": "Gain +5% ATK per 10% HP lost (max +50%)",
+      "trigger": "PASSIVE",
+      "effect": {
+        "atkPerMissingHP": 5,
+        "maxStacks": 10
+      }
+    }
+  },
+  {
+    "id": "GEAR_INFINITY_BLADE",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 155
+    },
+    "subStats": [
+      {
+        "crit": 10
+      },
+      {
+        "spd": 5
+      }
+    ],
+    "passive": {
+      "name": "Endless Edge",
+      "description": "Every 3rd consecutive hit deals 200% damage and ignores 50% DEF",
+      "trigger": "ON_HIT",
+      "effect": {
+        "hitCounter": 3,
+        "bonusDamage": 200,
+        "defPenetration": 50
+      }
+    }
+  },
+  {
+    "id": "GEAR_OMEGA_DESTROYER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 165
+    },
+    "subStats": [
+      {
+        "crit": 12
+      }
+    ],
+    "passive": {
+      "name": "Annihilation",
+      "description": "Execute enemies below 25% HP. If target survives, gain +30% ATK for 3 turns",
+      "trigger": "ON_HIT",
+      "effect": {
+        "executeThreshold": 25,
+        "buffOnFail": 30,
+        "duration": 3
+      }
+    }
+  },
+  {
+    "id": "GEAR_ETERNAL_FLAME",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 158
+    },
+    "subStats": [
+      {
+        "crit": 10
+      }
+    ],
+    "passive": {
+      "name": "Phoenix Rebirth",
+      "description": "When an ally dies, gain +50% Magic and revive them at 1 HP (once per battle)",
+      "trigger": "ON_ALLY_DEATH",
+      "effect": {
+        "buffMagic": 50,
+        "reviveAlly": true,
+        "usesPerBattle": 1
+      }
+    }
+  },
+  {
+    "id": "GEAR_VOID_CRUSHER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 160
+    },
+    "subStats": [
+      {
+        "spd": 7
+      }
+    ],
+    "passive": {
+      "name": "Dimensional Rift",
+      "description": "Attacks ignore all shields and barriers. Deal +30% true damage",
+      "trigger": "ON_HIT",
+      "effect": {
+        "ignoreShields": true,
+        "trueDamageBonus": 30
+      }
+    }
+  },
+  {
+    "id": "GEAR_GENESIS_HAMMER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 170
+    },
+    "subStats": [],
+    "passive": {
+      "name": "Creation Strike",
+      "description": "On kill: Summon a temporary ally with 30% of your stats for 2 turns",
+      "trigger": "ON_KILL",
+      "effect": {
+        "summonAlly": true,
+        "statPercent": 30,
+        "duration": 2
+      }
+    }
+  },
+  {
+    "id": "GEAR_MIDNIGHT_REAVER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 157
+    },
+    "subStats": [
+      {
+        "crit": 15
+      }
+    ],
+    "passive": {
+      "name": "Assassinate",
+      "description": "Critical hits deal +150% damage and reset cooldowns",
+      "trigger": "ON_CRIT",
+      "effect": {
+        "critBonusDamage": 150,
+        "resetCooldowns": true
+      }
+    }
+  },
+  {
+    "id": "GEAR_CELESTIAL_SPEAR",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 162
+    },
+    "subStats": [
+      {
+        "spd": 6
+      }
+    ],
+    "passive": {
+      "name": "Divine Pierce",
+      "description": "Attacks deal true damage and heal all allies for 10% of damage dealt",
+      "trigger": "ON_HIT",
+      "effect": {
+        "convertToTrueDamage": true,
+        "teamHealPercent": 10
+      }
+    }
+  },
+  {
+    "id": "GEAR_CHAOS_BRINGER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 165
+    },
+    "subStats": [
+      {
+        "crit": 11
+      }
+    ],
+    "passive": {
+      "name": "Entropic Cascade",
+      "description": "Each spell cast increases Magic by +10% (stacks 5 times). Reset on taking damage",
+      "trigger": "ON_SPELL_CAST",
+      "effect": {
+        "magicStack": 10,
+        "maxStacks": 5,
+        "resetOnHit": true
+      }
+    }
+  },
+  {
+    "id": "GEAR_TITAN_SLAYER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 168
+    },
+    "subStats": [
+      {
+        "crit": 10
+      }
+    ],
+    "passive": {
+      "name": "Giant Killer",
+      "description": "Deal +3% damage per 100 HP the target has over you (max +100%)",
+      "trigger": "ON_HIT",
+      "effect": {
+        "damagePerHPDiff": 3,
+        "maxBonus": 100
+      }
+    }
+  },
+  {
+    "id": "GEAR_SOUL_RENDER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 160
+    },
+    "subStats": [
+      {
+        "spd": 5
+      }
+    ],
+    "passive": {
+      "name": "Soul Harvest",
+      "description": "Killing enemies permanently increases Magic by +2 for the battle",
+      "trigger": "ON_KILL",
+      "effect": {
+        "permanentMagicGain": 2,
+        "stacksInfinitely": true
+      }
+    }
+  },
+  {
+    "id": "GEAR_DRAGON_EMPEROR",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 166
+    },
+    "subStats": [
+      {
+        "crit": 12
+      }
+    ],
+    "passive": {
+      "name": "Dragon's Dominion",
+      "description": "+50% damage vs Beast/Dragon factions. Immune to crowd control",
+      "trigger": "PASSIVE",
+      "effect": {
+        "bonusVsFaction": [
+          "Beast",
+          "Dragon"
+        ],
+        "damageBonus": 50,
+        "ccImmune": true
+      }
+    }
+  },
+  {
+    "id": "GEAR_TIME_WEAVER",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 163
+    },
+    "subStats": [
+      {
+        "spd": 8
+      }
+    ],
+    "passive": {
+      "name": "Temporal Shift",
+      "description": "30% chance to take an extra turn after attacking",
+      "trigger": "ON_HIT",
+      "effect": {
+        "extraTurnChance": 30
+      }
+    }
+  },
+  {
+    "id": "GEAR_DEMON_KING_BLADE",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 164
+    },
+    "subStats": [
+      {
+        "crit": 11
+      }
+    ],
+    "passive": {
+      "name": "Dark Pact",
+      "description": "Sacrifice 10% HP to deal +80% damage. Heal for 50% of overkill damage",
+      "trigger": "ON_HIT",
+      "effect": {
+        "hpCost": 10,
+        "damageBonus": 80,
+        "overkillHeal": 50
+      }
+    }
+  },
+  {
+    "id": "GEAR_ANCIENT_RELIC",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "magic": 167
+    },
+    "subStats": [
+      {
+        "crit": 13
+      }
+    ],
+    "passive": {
+      "name": "Timeless Power",
+      "description": "All abilities cost 0 energy. Gain +20% stats for each unique faction on your team",
+      "trigger": "PASSIVE",
+      "effect": {
+        "zeroEnergyCost": true,
+        "bonusPerFaction": 20
+      }
+    }
+  },
+  {
+    "id": "GEAR_RAGNAROK",
+    "slot": "weapon",
+    "rarity": 5,
+    "mainStat": {
+      "atk": 175
+    },
+    "subStats": [
+      {
+        "crit": 15
+      }
+    ],
+    "passive": {
+      "name": "End of All",
+      "description": "At 30% HP: Transform, gaining +100% ATK, +50% SPD, and attacks hit all enemies",
+      "trigger": "HP_THRESHOLD",
+      "effect": {
+        "hpThreshold": 30,
+        "atkBonus": 100,
+        "spdBonus": 50,
+        "aoeAttacks": true
+      }
+    }
+  }
+]

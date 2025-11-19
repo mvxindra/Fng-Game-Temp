@@ -1,0 +1,147 @@
+{
+  "levelingMaterials": [
+    {
+      "id": "MAT_WEAPON_EXP_BASIC",
+      "name": "Basic Enhancement Ore",
+      "description": "Provides 100 weapon EXP. Used for leveling weapons.",
+      "icon": "icon_weapon_exp_basic",
+      "rarity": 2,
+      "expValue": 100,
+      "stackLimit": 9999
+    },
+    {
+      "id": "MAT_WEAPON_EXP_ADVANCED",
+      "name": "Advanced Enhancement Ore",
+      "description": "Provides 500 weapon EXP. Used for leveling weapons.",
+      "icon": "icon_weapon_exp_advanced",
+      "rarity": 3,
+      "expValue": 500,
+      "stackLimit": 9999
+    },
+    {
+      "id": "MAT_WEAPON_EXP_ELITE",
+      "name": "Elite Enhancement Ore",
+      "description": "Provides 2000 weapon EXP. Used for leveling high-tier weapons.",
+      "icon": "icon_weapon_exp_elite",
+      "rarity": 4,
+      "expValue": 2000,
+      "stackLimit": 9999
+    }
+  ],
+  "limitBreakMaterials": [
+    {
+      "id": "MAT_WEAPON_SHARD_COMMON",
+      "name": "Weapon Shard (Common)",
+      "description": "Crystallized weapon essence. Used for limit breaking 3-star weapons.",
+      "icon": "icon_weapon_shard_common",
+      "rarity": 3,
+      "usedForRarity": [3],
+      "stackLimit": 9999,
+      "sources": [
+        "Story Mode Hard Chapters",
+        "Weekly Dungeon: Forge of Echoes",
+        "Daily Mission Rewards"
+      ]
+    },
+    {
+      "id": "MAT_WEAPON_SHARD_RARE",
+      "name": "Weapon Shard (Rare)",
+      "description": "Refined weapon essence. Used for limit breaking 4-star weapons.",
+      "icon": "icon_weapon_shard_rare",
+      "rarity": 4,
+      "usedForRarity": [4],
+      "stackLimit": 9999,
+      "sources": [
+        "Story Mode Nightmare Chapters",
+        "Weekly Dungeon: Forge of Echoes (Hard)",
+        "Weekly Trial Rewards",
+        "Event Shops"
+      ]
+    },
+    {
+      "id": "MAT_WEAPON_SHARD_EPIC",
+      "name": "Weapon Shard (Epic)",
+      "description": "Pure weapon essence. Used for limit breaking 5-star weapons.",
+      "icon": "icon_weapon_shard_epic",
+      "rarity": 5,
+      "usedForRarity": [5],
+      "stackLimit": 9999,
+      "sources": [
+        "Monthly Raid Rewards",
+        "Seasonal Challenge Rewards",
+        "High-Level PvP Rewards",
+        "Limited Event Shops"
+      ]
+    },
+    {
+      "id": "MAT_WEAPON_CORE_RARE",
+      "name": "Weapon Core (Rare)",
+      "description": "Concentrated power core. Required for high-level limit breaks.",
+      "icon": "icon_weapon_core_rare",
+      "rarity": 4,
+      "usedForRarity": [3, 4],
+      "stackLimit": 999,
+      "sources": [
+        "Weekly Trial: Champion's Path",
+        "Monthly Raid: Ancient Guardian",
+        "Guild Shop",
+        "Exchange 10x Rare Shards"
+      ]
+    },
+    {
+      "id": "MAT_WEAPON_CORE_EPIC",
+      "name": "Weapon Core (Epic)",
+      "description": "High-grade power core. Essential for 4-star weapon mastery.",
+      "icon": "icon_weapon_core_epic",
+      "rarity": 5,
+      "usedForRarity": [4, 5],
+      "stackLimit": 999,
+      "sources": [
+        "Monthly Raid: Chaos Tyrant",
+        "Seasonal Challenge",
+        "High-Rank Arena Rewards",
+        "Exchange 10x Epic Shards"
+      ]
+    },
+    {
+      "id": "MAT_WEAPON_CORE_LEGENDARY",
+      "name": "Weapon Core (Legendary)",
+      "description": "Supreme power core. Required for 5-star weapon transcendence.",
+      "icon": "icon_weapon_core_legendary",
+      "rarity": 5,
+      "usedForRarity": [5],
+      "stackLimit": 999,
+      "sources": [
+        "Seasonal Challenge: Nightmare Descent",
+        "Top 100 Arena Season Rewards",
+        "Limited Anniversary Events",
+        "Exchange 20x Epic Shards + 100k Gold"
+      ]
+    }
+  ],
+  "materialConversion": {
+    "conversions": [
+      {
+        "from": "MAT_WEAPON_SHARD_RARE",
+        "fromAmount": 10,
+        "to": "MAT_WEAPON_CORE_RARE",
+        "toAmount": 1,
+        "goldCost": 5000
+      },
+      {
+        "from": "MAT_WEAPON_SHARD_EPIC",
+        "fromAmount": 10,
+        "to": "MAT_WEAPON_CORE_EPIC",
+        "toAmount": 1,
+        "goldCost": 10000
+      },
+      {
+        "from": "MAT_WEAPON_SHARD_EPIC",
+        "fromAmount": 20,
+        "to": "MAT_WEAPON_CORE_LEGENDARY",
+        "toAmount": 1,
+        "goldCost": 100000
+      }
+    ]
+  }
+}

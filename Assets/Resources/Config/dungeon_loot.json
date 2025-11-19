@@ -1,0 +1,204 @@
+[
+  {
+    "id": "REWARD_NORMAL_T1",
+    "loot": [
+      { "reward": "GOLD:2000", "weight": 60 },
+      { "reward": "GEMS:3", "weight": 20 },
+      { "reward": "GEAR_BLADE_A1", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T2",
+    "loot": [
+      { "reward": "GOLD:3000", "weight": 50 },
+      { "reward": "GEMS:5", "weight": 20 },
+      { "reward": "GEAR_BLADE_A1", "weight": 30 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T3",
+    "loot": [
+      { "reward": "GOLD:3500", "weight": 50 },
+      { "reward": "GEMS:7", "weight": 25 },
+      { "reward": "GEAR_BLADE_A1", "weight": 25 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T4",
+    "loot": [
+      { "reward": "GOLD:4000", "weight": 45 },
+      { "reward": "GEMS:10", "weight": 25 },
+      { "reward": "GEAR_RARE_SWORD", "weight": 30 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T5",
+    "loot": [
+      { "reward": "GOLD:4500", "weight": 40 },
+      { "reward": "GEMS:12", "weight": 30 },
+      { "reward": "GEAR_RARE_SWORD", "weight": 30 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T6",
+    "loot": [
+      { "reward": "GOLD:5000", "weight": 35 },
+      { "reward": "GEMS:15", "weight": 30 },
+      { "reward": "GEAR_RARE_SWORD", "weight": 35 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_HARD_T1",
+    "loot": [
+      { "reward": "GOLD:6000", "weight": 40 },
+      { "reward": "GEMS:20", "weight": 30 },
+      { "reward": "GEAR_RARE_SWORD", "weight": 30 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T2",
+    "loot": [
+      { "reward": "GOLD:7000", "weight": 35 },
+      { "reward": "GEMS:25", "weight": 30 },
+      { "reward": "GEAR_RARE_SWORD", "weight": 35 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T3",
+    "loot": [
+      { "reward": "GOLD:8000", "weight": 35 },
+      { "reward": "GEMS:30", "weight": 25 },
+      { "reward": "GEAR_ELITE_BLADE", "weight": 40 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T4",
+    "loot": [
+      { "reward": "GOLD:9000", "weight": 30 },
+      { "reward": "GEMS:35", "weight": 30 },
+      { "reward": "HERO_SHARD_WOLF:3", "weight": 40 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T5",
+    "loot": [
+      { "reward": "GOLD:10000", "weight": 25 },
+      { "reward": "GEMS:40", "weight": 30 },
+      { "reward": "GEAR_ELITE_BLADE", "weight": 45 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T6",
+    "loot": [
+      { "reward": "GOLD:12000", "weight": 25 },
+      { "reward": "GEMS:50", "weight": 30 },
+      { "reward": "HERO_SHARD_WOLF:5", "weight": 45 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_NIGHTMARE_T1",
+    "loot": [
+      { "reward": "GOLD:15000", "weight": 30 },
+      { "reward": "GEMS:60", "weight": 25 },
+      { "reward": "GEAR_ELITE_BLADE", "weight": 45 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T2",
+    "loot": [
+      { "reward": "GOLD:18000", "weight": 25 },
+      { "reward": "GEMS:75", "weight": 25 },
+      { "reward": "GEAR_ELITE_BLADE", "weight": 50 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T3",
+    "loot": [
+      { "reward": "GOLD:20000", "weight": 25 },
+      { "reward": "GEMS:90", "weight": 25 },
+      { "reward": "HERO_SHARD_WOLF:8", "weight": 50 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T4",
+    "loot": [
+      { "reward": "GOLD:22000", "weight": 20 },
+      { "reward": "GEMS:100", "weight": 25 },
+      { "reward": "GEAR_MYTHIC_BLADE", "weight": 55 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T5",
+    "loot": [
+      { "reward": "GOLD:25000", "weight": 20 },
+      { "reward": "GEMS:120", "weight": 25 },
+      { "reward": "GEAR_MYTHIC_BLADE", "weight": 55 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T6",
+    "loot": [
+      { "reward": "GOLD:30000", "weight": 15 },
+      { "reward": "GEMS:150", "weight": 25 },
+      { "reward": "HERO_SHARD_WOLF:12", "weight": 60 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_MYTHIC_T1",
+    "loot": [
+      { "reward": "GOLD:35000", "weight": 20 },
+      { "reward": "GEMS:175", "weight": 20 },
+      { "reward": "GEAR_MYTHIC_BLADE", "weight": 60 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T2",
+    "loot": [
+      { "reward": "GOLD:40000", "weight": 20 },
+      { "reward": "GEMS:200", "weight": 20 },
+      { "reward": "HERO_SHARD_WOLF:15", "weight": 60 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T3",
+    "loot": [
+      { "reward": "GOLD:45000", "weight": 15 },
+      { "reward": "GEMS:250", "weight": 20 },
+      { "reward": "MYTHIC_KEY:1", "weight": 65 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T4",
+    "loot": [
+      { "reward": "GOLD:50000", "weight": 10 },
+      { "reward": "GEMS:300", "weight": 15 },
+      { "reward": "GEAR_LEGENDARY_RELIC", "weight": 75 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_EVENT_DOUBLE_DROP",
+    "loot": [
+      { "reward": "GOLD:10000", "weight": 20 },
+      { "reward": "GOLD:20000", "weight": 20 },
+      { "reward": "GEMS:50", "weight": 20 },
+      { "reward": "GEAR_RARE_SWORD", "weight": 20 },
+      { "reward": "GEAR_ELITE_BLADE", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_EVENT_MYTHIC_FEST",
+    "loot": [
+      { "reward": "GEAR_MYTHIC_BLADE", "weight": 40 },
+      { "reward": "HERO_SHARD_WOLF:20", "weight": 30 },
+      { "reward": "MYTHIC_KEY:2", "weight": 30 }
+    ]
+  }
+]
