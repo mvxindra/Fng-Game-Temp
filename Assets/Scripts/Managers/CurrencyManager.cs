@@ -794,7 +794,33 @@ public class CurrencyManager : Singleton<CurrencyManager>
 
     }
 
- 
+
+
+    /// <summary>
+
+    /// Load currencies from save data
+
+    /// </summary>
+
+    public void LoadCurrencies(Dictionary<string, int> savedCurrencies)
+
+    {
+
+        playerCurrencies.Clear();
+
+        foreach (var kvp in savedCurrencies)
+
+        {
+
+            playerCurrencies[kvp.Key] = kvp.Value;
+
+        }
+
+        Debug.Log($"[CurrencyManager] Loaded {playerCurrencies.Count} currencies from save");
+
+    }
+
+
 
     // Helper method
 

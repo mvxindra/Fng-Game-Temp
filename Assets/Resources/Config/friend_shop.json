@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "itemId": "fp_gold_small",
+      "itemName": "1000 Gold",
+      "itemType": "currency",
+      "itemReference": "gold",
+      "quantity": 1000,
+      "friendPointCost": 100,
+      "stock": -1,
+      "dailyLimit": 10,
+      "totalLimit": -1,
+      "requiredFriendLevel": 0,
+      "rarity": "common",
+      "icon": "icon_gold"
+    },
+    {
+      "itemId": "fp_hero_shard",
+      "itemName": "Universal Hero Shard",
+      "itemType": "shard",
+      "itemReference": "universal_shard",
+      "quantity": 1,
+      "friendPointCost": 250,
+      "stock": 10,
+      "dailyLimit": 2,
+      "totalLimit": -1,
+      "requiredFriendLevel": 5,
+      "rarity": "rare",
+      "icon": "icon_shard"
+    },
+    {
+      "itemId": "fp_summon_ticket",
+      "itemName": "Premium Summon Ticket",
+      "itemType": "summon_ticket",
+      "itemReference": "premium_ticket",
+      "quantity": 1,
+      "friendPointCost": 500,
+      "stock": 5,
+      "dailyLimit": 1,
+      "totalLimit": -1,
+      "requiredFriendLevel": 10,
+      "rarity": "epic",
+      "icon": "icon_ticket"
+    },
+    {
+      "itemId": "fp_cosmetic_frame",
+      "itemName": "Golden Frame",
+      "itemType": "cosmetic",
+      "itemReference": "gold_frame",
+      "quantity": 1,
+      "friendPointCost": 1000,
+      "stock": 1,
+      "dailyLimit": -1,
+      "totalLimit": 1,
+      "requiredFriendLevel": 15,
+      "rarity": "legendary",
+      "icon": "icon_frame_gold"
+    }
+  ],
+  "refreshSchedule": []
+}

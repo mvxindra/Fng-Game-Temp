@@ -40,7 +40,11 @@ public class PlayerCurrencies
 
     public int dungeonKeys;                     // Entry for special dungeons
 
- 
+    public int friendPoints;                    // Friend system currency
+
+    public int researchPoints;                  // Research tree currency
+
+
 
     // Event currencies
 

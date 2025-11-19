@@ -1,0 +1,79 @@
+{
+  "emojis": [
+    {
+      "emojiId": "smile",
+      "emojiName": "Smile",
+      "icon": "emoji_smile",
+      "isAnimated": false,
+      "rarity": "common",
+      "category": "emotion"
+    },
+    {
+      "emojiId": "thumbs_up",
+      "emojiName": "Thumbs Up",
+      "icon": "emoji_thumbs",
+      "isAnimated": false,
+      "rarity": "common",
+      "category": "reaction"
+    },
+    {
+      "emojiId": "heart",
+      "emojiName": "Heart",
+      "icon": "emoji_heart",
+      "isAnimated": false,
+      "rarity": "common",
+      "category": "emotion"
+    },
+    {
+      "emojiId": "victory",
+      "emojiName": "Victory",
+      "icon": "emoji_victory",
+      "isAnimated": false,
+      "rarity": "rare",
+      "category": "reaction"
+    },
+    {
+      "emojiId": "sparkles",
+      "emojiName": "Sparkles",
+      "icon": "emoji_sparkles",
+      "isAnimated": true,
+      "rarity": "epic",
+      "category": "special"
+    }
+  ],
+  "stickers": [],
+  "badges": [
+    {
+      "badgeId": "arena_champion",
+      "badgeName": "Arena Champion",
+      "description": "Reached #1 in Arena",
+      "icon": "badge_arena_champ",
+      "isAnimated": true,
+      "animationType": "glow",
+      "rarity": "legendary",
+      "badgeType": "Rank"
+    }
+  ],
+  "chatBubbles": [
+    {
+      "bubbleId": "default",
+      "bubbleName": "Default",
+      "frameSprite": "bubble_default",
+      "backgroundColor": "#FFFFFF",
+      "textColor": "#000000",
+      "hasParticleEffect": false,
+      "rarity": "common"
+    },
+    {
+      "bubbleId": "gold_bubble",
+      "bubbleName": "Golden Bubble",
+      "frameSprite": "bubble_gold",
+      "backgroundColor": "#FFD700",
+      "textColor": "#000000",
+      "hasParticleEffect": true,
+      "particleEffect": "gold_sparkles",
+      "rarity": "epic"
+    }
+  ],
+  "chatEffects": []
+}

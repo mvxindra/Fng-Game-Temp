@@ -1,0 +1,151 @@
+{
+  "artifacts": [
+    {
+      "artifactId": "phoenix_feather",
+      "artifactName": "Phoenix Feather",
+      "description": "Grants resurrection upon death",
+      "artifactType": "Accessory",
+      "rarity": "mythic",
+      "setId": "",
+      "icon": "artifact_phoenix_feather",
+      "maxUpgradeLevel": 10,
+      "baseEffects": [
+        {
+          "effectId": "revive_on_death",
+          "effectName": "Phoenix Rebirth",
+          "description": "First time this hero dies, revive with 30% HP",
+          "trigger": "OnDeath",
+          "target": "Self",
+          "effectType": "revive"
+        }
+      ],
+      "levelBonuses": [
+        {
+          "level": 5,
+          "bonusType": "effect_upgrade",
+          "bonusValues": {
+            "revive_hp_percent": 50.0
+          }
+        },
+        {
+          "level": 10,
+          "bonusType": "effect_upgrade",
+          "bonusValues": {
+            "revive_hp_percent": 50.0,
+            "cleanse_debuffs": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "artifactId": "curse_infected",
+      "artifactName": "Curse of the Infected",
+      "description": "Boosts Infected heroes",
+      "artifactType": "Special",
+      "rarity": "legendary",
+      "setId": "",
+      "icon": "artifact_curse_infected",
+      "maxUpgradeLevel": 10,
+      "baseEffects": [
+        {
+          "effectId": "infected_synergy",
+          "effectName": "Infected Power",
+          "description": "If team has 2+ Infected heroes, all Infected get +8% ATK",
+          "trigger": "Passive",
+          "target": "Conditional",
+          "effectType": "conditional_boost"
+        }
+      ]
+    },
+    {
+      "artifactId": "dragon_might",
+      "artifactName": "Dragon's Might",
+      "description": "Increases damage output",
+      "artifactType": "Weapon",
+      "rarity": "ancient",
+      "setId": "",
+      "icon": "artifact_dragon_might",
+      "maxUpgradeLevel": 10,
+      "baseEffects": [
+        {
+          "effectId": "damage_boost",
+          "effectName": "Dragon's Fury",
+          "description": "+10% damage to all enemies",
+          "trigger": "Passive",
+          "target": "Self",
+          "effectType": "damage_boost"
+        }
+      ]
+    },
+    {
+      "artifactId": "guardian_oath",
+      "artifactName": "Guardian's Oath",
+      "description": "Defensive artifact",
+      "artifactType": "Armor",
+      "rarity": "mythic",
+      "setId": "",
+      "icon": "artifact_guardian_oath",
+      "maxUpgradeLevel": 10,
+      "baseEffects": [
+        {
+          "effectId": "damage_reduction",
+          "effectName": "Guardian's Shield",
+          "description": "Take 10% less damage when HP > 50%",
+          "trigger": "Passive",
+          "target": "Self",
+          "effectType": "damage_reduction"
+        }
+      ]
+    },
+    {
+      "artifactId": "void_crystal",
+      "artifactName": "Void Crystal",
+      "description": "Penetrates enemy defenses",
+      "artifactType": "Accessory",
+      "rarity": "ancient",
+      "setId": "",
+      "icon": "artifact_void_crystal",
+      "maxUpgradeLevel": 10,
+      "baseEffects": [
+        {
+          "effectId": "defense_penetration",
+          "effectName": "Void Pierce",
+          "description": "Skills ignore 10% of enemy DEF",
+          "trigger": "OnSkillUse",
+          "target": "AllEnemies",
+          "effectType": "defense_penetration"
+        }
+      ]
+    }
+  ],
+  "artifactSets": [
+    {
+      "setId": "eternal_flame",
+      "setName": "Eternal Flame Set",
+      "description": "Fire-themed offensive set",
+      "artifactIds": ["eternal_flame_1", "eternal_flame_2", "eternal_flame_3", "eternal_flame_4"],
+      "setBonuses": {
+        "2": [
+          {
+            "effectId": "flame_2pc",
+            "effectName": "Flame Boost",
+            "description": "+10% ATK",
+            "trigger": "Passive",
+            "target": "Self",
+            "effectType": "stat_boost"
+          }
+        ],
+        "4": [
+          {
+            "effectId": "flame_4pc",
+            "effectName": "Raging Inferno",
+            "description": "On kill, gain +20% ATK for 2 turns (stacks 3 times)",
+            "trigger": "OnKill",
+            "target": "Self",
+            "effectType": "buff"
+          }
+        ]
+      }
+    }
+  ]
+}

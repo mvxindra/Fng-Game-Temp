@@ -1,0 +1,180 @@
+{
+  "trees": [
+    {
+      "treeId": "combat_mastery",
+      "treeName": "Combat Mastery",
+      "description": "Permanent combat bonuses for all heroes",
+      "category": "combat",
+      "icon": "tree_combat",
+      "nodes": [
+        {
+          "nodeId": "combat_hp_1",
+          "nodeName": "Vitality I",
+          "description": "+2% HP to all heroes",
+          "nodeType": "StatBoost",
+          "tier": 1,
+          "requiredNodes": [],
+          "requiredAccountLevel": 0,
+          "researchPointCost": 1,
+          "goldCost": 1000,
+          "isTimeGated": false,
+          "maxUpgradeLevel": 5,
+          "upgradePointCost": 1,
+          "effects": [
+            {
+              "effectType": "stat_boost",
+              "targetType": "all_heroes",
+              "statType": "hp",
+              "percentBonus": 2.0,
+              "bonusPerLevel": 1.0
+            }
+          ]
+        },
+        {
+          "nodeId": "combat_atk_1",
+          "nodeName": "Strength I",
+          "description": "+2% ATK to all heroes",
+          "nodeType": "StatBoost",
+          "tier": 1,
+          "requiredNodes": [],
+          "requiredAccountLevel": 0,
+          "researchPointCost": 1,
+          "goldCost": 1000,
+          "isTimeGated": false,
+          "maxUpgradeLevel": 5,
+          "upgradePointCost": 1,
+          "effects": [
+            {
+              "effectType": "stat_boost",
+              "targetType": "all_heroes",
+              "statType": "atk",
+              "percentBonus": 2.0,
+              "bonusPerLevel": 1.0
+            }
+          ]
+        },
+        {
+          "nodeId": "combat_def_1",
+          "nodeName": "Resilience I",
+          "description": "+2% DEF to all heroes",
+          "nodeType": "StatBoost",
+          "tier": 1,
+          "requiredNodes": [],
+          "requiredAccountLevel": 0,
+          "researchPointCost": 1,
+          "goldCost": 1000,
+          "isTimeGated": false,
+          "maxUpgradeLevel": 5,
+          "upgradePointCost": 1,
+          "effects": [
+            {
+              "effectType": "stat_boost",
+              "targetType": "all_heroes",
+              "statType": "def",
+              "percentBonus": 2.0,
+              "bonusPerLevel": 1.0
+            }
+          ]
+        },
+        {
+          "nodeId": "combat_crit_1",
+          "nodeName": "Critical Strike",
+          "description": "+5% Critical Damage",
+          "nodeType": "StatBoost",
+          "tier": 2,
+          "requiredNodes": ["combat_atk_1"],
+          "requiredAccountLevel": 10,
+          "researchPointCost": 2,
+          "goldCost": 5000,
+          "isTimeGated": false,
+          "maxUpgradeLevel": 3,
+          "upgradePointCost": 2,
+          "effects": [
+            {
+              "effectType": "stat_boost",
+              "targetType": "all_heroes",
+              "statType": "critDmg",
+              "percentBonus": 5.0,
+              "bonusPerLevel": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "treeId": "economy",
+      "treeName": "Economy",
+      "description": "Resource and gold bonuses",
+      "category": "economy",
+      "icon": "tree_economy",
+      "nodes": [
+        {
+          "nodeId": "economy_gold_1",
+          "nodeName": "Gold Rush I",
+          "description": "+10% Gold from battles",
+          "nodeType": "ResourceBonus",
+          "tier": 1,
+          "requiredNodes": [],
+          "requiredAccountLevel": 0,
+          "researchPointCost": 1,
+          "goldCost": 500,
+          "isTimeGated": false,
+          "maxUpgradeLevel": 5,
+          "upgradePointCost": 1,
+          "effects": [
+            {
+              "effectType": "resource_bonus",
+              "resourceType": "gold",
+              "bonusPercent": 10.0,
+              "bonusPerLevel": 5.0
+            }
+          ]
+        },
+        {
+          "nodeId": "economy_exp_1",
+          "nodeName": "Quick Learner",
+          "description": "+5% EXP gain",
+          "nodeType": "ResourceBonus",
+          "tier": 1,
+          "requiredNodes": [],
+          "requiredAccountLevel": 0,
+          "researchPointCost": 1,
+          "goldCost": 500,
+          "isTimeGated": false,
+          "maxUpgradeLevel": 5,
+          "upgradePointCost": 1,
+          "effects": [
+            {
+              "effectType": "resource_bonus",
+              "resourceType": "exp",
+              "bonusPercent": 5.0,
+              "bonusPerLevel": 3.0
+            }
+          ]
+        },
+        {
+          "nodeId": "economy_drop_1",
+          "nodeName": "Lucky Find",
+          "description": "+5% Material drop rate",
+          "nodeType": "ResourceBonus",
+          "tier": 2,
+          "requiredNodes": ["economy_gold_1"],
+          "requiredAccountLevel": 5,
+          "researchPointCost": 2,
+          "goldCost": 2500,
+          "isTimeGated": false,
+          "maxUpgradeLevel": 3,
+          "upgradePointCost": 2,
+          "effects": [
+            {
+              "effectType": "resource_bonus",
+              "resourceType": "drop_rate",
+              "bonusPercent": 5.0,
+              "bonusPerLevel": 2.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
