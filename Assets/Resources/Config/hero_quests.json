@@ -1,0 +1,182 @@
+{
+  "quests": [
+    {
+      "questId": "warrior_origin_1",
+      "heroId": "hero_warrior",
+      "questName": "The Fallen Knight's Awakening",
+      "questType": "origin",
+      "chapter": 1,
+      "description": "A warrior awakens with no memory of their past. Defeat the bandits plaguing the village to prove your worth.",
+      "loreText": "Once a legendary knight, now stripped of memories and honor. Your journey to reclaim your past begins here.",
+      "requirements": [
+        {
+          "requirementType": "hero_owned",
+          "requiredHeroId": "hero_warrior"
+        }
+      ],
+      "objectives": [
+        {
+          "objectiveId": "defeat_bandits",
+          "objectiveType": "defeat_enemies",
+          "description": "Defeat 10 bandits",
+          "targetCount": 10,
+          "targetEnemyId": "enemy_bandit",
+          "mustUseHero": true
+        }
+      ],
+      "rewards": {
+        "gold": 5000,
+        "experiencePoints": 1000,
+        "materials": [
+          {"materialId": "warrior_essence", "quantity": 3}
+        ],
+        "talentPoints": 2,
+        "elementalMastery": 5
+      },
+      "unlocksQuests": ["warrior_origin_2"],
+      "isRepeatable": false
+    },
+    {
+      "questId": "warrior_origin_2",
+      "heroId": "hero_warrior",
+      "questName": "Echoes of the Past",
+      "questType": "origin",
+      "chapter": 2,
+      "description": "Strange visions haunt your dreams. Travel to the Ancient Ruins to uncover fragments of your lost memories.",
+      "loreText": "The ruins hold secrets of your former life. Steel yourself for the truths that await.",
+      "requirements": [
+        {
+          "requirementType": "quest_completed",
+          "requiredQuestId": "warrior_origin_1"
+        },
+        {
+          "requirementType": "hero_level",
+          "requiredLevel": 15
+        }
+      ],
+      "objectives": [
+        {
+          "objectiveId": "complete_ruins",
+          "objectiveType": "complete_stage",
+          "description": "Complete the Ancient Ruins stage",
+          "targetCount": 1,
+          "targetStageId": "stage_ancient_ruins",
+          "mustUseHero": true,
+          "battleCondition": "no_deaths",
+          "noDeaths": true
+        }
+      ],
+      "rewards": {
+        "gold": 10000,
+        "experiencePoints": 2500,
+        "materials": [
+          {"materialId": "warrior_essence", "quantity": 5},
+          {"materialId": "memory_fragment", "quantity": 1}
+        ],
+        "unlockedSkillId": "skill_memory_flash",
+        "talentPoints": 3,
+        "elementalMastery": 10
+      },
+      "unlocksQuests": ["warrior_origin_3"],
+      "isRepeatable": false
+    },
+    {
+      "questId": "warrior_origin_3",
+      "heroId": "hero_warrior",
+      "questName": "Trial of the Fallen",
+      "questType": "origin",
+      "chapter": 3,
+      "description": "Face your greatest challenge - a duel against your former self's shadow. Only by defeating it can you reclaim your true power.",
+      "loreText": "The shadow of your past emerges. This battle will determine if you are worthy of redemption.",
+      "requirements": [
+        {
+          "requirementType": "quest_completed",
+          "requiredQuestId": "warrior_origin_2"
+        },
+        {
+          "requirementType": "hero_level",
+          "requiredLevel": 25
+        },
+        {
+          "requirementType": "ascension_tier",
+          "requiredAscension": 1
+        }
+      ],
+      "objectives": [
+        {
+          "objectiveId": "defeat_shadow",
+          "objectiveType": "defeat_enemies",
+          "description": "Defeat your Shadow Self",
+          "targetCount": 1,
+          "targetEnemyId": "enemy_warrior_shadow",
+          "mustUseHero": true,
+          "battleCondition": "solo",
+          "soloOnly": true
+        }
+      ],
+      "rewards": {
+        "gold": 25000,
+        "experiencePoints": 5000,
+        "materials": [
+          {"materialId": "warrior_essence", "quantity": 10},
+          {"materialId": "hero_soul", "quantity": 1}
+        ],
+        "unlockedPassiveId": "passive_warrior_mastery",
+        "unlockedTitleId": "title_fallen_knight_redeemed",
+        "talentPoints": 5,
+        "elementalMastery": 20,
+        "exclusiveGear": {
+          "gearId": "weapon_knights_honor",
+          "gearName": "Knight's Honor",
+          "description": "A legendary blade forged from your reclaimed memories. Bound to your soul.",
+          "isSoulbound": true
+        }
+      },
+      "unlocksQuests": [],
+      "isRepeatable": false
+    },
+    {
+      "questId": "warrior_mastery_1",
+      "heroId": "hero_warrior",
+      "questName": "Master of Combat",
+      "questType": "mastery",
+      "chapter": 1,
+      "description": "Prove your mastery in battle by achieving perfect combat performance.",
+      "loreText": "True warriors don't just win - they dominate.",
+      "requirements": [
+        {
+          "requirementType": "hero_level",
+          "requiredLevel": 30
+        }
+      ],
+      "objectives": [
+        {
+          "objectiveId": "perfect_victories",
+          "objectiveType": "complete_stage",
+          "description": "Complete 5 stages without taking damage",
+          "targetCount": 5,
+          "mustUseHero": true,
+          "battleCondition": "no_deaths"
+        },
+        {
+          "objectiveId": "use_ultimate",
+          "objectiveType": "use_skill",
+          "description": "Use your ultimate skill 20 times",
+          "targetCount": 20,
+          "targetSkillId": "skill_ultimate_warrior"
+        }
+      ],
+      "rewards": {
+        "gold": 15000,
+        "materials": [
+          {"materialId": "mastery_token", "quantity": 5}
+        ],
+        "talentPoints": 5,
+        "elementalMastery": 15
+      },
+      "unlocksQuests": [],
+      "isRepeatable": true,
+      "repeatCooldownHours": 168
+    }
+  ]
+}

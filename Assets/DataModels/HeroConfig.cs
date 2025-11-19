@@ -43,6 +43,11 @@ public class HeroConfig
     public List<string> skills;
 
     public string captainSkill;   // optional
+
+    // Hero Progression Extensions
+    public string primaryElement;     // Elemental affinity (fire, water, earth, etc.)
+    public int baseLevel = 1;         // Starting level
+    public int baseAscension = 0;     // Starting ascension tier
 }
 
 [Serializable]
