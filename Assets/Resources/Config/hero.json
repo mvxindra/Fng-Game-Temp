@@ -1,0 +1,5644 @@
+[
+  {
+    "id": "HERO_INF_R5_TOXIN_VANGUARD",
+    "rarity": 5,
+    "role": "DPS",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 235,
+      "def": 175,
+      "hp": 3350,
+      "spd": 105
+    },
+    "growth": {
+      "atk": 1.29,
+      "def": 1.2,
+      "hp": 1.25,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_INF_R5_TV_BASIC",
+      "SK_INF_R5_TV_SKILL",
+      "SK_INF_R5_TV_ULT",
+      "SK_INF_R5_TV_PASSIVE",
+      "SKL_CRIMSON_WAVE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ATK",
+      "value": 25,
+      "description": "Increases ally ATK by 25% in Infected faction content."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R5_PLAGUE_SERAPH",
+    "rarity": 5,
+    "role": "Controller",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 210,
+      "def": 185,
+      "hp": 3500,
+      "spd": 108
+    },
+    "growth": {
+      "atk": 1.24,
+      "def": 1.24,
+      "hp": 1.27,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_INF_R5_PS_BASIC",
+      "SK_INF_R5_PS_SKILL",
+      "SK_INF_R5_PS_ULT",
+      "SK_INF_R5_PS_PASSIVE",
+      "SKL_FROST_PRISON"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ACC",
+      "value": 25,
+      "description": "Increases ally ACC by 25%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R4_CORRIDOR_SNIPER",
+    "rarity": 4,
+    "role": "DPS",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 165,
+      "def": 115,
+      "hp": 2450,
+      "spd": 102
+    },
+    "growth": {
+      "atk": 1.17,
+      "def": 1.12,
+      "hp": 1.18,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_INF_R4_CS_BASIC",
+      "SK_INF_R4_CS_SKILL",
+      "SK_INF_R4_CS_ULT",
+      "SK_INF_R4_CS_PASSIVE",
+      "SKL_SEISMIC_SLAM"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "CRIT",
+      "value": 10,
+      "description": "Increases ally Crit Rate by 10%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R4_MUTATION_SCHOLAR",
+    "rarity": 4,
+    "role": "Support",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 150,
+      "def": 120,
+      "hp": 2550,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.15,
+      "def": 1.13,
+      "hp": 1.19,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_INF_R4_MS_BASIC",
+      "SK_INF_R4_MS_SKILL",
+      "SK_INF_R4_MS_ULT",
+      "SK_INF_R4_MS_PASSIVE",
+      "SKL_DIVINE_SHIELD"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 12,
+      "description": "Increases ally HP by 12%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R3_RUSTED_SCAVENGER",
+    "rarity": 3,
+    "role": "Bruiser",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 125,
+      "def": 90,
+      "hp": 1900,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.08,
+      "hp": 1.13,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_INF_R3_RS_BASIC",
+      "SK_INF_R3_RS_SKILL",
+      "SK_INF_R3_RS_ULT",
+      "SK_INF_R3_RS_PASSIVE",
+      "SKL_VENOMOUS_FANG"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "DEF",
+      "value": 6,
+      "description": "Increases ally DEF by 6%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R3_BACKALLEY_MEDIC",
+    "rarity": 3,
+    "role": "Healer",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 110,
+      "def": 95,
+      "hp": 1850,
+      "spd": 99
+    },
+    "growth": {
+      "atk": 1.08,
+      "def": 1.09,
+      "hp": 1.14,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_INF_R3_BM_BASIC",
+      "SK_INF_R3_BM_SKILL",
+      "SK_INF_R3_BM_ULT",
+      "SK_INF_R3_BM_PASSIVE",
+      "SKL_TEMPORAL_SHIFT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 5,
+      "description": "Increases ally HP by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R5_OCCULT_ARCHITECT",
+    "rarity": 5,
+    "role": "Support",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 215,
+      "def": 180,
+      "hp": 3400,
+      "spd": 107
+    },
+    "growth": {
+      "atk": 1.25,
+      "def": 1.23,
+      "hp": 1.27,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_CE_R5_OA_BASIC",
+      "SK_CE_R5_OA_SKILL",
+      "SK_CE_R5_OA_ULT",
+      "SK_CE_R5_OA_PASSIVE",
+      "SKL_VOID_LANCE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "RESIST",
+      "value": 30,
+      "description": "Increases ally RES by 30%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R5_METAMORPH_ORACLE",
+    "rarity": 5,
+    "role": "Controller",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 205,
+      "def": 185,
+      "hp": 3350,
+      "spd": 109
+    },
+    "growth": {
+      "atk": 1.23,
+      "def": 1.24,
+      "hp": 1.26,
+      "spd": 1.04
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_CE_R5_MO_BASIC",
+      "SK_CE_R5_MO_SKILL",
+      "SK_CE_R5_MO_ULT",
+      "SK_CE_R5_MO_PASSIVE",
+      "SKL_HELLFIRE_RAIN"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ACC",
+      "value": 25,
+      "description": "Increases ally ACC by 25%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R4_GENE_CHANTER",
+    "rarity": 4,
+    "role": "Support",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 155,
+      "def": 120,
+      "hp": 2500,
+      "spd": 101
+    },
+    "growth": {
+      "atk": 1.16,
+      "def": 1.13,
+      "hp": 1.19,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_CE_R4_GC_BASIC",
+      "SK_CE_R4_GC_SKILL",
+      "SK_CE_R4_GC_ULT",
+      "SK_CE_R4_GC_PASSIVE",
+      "SKL_SOUL_DRAIN"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 12,
+      "description": "Increases ally HP by 12%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R4_RITUAL_BLADEFORGE",
+    "rarity": 4,
+    "role": "DPS",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 165,
+      "def": 115,
+      "hp": 2400,
+      "spd": 103
+    },
+    "growth": {
+      "atk": 1.17,
+      "def": 1.12,
+      "hp": 1.18,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_CE_R4_RB_BASIC",
+      "SK_CE_R4_RB_SKILL",
+      "SK_CE_R4_RB_ULT",
+      "SK_CE_R4_RB_PASSIVE",
+      "SKL_GLACIAL_SPIKE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ATK",
+      "value": 10,
+      "description": "Increases ally ATK by 10%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R3_NEON_DISCIPLE",
+    "rarity": 3,
+    "role": "Support",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 115,
+      "def": 85,
+      "hp": 1750,
+      "spd": 99
+    },
+    "growth": {
+      "atk": 1.09,
+      "def": 1.06,
+      "hp": 1.11,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_CE_R3_ND_BASIC",
+      "SK_CE_R3_ND_SKILL",
+      "SK_CE_R3_ND_ULT",
+      "SK_CE_R3_ND_PASSIVE",
+      "SKL_CHAIN_LIGHTNING"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "SPD",
+      "value": 5,
+      "description": "Increases ally SPD by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R3_SYMBIOTE_SCRIBE",
+    "rarity": 3,
+    "role": "Controller",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 120,
+      "def": 80,
+      "hp": 1700,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.05,
+      "hp": 1.1,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_CE_R3_SS_BASIC",
+      "SK_CE_R3_SS_SKILL",
+      "SK_CE_R3_SS_ULT",
+      "SK_CE_R3_SS_PASSIVE",
+      "SKL_HOLY_JUDGMENT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ACC",
+      "value": 5,
+      "description": "Increases ally ACC by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R5_CORRIDOR_WARLORD",
+    "rarity": 5,
+    "role": "Bruiser",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 230,
+      "def": 180,
+      "hp": 3600,
+      "spd": 103
+    },
+    "growth": {
+      "atk": 1.28,
+      "def": 1.22,
+      "hp": 1.3,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UND_R5_CW_BASIC",
+      "SK_UND_R5_CW_SKILL",
+      "SK_UND_R5_CW_ULT",
+      "SK_UND_R5_CW_PASSIVE",
+      "SKL_PLAGUE_CLOUD"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 25,
+      "description": "Increases ally HP by 25%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R5_TUNNEL_SHADOW",
+    "rarity": 5,
+    "role": "Assassin",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 240,
+      "def": 170,
+      "hp": 3350,
+      "spd": 110
+    },
+    "growth": {
+      "atk": 1.3,
+      "def": 1.2,
+      "hp": 1.24,
+      "spd": 1.04
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UND_R5_TS_BASIC",
+      "SK_UND_R5_TS_SKILL",
+      "SK_UND_R5_TS_ULT",
+      "SK_UND_R5_TS_PASSIVE",
+      "SKL_REJUVENATION"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "CRIT",
+      "value": 20,
+      "description": "Increases ally Crit Rate by 20%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R4_CORRIDOR_TECH",
+    "rarity": 4,
+    "role": "Support",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 155,
+      "def": 120,
+      "hp": 2450,
+      "spd": 101
+    },
+    "growth": {
+      "atk": 1.16,
+      "def": 1.13,
+      "hp": 1.18,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UND_R4_CT_BASIC",
+      "SK_UND_R4_CT_SKILL",
+      "SK_UND_R4_CT_ULT",
+      "SK_UND_R4_CT_PASSIVE",
+      "SKL_METEOR_STRIKE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ATK",
+      "value": 10,
+      "description": "Increases ally ATK by 10%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R4_RAILRUNNER",
+    "rarity": 4,
+    "role": "DPS",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 165,
+      "def": 115,
+      "hp": 2400,
+      "spd": 103
+    },
+    "growth": {
+      "atk": 1.17,
+      "def": 1.12,
+      "hp": 1.18,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UND_R4_RR_BASIC",
+      "SK_UND_R4_RR_SKILL",
+      "SK_UND_R4_RR_ULT",
+      "SK_UND_R4_RR_PASSIVE",
+      "SKL_SHADOW_DANCE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "SPD",
+      "value": 8,
+      "description": "Increases ally SPD by 8%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R3_PIPEWAY_LOOKOUT",
+    "rarity": 3,
+    "role": "Support",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 115,
+      "def": 85,
+      "hp": 1700,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.09,
+      "def": 1.06,
+      "hp": 1.11,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UND_R3_PL_BASIC",
+      "SK_UND_R3_PL_SKILL",
+      "SK_UND_R3_PL_ULT",
+      "SK_UND_R3_PL_PASSIVE",
+      "SKL_IRON_FORTRESS"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ACC",
+      "value": 5,
+      "description": "Increases ally ACC by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R3_GRAFFITI_RUNNER",
+    "rarity": 3,
+    "role": "DPS",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 120,
+      "def": 80,
+      "hp": 1650,
+      "spd": 101
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.05,
+      "hp": 1.1,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UND_R3_GR_BASIC",
+      "SK_UND_R3_GR_SKILL",
+      "SK_UND_R3_GR_ULT",
+      "SK_UND_R3_GR_PASSIVE",
+      "SKL_ARCANE_MISSILES"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "CRIT",
+      "value": 5,
+      "description": "Increases ally Crit Rate by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R5_CAMPUS_PARAGON",
+    "rarity": 5,
+    "role": "Support",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 210,
+      "def": 180,
+      "hp": 3450,
+      "spd": 106
+    },
+    "growth": {
+      "atk": 1.24,
+      "def": 1.23,
+      "hp": 1.27,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UD_R5_CP_BASIC",
+      "SK_UD_R5_CP_SKILL",
+      "SK_UD_R5_CP_ULT",
+      "SK_UD_R5_CP_PASSIVE",
+      "SKL_EARTHQUAKE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ATK",
+      "value": 20,
+      "description": "Increases ally ATK by 20%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R5_QUANTUM_TACTICIAN",
+    "rarity": 5,
+    "role": "Controller",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 205,
+      "def": 185,
+      "hp": 3400,
+      "spd": 108
+    },
+    "growth": {
+      "atk": 1.23,
+      "def": 1.24,
+      "hp": 1.26,
+      "spd": 1.04
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UD_R5_QT_BASIC",
+      "SK_UD_R5_QT_SKILL",
+      "SK_UD_R5_QT_ULT",
+      "SK_UD_R5_QT_PASSIVE",
+      "SKL_BLESSING_OF_LIGHT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ACC",
+      "value": 25,
+      "description": "Increases ally ACC by 25%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R4_LAB_ASSAILANT",
+    "rarity": 4,
+    "role": "DPS",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 160,
+      "def": 110,
+      "hp": 2350,
+      "spd": 102
+    },
+    "growth": {
+      "atk": 1.17,
+      "def": 1.11,
+      "hp": 1.18,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UD_R4_LA_BASIC",
+      "SK_UD_R4_LA_SKILL",
+      "SK_UD_R4_LA_ULT",
+      "SK_UD_R4_LA_PASSIVE",
+      "SKL_BLOOD_RITUAL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "CRIT",
+      "value": 10,
+      "description": "Increases ally Crit Rate by 10%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R4_STUDY_GROUP_LEADER",
+    "rarity": 4,
+    "role": "Support",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 150,
+      "def": 115,
+      "hp": 2400,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.15,
+      "def": 1.13,
+      "hp": 1.18,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UD_R4_SGL_BASIC",
+      "SK_UD_R4_SGL_SKILL",
+      "SK_UD_R4_SGL_ULT",
+      "SK_UD_R4_SGL_PASSIVE",
+      "SKL_TYPHOON"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 12,
+      "description": "Increases ally HP by 12%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R3_DORM_SCRAPPER",
+    "rarity": 3,
+    "role": "DPS",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 120,
+      "def": 85,
+      "hp": 1650,
+      "spd": 99
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.05,
+      "hp": 1.1,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UD_R3_DS_BASIC",
+      "SK_UD_R3_DS_SKILL",
+      "SK_UD_R3_DS_ULT",
+      "SK_UD_R3_DS_PASSIVE",
+      "SKL_CURSED_TOUCH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ATK",
+      "value": 5,
+      "description": "Increases ally ATK by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R3_LATE_NIGHT_TUTOR",
+    "rarity": 3,
+    "role": "Support",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 110,
+      "def": 90,
+      "hp": 1700,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.09,
+      "def": 1.06,
+      "hp": 1.11,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_UD_R3_LNT_BASIC",
+      "SK_UD_R3_LNT_SKILL",
+      "SK_UD_R3_LNT_ULT",
+      "SK_UD_R3_LNT_PASSIVE",
+      "SKL_PHOENIX_REBIRTH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ACC",
+      "value": 5,
+      "description": "Increases ally ACC by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R5_FAITHBRAND_JUDICATOR",
+    "rarity": 5,
+    "role": "Tank",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 200,
+      "def": 205,
+      "hp": 3700,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.2,
+      "def": 1.3,
+      "hp": 1.32,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_PSF_R5_FJ_BASIC",
+      "SK_PSF_R5_FJ_SKILL",
+      "SK_PSF_R5_FJ_ULT",
+      "SK_PSF_R5_FJ_PASSIVE",
+      "SKL_STARFALL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "DEF",
+      "value": 30,
+      "description": "Increases ally DEF by 30%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R5_PENITENT_EXARCH",
+    "rarity": 5,
+    "role": "Controller",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 210,
+      "def": 190,
+      "hp": 3550,
+      "spd": 104
+    },
+    "growth": {
+      "atk": 1.24,
+      "def": 1.26,
+      "hp": 1.28,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_PSF_R5_PE_BASIC",
+      "SK_PSF_R5_PE_SKILL",
+      "SK_PSF_R5_PE_ULT",
+      "SK_PSF_R5_PE_PASSIVE",
+      "SKL_VIPER_STRIKE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "RESIST",
+      "value": 25,
+      "description": "Increases ally RES by 25%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R4_PURITY_PREACHER",
+    "rarity": 4,
+    "role": "Support",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 150,
+      "def": 125,
+      "hp": 2550,
+      "spd": 99
+    },
+    "growth": {
+      "atk": 1.15,
+      "def": 1.15,
+      "hp": 1.19,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_PSF_R4_PP_BASIC",
+      "SK_PSF_R4_PP_SKILL",
+      "SK_PSF_R4_PP_ULT",
+      "SK_PSF_R4_PP_PASSIVE",
+      "SKL_GRAVITY_WELL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 12,
+      "description": "Increases ally HP by 12%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R4_BANNER_LANCER",
+    "rarity": 4,
+    "role": "Bruiser",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 165,
+      "def": 120,
+      "hp": 2500,
+      "spd": 101
+    },
+    "growth": {
+      "atk": 1.17,
+      "def": 1.13,
+      "hp": 1.2,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_PSF_R4_BL_BASIC",
+      "SK_PSF_R4_BL_SKILL",
+      "SK_PSF_R4_BL_ULT",
+      "SK_PSF_R4_BL_PASSIVE",
+      "SKL_MOONLIGHT_SLASH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "DEF",
+      "value": 10,
+      "description": "Increases ally DEF by 10%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R3_STREET_DECLARANT",
+    "rarity": 3,
+    "role": "Support",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 110,
+      "def": 95,
+      "hp": 1800,
+      "spd": 97
+    },
+    "growth": {
+      "atk": 1.08,
+      "def": 1.09,
+      "hp": 1.13,
+      "spd": 0.99
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_PSF_R3_SD_BASIC",
+      "SK_PSF_R3_SD_SKILL",
+      "SK_PSF_R3_SD_ULT",
+      "SK_PSF_R3_SD_PASSIVE",
+      "SKL_NOVA_BLAST"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "DEF",
+      "value": 5,
+      "description": "Increases ally DEF by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R3_BULWARK_ACOLYTE",
+    "rarity": 3,
+    "role": "Tank",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 105,
+      "def": 110,
+      "hp": 1900,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 1.06,
+      "def": 1.12,
+      "hp": 1.15,
+      "spd": 0.99
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_PSF_R3_BA_BASIC",
+      "SK_PSF_R3_BA_SKILL",
+      "SK_PSF_R3_BA_ULT",
+      "SK_PSF_R3_BA_PASSIVE",
+      "SKL_CRYSTAL_BARRIER"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 5,
+      "description": "Increases ally HP by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R5_CYTOLOGY_MARSHAL",
+    "rarity": 5,
+    "role": "Controller",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 220,
+      "def": 185,
+      "hp": 3500,
+      "spd": 106
+    },
+    "growth": {
+      "atk": 1.26,
+      "def": 1.24,
+      "hp": 1.28,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KT_R5_CM_BASIC",
+      "SK_KT_R5_CM_SKILL",
+      "SK_KT_R5_CM_ULT",
+      "SK_KT_R5_CM_PASSIVE",
+      "SKL_DRAGON_RAGE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ACC",
+      "value": 25,
+      "description": "Increases ally ACC by 25%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R5_VIRAL_STRATEGIST",
+    "rarity": 5,
+    "role": "Support",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 210,
+      "def": 190,
+      "hp": 3550,
+      "spd": 104
+    },
+    "growth": {
+      "atk": 1.24,
+      "def": 1.26,
+      "hp": 1.29,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KT_R5_VS_BASIC",
+      "SK_KT_R5_VS_SKILL",
+      "SK_KT_R5_VS_ULT",
+      "SK_KT_R5_VS_PASSIVE",
+      "SKL_BLIZZARD"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 20,
+      "description": "Increases ally HP by 20%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R4_SECURITY_RESEARCHER",
+    "rarity": 4,
+    "role": "Support",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 155,
+      "def": 120,
+      "hp": 2450,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.16,
+      "def": 1.13,
+      "hp": 1.19,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KT_R4_SR_BASIC",
+      "SK_KT_R4_SR_SKILL",
+      "SK_KT_R4_SR_ULT",
+      "SK_KT_R4_SR_PASSIVE",
+      "SKL_SPIRIT_BOND"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "RESIST",
+      "value": 10,
+      "description": "Increases ally RES by 10%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R4_LAB_ENFORCER",
+    "rarity": 4,
+    "role": "Tank",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 150,
+      "def": 130,
+      "hp": 2600,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.14,
+      "def": 1.16,
+      "hp": 1.2,
+      "spd": 0.99
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KT_R4_LE_BASIC",
+      "SK_KT_R4_LE_SKILL",
+      "SK_KT_R4_LE_ULT",
+      "SK_KT_R4_LE_PASSIVE",
+      "SKL_EXECUTE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "DEF",
+      "value": 12,
+      "description": "Increases ally DEF by 12%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R3_SAMPLE_HANDLER",
+    "rarity": 3,
+    "role": "Support",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 110,
+      "def": 90,
+      "hp": 1800,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.08,
+      "def": 1.06,
+      "hp": 1.12,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KT_R3_SH_BASIC",
+      "SK_KT_R3_SH_SKILL",
+      "SK_KT_R3_SH_ULT",
+      "SK_KT_R3_SH_PASSIVE",
+      "SKL_INFERNO"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 5,
+      "description": "Increases ally HP by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R3_TRIAL_ESCORT",
+    "rarity": 3,
+    "role": "Tank",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 105,
+      "def": 105,
+      "hp": 1850,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 1.06,
+      "def": 1.09,
+      "hp": 1.13,
+      "spd": 0.99
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KT_R3_TE_BASIC",
+      "SK_KT_R3_TE_SKILL",
+      "SK_KT_R3_TE_ULT",
+      "SK_KT_R3_TE_PASSIVE",
+      "SKL_CLEAVE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "DEF",
+      "value": 5,
+      "description": "Increases ally DEF by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R5_BREAKOUT_PARAGON",
+    "rarity": 5,
+    "role": "DPS",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 235,
+      "def": 175,
+      "hp": 3400,
+      "spd": 107
+    },
+    "growth": {
+      "atk": 1.29,
+      "def": 1.22,
+      "hp": 1.27,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KTT_R5_BP_BASIC",
+      "SK_KTT_R5_BP_SKILL",
+      "SK_KTT_R5_BP_ULT",
+      "SK_KTT_R5_BP_PASSIVE",
+      "SKL_MIND_BREAK"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "CRIT",
+      "value": 20,
+      "description": "Increases ally Crit Rate by 20%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R5_FAILED_MIRACLE",
+    "rarity": 5,
+    "role": "Bruiser",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 225,
+      "def": 185,
+      "hp": 3550,
+      "spd": 104
+    },
+    "growth": {
+      "atk": 1.27,
+      "def": 1.24,
+      "hp": 1.29,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KTT_R5_FM_BASIC",
+      "SK_KTT_R5_FM_SKILL",
+      "SK_KTT_R5_FM_ULT",
+      "SK_KTT_R5_FM_PASSIVE",
+      "SKL_RADIANT_BEAM"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 20,
+      "description": "Increases ally HP by 20%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R4_TESTBED_SURVIVOR",
+    "rarity": 4,
+    "role": "DPS",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 165,
+      "def": 115,
+      "hp": 2400,
+      "spd": 102
+    },
+    "growth": {
+      "atk": 1.17,
+      "def": 1.12,
+      "hp": 1.18,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KTT_R4_TS_BASIC",
+      "SK_KTT_R4_TS_SKILL",
+      "SK_KTT_R4_TS_ULT",
+      "SK_KTT_R4_TS_PASSIVE",
+      "SKL_TSUNAMI"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ATK",
+      "value": 10,
+      "description": "Increases ally ATK by 10%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R4_CONTAINMENT_RUNNER",
+    "rarity": 4,
+    "role": "Support",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 155,
+      "def": 120,
+      "hp": 2450,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.16,
+      "def": 1.13,
+      "hp": 1.19,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KTT_R4_CR_BASIC",
+      "SK_KTT_R4_CR_SKILL",
+      "SK_KTT_R4_CR_ULT",
+      "SK_KTT_R4_CR_PASSIVE",
+      "SKL_REVENGE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "SPD",
+      "value": 8,
+      "description": "Increases ally SPD by 8%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R3_CORRIDOR_FUGITIVE",
+    "rarity": 3,
+    "role": "DPS",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 120,
+      "def": 85,
+      "hp": 1700,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.05,
+      "hp": 1.1,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KTT_R3_CF_BASIC",
+      "SK_KTT_R3_CF_SKILL",
+      "SK_KTT_R3_CF_ULT",
+      "SK_KTT_R3_CF_PASSIVE",
+      "SKL_HOLY_NOVA"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "ATK",
+      "value": 5,
+      "description": "Increases ally ATK by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R3_NERVE_RAT",
+    "rarity": 3,
+    "role": "Support",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 110,
+      "def": 90,
+      "hp": 1750,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.08,
+      "def": 1.06,
+      "hp": 1.11,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KTT_R3_NR_BASIC",
+      "SK_KTT_R3_NR_SKILL",
+      "SK_KTT_R3_NR_ULT",
+      "SK_KTT_R3_NR_PASSIVE",
+      "SKL_DEATH_MARK"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 5,
+      "description": "Increases ally HP by 5%."
+    },
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_SERKET_MYERES",
+    "rarity": 5,
+    "role": "Support",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 205,
+      "def": 187,
+      "hp": 3208,
+      "spd": 94
+    },
+    "growth": {
+      "atk": 1.25,
+      "def": 1.23,
+      "hp": 1.28,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_SERKET_BASIC",
+      "SK_SERKET_SKILL",
+      "SK_SERKET_ULT",
+      "SK_SERKET_PASSIVE",
+      "SKL_WHIRLWIND"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_SERKET_BASIC",
+        "name": "Venomstroke",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Poison",
+            "duration": 2
+          },
+          {
+            "type": "Debuff",
+            "name": "SPD Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_SERKET_SKILL",
+        "name": "Scorpion Blood",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 1.3,
+        "cooldown": 3,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "HealPercent",
+            "duration": 2,
+            "value": 10
+          },
+          {
+            "type": "Buff",
+            "name": "ATK Up",
+            "duration": 3,
+            "value": 30
+          }
+        ]
+      },
+      {
+        "id": "SK_SERKET_ULT",
+        "name": "Toxic Cataclysm",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.6,
+        "cooldown": 4,
+        "target": "allEnemies",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Poison",
+            "duration": 2
+          },
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_SERKET_PASSIVE",
+        "name": "Deadly Toxin",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "OnHitApply",
+            "name": "Poison",
+            "duration": 2
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "ACC",
+      "value": 30,
+      "description": "Increases ally ACC by 30%."
+    },
+    "voiceLines": {
+      "summon": "Scorpion blood runs where law has failed.",
+      "lowHp": "Heh\u2026 venom works both ways.",
+      "ultimate": "Choke on the toxin.",
+      "death": "Guess\u2026 I finally overdosed\u2026"
+    }
+  },
+  {
+    "id": "HERO_LENA_DRAVEN",
+    "rarity": 5,
+    "role": "Assassin",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 230,
+      "def": 170,
+      "hp": 3400,
+      "spd": 106
+    },
+    "growth": {
+      "atk": 1.3,
+      "def": 1.2,
+      "hp": 1.25,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_LENA_D_BASIC",
+      "SK_LENA_D_SKILL",
+      "SK_LENA_D_ULT",
+      "SK_LENA_D_PASSIVE",
+      "SKL_SOLAR_FLARE"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_LENA_D_BASIC",
+        "name": "Sidearm Slice",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Bleed",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_LENA_D_SKILL",
+        "name": "Back-Alley Surgery",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 1.1,
+        "cooldown": 2,
+        "target": "allyLowestHP",
+        "effects": [
+          {
+            "type": "HealPercent",
+            "value": 15
+          },
+          {
+            "type": "Buff",
+            "name": "ATK Up",
+            "duration": 2,
+            "value": 20
+          }
+        ]
+      },
+      {
+        "id": "SK_LENA_D_ULT",
+        "name": "Black Market Execution",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.8,
+        "cooldown": 4,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Bleed",
+            "duration": 3
+          },
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_LENA_D_PASSIVE",
+        "name": "Read the Client",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "Crit Up vs Debuffed",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "CRIT",
+      "value": 15,
+      "description": "Increases ally Crit Rate by 15%."
+    },
+    "voiceLines": {
+      "summon": "Relax, darling. I only stab people who pay late.",
+      "lowHp": "Tch\u2026 this coat was expensive.",
+      "ultimate": "No refunds. No survivors.",
+      "death": "Guess the house wins\u2026 this time\u2026"
+    }
+  },
+  {
+    "id": "HERO_LILA_NOVAK",
+    "rarity": 5,
+    "role": "Support",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 210,
+      "def": 180,
+      "hp": 3450,
+      "spd": 104
+    },
+    "growth": {
+      "atk": 1.24,
+      "def": 1.22,
+      "hp": 1.26,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_LILA_N_BASIC",
+      "SK_LILA_N_SKILL",
+      "SK_LILA_N_ULT",
+      "SK_LILA_N_PASSIVE",
+      "SKL_LEECH_LIFE"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_LILA_N_BASIC",
+        "name": "Bioluminescent Shot",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Accuracy Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_LILA_N_SKILL",
+        "name": "Underground Network",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "SPD Up",
+            "duration": 2,
+            "value": 15
+          },
+          {
+            "type": "Buff",
+            "name": "ACC Up",
+            "duration": 2,
+            "value": 20
+          }
+        ]
+      },
+      {
+        "id": "SK_LILA_N_ULT",
+        "name": "Neon Traffick",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.2,
+        "cooldown": 4,
+        "target": "allEnemies",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Poison",
+            "duration": 2
+          },
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_LILA_N_PASSIVE",
+        "name": "Smuggler\u2019s Instinct",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "Dodge vs Ranged",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "SPD",
+      "value": 10,
+      "description": "Increases ally SPD by 10%."
+    },
+    "voiceLines": {
+      "summon": "You found me. Must really be desperate.",
+      "lowHp": "Hah\u2026 that all you\u2019ve got?",
+      "ultimate": "Lights out on this deal.",
+      "death": "Tell\u2026 Lila Hart\u2026 keep the fire burning\u2026"
+    }
+  },
+  {
+    "id": "HERO_EVELYN_CARTER",
+    "rarity": 5,
+    "role": "Healer",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 190,
+      "def": 190,
+      "hp": 3600,
+      "spd": 103
+    },
+    "growth": {
+      "atk": 1.18,
+      "def": 1.26,
+      "hp": 1.3,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_EVELYN_C_BASIC",
+      "SK_EVELYN_C_SKILL",
+      "SK_EVELYN_C_ULT",
+      "SK_EVELYN_C_PASSIVE",
+      "SKL_AVALANCHE"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_EVELYN_C_BASIC",
+        "name": "Stabilizing Shot",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 0.9,
+        "cooldown": 0,
+        "target": "ally",
+        "effects": [
+          {
+            "type": "HealPercent",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "id": "SK_EVELYN_C_SKILL",
+        "name": "Metamorphic Serum",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "ally",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "ATK Up",
+            "duration": 2,
+            "value": 25
+          },
+          {
+            "type": "Buff",
+            "name": "DEF Up",
+            "duration": 2,
+            "value": 25
+          }
+        ]
+      },
+      {
+        "id": "SK_EVELYN_C_ULT",
+        "name": "Emergency Protocol",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 0,
+        "cooldown": 5,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "HealPercent",
+            "value": 25
+          },
+          {
+            "type": "Cleanse"
+          }
+        ]
+      },
+      {
+        "id": "SK_EVELYN_C_PASSIVE",
+        "name": "Combat Chemist",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "SkillCDR on Heal",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 20,
+      "description": "Increases ally HP by 20%."
+    },
+    "voiceLines": {
+      "summon": "Field medic, ex-corporate. Let\u2019s patch this world up.",
+      "lowHp": "Not the first time I\u2019ve bled for a cause.",
+      "ultimate": "No one dies on my watch!",
+      "death": "Don\u2019t\u2026 waste\u2026 the formula\u2026"
+    }
+  },
+  {
+    "id": "HERO_LILA_HART",
+    "rarity": 5,
+    "role": "Controller",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 200,
+      "def": 185,
+      "hp": 3350,
+      "spd": 107
+    },
+    "growth": {
+      "atk": 1.22,
+      "def": 1.22,
+      "hp": 1.25,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_LILA_H_BASIC",
+      "SK_LILA_H_SKILL",
+      "SK_LILA_H_ULT",
+      "SK_LILA_H_PASSIVE",
+      "SKL_WARCRY"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_LILA_H_BASIC",
+        "name": "Whispering Nerve",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 0.9,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Silence",
+            "duration": 1
+          }
+        ]
+      },
+      {
+        "id": "SK_LILA_H_SKILL",
+        "name": "Sanctuary Trance",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "Resist Up",
+            "duration": 2,
+            "value": 30
+          },
+          {
+            "type": "Shield",
+            "duration": 2,
+            "value": 20
+          }
+        ]
+      },
+      {
+        "id": "SK_LILA_H_ULT",
+        "name": "Metamorphic Vision",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 0,
+        "cooldown": 5,
+        "target": "allEnemies",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          },
+          {
+            "type": "Debuff",
+            "name": "Accuracy Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_LILA_H_PASSIVE",
+        "name": "Guiding Echoes",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "Damage Up vs Debuffed",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "RESIST",
+      "value": 25,
+      "description": "Increases ally RES by 25%."
+    },
+    "voiceLines": {
+      "summon": "You\u2019ve stepped into the sanctuary. Now, breathe.",
+      "lowHp": "Pain is only another form of insight.",
+      "ultimate": "See what the virus has shown me.",
+      "death": "The whispers\u2026 finally quiet\u2026"
+    }
+  },
+  {
+    "id": "HERO_LENA_CALDWELL",
+    "rarity": 5,
+    "role": "Controller",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 215,
+      "def": 175,
+      "hp": 3300,
+      "spd": 108
+    },
+    "growth": {
+      "atk": 1.27,
+      "def": 1.18,
+      "hp": 1.22,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_LENA_C_BASIC",
+      "SK_LENA_C_SKILL",
+      "SK_LENA_C_ULT",
+      "SK_LENA_C_PASSIVE",
+      "SKL_PIERCING_ARROW"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_LENA_C_BASIC",
+        "name": "Data Spike",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_LENA_C_SKILL",
+        "name": "Insider Leak",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "allEnemies",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "ATK Down",
+            "duration": 2
+          },
+          {
+            "type": "Debuff",
+            "name": "Accuracy Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_LENA_C_ULT",
+        "name": "Rewritten Protocol",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.2,
+        "cooldown": 4,
+        "target": "allEnemies",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Silence",
+            "duration": 1
+          },
+          {
+            "type": "Debuff",
+            "name": "SPD Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_LENA_C_PASSIVE",
+        "name": "Corporate Defector",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "Damage Up vs KingsTech",
+            "value": 20
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "ACC",
+      "value": 25,
+      "description": "Increases ally ACC by 25%."
+    },
+    "voiceLines": {
+      "summon": "KingsTech taught me everything. Now I\u2019ll burn their lesson plans.",
+      "lowHp": "Heh. They hit harder in the labs.",
+      "ultimate": "Let me rewrite your fate.",
+      "death": "If I fall\u2026 someone else will leak the truth\u2026"
+    }
+  },
+  {
+    "id": "HERO_WOLF_KNIGHT",
+    "rarity": 4,
+    "role": "Bruiser",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 120,
+      "def": 90,
+      "hp": 1000,
+      "spd": 102
+    },
+    "growth": {
+      "atk": 1.12,
+      "def": 1.1,
+      "hp": 1.15,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_WOLF_BASIC",
+      "SK_WOLF_SKILL",
+      "SK_WOLF_ULT",
+      "SK_WOLF_PASSIVE",
+      "SKL_ENTROPY"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_WOLF_BASIC",
+        "name": "Lupine Slash",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": []
+      },
+      {
+        "id": "SK_WOLF_SKILL",
+        "name": "Howling Guard",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "DEF Up",
+            "duration": 2,
+            "value": 25
+          }
+        ]
+      },
+      {
+        "id": "SK_WOLF_ULT",
+        "name": "Moonlit Charge",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.5,
+        "cooldown": 4,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "BuffSelf",
+            "name": "ATK Up",
+            "duration": 2,
+            "value": 30
+          }
+        ]
+      },
+      {
+        "id": "SK_WOLF_PASSIVE",
+        "name": "Pack Instinct",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "ATK Up with allies",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "DEF",
+      "value": 15,
+      "description": "Increases ally DEF by 15%."
+    },
+    "voiceLines": {
+      "summon": "The pack moves where I lead.",
+      "lowHp": "Tch\u2026 I\u2019ve taken worse maulings.",
+      "ultimate": "Under the moon, we hunt!",
+      "death": "The pack\u2026 will carry on\u2026"
+    }
+  },
+  {
+    "id": "HERO_ELENA_MARTINEZ",
+    "rarity": 4,
+    "role": "Support",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 150,
+      "def": 110,
+      "hp": 2400,
+      "spd": 101
+    },
+    "growth": {
+      "atk": 1.16,
+      "def": 1.12,
+      "hp": 1.18,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_ELENA_BASIC",
+      "SK_ELENA_SKILL",
+      "SK_ELENA_ULT",
+      "SK_ELENA_PASSIVE",
+      "SKL_DIVINE_WRATH"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_ELENA_BASIC",
+        "name": "Volt Shot",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Shock",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_ELENA_SKILL",
+        "name": "Bioengineered Boost",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "ally",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "ATK Up",
+            "duration": 2,
+            "value": 20
+          },
+          {
+            "type": "Buff",
+            "name": "SPD Up",
+            "duration": 2,
+            "value": 10
+          }
+        ]
+      },
+      {
+        "id": "SK_ELENA_ULT",
+        "name": "Prototype Overload",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.4,
+        "cooldown": 4,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_ELENA_PASSIVE",
+        "name": "Lab Rat",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "Damage Up vs Debuffed",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "ATK",
+      "value": 10,
+      "description": "Increases ally ATK by 10%."
+    },
+    "voiceLines": {
+      "summon": "Bioengineering major, reporting for extremely unsafe duty.",
+      "lowHp": "Note to self\u2026 reinforce this prototype.",
+      "ultimate": "Let\u2019s see what this baby can do!",
+      "death": "Tell them\u2026 my work matters\u2026"
+    }
+  },
+  {
+    "id": "HERO_DAPHNE_CALDWELL",
+    "rarity": 4,
+    "role": "Controller",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 145,
+      "def": 115,
+      "hp": 2350,
+      "spd": 103
+    },
+    "growth": {
+      "atk": 1.15,
+      "def": 1.13,
+      "hp": 1.17,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_DAPHNE_BASIC",
+      "SK_DAPHNE_SKILL",
+      "SK_DAPHNE_ULT",
+      "SK_DAPHNE_PASSIVE",
+      "SKL_MANA_SURGE"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_DAPHNE_BASIC",
+        "name": "Cognitive Strike",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Accuracy Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_DAPHNE_SKILL",
+        "name": "Information Surge",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "ACC Up",
+            "duration": 2,
+            "value": 25
+          }
+        ]
+      },
+      {
+        "id": "SK_DAPHNE_ULT",
+        "name": "Sensory Overload",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.2,
+        "cooldown": 4,
+        "target": "allEnemies",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Silence",
+            "duration": 1
+          }
+        ]
+      },
+      {
+        "id": "SK_DAPHNE_PASSIVE",
+        "name": "Analytical Mind",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "ACC Up vs Debuffed",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "ACC",
+      "value": 20,
+      "description": "Increases ally ACC by 20%."
+    },
+    "voiceLines": {
+      "summon": "If I can map the virus, I can map this war.",
+      "lowHp": "Too much input\u2026 but I\u2019m not done.",
+      "ultimate": "Let me show you true sensory overflow.",
+      "death": "Archive\u2026 everything we learned\u2026"
+    }
+  },
+  {
+    "id": "HERO_KARA_NOVAK",
+    "rarity": 4,
+    "role": "Support",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 155,
+      "def": 120,
+      "hp": 2500,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.17,
+      "def": 1.14,
+      "hp": 1.2,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_KARA_BASIC",
+      "SK_KARA_SKILL",
+      "SK_KARA_ULT",
+      "SK_KARA_PASSIVE",
+      "SKL_REND"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_KARA_BASIC",
+        "name": "One-Two Combo",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": []
+      },
+      {
+        "id": "SK_KARA_SKILL",
+        "name": "Push Through!",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "ATK Up",
+            "duration": 2,
+            "value": 20
+          },
+          {
+            "type": "Buff",
+            "name": "HP Up",
+            "duration": 2,
+            "value": 15
+          }
+        ]
+      },
+      {
+        "id": "SK_KARA_ULT",
+        "name": "Last-Set Frenzy",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.3,
+        "cooldown": 4,
+        "target": "allEnemies",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "ATK Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_KARA_PASSIVE",
+        "name": "Trainer\u2019s Grit",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "HP Up when low HP",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 15,
+      "description": "Increases ally HP by 15%."
+    },
+    "voiceLines": {
+      "summon": "Alright, team\u2014deep breath. We\u2019re gonna sweat through this.",
+      "lowHp": "I\u2019ve had worse from leg day!",
+      "ultimate": "Time for your final set!",
+      "death": "Keep\u2026 pushing\u2026 without me\u2026"
+    }
+  },
+  {
+    "id": "HERO_NIA_CARTER",
+    "rarity": 4,
+    "role": "Healer",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 135,
+      "def": 130,
+      "hp": 2550,
+      "spd": 97
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.18,
+      "hp": 1.22,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_NIA_BASIC",
+      "SK_NIA_SKILL",
+      "SK_NIA_ULT",
+      "SK_NIA_PASSIVE",
+      "SKL_SANCTUARY"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_NIA_BASIC",
+        "name": "Sleepy Jab",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 0.9,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "ATK Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_NIA_SKILL",
+        "name": "Slow Burn",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "HealPercent",
+            "value": 12
+          },
+          {
+            "type": "Buff",
+            "name": "DEF Up",
+            "duration": 2,
+            "value": 20
+          }
+        ]
+      },
+      {
+        "id": "SK_NIA_ULT",
+        "name": "Second Wind",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 0,
+        "cooldown": 5,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "HealPercent",
+            "value": 20
+          },
+          {
+            "type": "Buff",
+            "name": "HP Up",
+            "duration": 2,
+            "value": 15
+          }
+        ]
+      },
+      {
+        "id": "SK_NIA_PASSIVE",
+        "name": "Endless Stamina",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "Regen at low HP",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "DEF",
+      "value": 10,
+      "description": "Increases ally DEF by 10%."
+    },
+    "voiceLines": {
+      "summon": "Mmm\u2026 nap later, training now.",
+      "lowHp": "Whoa\u2026 okay, I\u2019m awake now.",
+      "ultimate": "Deep breath. We go again.",
+      "death": "Guess\u2026 I earned that nap\u2026"
+    }
+  },
+  {
+    "id": "HERO_TINA_RAMIREZ",
+    "rarity": 4,
+    "role": "Support",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 160,
+      "def": 105,
+      "hp": 2300,
+      "spd": 104
+    },
+    "growth": {
+      "atk": 1.18,
+      "def": 1.1,
+      "hp": 1.16,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_TINA_BASIC",
+      "SK_TINA_SKILL",
+      "SK_TINA_ULT",
+      "SK_TINA_PASSIVE",
+      "SKL_CHAOS_BOLT"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_TINA_BASIC",
+        "name": "Serving Spin Kick",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": []
+      },
+      {
+        "id": "SK_TINA_SKILL",
+        "name": "Order Up!",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "SPD Up",
+            "duration": 2,
+            "value": 15
+          },
+          {
+            "type": "Buff",
+            "name": "Crit Up",
+            "duration": 2,
+            "value": 10
+          }
+        ]
+      },
+      {
+        "id": "SK_TINA_ULT",
+        "name": "Rush Hour",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.4,
+        "cooldown": 4,
+        "target": "allEnemies",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_TINA_PASSIVE",
+        "name": "House Favorite",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "SPD Up when many allies",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "SPD",
+      "value": 8,
+      "description": "Increases ally SPD by 8%."
+    },
+    "voiceLines": {
+      "summon": "Welcome to Leo\u2019s\u2014today\u2019s special is chaos.",
+      "lowHp": "Okay wow, that\u2019s above my pay grade.",
+      "ultimate": "Everybody gets served!",
+      "death": "No tips\u2026? Rude\u2026"
+    }
+  },
+  {
+    "id": "HERO_LYN_CARTER",
+    "rarity": 3,
+    "role": "DPS",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 125,
+      "def": 80,
+      "hp": 1700,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.12,
+      "def": 1.05,
+      "hp": 1.1,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_LYN_BASIC",
+      "SK_LYN_SKILL",
+      "SK_LYN_ULT",
+      "SK_LYN_PASSIVE",
+      "SKL_SHOCKWAVE"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_LYN_BASIC",
+        "name": "Trembling Shot",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "Bleed",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_LYN_SKILL",
+        "name": "Fight or Flight",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "self",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "ATK Up",
+            "duration": 2,
+            "value": 20
+          },
+          {
+            "type": "Buff",
+            "name": "SPD Up",
+            "duration": 2,
+            "value": 10
+          }
+        ]
+      },
+      {
+        "id": "SK_LYN_ULT",
+        "name": "Panic Burst",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.3,
+        "cooldown": 4,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_LYN_PASSIVE",
+        "name": "Fragile Resolve",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "ATK Up at low HP",
+            "value": 20
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "ATK",
+      "value": 5,
+      "description": "Increases ally ATK by 5%."
+    },
+    "voiceLines": {
+      "summon": "I\u2026 I\u2019ll try my best. Please don\u2019t leave me.",
+      "lowHp": "No\u2014 I can\u2019t go back there!",
+      "ultimate": "Stay away from me!",
+      "death": "At least\u2026 it\u2019s finally quiet\u2026"
+    }
+  },
+  {
+    "id": "HERO_STREET_THUG",
+    "rarity": 3,
+    "role": "Bruiser",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 115,
+      "def": 85,
+      "hp": 1800,
+      "spd": 96
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.06,
+      "hp": 1.12,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_THUG_BASIC",
+      "SK_THUG_SKILL",
+      "SK_THUG_ULT",
+      "SK_THUG_PASSIVE",
+      "SKL_BERSERK"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_THUG_BASIC",
+        "name": "Crude Swing",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": []
+      },
+      {
+        "id": "SK_THUG_SKILL",
+        "name": "Intimidate",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "ATK Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_THUG_ULT",
+        "name": "All-In Brawl",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.3,
+        "cooldown": 4,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_THUG_PASSIVE",
+        "name": "Street Smarts",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "Dodge Up at high HP",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 5,
+      "description": "Increases ally HP by 5%."
+    },
+    "voiceLines": {
+      "summon": "You pay, I smash. Easy deal.",
+      "lowHp": "Okay, okay, maybe I picked the wrong mark.",
+      "ultimate": "Time to take it outside!",
+      "death": "Shoulda\u2026 stayed in my alley\u2026"
+    }
+  },
+  {
+    "id": "HERO_ENFORCER_UNIT",
+    "rarity": 3,
+    "role": "Tank",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 100,
+      "def": 110,
+      "hp": 1900,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 1.05,
+      "def": 1.12,
+      "hp": 1.15,
+      "spd": 0.99
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_ENFORCER_BASIC",
+      "SK_ENFORCER_SKILL",
+      "SK_ENFORCER_ULT",
+      "SK_ENFORCER_PASSIVE",
+      "SKL_ICE_LANCE"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_ENFORCER_BASIC",
+        "name": "Shield Bash",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 0.9,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "SPD Down",
+            "duration": 1
+          }
+        ]
+      },
+      {
+        "id": "SK_ENFORCER_SKILL",
+        "name": "Suppressive Line",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "DEF Up",
+            "duration": 2,
+            "value": 20
+          }
+        ]
+      },
+      {
+        "id": "SK_ENFORCER_ULT",
+        "name": "Riot Protocol",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.2,
+        "cooldown": 4,
+        "target": "allEnemies",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "ATK Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_ENFORCER_PASSIVE",
+        "name": "Crowd Control",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "DEF Up when many enemies",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "DEF",
+      "value": 5,
+      "description": "Increases ally DEF by 5%."
+    },
+    "voiceLines": {
+      "summon": "Orders received. Area will be secured.",
+      "lowHp": "Shields\u2026 holding.",
+      "ultimate": "Engaging riot protocol.",
+      "death": "Unit\u2026 offline\u2026"
+    }
+  },
+  {
+    "id": "HERO_MEDTECH_OPERATIVE",
+    "rarity": 3,
+    "role": "Healer",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 90,
+      "def": 95,
+      "hp": 1850,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.02,
+      "def": 1.08,
+      "hp": 1.13,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_MEDTECH_BASIC",
+      "SK_MEDTECH_SKILL",
+      "SK_MEDTECH_ULT",
+      "SK_MEDTECH_PASSIVE",
+      "SKL_NATURE_WRATH"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_MEDTECH_BASIC",
+        "name": "Stim Dart",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 0.8,
+        "cooldown": 0,
+        "target": "ally",
+        "effects": [
+          {
+            "type": "HealPercent",
+            "value": 8
+          }
+        ]
+      },
+      {
+        "id": "SK_MEDTECH_SKILL",
+        "name": "Field Patch",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "ally",
+        "effects": [
+          {
+            "type": "HealPercent",
+            "value": 12
+          }
+        ]
+      },
+      {
+        "id": "SK_MEDTECH_ULT",
+        "name": "Emergency Triage",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 0,
+        "cooldown": 4,
+        "target": "allies",
+        "effects": [
+          {
+            "type": "HealPercent",
+            "value": 15
+          }
+        ]
+      },
+      {
+        "id": "SK_MEDTECH_PASSIVE",
+        "name": "Triage Training",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "Heal Up vs low HP",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "HP",
+      "value": 5,
+      "description": "Increases ally HP by 5%."
+    },
+    "voiceLines": {
+      "summon": "Stay calm, I\u2019ve got enough stims for everyone.",
+      "lowHp": "Need\u2026 a stim\u2026 for myself\u2026",
+      "ultimate": "No one dies on my watch.",
+      "death": "Call\u2026 another medic\u2026"
+    }
+  },
+  {
+    "id": "HERO_ROGUE_STUDENT",
+    "rarity": 3,
+    "role": "DPS",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 120,
+      "def": 85,
+      "hp": 1650,
+      "spd": 99
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.05,
+      "hp": 1.1,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_STUDENT_BASIC",
+      "SK_STUDENT_SKILL",
+      "SK_STUDENT_ULT",
+      "SK_STUDENT_PASSIVE",
+      "SKL_SACRIFICE"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_STUDENT_BASIC",
+        "name": "Improvised Swing",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": []
+      },
+      {
+        "id": "SK_STUDENT_SKILL",
+        "name": "Textbook Tactics",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "self",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "ATK Up",
+            "duration": 2,
+            "value": 15
+          }
+        ]
+      },
+      {
+        "id": "SK_STUDENT_ULT",
+        "name": "Final Exam",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 1.3,
+        "cooldown": 4,
+        "target": "enemy",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_STUDENT_PASSIVE",
+        "name": "Cram Session",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "ATK Up after skill",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "CRIT",
+      "value": 5,
+      "description": "Increases ally Crit Rate by 5%."
+    },
+    "voiceLines": {
+      "summon": "Dropped out of class, enrolled in chaos.",
+      "lowHp": "Yeah, this is worse than exams.",
+      "ultimate": "Let\u2019s see what I\u2019ve learned!",
+      "death": "I\u2026 failed the test\u2026"
+    }
+  },
+  {
+    "id": "HERO_UNDERCITY_SCOUT",
+    "rarity": 3,
+    "role": "Support",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 110,
+      "def": 80,
+      "hp": 1600,
+      "spd": 102
+    },
+    "growth": {
+      "atk": 1.08,
+      "def": 1.04,
+      "hp": 1.08,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor",
+      "trinket"
+    ],
+    "skills": [
+      "SK_SCOUT_BASIC",
+      "SK_SCOUT_SKILL",
+      "SK_SCOUT_ULT",
+      "SK_SCOUT_PASSIVE",
+      "SKL_VENOM_NOVA"
+    ],
+    "skillsDetailed": [
+      {
+        "id": "SK_SCOUT_BASIC",
+        "name": "Quick Shot",
+        "type": "Active",
+        "slot": 1,
+        "multiplier": 1.0,
+        "cooldown": 0,
+        "target": "enemy",
+        "effects": []
+      },
+      {
+        "id": "SK_SCOUT_SKILL",
+        "name": "Shadow Step",
+        "type": "Active",
+        "slot": 2,
+        "multiplier": 0,
+        "cooldown": 3,
+        "target": "self",
+        "effects": [
+          {
+            "type": "Buff",
+            "name": "SPD Up",
+            "duration": 2,
+            "value": 20
+          }
+        ]
+      },
+      {
+        "id": "SK_SCOUT_ULT",
+        "name": "Signal Flare",
+        "type": "Ultimate",
+        "slot": 3,
+        "multiplier": 0,
+        "cooldown": 4,
+        "target": "allEnemies",
+        "effects": [
+          {
+            "type": "Debuff",
+            "name": "DEF Down",
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "SK_SCOUT_PASSIVE",
+        "name": "Corridor Runner",
+        "type": "Passive",
+        "slot": 0,
+        "multiplier": 0,
+        "cooldown": 0,
+        "target": "self",
+        "effects": [
+          {
+            "type": "BuffConditional",
+            "name": "SPD Up at wave start",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "captainSkill": {
+      "stat": "SPD",
+      "value": 5,
+      "description": "Increases ally SPD by 5%."
+    },
+    "voiceLines": {
+      "summon": "I know every shortcut in these tunnels.",
+      "lowHp": "Guess I ran into the wrong corner.",
+      "ultimate": "Eyes up\u2014targets marked!",
+      "death": "Should\u2019ve\u2026 stayed in the shadows\u2026"
+    }
+  },
+  {
+    "id": "HERO_INF_R1_TUNNEL_RAT",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 65,
+      "def": 40,
+      "hp": 650,
+      "spd": 94
+    },
+    "growth": {
+      "atk": 0.9,
+      "def": 0.9,
+      "hp": 0.95,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_INF_R1_TR_BASIC",
+      "SK_INF_R1_TR_SKILL",
+      "SKL_ANNIHILATION"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R1_MUTANT_SCOUT",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 55,
+      "def": 45,
+      "hp": 700,
+      "spd": 92
+    },
+    "growth": {
+      "atk": 0.88,
+      "def": 0.92,
+      "hp": 0.96,
+      "spd": 0.97
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_INF_R1_MS_BASIC",
+      "SK_INF_R1_MS_SKILL",
+      "SKL_FLASH_STRIKE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R1_SPORE_RUNNER",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 70,
+      "def": 38,
+      "hp": 600,
+      "spd": 96
+    },
+    "growth": {
+      "atk": 0.92,
+      "def": 0.89,
+      "hp": 0.94,
+      "spd": 0.99
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_INF_R1_SR_BASIC",
+      "SK_INF_R1_SR_SKILL",
+      "SKL_DARK_PACT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R1_CORRIDOR_WISP",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 50,
+      "def": 42,
+      "hp": 620,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 0.87,
+      "def": 0.9,
+      "hp": 0.95,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_INF_R1_CW_BASIC",
+      "SK_INF_R1_CW_SKILL",
+      "SKL_THUNDERCLAP"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R1_MOLDLING",
+    "rarity": 1,
+    "role": "Tank",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 45,
+      "def": 55,
+      "hp": 780,
+      "spd": 90
+    },
+    "growth": {
+      "atk": 0.85,
+      "def": 0.94,
+      "hp": 0.98,
+      "spd": 0.96
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_INF_R1_MD_BASIC",
+      "SK_INF_R1_MD_SKILL",
+      "SKL_FORTIFY"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R1_MYSTIC_INITIATE",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 55,
+      "def": 48,
+      "hp": 640,
+      "spd": 93
+    },
+    "growth": {
+      "atk": 0.88,
+      "def": 0.91,
+      "hp": 0.96,
+      "spd": 0.97
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_CE_R1_MI_BASIC",
+      "SK_CE_R1_MI_SKILL",
+      "SKL_GUILLOTINE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R1_GENE_ACOLYTE",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 68,
+      "def": 42,
+      "hp": 600,
+      "spd": 96
+    },
+    "growth": {
+      "atk": 0.91,
+      "def": 0.89,
+      "hp": 0.93,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_CE_R1_GA_BASIC",
+      "SK_CE_R1_GA_SKILL",
+      "SKL_PRIMAL_ROAR"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R1_METAMORPH_WHELP",
+    "rarity": 1,
+    "role": "Tank",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 45,
+      "def": 58,
+      "hp": 780,
+      "spd": 91
+    },
+    "growth": {
+      "atk": 0.85,
+      "def": 0.95,
+      "hp": 0.99,
+      "spd": 0.96
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_CE_R1_MW_BASIC",
+      "SK_CE_R1_MW_SKILL",
+      "SKL_ASTRAL_PROJECTION"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R1_RUNE_RUNNER",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 72,
+      "def": 40,
+      "hp": 590,
+      "spd": 97
+    },
+    "growth": {
+      "atk": 0.92,
+      "def": 0.88,
+      "hp": 0.92,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_CE_R1_RR_BASIC",
+      "SK_CE_R1_RR_SKILL",
+      "SKL_PLAGUE_STRIKE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R1_SYMBIOTE_NOVICE",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 50,
+      "def": 48,
+      "hp": 660,
+      "spd": 92
+    },
+    "growth": {
+      "atk": 0.87,
+      "def": 0.9,
+      "hp": 0.95,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_CE_R1_SN_BASIC",
+      "SK_CE_R1_SN_SKILL",
+      "SKL_CELESTIAL_BEAM"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R2_MUTATION_SCOUT",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 95,
+      "def": 60,
+      "hp": 980,
+      "spd": 104
+    },
+    "growth": {
+      "atk": 1.15,
+      "def": 1.05,
+      "hp": 1.1,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_INF_R2_MS_BASIC",
+      "SK_INF_R2_MS_SKILL",
+      "SKL_TOXIC_RAIN"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R2_TUNNEL_GHOUL",
+    "rarity": 2,
+    "role": "Tank",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 78,
+      "def": 80,
+      "hp": 1250,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.12,
+      "def": 1.15,
+      "hp": 1.18,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_INF_R2_TG_BASIC",
+      "SK_INF_R2_TG_SKILL",
+      "SKL_SPIRIT_SLASH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R2_SPORE_SCOUT",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 82,
+      "def": 62,
+      "hp": 1020,
+      "spd": 103
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.07,
+      "hp": 1.12,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_INF_R2_SS_BASIC",
+      "SK_INF_R2_SS_SKILL",
+      "SKL_COSMIC_STORM"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R2_WASTE_RUNNER",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 100,
+      "def": 55,
+      "hp": 900,
+      "spd": 108
+    },
+    "growth": {
+      "atk": 1.18,
+      "def": 1.03,
+      "hp": 1.08,
+      "spd": 1.04
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_INF_R2_WR_BASIC",
+      "SK_INF_R2_WR_SKILL",
+      "SKL_RAGE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_INF_R2_CORRIDOR_HAUNT",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 75,
+      "def": 70,
+      "hp": 1100,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.08,
+      "hp": 1.14,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_INF_R2_CH_BASIC",
+      "SK_INF_R2_CH_SKILL",
+      "SKL_HEALING_RAIN"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R2_GENE_APPRENTICE",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 85,
+      "def": 60,
+      "hp": 1020,
+      "spd": 104
+    },
+    "growth": {
+      "atk": 1.12,
+      "def": 1.06,
+      "hp": 1.11,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_CE_R2_GA_BASIC",
+      "SK_CE_R2_GA_SKILL",
+      "SKL_OBLITERATE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R2_RUNE_NOVICE",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 105,
+      "def": 55,
+      "hp": 920,
+      "spd": 110
+    },
+    "growth": {
+      "atk": 1.17,
+      "def": 1.04,
+      "hp": 1.08,
+      "spd": 1.06
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_CE_R2_RN_BASIC",
+      "SK_CE_R2_RN_SKILL",
+      "SKL_VOID_RIFT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R2_MUTATION_WHELP",
+    "rarity": 2,
+    "role": "Tank",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 78,
+      "def": 82,
+      "hp": 1280,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.16,
+      "hp": 1.19,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_CE_R2_MW_BASIC",
+      "SK_CE_R2_MW_SKILL",
+      "SKL_EMPOWER"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R2_RITUAL_CUTTER",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 108,
+      "def": 52,
+      "hp": 880,
+      "spd": 108
+    },
+    "growth": {
+      "atk": 1.18,
+      "def": 1.02,
+      "hp": 1.07,
+      "spd": 1.05
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_CE_R2_RC_BASIC",
+      "SK_CE_R2_RC_SKILL",
+      "SKL_SUNBURST"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_CE_R2_SYMBIOTE_APPRENTICE",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "Chimeric Embrace",
+    "baseStats": {
+      "atk": 80,
+      "def": 66,
+      "hp": 1080,
+      "spd": 101
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.07,
+      "hp": 1.12,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_CE_R2_SA_BASIC",
+      "SK_CE_R2_SA_SKILL",
+      "SKL_SHADOW_STEP"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R2_PIPEWAY_SCOUT",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 100,
+      "def": 58,
+      "hp": 960,
+      "spd": 107
+    },
+    "growth": {
+      "atk": 1.16,
+      "def": 1.05,
+      "hp": 1.1,
+      "spd": 1.04
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UND_R2_PS_BASIC",
+      "SK_UND_R2_PS_SKILL",
+      "SKL_GLACIAL_TOMB"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R2_RAIL_GUARD",
+    "rarity": 2,
+    "role": "Tank",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 80,
+      "def": 82,
+      "hp": 1300,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.17,
+      "hp": 1.2,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UND_R2_RG_BASIC",
+      "SK_UND_R2_RG_SKILL",
+      "SKL_FURY_SWIPES"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R2_GRAFF_TI_RIPPER",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 108,
+      "def": 54,
+      "hp": 880,
+      "spd": 110
+    },
+    "growth": {
+      "atk": 1.19,
+      "def": 1.03,
+      "hp": 1.06,
+      "spd": 1.06
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UND_R2_GR_BASIC",
+      "SK_UND_R2_GR_SKILL",
+      "SKL_ARCANE_TORRENT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R2_SUPPLY_RUNNER",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 85,
+      "def": 66,
+      "hp": 1050,
+      "spd": 104
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.07,
+      "hp": 1.11,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UND_R2_SR_BASIC",
+      "SK_UND_R2_SR_SKILL",
+      "SKL_LAST_STAND"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R2_CORRIDOR_LOOKOUT",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 80,
+      "def": 65,
+      "hp": 990,
+      "spd": 103
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.07,
+      "hp": 1.12,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UND_R2_CL_BASIC",
+      "SK_UND_R2_CL_SKILL",
+      "SKL_TEMPEST"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R1_PIPEWAY_RAT",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 68,
+      "def": 38,
+      "hp": 640,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 0.9,
+      "def": 0.88,
+      "hp": 0.94,
+      "spd": 0.99
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UND_R1_PR_BASIC",
+      "SK_UND_R1_PR_SKILL",
+      "SKL_RESTORE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R1_RAILWAY_RUNNER",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 56,
+      "def": 42,
+      "hp": 680,
+      "spd": 94
+    },
+    "growth": {
+      "atk": 0.87,
+      "def": 0.9,
+      "hp": 0.96,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UND_R1_RR_BASIC",
+      "SK_UND_R1_RR_SKILL",
+      "SKL_DECIMATE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R1_TUNNEL_SWEEPER",
+    "rarity": 1,
+    "role": "Tank",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 48,
+      "def": 55,
+      "hp": 780,
+      "spd": 90
+    },
+    "growth": {
+      "atk": 0.85,
+      "def": 0.94,
+      "hp": 0.99,
+      "spd": 0.95
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UND_R1_TS_BASIC",
+      "SK_UND_R1_TS_SKILL",
+      "SKL_HOLY_FIRE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R1_BRICKTHROW_KID",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 72,
+      "def": 36,
+      "hp": 620,
+      "spd": 97
+    },
+    "growth": {
+      "atk": 0.92,
+      "def": 0.87,
+      "hp": 0.95,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UND_R1_BK_BASIC",
+      "SK_UND_R1_BK_SKILL",
+      "SKL_BONE_CRUSH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UND_R1_FADE_WALKER",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "Undercity",
+    "baseStats": {
+      "atk": 54,
+      "def": 44,
+      "hp": 650,
+      "spd": 96
+    },
+    "growth": {
+      "atk": 0.88,
+      "def": 0.9,
+      "hp": 0.95,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UND_R1_FW_BASIC",
+      "SK_UND_R1_FW_SKILL",
+      "SKL_AURORA"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R1_FRESHMAN_SCOUT",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 55,
+      "def": 42,
+      "hp": 660,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 0.88,
+      "def": 0.9,
+      "hp": 0.96,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UD_R1_FS_BASIC",
+      "SK_UD_R1_FS_SKILL",
+      "SKL_CATACLYSM"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R1_LOST_STUDENT",
+    "rarity": 1,
+    "role": "Tank",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 50,
+      "def": 54,
+      "hp": 780,
+      "spd": 90
+    },
+    "growth": {
+      "atk": 0.86,
+      "def": 0.94,
+      "hp": 0.99,
+      "spd": 0.95
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UD_R1_LS_BASIC",
+      "SK_UD_R1_LS_SKILL",
+      "SKL_REAPER_SCYTHE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R1_STUDY_CRAWLER",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 70,
+      "def": 38,
+      "hp": 600,
+      "spd": 97
+    },
+    "growth": {
+      "atk": 0.9,
+      "def": 0.87,
+      "hp": 0.94,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UD_R1_SC_BASIC",
+      "SK_UD_R1_SC_SKILL",
+      "SKL_FROSTBITE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R1_CAMPUS_ASSISTANT",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 53,
+      "def": 45,
+      "hp": 685,
+      "spd": 94
+    },
+    "growth": {
+      "atk": 0.87,
+      "def": 0.9,
+      "hp": 0.96,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UD_R1_CA_BASIC",
+      "SK_UD_R1_CA_SKILL",
+      "SKL_VALOR"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R1_LIBRARY_RUNNER",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 72,
+      "def": 37,
+      "hp": 610,
+      "spd": 96
+    },
+    "growth": {
+      "atk": 0.92,
+      "def": 0.87,
+      "hp": 0.94,
+      "spd": 0.99
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UD_R1_LR_BASIC",
+      "SK_UD_R1_LR_SKILL",
+      "SKL_NIGHTMARE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R1_FAITH_INITIATE",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 54,
+      "def": 46,
+      "hp": 670,
+      "spd": 94
+    },
+    "growth": {
+      "atk": 0.87,
+      "def": 0.9,
+      "hp": 0.96,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_PSF_R1_FI_BASIC",
+      "SK_PSF_R1_FI_SKILL",
+      "SKL_APOCALYPSE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R1_BANNER_HOPEFUL",
+    "rarity": 1,
+    "role": "Tank",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 48,
+      "def": 55,
+      "hp": 790,
+      "spd": 90
+    },
+    "growth": {
+      "atk": 0.86,
+      "def": 0.94,
+      "hp": 0.99,
+      "spd": 0.95
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_PSF_R1_BH_BASIC",
+      "SK_PSF_R1_BH_SKILL",
+      "SKL_CRIMSON_WAVE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R1_PURITY_JUNIOR",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 56,
+      "def": 43,
+      "hp": 650,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 0.88,
+      "def": 0.9,
+      "hp": 0.95,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_PSF_R1_PJ_BASIC",
+      "SK_PSF_R1_PJ_SKILL",
+      "SKL_FROST_PRISON"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R1_STREET_PREACHLING",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 70,
+      "def": 38,
+      "hp": 620,
+      "spd": 96
+    },
+    "growth": {
+      "atk": 0.9,
+      "def": 0.87,
+      "hp": 0.94,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_PSF_R1_SP_BASIC",
+      "SK_PSF_R1_SP_SKILL",
+      "SKL_SEISMIC_SLAM"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R1_HOLY_OBSERVER",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 52,
+      "def": 45,
+      "hp": 660,
+      "spd": 94
+    },
+    "growth": {
+      "atk": 0.87,
+      "def": 0.9,
+      "hp": 0.96,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_PSF_R1_HO_BASIC",
+      "SK_PSF_R1_HO_SKILL",
+      "SKL_DIVINE_SHIELD"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R1_LAB_SWEEPER",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 68,
+      "def": 40,
+      "hp": 640,
+      "spd": 96
+    },
+    "growth": {
+      "atk": 0.9,
+      "def": 0.88,
+      "hp": 0.94,
+      "spd": 0.99
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KT_R1_LS_BASIC",
+      "SK_KT_R1_LS_SKILL",
+      "SKL_VENOMOUS_FANG"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R1_SECURITY_TRAINEE",
+    "rarity": 1,
+    "role": "Tank",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 48,
+      "def": 55,
+      "hp": 780,
+      "spd": 91
+    },
+    "growth": {
+      "atk": 0.86,
+      "def": 0.94,
+      "hp": 0.99,
+      "spd": 0.96
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KT_R1_ST_BASIC",
+      "SK_KT_R1_ST_SKILL",
+      "SKL_TEMPORAL_SHIFT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R1_LAB_ERRANDER",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 55,
+      "def": 45,
+      "hp": 670,
+      "spd": 93
+    },
+    "growth": {
+      "atk": 0.88,
+      "def": 0.9,
+      "hp": 0.96,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KT_R1_LE_BASIC",
+      "SK_KT_R1_LE_SKILL",
+      "SKL_VOID_LANCE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R1_HALLWAY_OBSERVER",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 52,
+      "def": 44,
+      "hp": 650,
+      "spd": 94
+    },
+    "growth": {
+      "atk": 0.87,
+      "def": 0.9,
+      "hp": 0.96,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KT_R1_HO_BASIC",
+      "SK_KT_R1_HO_SKILL",
+      "SKL_HELLFIRE_RAIN"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R1_LAB_JANITOR",
+    "rarity": 1,
+    "role": "Tank",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 46,
+      "def": 56,
+      "hp": 800,
+      "spd": 90
+    },
+    "growth": {
+      "atk": 0.85,
+      "def": 0.95,
+      "hp": 1.0,
+      "spd": 0.95
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KT_R1_LJ_BASIC",
+      "SK_KT_R1_LJ_SKILL",
+      "SKL_SOUL_DRAIN"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R1_NERVE_SPARK",
+    "rarity": 1,
+    "role": "DPS",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 70,
+      "def": 37,
+      "hp": 600,
+      "spd": 97
+    },
+    "growth": {
+      "atk": 0.91,
+      "def": 0.87,
+      "hp": 0.94,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KTT_R1_NS_BASIC",
+      "SK_KTT_R1_NS_SKILL",
+      "SKL_GLACIAL_SPIKE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R1_CORRIDOR_WAILER",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 54,
+      "def": 44,
+      "hp": 650,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 0.88,
+      "def": 0.9,
+      "hp": 0.96,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KTT_R1_CW_BASIC",
+      "SK_KTT_R1_CW_SKILL",
+      "SKL_CHAIN_LIGHTNING"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R1_FAILED_PULSE",
+    "rarity": 1,
+    "role": "Tank",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 46,
+      "def": 56,
+      "hp": 790,
+      "spd": 90
+    },
+    "growth": {
+      "atk": 0.85,
+      "def": 0.95,
+      "hp": 0.99,
+      "spd": 0.95
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KTT_R1_FP_BASIC",
+      "SK_KTT_R1_FP_SKILL",
+      "SKL_HOLY_JUDGMENT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R1_ECHO_SHIVER",
+    "rarity": 1,
+    "role": "Support",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 52,
+      "def": 45,
+      "hp": 660,
+      "spd": 94
+    },
+    "growth": {
+      "atk": 0.87,
+      "def": 0.9,
+      "hp": 0.95,
+      "spd": 0.98
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KTT_R1_ES_BASIC",
+      "SK_KTT_R1_ES_SKILL",
+      "SKL_PLAGUE_CLOUD"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R1_CONTAINMENT_CRAWLER",
+    "rarity": 1,
+    "role": "Tank",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 47,
+      "def": 56,
+      "hp": 800,
+      "spd": 89
+    },
+    "growth": {
+      "atk": 0.85,
+      "def": 0.95,
+      "hp": 1.0,
+      "spd": 0.95
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KTT_R1_CC_BASIC",
+      "SK_KTT_R1_CC_SKILL",
+      "SKL_REJUVENATION"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R2_CAMPUS_PATROLLER",
+    "rarity": 2,
+    "role": "Tank",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 82,
+      "def": 82,
+      "hp": 1300,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.16,
+      "hp": 1.19,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UD_R2_CP_BASIC",
+      "SK_UD_R2_CP_SKILL",
+      "SKL_METEOR_STRIKE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R2_LIBRARY_KEEPER",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 83,
+      "def": 66,
+      "hp": 1040,
+      "spd": 103
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.07,
+      "hp": 1.12,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UD_R2_LK_BASIC",
+      "SK_UD_R2_LK_SKILL",
+      "SKL_SHADOW_DANCE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R2_LAB_RUNNER",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 108,
+      "def": 56,
+      "hp": 900,
+      "spd": 110
+    },
+    "growth": {
+      "atk": 1.17,
+      "def": 1.04,
+      "hp": 1.09,
+      "spd": 1.05
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UD_R2_LR_BASIC",
+      "SK_UD_R2_LR_SKILL",
+      "SKL_IRON_FORTRESS"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R2_SEMINAR_APPRENTICE",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 85,
+      "def": 62,
+      "hp": 1020,
+      "spd": 104
+    },
+    "growth": {
+      "atk": 1.12,
+      "def": 1.06,
+      "hp": 1.11,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UD_R2_SA_BASIC",
+      "SK_UD_R2_SA_SKILL",
+      "SKL_ARCANE_MISSILES"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_UD_R2_DORM_FIGHTER",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "University District",
+    "baseStats": {
+      "atk": 107,
+      "def": 54,
+      "hp": 890,
+      "spd": 109
+    },
+    "growth": {
+      "atk": 1.18,
+      "def": 1.03,
+      "hp": 1.08,
+      "spd": 1.04
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_UD_R2_DF_BASIC",
+      "SK_UD_R2_DF_SKILL",
+      "SKL_EARTHQUAKE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R2_BANNER_SCOUT",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 84,
+      "def": 63,
+      "hp": 1030,
+      "spd": 102
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.06,
+      "hp": 1.11,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_PSF_R2_BS_BASIC",
+      "SK_PSF_R2_BS_SKILL",
+      "SKL_BLESSING_OF_LIGHT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R2_STREET_FAITHFUL",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 110,
+      "def": 54,
+      "hp": 880,
+      "spd": 110
+    },
+    "growth": {
+      "atk": 1.19,
+      "def": 1.03,
+      "hp": 1.06,
+      "spd": 1.06
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_PSF_R2_SF_BASIC",
+      "SK_PSF_R2_SF_SKILL",
+      "SKL_BLOOD_RITUAL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R2_PURGE_GUARD",
+    "rarity": 2,
+    "role": "Tank",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 80,
+      "def": 84,
+      "hp": 1320,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.17,
+      "hp": 1.2,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_PSF_R2_PG_BASIC",
+      "SK_PSF_R2_PG_SKILL",
+      "SKL_TYPHOON"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R2_SALVATION_CRYER",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 83,
+      "def": 66,
+      "hp": 1045,
+      "spd": 103
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.07,
+      "hp": 1.11,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_PSF_R2_SC_BASIC",
+      "SK_PSF_R2_SC_SKILL",
+      "SKL_CURSED_TOUCH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_PSF_R2_PURITY_DEFENDER",
+    "rarity": 2,
+    "role": "Tank",
+    "faction": "Purity Salvation Front",
+    "baseStats": {
+      "atk": 78,
+      "def": 82,
+      "hp": 1285,
+      "spd": 99
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.15,
+      "hp": 1.19,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_PSF_R2_PD_BASIC",
+      "SK_PSF_R2_PD_SKILL",
+      "SKL_PHOENIX_REBIRTH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R2_SECURITY_TRAINEE",
+    "rarity": 2,
+    "role": "Tank",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 82,
+      "def": 84,
+      "hp": 1320,
+      "spd": 98
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.17,
+      "hp": 1.2,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KT_R2_ST_BASIC",
+      "SK_KT_R2_ST_SKILL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R2_LAB_ASSISTANT",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 84,
+      "def": 64,
+      "hp": 1040,
+      "spd": 102
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.06,
+      "hp": 1.11,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KT_R2_LA_BASIC",
+      "SK_KT_R2_LA_SKILL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R2_RESEARCH_RUNNER",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 112,
+      "def": 52,
+      "hp": 860,
+      "spd": 111
+    },
+    "growth": {
+      "atk": 1.19,
+      "def": 1.02,
+      "hp": 1.06,
+      "spd": 1.06
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KT_R2_RR_BASIC",
+      "SK_KT_R2_RR_SKILL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R2_TEST_TUBE_GUARD",
+    "rarity": 2,
+    "role": "Tank",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 80,
+      "def": 83,
+      "hp": 1290,
+      "spd": 99
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.16,
+      "hp": 1.19,
+      "spd": 1.01
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KT_R2_TTG_BASIC",
+      "SK_KT_R2_TTG_SKILL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KT_R2_LAB_SENTINEL",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 86,
+      "def": 66,
+      "hp": 1060,
+      "spd": 101
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.07,
+      "hp": 1.12,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KT_R2_LS_BASIC",
+      "SK_KT_R2_LS_SKILL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R2_PULSE_RUNNER",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 112,
+      "def": 52,
+      "hp": 870,
+      "spd": 112
+    },
+    "growth": {
+      "atk": 1.2,
+      "def": 1.02,
+      "hp": 1.06,
+      "spd": 1.07
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KTT_R2_PR_BASIC",
+      "SK_KTT_R2_PR_SKILL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R2_CORRIDOR_SHIVER",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 85,
+      "def": 64,
+      "hp": 1020,
+      "spd": 104
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.06,
+      "hp": 1.11,
+      "spd": 1.03
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KTT_R2_CS_BASIC",
+      "SK_KTT_R2_CS_SKILL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R2_FAILED_CLONE",
+    "rarity": 2,
+    "role": "Tank",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 78,
+      "def": 84,
+      "hp": 1340,
+      "spd": 97
+    },
+    "growth": {
+      "atk": 1.1,
+      "def": 1.17,
+      "hp": 1.21,
+      "spd": 1.0
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KTT_R2_FC_BASIC",
+      "SK_KTT_R2_FC_SKILL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R2_ECHO_SHADOW",
+    "rarity": 2,
+    "role": "Support",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 82,
+      "def": 66,
+      "hp": 1040,
+      "spd": 103
+    },
+    "growth": {
+      "atk": 1.11,
+      "def": 1.07,
+      "hp": 1.11,
+      "spd": 1.02
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KTT_R2_ES_BASIC",
+      "SK_KTT_R2_ES_SKILL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  },
+  {
+    "id": "HERO_KTT_R2_CONTAINMENT_RUNNER",
+    "rarity": 2,
+    "role": "DPS",
+    "faction": "KingsTech Test Subject",
+    "baseStats": {
+      "atk": 110,
+      "def": 53,
+      "hp": 890,
+      "spd": 110
+    },
+    "growth": {
+      "atk": 1.18,
+      "def": 1.03,
+      "hp": 1.07,
+      "spd": 1.06
+    },
+    "equipSlots": [
+      "weapon",
+      "armor"
+    ],
+    "skills": [
+      "SK_KTT_R2_CR_BASIC",
+      "SK_KTT_R2_CR_SKILL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": null,
+    "voiceLines": {}
+  }
+]

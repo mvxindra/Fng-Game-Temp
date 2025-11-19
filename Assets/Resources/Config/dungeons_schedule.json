@@ -1,0 +1,205 @@
+[
+  {
+    "id": "ROTATE_CRYPT_I",
+    "start": "2025-11-14T00:00:00Z",
+    "end": "2025-11-21T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_CRYPT_I_NORMAL",
+      "DUNGEON_CRYPT_I_HARD",
+      "DUNGEON_CRYPT_I_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_CRYPT_II",
+    "start": "2025-11-21T00:00:00Z",
+    "end": "2025-11-28T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_CRYPT_II_NORMAL",
+      "DUNGEON_CRYPT_II_HARD",
+      "DUNGEON_CRYPT_II_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_ABYSS_GATE_I",
+    "start": "2025-11-28T00:00:00Z",
+    "end": "2025-12-05T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_ABYSS_GATE_I_NORMAL",
+      "DUNGEON_ABYSS_GATE_I_HARD",
+      "DUNGEON_ABYSS_GATE_I_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_ABYSS_GATE_II",
+    "start": "2025-12-05T00:00:00Z",
+    "end": "2025-12-12T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_ABYSS_GATE_II_NORMAL",
+      "DUNGEON_ABYSS_GATE_II_HARD",
+      "DUNGEON_ABYSS_GATE_II_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_SHATTERED_TOWER_I",
+    "start": "2025-12-12T00:00:00Z",
+    "end": "2025-12-19T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_SHATTERED_TOWER_I_NORMAL",
+      "DUNGEON_SHATTERED_TOWER_I_HARD",
+      "DUNGEON_SHATTERED_TOWER_I_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_SHATTERED_TOWER_II",
+    "start": "2025-12-19T00:00:00Z",
+    "end": "2025-12-26T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_SHATTERED_TOWER_II_NORMAL",
+      "DUNGEON_SHATTERED_TOWER_II_HARD",
+      "DUNGEON_SHATTERED_TOWER_II_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_CHIMERA_NEST_I",
+    "start": "2025-12-26T00:00:00Z",
+    "end": "2026-01-02T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_CHIMERA_NEST_I_NORMAL",
+      "DUNGEON_CHIMERA_NEST_I_HARD",
+      "DUNGEON_CHIMERA_NEST_I_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_CHIMERA_NEST_II",
+    "start": "2026-01-02T00:00:00Z",
+    "end": "2026-01-09T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_CHIMERA_NEST_II_NORMAL",
+      "DUNGEON_CHIMERA_NEST_II_HARD",
+      "DUNGEON_CHIMERA_NEST_II_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_VOID_RIFT_I",
+    "start": "2026-01-09T00:00:00Z",
+    "end": "2026-01-16T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_VOID_RIFT_I_NORMAL",
+      "DUNGEON_VOID_RIFT_I_HARD",
+      "DUNGEON_VOID_RIFT_I_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_VOID_RIFT_II",
+    "start": "2026-01-16T00:00:00Z",
+    "end": "2026-01-23T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_VOID_RIFT_II_NORMAL",
+      "DUNGEON_VOID_RIFT_II_HARD",
+      "DUNGEON_VOID_RIFT_II_NIGHTMARE"
+    ]
+  },
+
+  /*  REPEAT THE CYCLE THROUGHOUT THE YEAR  */
+
+  {
+    "id": "ROTATE_CRYPT_I_2",
+    "start": "2026-01-23T00:00:00Z",
+    "end": "2026-01-30T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_CRYPT_I_NORMAL",
+      "DUNGEON_CRYPT_I_HARD",
+      "DUNGEON_CRYPT_I_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_CRYPT_II_2",
+    "start": "2026-01-30T00:00:00Z",
+    "end": "2026-02-06T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_CRYPT_II_NORMAL",
+      "DUNGEON_CRYPT_II_HARD",
+      "DUNGEON_CRYPT_II_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_ABYSS_GATE_I_2",
+    "start": "2026-02-06T00:00:00Z",
+    "end": "2026-02-13T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_ABYSS_GATE_I_NORMAL",
+      "DUNGEON_ABYSS_GATE_I_HARD",
+      "DUNGEON_ABYSS_GATE_I_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_ABYSS_GATE_II_2",
+    "start": "2026-02-13T00:00:00Z",
+    "end": "2026-02-20T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_ABYSS_GATE_II_NORMAL",
+      "DUNGEON_ABYSS_GATE_II_HARD",
+      "DUNGEON_ABYSS_GATE_II_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_SHATTERED_TOWER_I_2",
+    "start": "2026-02-20T00:00:00Z",
+    "end": "2026-02-27T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_SHATTERED_TOWER_I_NORMAL",
+      "DUNGEON_SHATTERED_TOWER_I_HARD",
+      "DUNGEON_SHATTERED_TOWER_I_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_SHATTERED_TOWER_II_2",
+    "start": "2026-02-27T00:00:00Z",
+    "end": "2026-03-06T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_SHATTERED_TOWER_II_NORMAL",
+      "DUNGEON_SHATTERED_TOWER_II_HARD",
+      "DUNGEON_SHATTERED_TOWER_II_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_CHIMERA_NEST_I_2",
+    "start": "2026-03-06T00:00:00Z",
+    "end": "2026-03-13T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_CHIMERA_NEST_I_NORMAL",
+      "DUNGEON_CHIMERA_NEST_I_HARD",
+      "DUNGEON_CHIMERA_NEST_I_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_CHIMERA_NEST_II_2",
+    "start": "2026-03-13T00:00:00Z",
+    "end": "2026-03-20T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_CHIMERA_NEST_II_NORMAL",
+      "DUNGEON_CHIMERA_NEST_II_HARD",
+      "DUNGEON_CHIMERA_NEST_II_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_VOID_RIFT_I_2",
+    "start": "2026-03-20T00:00:00Z",
+    "end": "2026-03-27T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_VOID_RIFT_I_NORMAL",
+      "DUNGEON_VOID_RIFT_I_HARD",
+      "DUNGEON_VOID_RIFT_I_NIGHTMARE"
+    ]
+  },
+  {
+    "id": "ROTATE_VOID_RIFT_II_2",
+    "start": "2026-03-27T00:00:00Z",
+    "end": "2026-04-03T00:00:00Z",
+    "dungeons": [
+      "DUNGEON_VOID_RIFT_II_NORMAL",
+      "DUNGEON_VOID_RIFT_II_HARD",
+      "DUNGEON_VOID_RIFT_II_NIGHTMARE"
+    ]
+  }
+]

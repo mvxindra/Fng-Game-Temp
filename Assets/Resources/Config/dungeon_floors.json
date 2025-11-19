@@ -1,0 +1,3982 @@
+[
+  {
+    "floor": 1,
+    "power_required": 1500,
+    "stamina_cost": 10,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Low",
+    "first_time_rewards": {
+      "gold": 5200,
+      "gems": 60,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_01",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F1",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F1",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F1",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 2,
+    "power_required": 2375,
+    "stamina_cost": 10,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Low",
+    "first_time_rewards": {
+      "gold": 5400,
+      "gems": 60,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_02",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F2",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F2",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F2",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 3,
+    "power_required": 3250,
+    "stamina_cost": 10,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Low",
+    "first_time_rewards": {
+      "gold": 5600,
+      "gems": 60,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_03",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F3",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F3",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F3",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 4,
+    "power_required": 4125,
+    "stamina_cost": 10,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Low",
+    "first_time_rewards": {
+      "gold": 5800,
+      "gems": 60,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_04",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F4",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F4",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F4",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 5,
+    "power_required": 5000,
+    "stamina_cost": 10,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Low",
+    "first_time_rewards": {
+      "gold": 6000,
+      "gems": 65,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_05",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F5",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F5",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F5",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 6,
+    "power_required": 8000,
+    "stamina_cost": 12,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Low-Mid",
+    "first_time_rewards": {
+      "gold": 6200,
+      "gems": 65,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_06",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F6",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F6",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F6",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 7,
+    "power_required": 9750,
+    "stamina_cost": 12,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Low-Mid",
+    "first_time_rewards": {
+      "gold": 6400,
+      "gems": 65,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_07",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F7",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F7",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F7",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 8,
+    "power_required": 11500,
+    "stamina_cost": 12,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Low-Mid",
+    "first_time_rewards": {
+      "gold": 6600,
+      "gems": 65,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_08",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F8",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F8",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F8",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 9,
+    "power_required": 13250,
+    "stamina_cost": 12,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Low-Mid",
+    "first_time_rewards": {
+      "gold": 6800,
+      "gems": 65,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_09",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F9",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F9",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F9",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 5
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 10,
+    "power_required": 15000,
+    "stamina_cost": 12,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Low-Mid",
+    "first_time_rewards": {
+      "gold": 7000,
+      "gems": 70,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": true,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_10",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F10",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F10",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F10",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_IRON_ORE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      }
+    ],
+    "milestone_reward": {
+      "gems": 250,
+      "description": "Complete all challenges in Floors 1-10",
+      "unlocked": false
+    }
+  },
+  {
+    "floor": 11,
+    "power_required": 23000,
+    "stamina_cost": 14,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mid",
+    "first_time_rewards": {
+      "gold": 7200,
+      "gems": 70,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_11",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F11",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F11",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F11",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 12,
+    "power_required": 28250,
+    "stamina_cost": 14,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mid",
+    "first_time_rewards": {
+      "gold": 7400,
+      "gems": 70,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_12",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F12",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F12",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F12",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 13,
+    "power_required": 33500,
+    "stamina_cost": 14,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mid",
+    "first_time_rewards": {
+      "gold": 7600,
+      "gems": 70,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_13",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F13",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F13",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F13",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 14,
+    "power_required": 38750,
+    "stamina_cost": 14,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mid",
+    "first_time_rewards": {
+      "gold": 7800,
+      "gems": 70,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_14",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F14",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F14",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F14",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 15,
+    "power_required": 44000,
+    "stamina_cost": 14,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mid",
+    "first_time_rewards": {
+      "gold": 8000,
+      "gems": 75,
+      "rare_materials": false
+    },
+    "modifiers": [],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_15",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F15",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F15",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F15",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 16,
+    "power_required": 54000,
+    "stamina_cost": 16,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mid-High",
+    "first_time_rewards": {
+      "gold": 8200,
+      "gems": 75,
+      "rare_materials": false
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_16",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F16",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F16",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F16",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 17,
+    "power_required": 59250,
+    "stamina_cost": 16,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mid-High",
+    "first_time_rewards": {
+      "gold": 8400,
+      "gems": 75,
+      "rare_materials": false
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_17",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F17",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F17",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F17",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 18,
+    "power_required": 64500,
+    "stamina_cost": 16,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mid-High",
+    "first_time_rewards": {
+      "gold": 8600,
+      "gems": 75,
+      "rare_materials": false
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_18",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F18",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F18",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F18",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 19,
+    "power_required": 69750,
+    "stamina_cost": 16,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mid-High",
+    "first_time_rewards": {
+      "gold": 8800,
+      "gems": 75,
+      "rare_materials": false
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_19",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F19",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F19",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F19",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 10
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 20,
+    "power_required": 75000,
+    "stamina_cost": 16,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mid-High",
+    "first_time_rewards": {
+      "gold": 9000,
+      "gems": 80,
+      "rare_materials": false
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": true,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_20",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F20",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F20",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F20",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DRAGON_SCALE",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      }
+    ],
+    "milestone_reward": {
+      "gems": 250,
+      "description": "Complete all challenges in Floors 11-20",
+      "unlocked": false
+    }
+  },
+  {
+    "floor": 21,
+    "power_required": 75000,
+    "stamina_cost": 18,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "High",
+    "first_time_rewards": {
+      "gold": 9200,
+      "gems": 80,
+      "rare_materials": false
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_21",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F21",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F21",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F21",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 22,
+    "power_required": 77750,
+    "stamina_cost": 18,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "High",
+    "first_time_rewards": {
+      "gold": 9400,
+      "gems": 80,
+      "rare_materials": false
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_22",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F22",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F22",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F22",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 23,
+    "power_required": 80500,
+    "stamina_cost": 18,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "High",
+    "first_time_rewards": {
+      "gold": 9600,
+      "gems": 80,
+      "rare_materials": false
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_23",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F23",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F23",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F23",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 24,
+    "power_required": 83250,
+    "stamina_cost": 18,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "High",
+    "first_time_rewards": {
+      "gold": 9800,
+      "gems": 80,
+      "rare_materials": false
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_24",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F24",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F24",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F24",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 25,
+    "power_required": 86000,
+    "stamina_cost": 18,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "High",
+    "first_time_rewards": {
+      "gold": 10000,
+      "gems": 85,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "swamp",
+    "enemy_pool_id": "FLOOR_25",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F25",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F25",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F25",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 26,
+    "power_required": 86000,
+    "stamina_cost": 20,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Elite",
+    "first_time_rewards": {
+      "gold": 10200,
+      "gems": 85,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_26",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F26",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F26",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F26",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 27,
+    "power_required": 91250,
+    "stamina_cost": 20,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Elite",
+    "first_time_rewards": {
+      "gold": 10400,
+      "gems": 85,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_27",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F27",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F27",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F27",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 28,
+    "power_required": 96500,
+    "stamina_cost": 20,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Elite",
+    "first_time_rewards": {
+      "gold": 10600,
+      "gems": 85,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_28",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F28",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F28",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F28",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 29,
+    "power_required": 101750,
+    "stamina_cost": 20,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Elite",
+    "first_time_rewards": {
+      "gold": 10800,
+      "gems": 85,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_29",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F29",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F29",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F29",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 15
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 30,
+    "power_required": 107000,
+    "stamina_cost": 20,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Elite",
+    "first_time_rewards": {
+      "gold": 11000,
+      "gems": 90,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": true,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_30",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F30",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F30",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F30",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_DEMON_HORN",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      }
+    ],
+    "milestone_reward": {
+      "gems": 250,
+      "description": "Complete all challenges in Floors 21-30",
+      "unlocked": false
+    }
+  },
+  {
+    "floor": 31,
+    "power_required": 107000,
+    "stamina_cost": 22,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Elite",
+    "first_time_rewards": {
+      "gold": 11200,
+      "gems": 90,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_31",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F31",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F31",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F31",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 32,
+    "power_required": 112250,
+    "stamina_cost": 22,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Elite",
+    "first_time_rewards": {
+      "gold": 11400,
+      "gems": 90,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_32",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F32",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F32",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F32",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 33,
+    "power_required": 117500,
+    "stamina_cost": 22,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Elite",
+    "first_time_rewards": {
+      "gold": 11600,
+      "gems": 90,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_33",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F33",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F33",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F33",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 34,
+    "power_required": 122750,
+    "stamina_cost": 22,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Elite",
+    "first_time_rewards": {
+      "gold": 11800,
+      "gems": 90,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_34",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F34",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F34",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F34",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 35,
+    "power_required": 128000,
+    "stamina_cost": 22,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Elite",
+    "first_time_rewards": {
+      "gold": 12000,
+      "gems": 95,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_35",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F35",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F35",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F35",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 36,
+    "power_required": 128000,
+    "stamina_cost": 24,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Epic",
+    "first_time_rewards": {
+      "gold": 12200,
+      "gems": 95,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_36",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F36",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F36",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F36",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 37,
+    "power_required": 133500,
+    "stamina_cost": 24,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Epic",
+    "first_time_rewards": {
+      "gold": 12400,
+      "gems": 95,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_37",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F37",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F37",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F37",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 38,
+    "power_required": 139000,
+    "stamina_cost": 24,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Epic",
+    "first_time_rewards": {
+      "gold": 12600,
+      "gems": 95,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_38",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F38",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F38",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F38",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 39,
+    "power_required": 144500,
+    "stamina_cost": 24,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Epic",
+    "first_time_rewards": {
+      "gold": 12800,
+      "gems": 95,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_39",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F39",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F39",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F39",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 20
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 40,
+    "power_required": 150000,
+    "stamina_cost": 24,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Epic",
+    "first_time_rewards": {
+      "gold": 13000,
+      "gems": 100,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": true,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_40",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F40",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F40",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F40",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_BEAST_FANG",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      }
+    ],
+    "milestone_reward": {
+      "gems": 250,
+      "description": "Complete all challenges in Floors 31-40",
+      "unlocked": false
+    }
+  },
+  {
+    "floor": 41,
+    "power_required": 150000,
+    "stamina_cost": 26,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mythic",
+    "first_time_rewards": {
+      "gold": 13200,
+      "gems": 100,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_41",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F41",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F41",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F41",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 42,
+    "power_required": 156250,
+    "stamina_cost": 26,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mythic",
+    "first_time_rewards": {
+      "gold": 13400,
+      "gems": 100,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_42",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F42",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F42",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F42",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 43,
+    "power_required": 162500,
+    "stamina_cost": 26,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mythic",
+    "first_time_rewards": {
+      "gold": 13600,
+      "gems": 100,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_43",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F43",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F43",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F43",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 44,
+    "power_required": 168750,
+    "stamina_cost": 26,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mythic",
+    "first_time_rewards": {
+      "gold": 13800,
+      "gems": 100,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_44",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F44",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F44",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F44",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 45,
+    "power_required": 175000,
+    "stamina_cost": 26,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Mythic",
+    "first_time_rewards": {
+      "gold": 14000,
+      "gems": 105,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_45",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F45",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F45",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F45",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 46,
+    "power_required": 175000,
+    "stamina_cost": 30,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Legendary",
+    "first_time_rewards": {
+      "gold": 14200,
+      "gems": 105,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_46",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F46",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F46",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F46",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 47,
+    "power_required": 187500,
+    "stamina_cost": 30,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Legendary",
+    "first_time_rewards": {
+      "gold": 14400,
+      "gems": 105,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_47",
+    "challenges": [
+      {
+        "id": "SURVIVE_LOW_HP_F47",
+        "name": "Close Call",
+        "description": "Win with at least one hero below 20% HP",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_SKILLS_F47",
+        "name": "Basic Combat",
+        "description": "Win without using special skills",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "FACTION_RESTRICTION_F47",
+        "name": "Faction Unity",
+        "description": "Use only heroes from 2 factions or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 48,
+    "power_required": 200000,
+    "stamina_cost": 30,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Legendary",
+    "first_time_rewards": {
+      "gold": 14600,
+      "gems": 105,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_48",
+    "challenges": [
+      {
+        "id": "WIN_WITH_DEBUFFS_F48",
+        "name": "Debuff Master",
+        "description": "Apply 15+ debuffs during the fight",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "KILL_ORDER_F48",
+        "name": "Priority Targets",
+        "description": "Defeat enemies in a specific order",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "EQUIPMENT_LIMIT_F48",
+        "name": "Minimalist",
+        "description": "Complete with heroes using 2 or fewer gear pieces",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 49,
+    "power_required": 212500,
+    "stamina_cost": 30,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Legendary",
+    "first_time_rewards": {
+      "gold": 14800,
+      "gems": 105,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": false,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_49",
+    "challenges": [
+      {
+        "id": "WIN_NO_DEATH_F49",
+        "name": "Flawless Victory",
+        "description": "Complete without any heroes dying",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_UNDER_TURNS_F49",
+        "name": "Speed Clear",
+        "description": "Complete in 10 turns or less",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "WIN_3_HEROES_F49",
+        "name": "Undermanned",
+        "description": "Complete with 3 heroes or fewer",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 25
+            }
+          ]
+        },
+        "completed": false
+      }
+    ]
+  },
+  {
+    "floor": 50,
+    "power_required": 225000,
+    "stamina_cost": 30,
+    "auto_clear_unlocked": false,
+    "difficulty_mode": {
+      "Normal": {
+        "hp_multiplier": 1.0,
+        "atk_multiplier": 1.0
+      },
+      "Hard": {
+        "hp_multiplier": 1.5,
+        "atk_multiplier": 1.25
+      },
+      "Nightmare": {
+        "hp_multiplier": 2.0,
+        "atk_multiplier": 1.5
+      }
+    },
+    "rewards_tier": "Legendary",
+    "first_time_rewards": {
+      "gold": 15000,
+      "gems": 110,
+      "rare_materials": true
+    },
+    "modifiers": [
+      "darkness",
+      "poison_aura"
+    ],
+    "has_boss": true,
+    "enemy_theme": "underground",
+    "enemy_pool_id": "FLOOR_50",
+    "challenges": [
+      {
+        "id": "DEAL_HIGH_DAMAGE_F50",
+        "name": "Overwhelming Force",
+        "description": "Deal 50,000+ damage in a single attack",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 30
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "NO_HEALING_F50",
+        "name": "No Recovery",
+        "description": "Complete without using healing abilities",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 30
+            }
+          ]
+        },
+        "completed": false
+      },
+      {
+        "id": "ELEMENTAL_ONLY_F50",
+        "name": "Elemental Mastery",
+        "description": "Win using only elemental damage",
+        "rewards": {
+          "gems": 50,
+          "materials": [
+            {
+              "id": "MAT_ECTOPLASM",
+              "amount": 30
+            }
+          ]
+        },
+        "completed": false
+      }
+    ],
+    "milestone_reward": {
+      "gems": 250,
+      "description": "Complete all challenges in Floors 41-50",
+      "unlocked": false
+    }
+  }
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "FLOOR_01",
+    "name": "Floor 1 Enemy Pool",
+    "floor": 1,
+    "tier": "early",
+    "enemies": [
+      "ENEMY_RUST_BEETLE",
+      "HARD_ABERRATION",
+      "ENEMY_SKELETON_WARRIOR"
+    ],
+    "spawn_config": {
+      "min_enemies": 2,
+      "max_enemies": 3,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_02",
+    "name": "Floor 2 Enemy Pool",
+    "floor": 2,
+    "tier": "early",
+    "enemies": [
+      "ENEMY_PURITY_ACOLYTE",
+      "ENEMY_SCAVENGER",
+      "ENEMY_WILD_BOAR"
+    ],
+    "spawn_config": {
+      "min_enemies": 2,
+      "max_enemies": 3,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_03",
+    "name": "Floor 3 Enemy Pool",
+    "floor": 3,
+    "tier": "early",
+    "enemies": [
+      "SKILL_ASTRAL_RUPTURE",
+      "NM_ABYSS_SENTINEL",
+      "NM_PURITY_COMMANDER"
+    ],
+    "spawn_config": {
+      "min_enemies": 2,
+      "max_enemies": 3,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_04",
+    "name": "Floor 4 Enemy Pool",
+    "floor": 4,
+    "tier": "early",
+    "enemies": [
+      "SKILL_ASTRAL_RUPTURE",
+      "SKILL_WINTERS_WRATH",
+      "ENEMY_TOXIC_SPIDER"
+    ],
+    "spawn_config": {
+      "min_enemies": 2,
+      "max_enemies": 3,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_05",
+    "name": "Floor 5 Enemy Pool",
+    "floor": 5,
+    "tier": "early",
+    "enemies": [
+      "NM_FROST_TITAN",
+      "SKILL_PURIFYING_FLAME",
+      "SKILL_HELLFIRE_NOVA"
+    ],
+    "spawn_config": {
+      "min_enemies": 2,
+      "max_enemies": 3,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_06",
+    "name": "Floor 6 Enemy Pool",
+    "floor": 6,
+    "tier": "early",
+    "enemies": [
+      "NM_ABERRATION",
+      "ENEMY_WILD_BOAR",
+      "SKILL_PLANAR_RIFT"
+    ],
+    "spawn_config": {
+      "min_enemies": 2,
+      "max_enemies": 3,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_07",
+    "name": "Floor 7 Enemy Pool",
+    "floor": 7,
+    "tier": "early",
+    "enemies": [
+      "SKILL_CONSUMING_ABYSS",
+      "ENEMY_CORRUPTED_CULTIST",
+      "SKILL_REJUVENATING_BARK"
+    ],
+    "spawn_config": {
+      "min_enemies": 2,
+      "max_enemies": 3,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_08",
+    "name": "Floor 8 Enemy Pool",
+    "floor": 8,
+    "tier": "early",
+    "enemies": [
+      "SKILL_MIND_BREAK",
+      "PASSIVE_HEAT_INFUSION",
+      "SKILL_ROOT_SNARE"
+    ],
+    "spawn_config": {
+      "min_enemies": 2,
+      "max_enemies": 3,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_09",
+    "name": "Floor 9 Enemy Pool",
+    "floor": 9,
+    "tier": "early",
+    "enemies": [
+      "PASSIVE_COMMANDERS_AUTHORITY",
+      "HARD_FROST_TITAN",
+      "PASSIVE_HEAT_INFUSION"
+    ],
+    "spawn_config": {
+      "min_enemies": 2,
+      "max_enemies": 3,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_10",
+    "name": "Floor 10 Enemy Pool",
+    "floor": 10,
+    "tier": "early",
+    "enemies": [
+      "NM_ABERRATION",
+      "ENEMY_GANG_GRUNT",
+      "SKILL_FLESH_WARP"
+    ],
+    "spawn_config": {
+      "min_enemies": 2,
+      "max_enemies": 3,
+      "boss_chance": 1.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_11",
+    "name": "Floor 11 Enemy Pool",
+    "floor": 11,
+    "tier": "mid_early",
+    "enemies": [
+      "SKILL_VOID_SWEEP",
+      "SKILL_FLESH_WARP",
+      "HARD_ANCIENT_DRAGON",
+      "SKILL_GRAVITY_RUPTURE"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_12",
+    "name": "Floor 12 Enemy Pool",
+    "floor": 12,
+    "tier": "mid_early",
+    "enemies": [
+      "PASSIVE_VOID_PRESSURE",
+      "ENEMY_CLAY_SENTINEL",
+      "PASSIVE_REACTOR_CORE",
+      "SKILL_REJUVENATING_BARK"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_13",
+    "name": "Floor 13 Enemy Pool",
+    "floor": 13,
+    "tier": "mid_early",
+    "enemies": [
+      "ENEMY_PLASMA_WISP",
+      "ENEMY_GARGOYLE",
+      "HARD_KT_BLACKOPS",
+      "NM_ELDER_PSION"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_14",
+    "name": "Floor 14 Enemy Pool",
+    "floor": 14,
+    "tier": "mid_early",
+    "enemies": [
+      "ENEMY_FIRE_IMP",
+      "SKILL_ASTRAL_WAVE",
+      "HARD_ABERRATION",
+      "NM_FROST_TITAN"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_15",
+    "name": "Floor 15 Enemy Pool",
+    "floor": 15,
+    "tier": "mid_early",
+    "enemies": [
+      "ENEMY_CORRUPTED_CULTIST",
+      "ENEMY_SLIME_BLUE",
+      "SKILL_BRAMBLE_STORM",
+      "NM_INFERNAL_TYRANT"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_16",
+    "name": "Floor 16 Enemy Pool",
+    "floor": 16,
+    "tier": "mid_early",
+    "enemies": [
+      "SKILL_MIND_BREAK",
+      "PASSIVE_VOID_PRESSURE",
+      "SKILL_LAVA_CLEAVE",
+      "ENEMY_PLAGUE_BEARER"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_17",
+    "name": "Floor 17 Enemy Pool",
+    "floor": 17,
+    "tier": "mid_early",
+    "enemies": [
+      "SKILL_BRAMBLE_STORM",
+      "SKILL_GLACIAL_IMPACT",
+      "HARD_BIOWEAPON_ALPHA",
+      "ENEMY_DARK_PRIEST"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_18",
+    "name": "Floor 18 Enemy Pool",
+    "floor": 18,
+    "tier": "mid_early",
+    "enemies": [
+      "ENEMY_SEWER_LURKER",
+      "ENEMY_DARK_CULTIST",
+      "PASSIVE_REACTOR_CORE",
+      "SKILL_VOID_SWEEP"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_19",
+    "name": "Floor 19 Enemy Pool",
+    "floor": 19,
+    "tier": "mid_early",
+    "enemies": [
+      "NM_PURITY_COMMANDER",
+      "ENEMY_GANG_BRUISER",
+      "NM_ANCIENT_DRAGON",
+      "SKILL_BRAMBLE_STORM"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_20",
+    "name": "Floor 20 Enemy Pool",
+    "floor": 20,
+    "tier": "mid_early",
+    "enemies": [
+      "NM_ABYSS_SENTINEL",
+      "HARD_KT_BLACKOPS",
+      "NM_ANCIENT_DRAGON",
+      "NM_THUNDER_EMPEROR"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 1.0,
+      "elite_chance": 0.1
+    }
+  },
+  {
+    "id": "FLOOR_21",
+    "name": "Floor 21 Enemy Pool",
+    "floor": 21,
+    "tier": "mid",
+    "enemies": [
+      "ENEMY_IRON_GOLEM",
+      "ENEMY_SHADOW_HOUND",
+      "ENEMY_HELLFIRE_MAGE",
+      "ENEMY_COMBAT_DRONE"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_22",
+    "name": "Floor 22 Enemy Pool",
+    "floor": 22,
+    "tier": "mid",
+    "enemies": [
+      "ENEMY_INFECTED_BRUTE",
+      "ENEMY_FIRE_IMP",
+      "ENEMY_GANG_SNIPER",
+      "ENEMY_CHIMERIC_BEAST"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_23",
+    "name": "Floor 23 Enemy Pool",
+    "floor": 23,
+    "tier": "mid",
+    "enemies": [
+      "ENEMY_CORRUPTED_ANGEL",
+      "ENEMY_BLOOD_DEMON",
+      "ENEMY_KT_GUARD",
+      "ENEMY_GANG_SNIPER"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_24",
+    "name": "Floor 24 Enemy Pool",
+    "floor": 24,
+    "tier": "mid",
+    "enemies": [
+      "ENEMY_VOID_KNIGHT",
+      "ENEMY_CORRUPTED_CULTIST",
+      "ENEMY_EARTH_ELEMENTAL",
+      "ENEMY_CHIMERIC_DISCIPLE"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_25",
+    "name": "Floor 25 Enemy Pool",
+    "floor": 25,
+    "tier": "mid",
+    "enemies": [
+      "ENEMY_CORRUPTED_CULTIST",
+      "ENEMY_CORRUPTED_ANGEL",
+      "ENEMY_GANG_BRUISER",
+      "ENEMY_SKELETON_WARRIOR"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_26",
+    "name": "Floor 26 Enemy Pool",
+    "floor": 26,
+    "tier": "mid",
+    "enemies": [
+      "ENEMY_CHIMERIC_WARRIOR",
+      "ENEMY_STORM_MAGE",
+      "ENEMY_VOID_SPAWN",
+      "ENEMY_SKELETON_WARRIOR"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_27",
+    "name": "Floor 27 Enemy Pool",
+    "floor": 27,
+    "tier": "mid",
+    "enemies": [
+      "ENEMY_LAVA_HOUND",
+      "ENEMY_BANSHEE",
+      "ENEMY_HELLFIRE_MAGE",
+      "ENEMY_CURSED_KNIGHT"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_28",
+    "name": "Floor 28 Enemy Pool",
+    "floor": 28,
+    "tier": "mid",
+    "enemies": [
+      "ENEMY_KT_ASSASSIN",
+      "ENEMY_CHIMERIC_WARRIOR",
+      "ENEMY_INFECTED_BRUTE",
+      "ENEMY_PLAGUE_BEARER"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_29",
+    "name": "Floor 29 Enemy Pool",
+    "floor": 29,
+    "tier": "mid",
+    "enemies": [
+      "ENEMY_GARGOYLE",
+      "ENEMY_PURITY_EXECUTIONER",
+      "ENEMY_VOID_STALKER",
+      "ENEMY_SPECTRAL_KNIGHT"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_30",
+    "name": "Floor 30 Enemy Pool",
+    "floor": 30,
+    "tier": "mid",
+    "enemies": [
+      "ENEMY_PLAGUE_BEARER",
+      "ENEMY_BLOOD_DEMON",
+      "ENEMY_CHIMERIC_BEAST",
+      "ENEMY_GANG_SNIPER"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 4,
+      "boss_chance": 1.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_31",
+    "name": "Floor 31 Enemy Pool",
+    "floor": 31,
+    "tier": "mid_late",
+    "enemies": [
+      "ENEMY_PURITY_EXECUTIONER",
+      "BOSS_FROST_TITAN_HARD",
+      "ENEMY_FIRE_IMP",
+      "BOSS_PSIONIC_ASCENDANT",
+      "ENEMY_CRYSTAL_GOLEM"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_32",
+    "name": "Floor 32 Enemy Pool",
+    "floor": 32,
+    "tier": "mid_late",
+    "enemies": [
+      "ENEMY_IRON_GOLEM",
+      "ENEMY_VOID_STALKER",
+      "ENEMY_CRYSTAL_GOLEM",
+      "ENEMY_DEATH_KNIGHT",
+      "ENEMY_GARGOYLE"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_33",
+    "name": "Floor 33 Enemy Pool",
+    "floor": 33,
+    "tier": "mid_late",
+    "enemies": [
+      "BOSS_FROST_TITAN",
+      "ENEMY_PLAGUE_BEARER",
+      "ENEMY_COMBAT_DRONE",
+      "BOSS_INFERNAL_TYRANT_HARD",
+      "BOSS_THUNDER_EMPEROR"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_34",
+    "name": "Floor 34 Enemy Pool",
+    "floor": 34,
+    "tier": "mid_late",
+    "enemies": [
+      "ENEMY_INFERNO_DAEMON",
+      "ENEMY_KT_GUARD",
+      "ENEMY_PLAGUE_BEARER",
+      "ENEMY_HOLY_INQUISITOR",
+      "ENEMY_PLAGUE_DOCTOR"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_35",
+    "name": "Floor 35 Enemy Pool",
+    "floor": 35,
+    "tier": "mid_late",
+    "enemies": [
+      "ENEMY_CHIMERIC_WARRIOR",
+      "ENEMY_CURSED_KNIGHT",
+      "ENEMY_FROST_GUARDIAN",
+      "BOSS_CRYPT_LORD",
+      "ENEMY_LAVA_HOUND"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_36",
+    "name": "Floor 36 Enemy Pool",
+    "floor": 36,
+    "tier": "mid_late",
+    "enemies": [
+      "ENEMY_CHIMERIC_WARRIOR",
+      "ENEMY_INFECTED_STALKER",
+      "BOSS_PURITY_COMMANDER",
+      "ENEMY_LAVA_HOUND",
+      "ENEMY_CHIMERIC_DISCIPLE"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_37",
+    "name": "Floor 37 Enemy Pool",
+    "floor": 37,
+    "tier": "mid_late",
+    "enemies": [
+      "ENEMY_CHIMERIC_HERALD",
+      "ENEMY_KT_ELITE",
+      "ENEMY_CRIMSON_REAPER",
+      "BOSS_ABERRATION",
+      "ENEMY_ABYSS_SENTINEL"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_38",
+    "name": "Floor 38 Enemy Pool",
+    "floor": 38,
+    "tier": "mid_late",
+    "enemies": [
+      "BOSS_VOID_LEVIATHAN",
+      "BOSS_INFERNAL_TYRANT",
+      "ENEMY_ABYSS_SENTINEL",
+      "ENEMY_INFECTED_CHANNELER",
+      "ENEMY_PLAGUE_DOCTOR"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_39",
+    "name": "Floor 39 Enemy Pool",
+    "floor": 39,
+    "tier": "mid_late",
+    "enemies": [
+      "ENEMY_VENOMFANG_SPIDER",
+      "ENEMY_SPECTRAL_KNIGHT",
+      "ENEMY_HOLY_INQUISITOR",
+      "ENEMY_KT_GUARD",
+      "BOSS_ANCIENT_DRAGON"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_40",
+    "name": "Floor 40 Enemy Pool",
+    "floor": 40,
+    "tier": "mid_late",
+    "enemies": [
+      "BOSS_ELDER_PSION",
+      "ENEMY_KT_ELITE",
+      "ENEMY_DARK_PRIEST",
+      "ENEMY_LAVA_HOUND",
+      "ENEMY_VENOMFANG_SPIDER"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 1.0,
+      "elite_chance": 0.2
+    }
+  },
+  {
+    "id": "FLOOR_41",
+    "name": "Floor 41 Enemy Pool",
+    "floor": 41,
+    "tier": "endgame",
+    "enemies": [
+      "ENEMY_STEEL_WARDEN",
+      "ENEMY_DEATH_KNIGHT",
+      "BOSS_CRYPT_LORD",
+      "ENEMY_ABYSS_SENTINEL",
+      "BOSS_VOID_LEVIATHAN"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.3
+    }
+  },
+  {
+    "id": "FLOOR_42",
+    "name": "Floor 42 Enemy Pool",
+    "floor": 42,
+    "tier": "endgame",
+    "enemies": [
+      "BOSS_PURITY_COMMANDER",
+      "ENEMY_CHIMERIC_DISCIPLE",
+      "BOSS_PURITY_COMMANDER",
+      "BOSS_VOID_LEVIATHAN",
+      "BOSS_INFERNAL_TYRANT"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.3
+    }
+  },
+  {
+    "id": "FLOOR_43",
+    "name": "Floor 43 Enemy Pool",
+    "floor": 43,
+    "tier": "endgame",
+    "enemies": [
+      "ENEMY_KT_ELITE",
+      "BOSS_THUNDER_EMPEROR",
+      "BOSS_INFERNAL_TYRANT_HARD",
+      "ENEMY_STORM_MAGE",
+      "ENEMY_PLAGUE_DOCTOR"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.3
+    }
+  },
+  {
+    "id": "FLOOR_44",
+    "name": "Floor 44 Enemy Pool",
+    "floor": 44,
+    "tier": "endgame",
+    "enemies": [
+      "ENEMY_FROST_GUARDIAN",
+      "BOSS_PSIONIC_ASCENDANT",
+      "BOSS_MASKED_HIGH_PRIEST",
+      "BOSS_INFERNAL_TYRANT_HARD",
+      "ENEMY_CHIMERIC_DISCIPLE"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.3
+    }
+  },
+  {
+    "id": "FLOOR_45",
+    "name": "Floor 45 Enemy Pool",
+    "floor": 45,
+    "tier": "endgame",
+    "enemies": [
+      "BOSS_VOID_LEVIATHAN",
+      "ENEMY_FROST_GUARDIAN",
+      "ENEMY_VOID_ARCHON",
+      "BOSS_FROST_TITAN",
+      "ENEMY_INFECTED_CHANNELER"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.3
+    }
+  },
+  {
+    "id": "FLOOR_46",
+    "name": "Floor 46 Enemy Pool",
+    "floor": 46,
+    "tier": "endgame",
+    "enemies": [
+      "ENEMY_INFECTED_STALKER",
+      "ENEMY_CHIMERIC_WARRIOR",
+      "ENEMY_KT_ELITE",
+      "BOSS_INFERNAL_TYRANT",
+      "BOSS_CRYPT_LORD"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.3
+    }
+  },
+  {
+    "id": "FLOOR_47",
+    "name": "Floor 47 Enemy Pool",
+    "floor": 47,
+    "tier": "endgame",
+    "enemies": [
+      "ENEMY_HELLFIRE_MAGE",
+      "ENEMY_INFECTED_STALKER",
+      "ENEMY_CORRUPTED_ANGEL",
+      "BOSS_FROST_TITAN",
+      "ENEMY_PLAGUE_DOCTOR"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.3
+    }
+  },
+  {
+    "id": "FLOOR_48",
+    "name": "Floor 48 Enemy Pool",
+    "floor": 48,
+    "tier": "endgame",
+    "enemies": [
+      "BOSS_FROST_TITAN",
+      "ENEMY_VOID_STALKER",
+      "ENEMY_CHIMERIC_HERALD",
+      "BOSS_VOID_LEVIATHAN_HARD",
+      "BOSS_MASKED_HIGH_PRIEST"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.3
+    }
+  },
+  {
+    "id": "FLOOR_49",
+    "name": "Floor 49 Enemy Pool",
+    "floor": 49,
+    "tier": "endgame",
+    "enemies": [
+      "ENEMY_INFECTED_STALKER",
+      "ENEMY_HELLFIRE_MAGE",
+      "ENEMY_FROST_GUARDIAN",
+      "ENEMY_CHIMERIC_DISCIPLE",
+      "ENEMY_VOID_STALKER"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 0.0,
+      "elite_chance": 0.3
+    }
+  },
+  {
+    "id": "FLOOR_50",
+    "name": "Floor 50 Enemy Pool",
+    "floor": 50,
+    "tier": "endgame",
+    "enemies": [
+      "ENEMY_VOID_ARCHON",
+      "BOSS_VOID_LEVIATHAN",
+      "ENEMY_VOID_KNIGHT",
+      "BOSS_PURITY_COMMANDER",
+      "BOSS_INFERNAL_TYRANT"
+    ],
+    "spawn_config": {
+      "min_enemies": 3,
+      "max_enemies": 5,
+      "boss_chance": 1.0,
+      "elite_chance": 0.3
+    }
+  }
+]

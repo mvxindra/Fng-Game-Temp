@@ -1,0 +1,477 @@
+{
+
+  "skills": [
+
+    {
+
+      "skillId": "fireball",
+
+      "skillName": "Fireball",
+
+      "skillType": "active",
+
+      "description": "Launch a massive fireball dealing fire damage",
+
+      "element": "fire",
+
+      "targetType": "single_enemy",
+
+      "baseDamage": 150,
+
+      "damagePerLevel": 30,
+
+      "atkScaling": 1.5,
+
+      "manaCost": 20,
+
+      "cooldown": 3,
+
+      "maxLevel": 10,
+
+      "statusEffects": [
+
+        {
+
+          "effectId": "burn",
+
+          "chance": 0.5,
+
+          "duration": 2,
+
+          "statAffected": "hp",
+
+          "baseValue": -20,
+
+          "valuePerLevel": -5
+
+        }
+
+      ],
+
+      "synergies": [
+
+        {
+
+          "conditionType": "enemy_status",
+
+          "requiredStatus": "burn",
+
+          "bonusType": "damage",
+
+          "bonusMultiplier": 0.5,
+
+          "description": "Deal 50% more damage to burning enemies"
+
+        }
+
+      ],
+
+      "upgradeConfig": {
+
+        "useDuplicate": true,
+
+        "duplicatesPerLevel": 1,
+
+        "materialPerLevel": [
+
+          {"materialId": "skill_tome_fire", "quantity": 3},
+
+          {"materialId": "essence_crystal", "quantity": 5}
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "skillId": "ice_wall",
+
+      "skillName": "Ice Wall",
+
+      "skillType": "active",
+
+      "description": "Create a wall of ice that shields allies",
+
+      "element": "ice",
+
+      "targetType": "all_allies",
+
+      "baseDamage": 0,
+
+      "damagePerLevel": 0,
+
+      "atkScaling": 0,
+
+      "manaCost": 25,
+
+      "cooldown": 5,
+
+      "maxLevel": 10,
+
+      "statusEffects": [
+
+        {
+
+          "effectId": "shield",
+
+          "chance": 1.0,
+
+          "duration": 3,
+
+          "statAffected": "def",
+
+          "baseValue": 100,
+
+          "valuePerLevel": 20
+
+        }
+
+      ],
+
+      "synergies": [
+
+        {
+
+          "conditionType": "ally_buff",
+
+          "requiredStatus": "shield",
+
+          "bonusType": "cooldown",
+
+          "bonusMultiplier": -0.2,
+
+          "description": "Reduces cooldown by 20% when allies are shielded"
+
+        }
+
+      ],
+
+      "upgradeConfig": {
+
+        "useDuplicate": true,
+
+        "duplicatesPerLevel": 1,
+
+        "materialPerLevel": [
+
+          {"materialId": "skill_tome_ice", "quantity": 3},
+
+          {"materialId": "essence_crystal", "quantity": 5}
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "skillId": "critical_strike",
+
+      "skillName": "Critical Strike",
+
+      "skillType": "passive",
+
+      "description": "Increases critical hit chance and damage",
+
+      "element": "physical",
+
+      "targetType": "self",
+
+      "baseDamage": 0,
+
+      "damagePerLevel": 0,
+
+      "atkScaling": 0,
+
+      "manaCost": 0,
+
+      "cooldown": 0,
+
+      "maxLevel": 5,
+
+      "statusEffects": [
+
+        {
+
+          "effectId": "crit_boost",
+
+          "chance": 1.0,
+
+          "duration": -1,
+
+          "statAffected": "crit_rate",
+
+          "baseValue": 0.10,
+
+          "valuePerLevel": 0.02
+
+        },
+
+        {
+
+          "effectId": "crit_dmg_boost",
+
+          "chance": 1.0,
+
+          "duration": -1,
+
+          "statAffected": "crit_damage",
+
+          "baseValue": 0.25,
+
+          "valuePerLevel": 0.05
+
+        }
+
+      ],
+
+      "synergies": [],
+
+      "upgradeConfig": {
+
+        "useDuplicate": false,
+
+        "duplicatesPerLevel": 0,
+
+        "materialPerLevel": [
+
+          {"materialId": "skill_tome_physical", "quantity": 5}
+
+        ]
+
+      }
+
+    },
+
+    {
+
+      "skillId": "dragon_rage",
+
+      "skillName": "Dragon Rage",
+
+      "skillType": "ultimate",
+
+      "description": "Transform into a dragon and unleash devastation",
+
+      "element": "fire",
+
+      "targetType": "all_enemies",
+
+      "baseDamage": 500,
+
+      "damagePerLevel": 100,
+
+      "atkScaling": 2.5,
+
+      "manaCost": 0,
+
+      "cooldown": 0,
+
+      "maxLevel": 5,
+
+      "statusEffects": [
+
+        {
+
+          "effectId": "dragon_form",
+
+          "chance": 1.0,
+
+          "duration": 3,
+
+          "statAffected": "atk",
+
+          "baseValue": 200,
+
+          "valuePerLevel": 50
+
+        }
+
+      ],
+
+      "synergies": [
+
+        {
+
+          "conditionType": "hp_threshold",
+
+          "requiredStatus": "0.3",
+
+          "bonusType": "damage",
+
+          "bonusMultiplier": 1.0,
+
+          "description": "Deal double damage when below 30% HP"
+
+        }
+
+      ],
+
+      "upgradeConfig": {
+
+        "useDuplicate": true,
+
+        "duplicatesPerLevel": 2,
+
+        "materialPerLevel": [
+
+          {"materialId": "skill_tome_ultimate", "quantity": 10},
+
+          {"materialId": "legendary_essence", "quantity": 5}
+
+        ]
+
+      },
+
+      "ultimateConfig": {
+
+        "chargeRequired": 100,
+
+        "chargeGainPerTurn": 10,
+
+        "chargeGainOnHit": 5,
+
+        "chargeGainOnKill": 20,
+
+        "transformDuration": 3,
+
+        "transformBonuses": {
+
+          "bonusAtk": 200,
+
+          "bonusDef": 100,
+
+          "bonusHp": 500,
+
+          "bonusCritRate": 0.5
+
+        }
+
+      }
+
+    },
+
+    {
+
+      "skillId": "execute",
+
+      "skillName": "Execute",
+
+      "skillType": "active",
+
+      "description": "Deliver a finishing blow to low HP enemies",
+
+      "element": "physical",
+
+      "targetType": "single_enemy",
+
+      "baseDamage": 100,
+
+      "damagePerLevel": 25,
+
+      "atkScaling": 1.8,
+
+      "manaCost": 30,
+
+      "cooldown": 4,
+
+      "maxLevel": 10,
+
+      "statusEffects": [],
+
+      "synergies": [
+
+        {
+
+          "conditionType": "hp_threshold",
+
+          "requiredStatus": "0.25",
+
+          "bonusType": "damage",
+
+          "bonusMultiplier": 3.0,
+
+          "description": "Deal 400% damage to enemies below 25% HP"
+
+        }
+
+      ],
+
+      "upgradeConfig": {
+
+        "useDuplicate": true,
+
+        "duplicatesPerLevel": 1,
+
+        "materialPerLevel": [
+
+          {"materialId": "skill_tome_physical", "quantity": 3}
+
+        ]
+
+      }
+
+    }
+
+  ],
+
+  "combos": [
+
+    {
+
+      "comboId": "fire_storm",
+
+      "comboName": "Fire Storm",
+
+      "requiredSkills": ["fireball", "fireball"],
+
+      "sequenceRequired": true,
+
+      "bonusEffect": {
+
+        "effectType": "aoe_damage",
+
+        "targetType": "all_enemies",
+
+        "damageMultiplier": 2.5,
+
+        "additionalEffect": "burn"
+
+      },
+
+      "description": "Cast Fireball twice in succession to trigger Fire Storm"
+
+    },
+
+    {
+
+      "comboId": "frost_shatter",
+
+      "comboName": "Frost Shatter",
+
+      "requiredSkills": ["ice_wall", "execute"],
+
+      "sequenceRequired": true,
+
+      "bonusEffect": {
+
+        "effectType": "bonus_damage",
+
+        "targetType": "single_enemy",
+
+        "damageMultiplier": 2.0,
+
+        "additionalEffect": "stun"
+
+      },
+
+      "description": "Use Ice Wall then Execute to shatter frozen enemies"
+
+    }
+
+  ]
+
+}

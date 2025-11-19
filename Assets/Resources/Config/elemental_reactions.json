@@ -1,0 +1,223 @@
+{
+
+  "reactions": [
+
+    {
+
+      "reactionId": "vaporize",
+
+      "reactionName": "Vaporize",
+
+      "description": "Fire + Water creates steam explosion for massive damage",
+
+      "requiredElements": ["fire", "water"],
+
+      "triggerOrder": "any",
+
+      "effectType": "damage_bonus",
+
+      "damageMultiplier": 2.0,
+
+      "statusEffectId": "",
+
+      "duration": 0,
+
+      "bonusValue": 0
+
+    },
+
+    {
+
+      "reactionId": "melt",
+
+      "reactionName": "Melt",
+
+      "description": "Fire + Ice melts defenses for increased damage",
+
+      "requiredElements": ["fire", "ice"],
+
+      "triggerOrder": "any",
+
+      "effectType": "damage_bonus",
+
+      "damageMultiplier": 2.5,
+
+      "statusEffectId": "",
+
+      "duration": 0,
+
+      "bonusValue": 0
+
+    },
+
+    {
+
+      "reactionId": "overload",
+
+      "reactionName": "Overload",
+
+      "description": "Fire + Lightning causes explosive damage",
+
+      "requiredElements": ["fire", "lightning"],
+
+      "triggerOrder": "any",
+
+      "effectType": "damage_over_time",
+
+      "damageMultiplier": 1.5,
+
+      "statusEffectId": "burn",
+
+      "duration": 3,
+
+      "bonusValue": 100
+
+    },
+
+    {
+
+      "reactionId": "freeze",
+
+      "reactionName": "Freeze",
+
+      "description": "Water + Ice freezes the target solid",
+
+      "requiredElements": ["water", "ice"],
+
+      "triggerOrder": "any",
+
+      "effectType": "crowd_control",
+
+      "damageMultiplier": 1.0,
+
+      "statusEffectId": "frozen",
+
+      "duration": 2,
+
+      "bonusValue": 0
+
+    },
+
+    {
+
+      "reactionId": "electrocute",
+
+      "reactionName": "Electrocute",
+
+      "description": "Water + Lightning electrocutes enemies",
+
+      "requiredElements": ["water", "lightning"],
+
+      "triggerOrder": "any",
+
+      "effectType": "damage_over_time",
+
+      "damageMultiplier": 1.8,
+
+      "statusEffectId": "shocked",
+
+      "duration": 3,
+
+      "bonusValue": 80
+
+    },
+
+    {
+
+      "reactionId": "shatter",
+
+      "reactionName": "Shatter",
+
+      "description": "Earth + Ice shatters frozen targets",
+
+      "requiredElements": ["earth", "ice"],
+
+      "triggerOrder": "specific",
+
+      "effectType": "damage_bonus",
+
+      "damageMultiplier": 3.0,
+
+      "statusEffectId": "",
+
+      "duration": 0,
+
+      "bonusValue": 0
+
+    },
+
+    {
+
+      "reactionId": "storm",
+
+      "reactionName": "Storm",
+
+      "description": "Wind + Lightning creates devastating storms",
+
+      "requiredElements": ["wind", "lightning"],
+
+      "triggerOrder": "any",
+
+      "effectType": "damage_bonus",
+
+      "damageMultiplier": 2.2,
+
+      "statusEffectId": "shocked",
+
+      "duration": 2,
+
+      "bonusValue": 50
+
+    },
+
+    {
+
+      "reactionId": "blessing",
+
+      "reactionName": "Divine Blessing",
+
+      "description": "Light + Water creates healing aura",
+
+      "requiredElements": ["light", "water"],
+
+      "triggerOrder": "any",
+
+      "effectType": "status_effect",
+
+      "damageMultiplier": 1.0,
+
+      "statusEffectId": "regen",
+
+      "duration": 5,
+
+      "bonusValue": 150
+
+    },
+
+    {
+
+      "reactionId": "corruption",
+
+      "reactionName": "Corruption",
+
+      "description": "Dark + Earth corrupts and weakens enemies",
+
+      "requiredElements": ["dark", "earth"],
+
+      "triggerOrder": "any",
+
+      "effectType": "status_effect",
+
+      "damageMultiplier": 1.3,
+
+      "statusEffectId": "weakened",
+
+      "duration": 4,
+
+      "bonusValue": 0
+
+    }
+
+  ]
+
+}

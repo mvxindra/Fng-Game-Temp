@@ -1,0 +1,3175 @@
+[
+  {
+    "id": "ENEMY_SLIME_GREEN",
+    "rarity": 1,
+    "role": "tank",
+    "faction": "Creatures",
+    "baseStats": {
+      "atk": 18,
+      "def": 6,
+      "hp": 120,
+      "spd": 80
+    },
+    "growth": {
+      "atk": 2,
+      "def": 1,
+      "hp": 10,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_SLIME_SPLASH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.1,
+      "fire": -0.2,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_SLIME_BLUE",
+    "rarity": 1,
+    "role": "tank",
+    "faction": "Creatures",
+    "baseStats": {
+      "atk": 22,
+      "def": 8,
+      "hp": 150,
+      "spd": 85
+    },
+    "growth": {
+      "atk": 2,
+      "def": 1,
+      "hp": 12,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_SLIME_SPLASH",
+      "SKL_MINOR_POISON"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": 0,
+      "ice": 0.3,
+      "lightning": -0.2,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_RAT_MUTANT",
+    "rarity": 1,
+    "role": "dps",
+    "faction": "Creatures",
+    "baseStats": {
+      "atk": 26,
+      "def": 4,
+      "hp": 100,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 3,
+      "def": 1,
+      "hp": 8,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_BITE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.1,
+      "holy": -0.1
+    }
+  },
+  {
+    "id": "ENEMY_RAT_SWARMER",
+    "rarity": 1,
+    "role": "dps",
+    "faction": "Creatures",
+    "baseStats": {
+      "atk": 32,
+      "def": 2,
+      "hp": 70,
+      "spd": 110
+    },
+    "growth": {
+      "atk": 3,
+      "def": 1,
+      "hp": 6,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_SWARM_BITE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": -0.3,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.1,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_GANG_GRUNT",
+    "rarity": 1,
+    "role": "dps",
+    "faction": "SlumGang",
+    "baseStats": {
+      "atk": 30,
+      "def": 10,
+      "hp": 180,
+      "spd": 90
+    },
+    "growth": {
+      "atk": 3,
+      "def": 1,
+      "hp": 15,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_BASIC_ATTACK"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.1,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_GANG_BRUISER",
+    "rarity": 2,
+    "role": "tank",
+    "faction": "SlumGang",
+    "baseStats": {
+      "atk": 45,
+      "def": 30,
+      "hp": 300,
+      "spd": 70
+    },
+    "growth": {
+      "atk": 4,
+      "def": 3,
+      "hp": 25,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_SHIELD_BASH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.2,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_GANG_SNIPER",
+    "rarity": 2,
+    "role": "dps",
+    "faction": "SlumGang",
+    "baseStats": {
+      "atk": 60,
+      "def": 10,
+      "hp": 160,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 6,
+      "def": 1,
+      "hp": 12,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_HEADSHOT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.1,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0.1,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_PURITY_ACOLYTE",
+    "rarity": 2,
+    "role": "support",
+    "faction": "PuritySalvation",
+    "baseStats": {
+      "atk": 27,
+      "def": 15,
+      "hp": 210,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 3,
+      "def": 2,
+      "hp": 18,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_HOLY_LIGHT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": -0.3,
+      "holy": 0.4
+    }
+  },
+  {
+    "id": "ENEMY_PURITY_FOOTMAN",
+    "rarity": 3,
+    "role": "tank",
+    "faction": "PuritySalvation",
+    "baseStats": {
+      "atk": 40,
+      "def": 40,
+      "hp": 400,
+      "spd": 85
+    },
+    "growth": {
+      "atk": 4,
+      "def": 4,
+      "hp": 28,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_SHIELD_BLOCK"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": -0.3,
+      "holy": 0.4
+    }
+  },
+  {
+    "id": "ENEMY_PURITY_EXECUTIONER",
+    "rarity": 4,
+    "role": "dps",
+    "faction": "PuritySalvation",
+    "baseStats": {
+      "atk": 75,
+      "def": 25,
+      "hp": 360,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 7,
+      "def": 2,
+      "hp": 22,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_EXECUTE",
+      "SKL_BLEED_STRIKE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.15,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": -0.4,
+      "holy": 0.5
+    }
+  },
+  {
+    "id": "BOSS_PURITY_COMMANDER",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "PuritySalvation",
+    "baseStats": {
+      "atk": 90,
+      "def": 55,
+      "hp": 950,
+      "spd": 110
+    },
+    "growth": {
+      "atk": 8,
+      "def": 5,
+      "hp": 45,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_COMMAND_AURA",
+      "SKL_HOLY_JUDGEMENT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_DIVINE_AUTHORITY",
+      "PASSIVE_RALLY"
+    ],
+    "resistances": {
+      "physical": 0.3,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": -0.5,
+      "holy": 0.6
+    }
+  },
+  {
+    "id": "ENEMY_KT_GUARD",
+    "rarity": 3,
+    "role": "tank",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 55,
+      "def": 35,
+      "hp": 320,
+      "spd": 90
+    },
+    "growth": {
+      "atk": 5,
+      "def": 3,
+      "hp": 24,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_RIFLE_SHOT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.2,
+      "fire": 0.1,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_KT_ELITE",
+    "rarity": 4,
+    "role": "tank",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 60,
+      "def": 55,
+      "hp": 540,
+      "spd": 85
+    },
+    "growth": {
+      "atk": 5,
+      "def": 5,
+      "hp": 32,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_OVERWATCH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.3,
+      "fire": 0.15,
+      "ice": 0.15,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_KT_ASSASSIN",
+    "rarity": 4,
+    "role": "dps",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 90,
+      "def": 20,
+      "hp": 280,
+      "spd": 140
+    },
+    "growth": {
+      "atk": 8,
+      "def": 2,
+      "hp": 16,
+      "spd": 3
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_SHADOW_STEP",
+      "SKL_ASSASSINATE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.1,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0.2,
+      "dark": 0.3,
+      "holy": 0
+    }
+  },
+  {
+    "id": "BOSS_KT_BLACKOPS",
+    "rarity": 6,
+    "role": "boss",
+    "faction": "KingsTech",
+    "baseStats": {
+      "atk": 115,
+      "def": 60,
+      "hp": 1200,
+      "spd": 125
+    },
+    "growth": {
+      "atk": 10,
+      "def": 5,
+      "hp": 55,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_DRONE_STRIKE",
+      "SKL_VIRUS_AMPLIFY"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_TACTICAL_SUPERIORITY",
+      "PASSIVE_TECH_ARMOR"
+    ],
+    "resistances": {
+      "physical": 0.35,
+      "fire": 0.2,
+      "ice": 0.2,
+      "lightning": 0.4,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_INFECTED_BRUTE",
+    "rarity": 3,
+    "role": "tank",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 50,
+      "def": 45,
+      "hp": 520,
+      "spd": 75
+    },
+    "growth": {
+      "atk": 5,
+      "def": 4,
+      "hp": 32,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_SMASH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": -0.2,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.4,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_INFECTED_STALKER",
+    "rarity": 4,
+    "role": "dps",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 85,
+      "def": 20,
+      "hp": 300,
+      "spd": 130
+    },
+    "growth": {
+      "atk": 8,
+      "def": 2,
+      "hp": 18,
+      "spd": 3
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_POUNCE",
+      "SKL_POISON_CLAW"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": -0.3,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.5,
+      "holy": -0.5
+    }
+  },
+  {
+    "id": "ENEMY_INFECTED_CHANNELER",
+    "rarity": 5,
+    "role": "mage",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 95,
+      "def": 25,
+      "hp": 350,
+      "spd": 100
+    },
+    "growth": {
+      "atk": 9,
+      "def": 2,
+      "hp": 20,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_VIRAL_BURST",
+      "SKL_SHADOW_FIRE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": -0.2,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.6,
+      "holy": -0.6
+    }
+  },
+  {
+    "id": "BOSS_ABERRATION",
+    "rarity": 7,
+    "role": "boss",
+    "faction": "Infected",
+    "baseStats": {
+      "atk": 120,
+      "def": 70,
+      "hp": 1400,
+      "spd": 95
+    },
+    "growth": {
+      "atk": 11,
+      "def": 6,
+      "hp": 60,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_VOID_SCREECH",
+      "SKL_GENE_ERUPTION"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_VIRAL_REGENERATION",
+      "PASSIVE_MUTATION"
+    ],
+    "resistances": {
+      "physical": 0.3,
+      "fire": -0.3,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.7,
+      "holy": -0.7
+    }
+  },
+  {
+    "id": "ENEMY_IRON_GOLEM",
+    "rarity": 4,
+    "role": "tank",
+    "faction": "Construct",
+    "baseStats": {
+      "atk": 60,
+      "def": 75,
+      "hp": 900,
+      "spd": 10
+    },
+    "growth": {
+      "atk": 5,
+      "def": 6,
+      "hp": 40,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_IRON_SMASH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.4,
+      "fire": 0.3,
+      "ice": 0,
+      "lightning": -0.4,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_CHIMERIC_DISCIPLE",
+    "rarity": 4,
+    "role": "support",
+    "faction": "ChimericEmbrace",
+    "baseStats": {
+      "atk": 55,
+      "def": 30,
+      "hp": 300,
+      "spd": 120
+    },
+    "growth": {
+      "atk": 5,
+      "def": 3,
+      "hp": 20,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_MIND_BOND"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": 0.1,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.4,
+      "holy": -0.3
+    }
+  },
+  {
+    "id": "ENEMY_CHIMERIC_HERALD",
+    "rarity": 5,
+    "role": "mage",
+    "faction": "ChimericEmbrace",
+    "baseStats": {
+      "atk": 90,
+      "def": 35,
+      "hp": 380,
+      "spd": 110
+    },
+    "growth": {
+      "atk": 8,
+      "def": 3,
+      "hp": 22,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_PSYCHIC_FLARE",
+      "SKL_ARCANE_DISRUPT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.1,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.5,
+      "holy": -0.4
+    }
+  },
+  {
+    "id": "BOSS_CHIMERIC_PROPHET",
+    "rarity": 7,
+    "role": "boss",
+    "faction": "ChimericEmbrace",
+    "baseStats": {
+      "atk": 125,
+      "def": 65,
+      "hp": 1500,
+      "spd": 105
+    },
+    "growth": {
+      "atk": 12,
+      "def": 6,
+      "hp": 65,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_MIND_SHATTER",
+      "SKL_SOUL_RESONANCE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_PSYCHIC_MASTERY",
+      "PASSIVE_MIND_CONTROL"
+    ],
+    "resistances": {
+      "physical": 0.25,
+      "fire": 0.3,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.7,
+      "holy": -0.5
+    }
+  },
+  {
+    "id": "ENEMY_STORM_MAGE",
+    "rarity": 4,
+    "role": "mage",
+    "faction": "Elemental",
+    "baseStats": {
+      "atk": 88,
+      "def": 28,
+      "hp": 420,
+      "spd": 28
+    },
+    "growth": {
+      "atk": 7,
+      "def": 2,
+      "hp": 15,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_LIGHTNING_STRIKE",
+      "SKL_THUNDER_AOE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": 0.2,
+      "ice": 0.1,
+      "lightning": 0.7,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_ABYSS_SENTINEL",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "Abyss",
+    "baseStats": {
+      "atk": 140,
+      "def": 90,
+      "hp": 1800,
+      "spd": 20
+    },
+    "growth": {
+      "atk": 10,
+      "def": 6,
+      "hp": 50,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_ABYSS_BEAM",
+      "SKL_VOID_CORRUPTION",
+      "SKL_AOE_RUPTURE"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_VOID_AURA",
+      "PASSIVE_TENACITY"
+    ],
+    "resistances": {
+      "physical": 0.3,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.5,
+      "holy": -0.3
+    }
+  },
+  {
+    "id": "ENEMY_SKELETON_WARRIOR",
+    "rarity": 2,
+    "role": "dps",
+    "faction": "Undead",
+    "baseStats": {
+      "atk": 35,
+      "def": 18,
+      "hp": 280,
+      "spd": 20
+    },
+    "growth": {
+      "atk": 4,
+      "def": 2,
+      "hp": 18,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_BONE_SLASH"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": -0.2,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0,
+      "holy": -0.4
+    }
+  },
+  {
+    "id": "ENEMY_ZOMBIE_BRUTE",
+    "rarity": 2,
+    "role": "tank",
+    "faction": "Undead",
+    "baseStats": {
+      "atk": 30,
+      "def": 28,
+      "hp": 420,
+      "spd": 8
+    },
+    "growth": {
+      "atk": 3,
+      "def": 3,
+      "hp": 28,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_ROTTEN_SLAM"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": -0.3,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0,
+      "holy": -0.5
+    }
+  },
+  {
+    "id": "ENEMY_FIRE_IMP",
+    "rarity": 3,
+    "role": "mage",
+    "faction": "Demon",
+    "baseStats": {
+      "atk": 55,
+      "def": 20,
+      "hp": 340,
+      "spd": 26
+    },
+    "growth": {
+      "atk": 5,
+      "def": 2,
+      "hp": 16,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_FIREBALL",
+      "SKL_FLAME_BURST"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": 0.6,
+      "ice": -0.4,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_ICE_WRAITH",
+    "rarity": 3,
+    "role": "mage",
+    "faction": "Undead",
+    "baseStats": {
+      "atk": 52,
+      "def": 22,
+      "hp": 350,
+      "spd": 24
+    },
+    "growth": {
+      "atk": 5,
+      "def": 2,
+      "hp": 17,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_ICE_SHARD",
+      "SKL_FROST_NOVA"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": -0.5,
+      "ice": 0.7,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_CURSED_KNIGHT",
+    "rarity": 4,
+    "role": "tank",
+    "faction": "Undead",
+    "baseStats": {
+      "atk": 65,
+      "def": 70,
+      "hp": 850,
+      "spd": 15
+    },
+    "growth": {
+      "atk": 5,
+      "def": 6,
+      "hp": 38,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_CURSED_BLADE",
+      "SKL_DARK_SHIELD"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.3,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.5,
+      "holy": -0.4
+    }
+  },
+  {
+    "id": "ENEMY_BLOOD_DEMON",
+    "rarity": 4,
+    "role": "dps",
+    "faction": "Demon",
+    "baseStats": {
+      "atk": 95,
+      "def": 30,
+      "hp": 480,
+      "spd": 30
+    },
+    "growth": {
+      "atk": 8,
+      "def": 3,
+      "hp": 20,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_BLOOD_SLASH",
+      "SKL_CRIMSON_FRENZY"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": 0.4,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.4,
+      "holy": -0.5
+    }
+  },
+  {
+    "id": "ENEMY_CRYSTAL_GOLEM",
+    "rarity": 4,
+    "role": "tank",
+    "faction": "Construct",
+    "baseStats": {
+      "atk": 55,
+      "def": 85,
+      "hp": 1000,
+      "spd": 8
+    },
+    "growth": {
+      "atk": 4,
+      "def": 7,
+      "hp": 45,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_CRYSTAL_SPIKES"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.4,
+      "fire": 0.2,
+      "ice": 0,
+      "lightning": -0.3,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "BOSS_CRYPT_LORD",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "Undead",
+    "baseStats": {
+      "atk": 150,
+      "def": 95,
+      "hp": 2000,
+      "spd": 18
+    },
+    "growth": {
+      "atk": 11,
+      "def": 7,
+      "hp": 55,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_DEATH_COIL",
+      "SKL_RAISE_DEAD",
+      "SKL_NECROTIC_AURA"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_UNDYING",
+      "PASSIVE_NECROTIC_MASTERY"
+    ],
+    "resistances": {
+      "physical": 0,
+      "fire": -0.2,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.6,
+      "holy": -0.5
+    }
+  },
+  {
+    "id": "BOSS_INFERNAL_TYRANT",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "Demon",
+    "baseStats": {
+      "atk": 165,
+      "def": 85,
+      "hp": 2200,
+      "spd": 22
+    },
+    "growth": {
+      "atk": 12,
+      "def": 6,
+      "hp": 60,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_HELLFIRE_BLAST",
+      "SKL_DEMONIC_CHARGE",
+      "SKL_INFERNO_STORM"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_BURNING_PRESENCE",
+      "PASSIVE_DEMON_RAGE"
+    ],
+    "resistances": {
+      "physical": 0,
+      "fire": 0.7,
+      "ice": -0.5,
+      "lightning": 0,
+      "dark": 0.5,
+      "holy": 0
+    }
+  },
+  {
+    "id": "BOSS_FROST_TITAN",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "Elemental",
+    "baseStats": {
+      "atk": 145,
+      "def": 110,
+      "hp": 2400,
+      "spd": 12
+    },
+    "growth": {
+      "atk": 10,
+      "def": 8,
+      "hp": 65,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_GLACIAL_HAMMER",
+      "SKL_BLIZZARD",
+      "SKL_FROZEN_FORTRESS"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_PERMAFROST",
+      "PASSIVE_ICE_ARMOR"
+    ],
+    "resistances": {
+      "physical": 0.4,
+      "fire": -0.6,
+      "ice": 0.8,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "BOSS_VOID_LEVIATHAN",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "Abyss",
+    "baseStats": {
+      "atk": 170,
+      "def": 100,
+      "hp": 2600,
+      "spd": 16
+    },
+    "growth": {
+      "atk": 13,
+      "def": 7,
+      "hp": 70,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_VOID_PULSE",
+      "SKL_REALITY_TEAR",
+      "SKL_COSMIC_DEVOURER"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_VOID_SHIELD",
+      "PASSIVE_REALITY_DISTORTION",
+      "PASSIVE_ADAPTATION"
+    ],
+    "resistances": {
+      "physical": 0.35,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.7,
+      "holy": -0.4
+    }
+  },
+  {
+    "id": "BOSS_THUNDER_EMPEROR",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "Elemental",
+    "baseStats": {
+      "atk": 180,
+      "def": 75,
+      "hp": 2100,
+      "spd": 35
+    },
+    "growth": {
+      "atk": 14,
+      "def": 5,
+      "hp": 58,
+      "spd": 3
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_DIVINE_LIGHTNING",
+      "SKL_STORM_CALL",
+      "SKL_THUNDERCLAP"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_STORM_FURY",
+      "PASSIVE_CHAIN_LIGHTNING"
+    ],
+    "resistances": {
+      "physical": 0.2,
+      "fire": 0.1,
+      "ice": 0,
+      "lightning": 0.8,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "BOSS_ANCIENT_DRAGON",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "Dragon",
+    "baseStats": {
+      "atk": 190,
+      "def": 120,
+      "hp": 3000,
+      "spd": 25
+    },
+    "growth": {
+      "atk": 15,
+      "def": 9,
+      "hp": 80,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_DRAGON_BREATH",
+      "SKL_TAIL_SWEEP",
+      "SKL_ANCIENT_ROAR"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_DRAGON_SCALES",
+      "PASSIVE_ANCIENT_WISDOM",
+      "PASSIVE_INDOMITABLE"
+    ],
+    "resistances": {
+      "physical": 0.45,
+      "fire": 0.6,
+      "ice": 0,
+      "lightning": 0.4,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_DARK_CULTIST",
+    "rarity": 3,
+    "role": "support",
+    "faction": "Cult",
+    "baseStats": {
+      "atk": 40,
+      "def": 26,
+      "hp": 390,
+      "spd": 22
+    },
+    "growth": {
+      "atk": 4,
+      "def": 2,
+      "hp": 19,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_CURSE",
+      "SKL_DARK_RITUAL"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.4,
+      "holy": -0.4
+    }
+  },
+  {
+    "id": "ENEMY_VENOMFANG_SPIDER",
+    "rarity": 3,
+    "role": "dps",
+    "faction": "Beast",
+    "baseStats": {
+      "atk": 58,
+      "def": 18,
+      "hp": 320,
+      "spd": 28
+    },
+    "growth": {
+      "atk": 5,
+      "def": 2,
+      "hp": 16,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_POISON_BITE",
+      "SKL_WEB_TRAP"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0,
+      "fire": -0.2,
+      "ice": 0.1,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "ENEMY_VOID_STALKER",
+    "rarity": 4,
+    "role": "dps",
+    "faction": "Abyss",
+    "baseStats": {
+      "atk": 92,
+      "def": 25,
+      "hp": 410,
+      "spd": 34
+    },
+    "growth": {
+      "atk": 8,
+      "def": 2,
+      "hp": 18,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_VOID_STRIKE",
+      "SKL_PHASE_SHIFT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {
+      "physical": 0.1,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.6,
+      "holy": -0.3
+    }
+  },
+  {
+    "id": "BOSS_ANCIENT_TREANT",
+    "rarity": 6,
+    "role": "boss",
+    "faction": "Nature",
+    "baseStats": {
+      "atk": 110,
+      "def": 145,
+      "hp": 2600,
+      "spd": 18
+    },
+    "growth": {
+      "atk": 9,
+      "def": 8,
+      "hp": 70,
+      "spd": 1
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_ROOT_SNARE",
+      "SKL_EARTHBURST",
+      "SKL_WILD_REGENERATION"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_THORNSKIN",
+      "PASSIVE_EARTHEN_GUARD",
+      "PASSIVE_PRIMAL_RAGE"
+    ],
+    "resistances": {
+      "physical": 0.35,
+      "fire": -0.4,
+      "ice": 0.2,
+      "lightning": 0,
+      "dark": 0.1,
+      "holy": 0
+    }
+  },
+  {
+    "id": "BOSS_ANGEL_OF_RUST",
+    "rarity": 7,
+    "role": "boss",
+    "faction": "Unknown",
+    "baseStats": {
+      "atk": 150,
+      "def": 85,
+      "hp": 2000,
+      "spd": 115
+    },
+    "growth": {
+      "atk": 15,
+      "def": 8,
+      "hp": 85,
+      "spd": 2
+    },
+    "equipSlots": [],
+    "skills": [
+      "SKL_RUST_WINGS",
+      "SKL_DECAY_BLAST",
+      "SKL_FINAL_JUDGEMENT"
+    ],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [
+      "PASSIVE_DECAY_AURA",
+      "PASSIVE_DIVINE_CORRUPTION",
+      "PASSIVE_UNSTOPPABLE"
+    ],
+    "resistances": {
+      "physical": 0.4,
+      "fire": 0.3,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.5,
+      "holy": 0.5
+    }
+    
+  },
+  {
+    "id": "ENEMY_WILD_BOAR",
+    "rarity": 1,
+    "role": "tank",
+    "faction": "Beast",
+    "baseStats": {"atk": 24, "def": 10, "hp": 160, "spd": 75},
+    "growth": {"atk": 3, "def": 1, "hp": 13, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_CHARGE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.15, "fire": -0.2, "ice": 0, "lightning": 0, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_SCAVENGER",
+    "rarity": 1,
+    "role": "dps",
+    "faction": "SlumGang",
+    "baseStats": {"atk": 28, "def": 6, "hp": 140, "spd": 95},
+    "growth": {"atk": 3, "def": 1, "hp": 11, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_SHIV"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.1, "holy": 0}
+  },
+  {
+    "id": "ENEMY_FERAL_DOG",
+    "rarity": 1,
+    "role": "dps",
+    "faction": "Beast",
+    "baseStats": {"atk": 30, "def": 5, "hp": 110, "spd": 105},
+    "growth": {"atk": 3, "def": 1, "hp": 9, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_MAUL"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": -0.15, "ice": 0, "lightning": 0, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_TOXIC_SPIDER",
+    "rarity": 1,
+    "role": "dps",
+    "faction": "Creatures",
+    "baseStats": {"atk": 26, "def": 4, "hp": 95, "spd": 100},
+    "growth": {"atk": 3, "def": 1, "hp": 8, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_POISON_FANG"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": -0.25, "ice": 0, "lightning": 0, "dark": 0.1, "holy": 0}
+  },
+  {
+    "id": "ENEMY_MUTANT_BAT",
+    "rarity": 1,
+    "role": "dps",
+    "faction": "Creatures",
+    "baseStats": {"atk": 22, "def": 3, "hp": 85, "spd": 115},
+    "growth": {"atk": 2, "def": 1, "hp": 7, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_SWOOP"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.15, "holy": -0.15}
+  },
+  {
+    "id": "ENEMY_WASTELAND_SCORPION",
+    "rarity": 1,
+    "role": "dps",
+    "faction": "Beast",
+    "baseStats": {"atk": 28, "def": 8, "hp": 130, "spd": 85},
+    "growth": {"atk": 3, "def": 1, "hp": 10, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_STING"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.1, "fire": 0, "ice": -0.2, "lightning": 0, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_SEWER_LURKER",
+    "rarity": 1,
+    "role": "tank",
+    "faction": "Creatures",
+    "baseStats": {"atk": 20, "def": 12, "hp": 175, "spd": 65},
+    "growth": {"atk": 2, "def": 2, "hp": 14, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_ACID_SPIT"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.2, "holy": -0.15}
+  },
+  {
+    "id": "ENEMY_RUST_BEETLE",
+    "rarity": 1,
+    "role": "tank",
+    "faction": "Creatures",
+    "baseStats": {"atk": 16, "def": 14, "hp": 190, "spd": 60},
+    "growth": {"atk": 2, "def": 2, "hp": 15, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_SHELL_BASH"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.2, "fire": 0, "ice": 0, "lightning": -0.15, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_MILITIA_GUARD",
+    "rarity": 2,
+    "role": "tank",
+    "faction": "SlumGang",
+    "baseStats": {"atk": 38, "def": 28, "hp": 320, "spd": 75},
+    "growth": {"atk": 3, "def": 3, "hp": 24, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_GUARD_STANCE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.15, "fire": 0, "ice": 0, "lightning": 0, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_CORRUPTED_CULTIST",
+    "rarity": 2,
+    "role": "mage",
+    "faction": "Cult",
+    "baseStats": {"atk": 48, "def": 16, "hp": 240, "spd": 90},
+    "growth": {"atk": 5, "def": 2, "hp": 18, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_DARK_MISSILE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.3, "holy": -0.35}
+  },
+  {
+    "id": "ENEMY_GHOUL",
+    "rarity": 2,
+    "role": "dps",
+    "faction": "Undead",
+    "baseStats": {"atk": 44, "def": 14, "hp": 260, "spd": 95},
+    "growth": {"atk": 4, "def": 1, "hp": 19, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_RENDING_CLAWS"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": -0.25, "ice": 0, "lightning": 0, "dark": 0.25, "holy": -0.4}
+  },
+  {
+    "id": "ENEMY_SHADOW_HOUND",
+    "rarity": 2,
+    "role": "dps",
+    "faction": "Abyss",
+    "baseStats": {"atk": 50, "def": 12, "hp": 230, "spd": 105},
+    "growth": {"atk": 5, "def": 1, "hp": 17, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_SHADOW_BITE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.35, "holy": -0.3}
+  },
+  {
+    "id": "ENEMY_VINE_HORROR",
+    "rarity": 2,
+    "role": "tank",
+    "faction": "Nature",
+    "baseStats": {"atk": 32, "def": 32, "hp": 380, "spd": 65},
+    "growth": {"atk": 3, "def": 3, "hp": 26, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_ENTANGLE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.1, "fire": -0.3, "ice": 0, "lightning": 0, "dark": 0, "holy": 0.15}
+  },
+  {
+    "id": "ENEMY_SHOCK_TROOPER",
+    "rarity": 2,
+    "role": "dps",
+    "faction": "KingsTech",
+    "baseStats": {"atk": 52, "def": 18, "hp": 250, "spd": 100},
+    "growth": {"atk": 5, "def": 2, "hp": 18, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_STUN_BATON"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.1, "fire": 0, "ice": 0, "lightning": 0.2, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_FLESH_GOLEM",
+    "rarity": 2,
+    "role": "tank",
+    "faction": "Construct",
+    "baseStats": {"atk": 36, "def": 30, "hp": 410, "spd": 60},
+    "growth": {"atk": 3, "def": 3, "hp": 28, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_CRUSH"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.25, "fire": -0.2, "ice": 0, "lightning": 0, "dark": 0, "holy": -0.25}
+  },
+  {
+    "id": "ENEMY_BANSHEE",
+    "rarity": 2,
+    "role": "mage",
+    "faction": "Undead",
+    "baseStats": {"atk": 46, "def": 10, "hp": 220, "spd": 110},
+    "growth": {"atk": 4, "def": 1, "hp": 16, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_WAIL"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.3, "holy": -0.35}
+  },
+  {
+    "id": "ENEMY_PLASMA_WISP",
+    "rarity": 2,
+    "role": "mage",
+    "faction": "Elemental",
+    "baseStats": {"atk": 50, "def": 8, "hp": 200, "spd": 115},
+    "growth": {"atk": 5, "def": 1, "hp": 15, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_SPARK"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0.2, "ice": 0, "lightning": 0.4, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_CLAY_SENTINEL",
+    "rarity": 2,
+    "role": "tank",
+    "faction": "Construct",
+    "baseStats": {"atk": 34, "def": 35, "hp": 390, "spd": 70},
+    "growth": {"atk": 3, "def": 3, "hp": 27, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_STONE_FIST"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.3, "fire": 0.1, "ice": 0, "lightning": -0.2, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_PURITY_ZEALOT",
+    "rarity": 3,
+    "role": "dps",
+    "faction": "PuritySalvation",
+    "baseStats": {"atk": 62, "def": 22, "hp": 350, "spd": 105},
+    "growth": {"atk": 6, "def": 2, "hp": 22, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_RIGHTEOUS_STRIKE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0, "ice": 0, "lightning": 0, "dark": -0.35, "holy": 0.45}
+  },
+  {
+    "id": "ENEMY_PLAGUE_BEARER",
+    "rarity": 3,
+    "role": "support",
+    "faction": "Infected",
+    "baseStats": {"atk": 45, "def": 30, "hp": 440, "spd": 80},
+    "growth": {"atk": 4, "def": 3, "hp": 28, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_DISEASE_CLOUD"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": -0.25, "ice": 0, "lightning": 0, "dark": 0.4, "holy": -0.35}
+  },
+  {
+    "id": "ENEMY_GARGOYLE",
+    "rarity": 3,
+    "role": "tank",
+    "faction": "Construct",
+    "baseStats": {"atk": 50, "def": 48, "hp": 520, "spd": 75},
+    "growth": {"atk": 4, "def": 4, "hp": 32, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_DIVE_ATTACK"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.35, "fire": 0.15, "ice": 0, "lightning": 0, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_DARK_PRIEST",
+    "rarity": 3,
+    "role": "support",
+    "faction": "Cult",
+    "baseStats": {"atk": 48, "def": 28, "hp": 380, "spd": 95},
+    "growth": {"atk": 4, "def": 2, "hp": 24, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_UNHOLY_BLESSING"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.45, "holy": -0.4}
+  },
+  {
+    "id": "ENEMY_EARTH_ELEMENTAL",
+    "rarity": 3,
+    "role": "tank",
+    "faction": "Elemental",
+    "baseStats": {"atk": 54, "def": 50, "hp": 600, "spd": 60},
+    "growth": {"atk": 4, "def": 4, "hp": 38, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_BOULDER_THROW"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.4, "fire": 0, "ice": 0, "lightning": -0.3, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_SPECTRAL_KNIGHT",
+    "rarity": 3,
+    "role": "dps",
+    "faction": "Undead",
+    "baseStats": {"atk": 60, "def": 20, "hp": 340, "spd": 100},
+    "growth": {"atk": 6, "def": 2, "hp": 21, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_PHANTOM_BLADE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.2, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.35, "holy": -0.45}
+  },
+  {
+    "id": "ENEMY_CHIMERIC_BEAST",
+    "rarity": 3,
+    "role": "dps",
+    "faction": "ChimericEmbrace",
+    "baseStats": {"atk": 64, "def": 18, "hp": 330, "spd": 110},
+    "growth": {"atk": 6, "def": 2, "hp": 20, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_FERAL_SLASH"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.15, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.3, "holy": -0.25}
+  },
+  {
+    "id": "ENEMY_COMBAT_DRONE",
+    "rarity": 3,
+    "role": "dps",
+    "faction": "KingsTech",
+    "baseStats": {"atk": 58, "def": 24, "hp": 310, "spd": 115},
+    "growth": {"atk": 5, "def": 2, "hp": 19, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_AUTO_FIRE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.25, "fire": 0, "ice": 0, "lightning": 0.3, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_LAVA_HOUND",
+    "rarity": 3,
+    "role": "tank",
+    "faction": "Demon",
+    "baseStats": {"atk": 56, "def": 42, "hp": 480, "spd": 70},
+    "growth": {"atk": 5, "def": 4, "hp": 30, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_MOLTEN_BITE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0.5, "ice": -0.4, "lightning": 0, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_VOID_SPAWN",
+    "rarity": 3,
+    "role": "dps",
+    "faction": "Abyss",
+    "baseStats": {"atk": 62, "def": 16, "hp": 300, "spd": 105},
+    "growth": {"atk": 6, "def": 2, "hp": 18, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_VOID_TENDRIL"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.5, "holy": -0.35}
+  },
+  {
+    "id": "ENEMY_DEATH_KNIGHT",
+    "rarity": 4,
+    "role": "tank",
+    "faction": "Undead",
+    "baseStats": {"atk": 72, "def": 78, "hp": 920, "spd": 80},
+    "growth": {"atk": 6, "def": 7, "hp": 42, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_DEATH_GRIP", "SKL_UNHOLY_STRIKE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.35, "fire": 0, "ice": 0.15, "lightning": 0, "dark": 0.5, "holy": -0.45}
+  },
+  {
+    "id": "ENEMY_HELLFIRE_MAGE",
+    "rarity": 4,
+    "role": "mage",
+    "faction": "Demon",
+    "baseStats": {"atk": 100, "def": 26, "hp": 410, "spd": 95},
+    "growth": {"atk": 9, "def": 2, "hp": 20, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_HELLFIRE", "SKL_METEOR"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0.65, "ice": -0.45, "lightning": 0, "dark": 0, "holy": -0.35}
+  },
+  {
+    "id": "ENEMY_VOID_KNIGHT",
+    "rarity": 4,
+    "role": "dps",
+    "faction": "Abyss",
+    "baseStats": {"atk": 96, "def": 32, "hp": 480, "spd": 110},
+    "growth": {"atk": 9, "def": 3, "hp": 24, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_VOID_SLASH", "SKL_DARK_WARP"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.2, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.6, "holy": -0.35}
+  },
+  {
+    "id": "ENEMY_STEEL_WARDEN",
+    "rarity": 4,
+    "role": "tank",
+    "faction": "KingsTech",
+    "baseStats": {"atk": 68, "def": 72, "hp": 780, "spd": 75},
+    "growth": {"atk": 6, "def": 6, "hp": 38, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_SHIELD_SLAM"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.4, "fire": 0.2, "ice": 0, "lightning": 0.25, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_CHIMERIC_WARRIOR",
+    "rarity": 4,
+    "role": "dps",
+    "faction": "ChimericEmbrace",
+    "baseStats": {"atk": 92, "def": 28, "hp": 450, "spd": 115},
+    "growth": {"atk": 8, "def": 3, "hp": 22, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_MULTI_STRIKE", "SKL_RAGE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.15, "fire": 0.15, "ice": 0, "lightning": 0, "dark": 0.4, "holy": -0.3}
+  },
+  {
+    "id": "ENEMY_FROST_GUARDIAN",
+    "rarity": 4,
+    "role": "tank",
+    "faction": "Elemental",
+    "baseStats": {"atk": 70, "def": 80, "hp": 860, "spd": 65},
+    "growth": {"atk": 6, "def": 7, "hp": 40, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_ICE_WALL"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.3, "fire": -0.5, "ice": 0.7, "lightning": 0, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "ENEMY_CORRUPTED_ANGEL",
+    "rarity": 4,
+    "role": "dps",
+    "faction": "Unknown",
+    "baseStats": {"atk": 98, "def": 30, "hp": 460, "spd": 105},
+    "growth": {"atk": 9, "def": 3, "hp": 23, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_FALLEN_JUDGMENT", "SKL_CORRUPTION_WAVE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.2, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.5, "holy": 0.3}
+  },
+  {
+    "id": "ENEMY_INFERNO_DAEMON",
+    "rarity": 4,
+    "role": "mage",
+    "faction": "Demon",
+    "baseStats": {"atk": 94, "def": 24, "hp": 420, "spd": 100},
+    "growth": {"atk": 8, "def": 2, "hp": 21, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_FIRE_STORM", "SKL_BURNING_HANDS"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": 0.6, "ice": -0.4, "lightning": 0, "dark": 0, "holy": -0.4}
+  },
+  {
+    "id": "ENEMY_PLAGUE_DOCTOR",
+    "rarity": 5,
+    "role": "support",
+    "faction": "Infected",
+    "baseStats": {"atk": 78, "def": 45, "hp": 680, "spd": 90},
+    "growth": {"atk": 7, "def": 4, "hp": 35, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_PANDEMIC", "SKL_TOXIC_CLOUD"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0, "fire": -0.25, "ice": 0, "lightning": 0, "dark": 0.55, "holy": -0.5}
+  },
+  {
+    "id": "ENEMY_CRIMSON_REAPER",
+    "rarity": 5,
+    "role": "dps",
+    "faction": "Demon",
+    "baseStats": {"atk": 125, "def": 38, "hp": 520, "spd": 125},
+    "growth": {"atk": 11, "def": 3, "hp": 26, "spd": 3},
+    "equipSlots": [],
+    "skills": ["SKL_BLOOD_HARVEST", "SKL_EXECUTE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.2, "fire": 0.4, "ice": 0, "lightning": 0, "dark": 0.5, "holy": -0.55}
+  },
+  {
+    "id": "ENEMY_VOID_ARCHON",
+    "rarity": 5,
+    "role": "mage",
+    "faction": "Abyss",
+    "baseStats": {"atk": 115, "def": 42, "hp": 580, "spd": 100},
+    "growth": {"atk": 10, "def": 4, "hp": 30, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_VOID_BLAST", "SKL_REALITY_WARP"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.25, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.7, "holy": -0.4}
+  },
+  {
+    "id": "ENEMY_HOLY_INQUISITOR",
+    "rarity": 5,
+    "role": "dps",
+    "faction": "PuritySalvation",
+    "baseStats": {"atk": 110, "def": 50, "hp": 620, "spd": 105},
+    "growth": {"atk": 10, "def": 4, "hp": 32, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_HOLY_SMITE", "SKL_PURGE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": [],
+    "resistances": {"physical": 0.3, "fire": 0.15, "ice": 0, "lightning": 0, "dark": -0.5, "holy": 0.65}
+  },
+  {
+    "id": "BOSS_CLOCKWORK_OVERLORD",
+    "rarity": 6,
+    "role": "boss",
+    "faction": "Construct",
+    "baseStats": {"atk": 135, "def": 95, "hp": 2300, "spd": 140},
+    "growth": {"atk": 12, "def": 8, "hp": 68, "spd": 3},
+    "equipSlots": [],
+    "skills": ["SKL_TEMPORAL_SHIFT", "SKL_GEAR_BARRAGE", "SKL_OVERLOAD"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_PRECISION_TIMING", "PASSIVE_REPAIR_PROTOCOL", "PASSIVE_SPEED_BOOST"],
+    "resistances": {"physical": 0.45, "fire": 0.1, "ice": 0.2, "lightning": -0.35, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "BOSS_PLAGUE_SOVEREIGN",
+    "rarity": 7,
+    "role": "boss",
+    "faction": "Infected",
+    "baseStats": {"atk": 105, "def": 75, "hp": 2100, "spd": 85},
+    "growth": {"atk": 10, "def": 7, "hp": 75, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_PESTILENCE", "SKL_TOXIC_RAIN", "SKL_CONTAMINATE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_DISEASE_AURA", "PASSIVE_TOXIC_IMMUNITY", "PASSIVE_INFECT_ON_HIT"],
+    "resistances": {"physical": 0.2, "fire": -0.4, "ice": 0.1, "lightning": 0, "dark": 0.6, "holy": -0.65}
+  },
+  {
+    "id": "BOSS_STORM_COLOSSUS",
+    "rarity": 6,
+    "role": "boss",
+    "faction": "Elemental",
+    "baseStats": {"atk": 155, "def": 90, "hp": 2500, "spd": 105},
+    "growth": {"atk": 13, "def": 8, "hp": 72, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_HURRICANE_FIST", "SKL_LIGHTNING_FIELD", "SKL_CYCLONE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_STORM_CHARGE", "PASSIVE_WIND_BARRIER", "PASSIVE_STATIC_DISCHARGE"],
+    "resistances": {"physical": 0.3, "fire": 0, "ice": 0.25, "lightning": 0.75, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "BOSS_CRIMSON_WYRM",
+    "rarity": 7,
+    "role": "boss",
+    "faction": "Dragon",
+    "baseStats": {"atk": 175, "def": 105, "hp": 2800, "spd": 95},
+    "growth": {"atk": 15, "def": 9, "hp": 80, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_BLOOD_BREATH", "SKL_WING_SLASH", "SKL_DRACONIC_FURY"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_BLOOD_RAGE", "PASSIVE_DRAGON_HEART", "PASSIVE_VAMPIRIC_STRIKES"],
+    "resistances": {"physical": 0.4, "fire": 0.5, "ice": -0.25, "lightning": 0.3, "dark": 0.35, "holy": -0.3}
+  },
+  {
+    "id": "BOSS_SHADOW_MONARCH",
+    "rarity": 8,
+    "role": "boss",
+    "faction": "Abyss",
+    "baseStats": {"atk": 160, "def": 80, "hp": 2400, "spd": 135},
+    "growth": {"atk": 14, "def": 7, "hp": 70, "spd": 3},
+    "equipSlots": [],
+    "skills": ["SKL_DARK_DOMINION", "SKL_SHADOW_ARMY", "SKL_VOID_ANNIHILATION"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_SHADOW_FORM", "PASSIVE_MONARCH_AUTHORITY", "PASSIVE_ETERNAL_NIGHT"],
+    "resistances": {"physical": 0.35, "fire": 0, "ice": 0, "lightning": 0, "dark": 0.8, "holy": -0.6}
+  },
+  {
+    "id": "BOSS_OBSIDIAN_SENTINEL",
+    "rarity": 7,
+    "role": "boss",
+    "faction": "Construct",
+    "baseStats": {"atk": 140, "def": 130, "hp": 3200, "spd": 65},
+    "growth": {"atk": 11, "def": 11, "hp": 90, "spd": 1},
+    "equipSlots": [],
+    "skills": ["SKL_OBSIDIAN_SHATTER", "SKL_FORTRESS_MODE", "SKL_MAGMA_CORE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_UNBREAKABLE", "PASSIVE_REFLECTIVE_ARMOR", "PASSIVE_EARTH_ANCHOR"],
+    "resistances": {"physical": 0.55, "fire": 0.6, "ice": -0.3, "lightning": -0.25, "dark": 0, "holy": 0}
+  },
+  {
+    "id": "BOSS_ETHEREAL_QUEEN",
+    "rarity": 8,
+    "role": "boss",
+    "faction": "Unknown",
+    "baseStats": {"atk": 145, "def": 70, "hp": 2200, "spd": 125},
+    "growth": {"atk": 13, "def": 6, "hp": 65, "spd": 3},
+    "equipSlots": [],
+    "skills": ["SKL_DREAMWEAVE", "SKL_ASTRAL_PROJECTION", "SKL_COSMIC_CONVERGENCE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_PHASE_SHIFT", "PASSIVE_ETHEREAL_BLESSING", "PASSIVE_TIMELESS"],
+    "resistances": {"physical": 0.2, "fire": 0.3, "ice": 0.3, "lightning": 0.3, "dark": 0.4, "holy": 0.4}
+  },
+  {
+    "id": "BOSS_CHAOS_PRIMARCH",
+    "rarity": 8,
+    "role": "boss",
+    "faction": "Demon",
+    "baseStats": {"atk": 185, "def": 95, "hp": 2700, "spd": 115},
+    "growth": {"atk": 16, "def": 8, "hp": 78, "spd": 2},
+    "equipSlots": [],
+    "skills": ["SKL_CHAOS_STORM", "SKL_MADNESS_WAVE", "SKL_APOCALYPSE"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_CHAOS_INCARNATE", "PASSIVE_ENTROPY", "PASSIVE_REALITY_BREAK"],
+    "resistances": {"physical": 0.4, "fire": 0.6, "ice": 0, "lightning": 0.4, "dark": 0.75, "holy": -0.7}
+  },
+  {
+    "id": "BOSS_PSIONIC_ASCENDANT",
+    "name": "Psionic Ascendant",
+    "type": "boss",
+    "rarity": 5,
+    "role": "Controller",
+    "stats": { "hp": 150000, "atk": 4200, "def": 2400, "spd": 110, "acc": 40, "res": 50 }
+  },
+  {
+    "id": "SKILL_PSIONIC_BURST",
+    "name": "Psionic Burst",
+    "type": "active",
+    "cooldown": 3,
+    "target": "single_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.8" },
+      { "type": "apply", "status": "DEF_DOWN", "duration": 2 },
+      { "type": "apply", "status": "DISORIENT", "duration": 1 }
+    ]
+
+  },
+  {
+    "id": "SKILL_MIND_BREAK",
+    "name": "Mind Break",
+    "type": "active",
+    "cooldown": 5,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.4" },
+      { "type": "apply", "status": "SP_DOWN", "duration": 2 },
+      { "type": "apply", "status": "CHAOS", "duration": 1 }
+    ]
+  },
+  {
+    "id": "SKILL_ASTRAL_RUPTURE",
+    "name": "Astral Rupture",
+    "type": "active",
+    "cooldown": 6,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*3.3" },
+      { "type": "apply", "status": "STUN", "duration": 1 },
+      { "type": "apply", "status": "RES_DOWN", "duration": 2 }
+    ]
+  },
+  {
+    "id": "PASSIVE_PSYCHOFIELD",
+    "name": "Psychofield",
+    "type": "passive",
+    "effects": [
+      { "type": "buff_self", "status": "SHIELD", "value": "HP*0.10", "duration": 2 },
+      { "type": "auto_apply", "status": "ACC_UP", "duration": 999 }
+    ]
+  },
+  {
+    "id": "BOSS_MASKED_HIGH_PRIEST",
+    "name": "Masked High Priest",
+    "type": "boss",
+    "rarity": 5,
+    "role": "Support/Controller",
+    "stats": { "hp": 140000, "atk": 3600, "def": 2600, "spd": 115, "acc": 35, "res": 60 }
+  },
+  {
+    "id": "SKILL_PURIFYING_FLAME",
+    "name": "Purifying Flame",
+    "type": "active",
+    "cooldown": 3,
+    "target": "single_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.6" },
+      { "type": "apply", "status": "BLOCK_HEAL", "duration": 2 }
+    ]
+  },
+  {
+    "id": "SKILL_HOLY_EXALTATION",
+    "name": "Holy Exaltation",
+    "type": "active",
+    "cooldown": 5,
+    "target": "all_allies",
+    "effects": [
+      { "type": "heal", "scaling": "HP*0.18" },
+      { "type": "apply", "status": "ATK_UP", "duration": 2 },
+      { "type": "cleanse", "count": 1 }
+    ]
+  },
+  {
+    "id": "SKILL_DIVINE_JUDGMENT",
+    "name": "Divine Judgment",
+    "type": "active",
+    "cooldown": 6,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*3.0" },
+      { "type": "apply", "status": "STUN", "duration": 1 }
+    ]
+  },
+  {
+    "id": "PASSIVE_FANATIC_FAITH",
+    "name": "Fanatic Faith",
+    "type": "passive",
+    "effects": [
+      { "type": "revive_self", "hp_percent": 0.25, "cd": 1 },
+      { "type": "auto_apply", "status": "RES_UP", "duration": 999 }
+    ]
+  },
+	
+  {
+    "id": "BOSS_FROST_TITAN",
+    "name": "Frost Titan",
+    "type": "boss",
+    "rarity": 5,
+    "role": "Tank",
+    "stats": { "hp": 180000, "atk": 3000, "def": 3200, "spd": 80, "acc": 20, "res": 70 }
+  },
+  {
+    "id": "SKILL_GLACIAL_IMPACT",
+    "name": "Glacial Impact",
+    "type": "active",
+    "cooldown": 3,
+    "target": "single_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.5" },
+      { "type": "apply", "status": "FROSTBITE", "duration": 2 }
+    ]
+  },
+  { 
+    "id": "SKILL_ICE_QUAKE",
+    "name": "Ice Quake",
+    "type": "active",
+    "cooldown": 5,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.8" },
+      { "type": "apply", "status": "SPD_DOWN", "duration": 2 }
+    ]
+  },
+  {
+    "id": "SKILL_WINTERS_WRATH",
+    "name": "Winter's Wrath",
+    "type": "active",
+    "cooldown": 6,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "HP*0.10" },
+      { "type": "apply", "status": "FREEZE", "duration": 1 }
+    ]
+  },
+  {
+    "id": "PASSIVE_ARCTIC_AURA",
+    "name": "Arctic Aura",
+    "type": "passive",
+    "effects": [
+      { "type": "auto_apply", "status": "DEF_UP", "duration": 999 },
+      { "type": "apply_on_hit", "status": "FROSTBITE", "duration": 2 }
+    ]
+  },
+
+  {
+    "id": "BOSS_VOID_LEVIATHAN",
+    "name": "Void Leviathan",
+    "type": "boss",
+    "rarity": 5,
+    "role": "Bruiser",
+    "stats": { "hp": 160000, "atk": 4600, "def": 2600, "spd": 95, "acc": 50, "res": 50 }
+  },
+  {
+    "id": "SKILL_VOID_SWEEP",
+    "name": "Void Sweep",
+    "type": "active",
+    "cooldown": 3,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.2" },
+      { "type": "apply", "status": "WEAKEN", "duration": 2 }
+    ]
+  },
+  {
+    "id": "SKILL_CONSUMING_ABYSS",
+    "name": "Consuming Abyss",
+    "type": "active",
+    "cooldown": 5,
+    "target": "single_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*3.6" },
+      { "type": "apply", "status": "BLEED", "duration": 3 }
+    ]
+  },
+  {
+    "id": "SKILL_GRAVITY_RUPTURE",
+    "name": "Gravity Rupture",
+    "type": "active",
+    "cooldown": 7,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*4.0" },
+      { "type": "apply", "status": "STUN", "duration": 1 }
+    ]
+  },
+  {
+    "id": "PASSIVE_VOID_PRESSURE",
+    "name": "Void Pressure",
+    "type": "passive",
+    "effects": [
+      { "type": "reduces_damage_taken", "value": 0.20 },
+      { "type": "apply_on_turn_start", "status": "ATK_UP", "duration": 1 }
+    ]
+  },
+  {
+    "id": "BOSS_INFERNAL_TYRANT",
+    "name": "Infernal Tyrant",
+    "type": "boss",
+    "rarity": 5,
+    "role": "Damage Dealer",
+    "stats": { "hp": 155000, "atk": 5200, "def": 2000, "spd": 105, "acc": 45, "res": 40 }
+  },
+  {
+     "id": "SKILL_LAVA_CLEAVE",
+    "name": "Lava Cleave",
+    "type": "active",
+    "cooldown": 3,
+    "target": "single_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*3.0" },
+      { "type": "apply", "status": "BURN", "duration": 3 }
+    ]
+  },
+  {
+    "id": "SKILL_HELLFIRE_NOVA",
+    "name": "Hellfire Nova",
+    "type": "active",
+    "cooldown": 5,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.8" },
+      { "type": "apply", "status": "BURN", "duration": 2 }
+    ]
+  },
+  {
+    "id": "SKILL_INFERNAL_DOMINION",
+    "name": "Infernal Dominion",
+    "type": "active",
+    "cooldown": 7,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*4.5" },
+      { "type": "apply", "status": "FEAR", "duration": 1 }
+    ]
+  },
+  {
+    "id": "PASSIVE_HEAT_INFUSION",
+    "name": "Heat Infusion",
+    "type": "passive",
+    "effects": [
+      { "type": "apply_on_hit", "status": "BURN", "duration": 2 },
+      { "type": "auto_apply", "status": "ATK_UP", "duration": 999 }
+    ]
+  },
+  {
+    "id": "BOSS_ANCIENT_TREANT",
+    "name": "Ancient Treant",
+    "type": "boss",
+    "rarity": 5,
+    "role": "Tank/Support",
+    "stats": { "hp": 175000, "atk": 3000, "def": 3400, "spd": 70, "acc": 30, "res": 80 }
+  },
+  {
+     "id": "SKILL_ROOT_SNARE",
+    "name": "Root Snare",
+    "type": "active",
+    "cooldown": 3,
+    "target": "single_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.4" },
+      { "type": "apply", "status": "SPD_DOWN", "duration": 2 },
+      { "type": "apply", "status": "ENTANGLE", "duration": 1 }
+    ]
+  },
+  {
+    "id": "SKILL_BRAMBLE_STORM",
+    "name": "Bramble Storm",
+    "type": "active",
+    "cooldown": 5,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.6" },
+      { "type": "apply", "status": "BLEED", "duration": 2 }
+    ]
+  },
+  {
+    "id": "SKILL_REJUVENATING_BARK",
+    "name": "Rejuvenating Bark",
+    "type": "active",
+    "cooldown": 6,
+    "target": "all_allies",
+    "effects": [
+      { "type": "heal", "scaling": "HP*0.15" },
+      { "type": "apply", "status": "DEF_UP", "duration": 2 }
+    ]
+  },
+  { 
+    "id": "PASSIVE_FOREST_HEART",
+    "name": "Forest Heart",
+    "type": "passive",
+    "effects": [
+      { "type": "auto_heal", "scaling": "HP*0.05" },
+      { "type": "apply_on_hit", "status": "ROOT", "duration": 1 }
+    ]
+  },
+  {
+    "id": "BOSS_ABERRATION",
+    "name": "Aberration",
+    "type": "boss",
+    "rarity": 5,
+    "role": "Damage Dealer/Chaos",
+    "stats": { "hp": 145000, "atk": 4800, "def": 2000, "spd": 120, "acc": 55, "res": 30 }
+  },
+  {
+    "id": "SKILL_MUTAGENIC_SLAM",
+    "name": "Mutagenic Slam",
+    "type": "active",
+    "cooldown": 3,
+    "target": "single_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*3.2" },
+      { "type": "apply", "status": "DEF_DOWN", "duration": 2 }
+    ]
+  },
+  {
+    "id": "SKILL_CORRUPTED_SPIT",
+    "name": "Corrupted Spit",
+    "type": "active",
+    "cooldown": 4,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.5" },
+      { "type": "apply", "status": "POISON", "duration": 3 }
+    ]
+  },
+  {
+    "id": "SKILL_FLESH_WARP",
+    "name": "Flesh Warp",
+    "type": "active",
+    "cooldown": 6,
+    "target": "random_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*4.0" },
+      { "type": "apply", "status": "CHAOS", "duration": 1 }
+    ]
+  },
+  {
+    "id": "PASSIVE_UNSTABLE_MASS",
+    "name": "Unstable Mass",
+    "type": "passive",
+    "effects": [
+      { "type": "explode_on_death", "damage": "ATK*4.0" },
+      { "type": "auto_apply", "status": "ATK_UP", "duration": 999 }
+    ]
+  },
+  {
+    "id": "BOSS_PURITY_COMMANDER",
+    "name": "Purity Commander",
+    "type": "boss",
+    "rarity": 5,
+    "role": "Leader",
+    "stats": { "hp": 155000, "atk": 3800, "def": 3200, "spd": 100, "acc": 40, "res": 60 }
+  },
+  {
+    "id": "SKILL_COMMANDING_STRIKE",
+    "name": "Commanding Strike",
+    "type": "active",
+    "cooldown": 3,
+  "target": "single_enemy",
+  "effects": [
+    { "type": "damage", "scaling": "ATK*3.0" },
+    { "type": "apply", "status": "BLEED", "duration": 2 }
+  ]
+  },
+  {
+    "id": "SKILL_RALLYING_CRY",
+    "name": "Rallying Cry",
+    "type": "active",
+    "cooldown": 5,
+    "target": "all_allies",
+    "effects": [
+      { "type": "apply", "status": "ATK_UP", "duration": 2 },
+      { "type": "apply", "status": "SPD_UP", "duration": 2 }
+    ]
+  },
+  {
+    "id": "SKILL_EXECUTION_ORDER",
+    "name": "Execution Order",
+    "type": "active",
+    "cooldown": 6,
+    "target": "lowest_hp_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*4.5" },
+      { "type": "apply", "status": "VULNERABLE", "duration": 2 }
+    ]
+  },
+  {
+    "id": "PASSIVE_COMMANDERS_AUTHORITY",
+    "name": "Commander’s Authority",
+    "type": "passive",
+    "effects": [
+      { "type": "increase_team_stats", "stat": "ATK", "value": 0.15 },
+      { "type": "auto_apply", "status": "RES_UP", "duration": 999 }
+    ]
+  },
+  {
+    "id": "BOSS_ELDER_PSION",
+    "name": "Elder Psion",
+    "type": "boss",
+    "rarity": 5,
+    "role": "Controller",
+    "stats": { "hp": 150000, "atk": 3500, "def": 2600, "spd": 115, "acc": 65, "res": 65 }
+  },
+  {
+    "id": "SKILL_MIND_SHOCK",
+    "name": "Mind Shock",
+    "type": "active",
+    "cooldown": 3,
+    "target": "single_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.7" },
+      { "type": "apply", "status": "STUN", "duration": 1 }
+    ]
+  },
+  {
+    "id": "SKILL_ASTRAL_WAVE",
+    "name": "Astral Wave",
+    "type": "active",
+    "cooldown": 5,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.9" },
+      { "type": "apply", "status": "RES_DOWN", "duration": 2 }
+    ]
+  },
+  {
+    "id": "SKILL_PLANAR_RIFT",
+    "name": "Planar Rift",
+    "type": "active",
+    "cooldown": 7,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*4.2" },
+      { "type": "apply", "status": "SILENCE", "duration": 1 }
+    ]
+  },
+  {
+    "id": "PASSIVE_HIGHER_CONSCIOUSNESS",
+    "name": "Higher Consciousness",
+    "type": "passive",
+    "effects": [
+      { "type": "auto_apply", "status": "ACC_UP", "duration": 999 },
+      { "type": "dodge_chance", "value": 0.20 }
+    ]
+  },
+  {
+    "id": "BOSS_BIOWEAPON_ALPHA",
+    "name": "Bioweapon Alpha",
+    "type": "boss",
+    "rarity": 5,
+    "role": "Bruiser",
+    "stats": { "hp": 165000, "atk": 4500, "def": 2800, "spd": 90, "acc": 40, "res": 55 }
+  },
+  {
+    "id": "SKILL_TITAN_PUNCH",
+    "name": "Titan Punch",
+    "type": "active",
+    "cooldown": 3,
+    "target": "single_enemy",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*3.4" },
+      { "type": "apply", "status": "DEF_DOWN", "duration": 2 }
+    ]
+  },
+  {
+    "id": "SKILL_RADIATION_BURST",
+    "name": "Radiation Burst",
+    "type": "active",
+    "cooldown": 5,
+    "target": "all_enemies",
+    "effects": [
+      { "type": "damage", "scaling": "ATK*2.7" },
+      { "type": "apply", "status": "RADIATION", "duration": 2 }
+    ]
+  },
+  {
+    "id": "SKILL_OVERDRIVE",
+    "name": "Overdrive",
+    "type": "active",
+    "cooldown": 6,
+    "target": "self",
+    "effects": [
+      { "type": "apply", "status": "ATK_UP", "duration": 3 },
+      { "type": "apply", "status": "SPD_UP", "duration": 2 }
+    ]
+  },
+  {
+    "id": "PASSIVE_REACTOR_CORE",
+    "name": "Reactor Core",
+    "type": "passive",
+    "effects": [
+      { "type": "auto_apply", "status": "SHIELD", "value": "HP*0.12", "duration": 2 },
+      { "type": "apply_on_hit", "status": "RADIATION", "duration": 2 }
+    ]
+  },
+  {
+  "id": "BOSS_ABERRATION_HARD",
+  "rarity": 7,
+  "role": "boss",
+  "faction": "Infected",
+  "baseStats": { "atk": 162, "def": 94, "hp": 1890, "spd": 128 },
+  "growth": { "atk": 15, "def": 8, "hp": 81, "spd": 3 },
+  "equipSlots": [],
+  "skills": ["SKL_VOID_SCREECH", "SKL_GENE_ERUPTION"],
+  "skillsDetailed": [],
+  "captainSkill": "",
+  "voiceLines": {},
+  "passiveAbilities": ["PASSIVE_VIRAL_REGENERATION", "PASSIVE_MUTATION"],
+  "resistances": {
+    "physical": 0.3,
+    "fire": -0.3,
+    "ice": 0,
+    "lightning": 0,
+    "dark": 0.7,
+    "holy": -0.7
+  }
+  },
+  {
+    "id": "BOSS_ABERRATION_NM",
+    "rarity": 8,
+    "role": "boss",
+    "faction": "Infected",
+    "baseStats": { "atk": 210, "def": 122, "hp": 2450, "spd": 166 },
+    "growth": { "atk": 19, "def": 10, "hp": 105, "spd": 4 },
+    "equipSlots": [],
+    "skills": ["SKL_VOID_SCREECH", "SKL_GENE_ERUPTION"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_VIRAL_REGENERATION", "PASSIVE_MUTATION"],
+    "resistances": {
+      "physical": 0.3,
+      "fire": -0.3,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.7,
+      "holy": -0.7
+    }
+  },
+  {
+    "id": "BOSS_FROST_TITAN_HARD",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "Elemental",
+    "baseStats": { "atk": 196, "def": 148, "hp": 3240, "spd": 16 },
+    "growth": { "atk": 14, "def": 11, "hp": 88, "spd": 1 },
+    "equipSlots": [],
+    "skills": ["SKL_GLACIAL_HAMMER", "SKL_BLIZZARD", "SKL_FROZEN_FORTRESS"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_PERMAFROST", "PASSIVE_ICE_ARMOR"],
+    "resistances": {
+      "physical": 0.4,
+      "fire": -0.6,
+      "ice": 0.8,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "BOSS_FROST_TITAN_NM",
+    "rarity": 6,
+    "role": "boss",
+    "faction": "Elemental",
+    "baseStats": { "atk": 254, "def": 192, "hp": 4200, "spd": 21 },
+    "growth": { "atk": 18, "def": 14, "hp": 114, "spd": 2 },
+    "equipSlots": [],
+    "skills": ["SKL_GLACIAL_HAMMER", "SKL_BLIZZARD", "SKL_FROZEN_FORTRESS"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_PERMAFROST", "PASSIVE_ICE_ARMOR"],
+    "resistances": {
+      "physical": 0.4,
+      "fire": -0.6,
+      "ice": 0.8,
+      "lightning": 0,
+      "dark": 0,
+      "holy": 0
+    }
+  },
+  {
+    "id": "BOSS_INFERNAL_TYRANT_HARD",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "Demon",
+    "baseStats": { "atk": 223, "def": 115, "hp": 2970, "spd": 30 },
+    "growth": { "atk": 16, "def": 8, "hp": 81, "spd": 3 },
+    "equipSlots": [],
+    "skills": ["SKL_HELLFIRE_BLAST", "SKL_DEMONIC_CHARGE", "SKL_INFERNO_STORM"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_BURNING_PRESENCE", "PASSIVE_DEMON_RAGE"],
+    "resistances": {
+      "physical": 0,
+      "fire": 0.7,
+      "ice": -0.5,
+      "lightning": 0,
+      "dark": 0.5,
+      "holy": 0
+    }
+  },
+  {
+    "id": "BOSS_INFERNAL_TYRANT_NM",
+    "rarity": 6,
+    "role": "boss",
+    "faction": "Demon",
+    "baseStats": { "atk": 289, "def": 149, "hp": 3850, "spd": 38 },
+    "growth": { "atk": 21, "def": 10, "hp": 105, "spd": 4 },
+    "equipSlots": [],
+    "skills": ["SKL_HELLFIRE_BLAST", "SKL_DEMONIC_CHARGE", "SKL_INFERNO_STORM"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_BURNING_PRESENCE", "PASSIVE_DEMON_RAGE"],
+    "resistances": {
+      "physical": 0,
+      "fire": 0.7,
+      "ice": -0.5,
+      "lightning": 0,
+      "dark": 0.5,
+      "holy": 0
+    }
+  },
+  {
+    "id": "BOSS_VOID_LEVIATHAN_HARD",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "Abyss",
+    "baseStats": { "atk": 230, "def": 135, "hp": 3510, "spd": 22 },
+    "growth": { "atk": 18, "def": 9, "hp": 94, "spd": 1 },
+    "equipSlots": [],
+    "skills": ["SKL_VOID_PULSE", "SKL_REALITY_TEAR", "SKL_COSMIC_DEVOURER"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_VOID_SHIELD", "PASSIVE_REALITY_DISTORTION", "PASSIVE_ADAPTATION"],
+    "resistances": {
+      "physical": 0.35,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.7,
+      "holy": -0.4
+    }
+  },
+  {
+    "id": "BOSS_VOID_LEVIATHAN_NM",
+    "rarity": 6,
+    "role": "boss",
+    "faction": "Abyss",
+    "baseStats": { "atk": 298, "def": 175, "hp": 4550, "spd": 28 },
+    "growth": { "atk": 23, "def": 12, "hp": 122, "spd": 2 },
+    "equipSlots": [],
+    "skills": ["SKL_VOID_PULSE", "SKL_REALITY_TEAR", "SKL_COSMIC_DEVOURER"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_VOID_SHIELD", "PASSIVE_REALITY_DISTORTION", "PASSIVE_ADAPTATION"],
+    "resistances": {
+      "physical": 0.35,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": 0.7,
+      "holy": -0.4
+    }
+  },
+  {
+    "id": "BOSS_PURITY_COMMANDER_HARD",
+    "rarity": 5,
+    "role": "boss",
+    "faction": "PuritySalvation",
+    "baseStats": { "atk": 122, "def": 74, "hp": 1282, "spd": 148 },
+    "growth": { "atk": 11, "def": 7, "hp": 61, "spd": 3 },
+    "equipSlots": [],
+    "skills": ["SKL_COMMAND_AURA", "SKL_HOLY_JUDGEMENT"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_DIVINE_AUTHORITY", "PASSIVE_RALLY"],
+    "resistances": {
+      "physical": 0.3,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": -0.5,
+      "holy": 0.6
+    }
+  },
+  {
+    "id": "BOSS_PURITY_COMMANDER_NM",
+    "rarity": 6,
+    "role": "boss",
+    "faction": "PuritySalvation",
+    "baseStats": { "atk": 158, "def": 96, "hp": 1662, "spd": 192 },
+    "growth": { "atk": 14, "def": 9, "hp": 79, "spd": 4 },
+    "equipSlots": [],
+    "skills": ["SKL_COMMAND_AURA", "SKL_HOLY_JUDGEMENT"],
+    "skillsDetailed": [],
+    "captainSkill": "",
+    "voiceLines": {},
+    "passiveAbilities": ["PASSIVE_DIVINE_AUTHORITY", "PASSIVE_RALLY"],
+    "resistances": {
+      "physical": 0.3,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "dark": -0.5,
+      "holy": 0.6
+    }
+  },
+  {
+    "id": "HARD_PURITY_COMMANDER",
+    "cloneOf": "BOSS_PURITY_COMMANDER",
+    "statsMultiplier": { "hp": 1.35, "atk": 1.20, "def": 1.15, "spd": 1.05 },
+    "extraSkills": [],
+    "extraPassives": ["PASSIVE_COMMANDERS_FURY"]
+  },
+  {
+    "id": "NM_PURITY_COMMANDER",
+    "cloneOf": "BOSS_PURITY_COMMANDER",
+    "statsMultiplier": { "hp": 1.80, "atk": 1.45, "def": 1.35, "spd": 1.10 },
+    "extraSkills": [],
+    "extraPassives": [
+      "PASSIVE_COMMANDERS_FURY",
+      "PASSIVE_HOLY_RETRIBUTION",
+      "PASSIVE_ENRAGE_ON_ALLY_DEATH"
+    ]
+  },
+  {
+    "id": "HARD_KT_BLACKOPS",
+    "cloneOf": "BOSS_KT_BLACKOPS",
+    "statsMultiplier": { "hp": 1.35, "atk": 1.20, "def": 1.15, "spd": 1.05 },
+    "extraSkills": ["SKL_DRONE_BARRAGE"],
+    "extraPassives": ["PASSIVE_OVERCHARGED_ARMOR"]
+  },
+  {
+    "id": "NM_KT_BLACKOPS",
+    "cloneOf": "BOSS_KT_BLACKOPS",
+    "statsMultiplier": { "hp": 1.85, "atk": 1.50, "def": 1.40, "spd": 1.12 },
+    "extraSkills": ["SKL_DRONE_BARRAGE", "SKL_TECH_PURGE"],
+    "extraPassives": [
+      "PASSIVE_OVERCHARGED_ARMOR",
+      "PASSIVE_REACTIVE_SHIELD",
+      "PASSIVE_IGNITE_DRONES_ON_HIT"
+    ]
+  },
+  {
+    "id": "HARD_ABERRATION",
+    "cloneOf": "BOSS_ABERRATION",
+    "statsMultiplier": { "hp": 1.40, "atk": 1.22, "def": 1.18, "spd": 1.06 },
+    "extraSkills": ["SKL_MUTATION_SURGE"],
+    "extraPassives": ["PASSIVE_TOXIC_BLOOD"]
+  },
+  {
+    "id": "NM_ABERRATION",
+    "cloneOf": "BOSS_ABERRATION",
+    "statsMultiplier": { "hp": 1.90, "atk": 1.55, "def": 1.40, "spd": 1.12 },
+    "extraSkills": ["SKL_MUTATION_SURGE", "SKL_ADAPTIVE_EVOLUTION"],
+    "extraPassives": [
+      "PASSIVE_TOXIC_BLOOD",
+      "PASSIVE_UNSTABLE_CORE",
+      "PASSIVE_EVOLVE_ON_DAMAGE"
+    ]
+  },
+  {
+    "id": "HARD_ABYSS_SENTINEL",
+    "cloneOf": "ENEMY_ABYSS_SENTINEL",
+    "statsMultiplier": { "hp": 1.38, "atk": 1.20, "def": 1.20, "spd": 1.05 },
+    "extraSkills": ["SKL_ABYSS_RUPTURE"],
+    "extraPassives": ["PASSIVE_SHADOW_PRESSURE"]
+  },
+  {
+    "id": "NM_ABYSS_SENTINEL",
+    "cloneOf": "ENEMY_ABYSS_SENTINEL",
+    "statsMultiplier": { "hp": 1.82, "atk": 1.50, "def": 1.40, "spd": 1.10 },
+    "extraSkills": ["SKL_ABYSS_RUPTURE", "SKL_VOID_ERUPTION"],
+    "extraPassives": [
+      "PASSIVE_SHADOW_PRESSURE",
+      "PASSIVE_VOID_REGEN",
+      "PASSIVE_PHASE_SHIFT_ON_DAMAGE"
+    ]
+  },
+  {
+    "id": "HARD_INFERNAL_TYRANT",
+    "cloneOf": "BOSS_INFERNAL_TYRANT",
+    "statsMultiplier": { "hp": 1.40, "atk": 1.25, "def": 1.18, "spd": 1.06 },
+    "extraSkills": ["SKL_LAVA_ERUPTION"],
+    "extraPassives": ["PASSIVE_BURNING_SOUL"]
+  },
+  {
+    "id": "NM_INFERNAL_TYRANT",
+    "cloneOf": "BOSS_INFERNAL_TYRANT",
+    "statsMultiplier": { "hp": 1.90, "atk": 1.55, "def": 1.35, "spd": 1.12 },
+    "extraSkills": ["SKL_LAVA_ERUPTION", "SKL_DEMONIC_METEOR"],
+    "extraPassives": [
+      "PASSIVE_BURNING_SOUL",
+      "PASSIVE_HELL_AURA",
+      "PASSIVE_ENRAGE_WHEN_BURN_APPLIED"
+    ]
+  },
+  {
+    "id": "HARD_FROST_TITAN",
+    "cloneOf": "BOSS_FROST_TITAN",
+    "statsMultiplier": { "hp": 1.35, "atk": 1.22, "def": 1.18, "spd": 1.05 },
+    "extraSkills": ["SKL_FROST_QUAKE"],
+    "extraPassives": ["PASSIVE_DEEP_FREEZE"]
+  },
+  {
+    "id": "NM_FROST_TITAN",
+    "cloneOf": "BOSS_FROST_TITAN",
+    "statsMultiplier": { "hp": 1.85, "atk": 1.50, "def": 1.38, "spd": 1.10 },
+    "extraSkills": ["SKL_FROST_QUAKE", "SKL_BLIZZARD_STORM"],
+    "extraPassives": [
+      "PASSIVE_DEEP_FREEZE",
+      "PASSIVE_ICE_REGEN",
+      "PASSIVE_HARDENED_ARMOR"
+    ]
+  },
+  {
+    "id": "HARD_THUNDER_EMPEROR",
+    "cloneOf": "BOSS_THUNDER_EMPEROR",
+    "statsMultiplier": { "hp": 1.32, "atk": 1.24, "def": 1.15, "spd": 1.08 },
+    "extraSkills": ["SKL_CHAIN_OVERLOAD"],
+    "extraPassives": ["PASSIVE_STATIC_FIELD"]
+  },
+  {
+    "id": "NM_THUNDER_EMPEROR",
+    "cloneOf": "BOSS_THUNDER_EMPEROR",
+    "statsMultiplier": { "hp": 1.78, "atk": 1.52, "def": 1.30, "spd": 1.12 },
+    "extraSkills": ["SKL_CHAIN_OVERLOAD", "SKL_STORM_NOVA"],
+    "extraPassives": [
+      "PASSIVE_STATIC_FIELD",
+      "PASSIVE_LIGHTNING_REGEN",
+      "PASSIVE_SHOCK_ON_HIT"
+    ]
+  },
+  {
+    "id": "HARD_ANCIENT_DRAGON",
+    "cloneOf": "BOSS_ANCIENT_DRAGON",
+    "statsMultiplier": { "hp": 1.35, "atk": 1.22, "def": 1.15, "spd": 1.05 },
+    "extraSkills": ["SKL_DRAGONFURY"],
+    "extraPassives": ["PASSIVE_FLAME_HEART"]
+  },
+  {
+    "id": "NM_ANCIENT_DRAGON",
+    "cloneOf": "BOSS_ANCIENT_DRAGON",
+    "statsMultiplier": { "hp": 1.85, "atk": 1.48, "def": 1.32, "spd": 1.12 },
+    "extraSkills": ["SKL_DRAGONFURY", "SKL_ELDER_STORM"],
+    "extraPassives": [
+      "PASSIVE_FLAME_HEART",
+      "PASSIVE_DRAGON_GOD_SCALE",
+      "PASSIVE_AURA_OF_TERROR"
+    ]
+  },
+  {
+    "id": "HARD_ELDER_PSION",
+    "cloneOf": "BOSS_ELDER_PSION",
+    "statsMultiplier": { "hp": 1.30, "atk": 1.25, "def": 1.20, "spd": 1.10 },
+    "extraSkills": ["SKL_MIND_BENDER"],
+    "extraPassives": ["PASSIVE_PSI_SHIELD"]
+  },
+  {
+    "id": "NM_ELDER_PSION",
+    "cloneOf": "BOSS_ELDER_PSION",
+    "statsMultiplier": { "hp": 1.75, "atk": 1.50, "def": 1.40, "spd": 1.15 },
+    "extraSkills": ["SKL_MIND_BENDER", "SKL_PSI_STORM"],
+    "extraPassives": [
+      "PASSIVE_PSI_SHIELD",
+      "PASSIVE_MENTAL_FORTITUDE",
+      "PASSIVE_PSI_EXPLOSION_ON_HIT"
+    ]
+  },
+  {
+    "id": "HARD_BIOWEAPON_ALPHA",
+    "cloneOf": "BOSS_BIOWEAPON_ALPHA",
+    "statsMultiplier": { "hp": 1.38, "atk": 1.20, "def": 1.20, "spd": 1.05 },
+    "extraSkills": ["SKL_BIOVIRAL_BURST"],
+    "extraPassives": ["PASSIVE_BIOHAZARD"]
+  },
+  {
+    "id": "NM_BIOWEAPON_ALPHA",
+    "cloneOf": "BOSS_BIOWEAPON_ALPHA",
+    "statsMultiplier": { "hp": 1.82, "atk": 1.50, "def": 1.40, "spd": 1.10 },
+    "extraSkills": ["SKL_BIOVIRAL_BURST", "SKL_GENETIC_OVERLOAD"],
+    "extraPassives": [
+      "PASSIVE_BIOHAZARD",
+      "PASSIVE_VIRAL_RESISTANCE",
+      "PASSIVE_MUTAGENIC_SHIELD"
+    ]
+  }
+
+]
+
+

@@ -1,0 +1,101 @@
+{
+
+  "stories": [
+
+    {
+
+      "heroId": "hero_warrior",
+
+      "originTitle": "The Fallen Knight",
+
+      "questIds": ["warrior_origin_1", "warrior_origin_2", "warrior_origin_3"],
+
+      "chapters": [
+
+        {
+
+          "chapterNumber": 1,
+
+          "chapterTitle": "Awakening",
+
+          "storyText": "You awaken in a strange village, your armor tarnished and your sword broken. The villagers whisper about a fallen knight, but you remember nothing. Only the weight of failure haunts your heart.",
+
+          "dialogues": [
+
+            "Village Elder: 'Stranger, you appeared at our gates three days ago, unconscious and wounded.'",
+
+            "You: 'I... I can't remember anything. Who am I?'",
+
+            "Village Elder: 'Your armor bears the crest of the Royal Knights, but it has been defaced. What happened to you?'",
+
+            "You: 'I don't know. But I will find out.'"
+
+          ],
+
+          "unlockQuestId": "warrior_origin_1"
+
+        },
+
+        {
+
+          "chapterNumber": 2,
+
+          "chapterTitle": "Fragments of Memory",
+
+          "storyText": "Dreams of a grand castle and a terrible betrayal plague your sleep. The Ancient Ruins beckon, promising answers to questions you didn't know you had. Within those crumbling walls lies the truth of your fall from grace.",
+
+          "dialogues": [
+
+            "Mysterious Voice: 'Do you remember your oath, knight?'",
+
+            "You: 'What oath? Who are you?'",
+
+            "Mysterious Voice: 'You swore to protect the innocent, yet you failed. The blood on your hands can never be washed away.'",
+
+            "You: 'No... that's not true! I would never...'",
+
+            "Mysterious Voice: 'Then prove it. Face the truth in the ruins.'"
+
+          ],
+
+          "unlockQuestId": "warrior_origin_2"
+
+        },
+
+        {
+
+          "chapterNumber": 3,
+
+          "chapterTitle": "Redemption",
+
+          "storyText": "The shadow of your past stands before you - a dark reflection born from your greatest failure. It was not betrayal that caused your fall, but hesitation. In a moment of doubt, innocents died. Now you must defeat this manifestation of guilt to reclaim your honor.",
+
+          "dialogues": [
+
+            "Shadow Self: 'You cannot escape what you've done.'",
+
+            "You: 'I don't seek to escape it. I seek to make amends.'",
+
+            "Shadow Self: 'Amends? The dead cannot forgive.'",
+
+            "You: 'Then I will live to ensure no one else suffers as they did. I am not the knight I was - I am something more!'",
+
+            "Shadow Self: 'Then show me... show me your resolve!'",
+
+            "[After victory]",
+
+            "You: 'I accept my past. I will carry this burden and transform it into strength. I am the Fallen Knight - redeemed!'"
+
+          ],
+
+          "unlockQuestId": "warrior_origin_3"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}

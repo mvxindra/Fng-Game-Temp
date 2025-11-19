@@ -1,0 +1,157 @@
+{
+  "materials": [
+    {
+      "id": "MAT_STEEL",
+      "name": "Steel Ingot",
+      "description": "Common metal used for basic crafting",
+      "rarity": 1,
+      "stackLimit": 9999,
+      "sources": ["Story Normal", "Daily Quests", "Salvaging 1-2★ gear"]
+    },
+    {
+      "id": "MAT_IRON_ORE",
+      "name": "Iron Ore",
+      "description": "Raw iron material for basic forging",
+      "rarity": 1,
+      "stackLimit": 9999,
+      "sources": ["Story Normal Ch1-3", "Common Enemy Drops"]
+    },
+    {
+      "id": "MAT_CARBON",
+      "name": "Carbon Fiber",
+      "description": "Advanced composite material",
+      "rarity": 2,
+      "stackLimit": 9999,
+      "sources": ["Story Normal Ch4-6", "Daily Dungeons"]
+    },
+    {
+      "id": "MAT_COPPER_WIRE",
+      "name": "Copper Wire",
+      "description": "Conductive material for tech upgrades",
+      "rarity": 2,
+      "stackLimit": 9999,
+      "sources": ["Story Hard Ch1-3", "Tech Faction Enemies"]
+    },
+    {
+      "id": "MAT_ARC_CORE",
+      "name": "Arc Reactor Core",
+      "description": "Rare energy core for advanced gear",
+      "rarity": 3,
+      "stackLimit": 9999,
+      "sources": ["Story Hard Ch4-6", "Weekly Dungeons"]
+    },
+    {
+      "id": "MAT_CRYSTAL_SHARD",
+      "name": "Crystal Shard",
+      "description": "Magical crystal fragment",
+      "rarity": 3,
+      "stackLimit": 9999,
+      "sources": ["Story Hard Ch7-9", "Elemental Enemies"]
+    },
+    {
+      "id": "MAT_VOID_SHARD",
+      "name": "Void Shard",
+      "description": "Fragment from the void realm",
+      "rarity": 4,
+      "stackLimit": 5000,
+      "sources": ["Story Nightmare", "Weekly Trials", "Abyss Faction Bosses"]
+    },
+    {
+      "id": "MAT_PLASMA_CELL",
+      "name": "Plasma Cell",
+      "description": "High-energy power source",
+      "rarity": 4,
+      "stackLimit": 5000,
+      "sources": ["Story Nightmare Ch4-6", "Monthly Raids"]
+    },
+    {
+      "id": "MAT_STELLAR_RELIC",
+      "name": "Stellar Relic",
+      "description": "Ancient artifact from the stars",
+      "rarity": 5,
+      "stackLimit": 2000,
+      "sources": ["Monthly Raids", "Seasonal Events", "Top PvP Rewards"]
+    },
+    {
+      "id": "MAT_COSMIC_ESSENCE",
+      "name": "Cosmic Essence",
+      "description": "Pure concentrated cosmic energy",
+      "rarity": 5,
+      "stackLimit": 2000,
+      "sources": ["Seasonal Events", "Nightmare Bosses", "Arena Top 10"]
+    },
+    {
+      "id": "MAT_DRAGON_SCALE",
+      "name": "Dragon Scale",
+      "description": "Hardened scale from ancient dragons",
+      "rarity": 4,
+      "stackLimit": 5000,
+      "sources": ["Dragon Faction Bosses", "Weekly Trials", "Event Shops"]
+    },
+    {
+      "id": "MAT_DEMON_HORN",
+      "name": "Demon Horn",
+      "description": "Cursed horn fragment",
+      "rarity": 4,
+      "stackLimit": 5000,
+      "sources": ["Demon Faction Bosses", "Story Nightmare Ch7-9"]
+    },
+    {
+      "id": "MAT_BEAST_FANG",
+      "name": "Beast Fang",
+      "description": "Sharp fang from wild beasts",
+      "rarity": 3,
+      "stackLimit": 9999,
+      "sources": ["Beast/Creature Faction Enemies", "Story Hard"]
+    },
+    {
+      "id": "MAT_ECTOPLASM",
+      "name": "Ectoplasm",
+      "description": "Ghostly residue from undead",
+      "rarity": 3,
+      "stackLimit": 9999,
+      "sources": ["Undead Faction Enemies", "Story Hard Ch7-9"]
+    },
+    {
+      "id": "MAT_HOLY_WATER",
+      "name": "Holy Water",
+      "description": "Blessed water from sacred sources",
+      "rarity": 3,
+      "stackLimit": 9999,
+      "sources": ["PuritySalvation Faction Enemies", "Daily Quests"]
+    },
+    {
+      "id": "MAT_SCRAP_METAL",
+      "name": "Scrap Metal",
+      "description": "Salvaged mechanical parts",
+      "rarity": 2,
+      "stackLimit": 9999,
+      "sources": ["Construct Faction Enemies", "Story Normal Ch4-6"]
+    },
+
+    {
+      "id": "MAT_GEAR_SALVAGE_3",
+      "name": "Gear Salvage (Common)",
+      "description": "Materials salvaged from 3-star gear",
+      "rarity": 3,
+      "stackLimit": 9999,
+      "sources": ["Salvaging 3-star gear"]
+    },
+    {
+      "id": "MAT_GEAR_SALVAGE_4",
+      "name": "Gear Salvage (Rare)",
+      "description": "Materials salvaged from 4-star gear",
+      "rarity": 4,
+      "stackLimit": 5000,
+      "sources": ["Salvaging 4-star gear"]
+    },
+    {
+      "id": "MAT_GEAR_SALVAGE_5",
+      "name": "Gear Salvage (Epic)",
+      "description": "Materials salvaged from 5-star gear",
+      "rarity": 5,
+      "stackLimit": 2000,
+      "sources": ["Salvaging 5-star gear"]
+    }
+  ]
+}

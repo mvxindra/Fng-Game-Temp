@@ -1,0 +1,115 @@
+[
+  {
+    "id": "BANNER_LEGENDS_AWAKEN",
+    "type": "hero",
+    "currency": "GEMS",
+    "cost": 300,
+    "start": "2025-12-01T00:00:00Z",
+    "end": "2025-12-15T00:00:00Z",
+    "pity": {
+      "enabled": true,
+      "count": 90,
+      "guaranteeRarity": 5
+    },
+    "rates": [
+      { "rarity": 5, "weight": 2, "featuredPool": ["HERO_LENA_DRAVEN", "HERO_EVELYN_CARTER"] },
+      { "rarity": 4, "weight": 18, "featuredPool": ["HERO_ELENA_MARTINEZ", "HERO_DAPHNE_CALDWELL"] },
+      { "rarity": 3, "weight": 80 }
+    ]
+  },
+
+  {
+    "id": "BANNER_TECH_DOMINION",
+    "type": "weapon",
+    "currency": "GEMS",
+    "cost": 300,
+    "start": "2025-12-10T00:00:00Z",
+    "end": "2025-12-24T00:00:00Z",
+    "pity": {
+      "enabled": true,
+      "count": 75,
+      "guaranteeRarity": 5
+    },
+    "rates": [
+      { "rarity": 5, "weight": 3, "featuredPool": ["GEAR_QUANTUM_LANCER", "GEAR_ECHO_DRIVE", "GEAR_VOID_SERPENT"] },
+      { "rarity": 4, "weight": 22, "featuredPool": ["GEAR_SONIC_RIFLE", "GEAR_PHASE_SLICER"] },
+      { "rarity": 3, "weight": 75 }
+    ]
+  },
+
+  {
+    "id": "BANNER_ARCANE_ECLIPSE",
+    "type": "hybrid",
+    "currency": "GEMS",
+    "cost": 300,
+    "start": "2025-12-20T00:00:00Z",
+    "end": "2026-01-02T00:00:00Z",
+    "pity": {
+      "enabled": true,
+      "count": 100,
+      "guaranteeRarity": 5
+    },
+    "rates": [
+      { "rarity": 5, "weight": 2, "featuredPool": ["HERO_LILA_HART", "GEAR_INFERNAL_TALISMAN"] },
+      { "rarity": 4, "weight": 18, "featuredPool": ["HERO_TINA_RAMIREZ", "GEAR_GLACIAL_BLADE"] },
+      { "rarity": 3, "weight": 80 }
+    ]
+  },
+
+  {
+    "id": "BANNER_STREET_ASCENSION",
+    "type": "hero",
+    "currency": "GEMS",
+    "cost": 300,
+    "start": "2025-12-26T00:00:00Z",
+    "end": "2026-01-09T00:00:00Z",
+    "pity": {
+      "enabled": true,
+      "count": 70,
+      "guaranteeRarity": 5
+    },
+    "rates": [
+      { "rarity": 5, "weight": 3, "featuredPool": ["HERO_KARA_NOVAK", "HERO_NIA_CARTER"] },
+      { "rarity": 4, "weight": 17, "featuredPool": ["HERO_TINA_RAMIREZ", "HERO_ELENA_MARTINEZ"] },
+      { "rarity": 3, "weight": 80 }
+    ]
+  },
+
+  {
+    "id": "BANNER_ETERNAL_WINTER",
+    "type": "weapon",
+    "currency": "GEMS",
+    "cost": 300,
+    "start": "2026-01-05T00:00:00Z",
+    "end": "2026-01-19T00:00:00Z",
+    "pity": {
+      "enabled": true,
+      "count": 80,
+      "guaranteeRarity": 5
+    },
+    "rates": [
+      { "rarity": 5, "weight": 3, "featuredPool": ["GEAR_GLACIAL_BLADE", "GEAR_LUMEN_SCYTHE"] },
+      { "rarity": 4, "weight": 22, "featuredPool": ["GEAR_RAZOR_STAFF", "GEAR_TITAN_EDGE"] },
+      { "rarity": 3, "weight": 75 }
+    ]
+  },
+
+  {
+    "id": "BANNER_ABYSS_REBORN",
+    "type": "hero",
+    "currency": "GEMS",
+    "cost": 300,
+    "start": "2026-01-15T00:00:00Z",
+    "end": "2026-01-29T00:00:00Z",
+    "pity": {
+      "enabled": true,
+      "count": 90,
+      "guaranteeRarity": 5
+    },
+    "rates": [
+      { "rarity": 5, "weight": 3, "featuredPool": ["HERO_LENA_CALDWELL", "HERO_LILA_NOVAK"] },
+      { "rarity": 4, "weight": 18, "featuredPool": ["HERO_DAPHNE_CALDWELL", "HERO_LYN_CARTER"] },
+      { "rarity": 3, "weight": 79 }
+    ]
+  }
+]

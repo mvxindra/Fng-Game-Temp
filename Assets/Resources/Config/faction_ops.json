@@ -1,0 +1,9 @@
+{
+  "id":"OP_TERRITORY_ALPHA",
+  "name":"Sector A",
+  "nodes":[
+    {"id":"A1","pveObjective":"Win 3 battles","pvpObjective":"Win 1 duel","factionContrib":50},
+    {"id":"A2","pveObjective":"Defeat boss","pvpObjective":"Hold 2h","factionContrib":100}
+  ],
+  "rewards":[{"threshold":1000,"mail":"MAIL_FACTION_CRATE"}]
+}

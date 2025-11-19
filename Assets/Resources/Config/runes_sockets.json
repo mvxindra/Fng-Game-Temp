@@ -1,0 +1,721 @@
+{
+
+  "socketTypes": [
+
+    {
+
+      "socketType": "red",
+
+      "socketName": "Red Socket",
+
+      "colorHex": "#FF0000",
+
+      "description": "Enhances offensive stats"
+
+    },
+
+    {
+
+      "socketType": "blue",
+
+      "socketName": "Blue Socket",
+
+      "colorHex": "#0000FF",
+
+      "description": "Enhances defensive stats"
+
+    },
+
+    {
+
+      "socketType": "green",
+
+      "socketName": "Green Socket",
+
+      "colorHex": "#00FF00",
+
+      "description": "Enhances utility and speed"
+
+    },
+
+    {
+
+      "socketType": "yellow",
+
+      "socketName": "Yellow Socket",
+
+      "colorHex": "#FFFF00",
+
+      "description": "Enhances elemental damage"
+
+    },
+
+    {
+
+      "socketType": "prismatic",
+
+      "socketName": "Prismatic Socket",
+
+      "colorHex": "#FFFFFF",
+
+      "description": "Accepts any rune type"
+
+    }
+
+  ],
+
+  "runes": [
+
+    {
+
+      "runeId": "ruby_tier1",
+
+      "runeName": "Chipped Ruby",
+
+      "runeType": "red",
+
+      "runeTier": 1,
+
+      "runeFamily": "might",
+
+      "compatibleSockets": ["red", "prismatic"],
+
+      "stats": {
+
+        "flatAtk": 15,
+
+        "percentAtk": 0.03
+
+      },
+
+      "materialCost": 100,
+
+      "materials": [],
+
+      "upgradeInto": "ruby_tier2",
+
+      "upgradeCount": 3
+
+    },
+
+    {
+
+      "runeId": "ruby_tier2",
+
+      "runeName": "Ruby",
+
+      "runeType": "red",
+
+      "runeTier": 2,
+
+      "runeFamily": "might",
+
+      "compatibleSockets": ["red", "prismatic"],
+
+      "stats": {
+
+        "flatAtk": 35,
+
+        "percentAtk": 0.07
+
+      },
+
+      "materialCost": 500,
+
+      "materials": [],
+
+      "upgradeInto": "ruby_tier3",
+
+      "upgradeCount": 3
+
+    },
+
+    {
+
+      "runeId": "ruby_tier3",
+
+      "runeName": "Flawless Ruby",
+
+      "runeType": "red",
+
+      "runeTier": 3,
+
+      "runeFamily": "might",
+
+      "compatibleSockets": ["red", "prismatic"],
+
+      "stats": {
+
+        "flatAtk": 75,
+
+        "percentAtk": 0.12,
+
+        "critChance": 0.05
+
+      },
+
+      "materialCost": 2000,
+
+      "materials": [],
+
+      "upgradeInto": "ruby_tier4",
+
+      "upgradeCount": 3
+
+    },
+
+    {
+
+      "runeId": "ruby_tier4",
+
+      "runeName": "Perfect Ruby",
+
+      "runeType": "red",
+
+      "runeTier": 4,
+
+      "runeFamily": "might",
+
+      "compatibleSockets": ["red", "prismatic"],
+
+      "stats": {
+
+        "flatAtk": 150,
+
+        "percentAtk": 0.18,
+
+        "critChance": 0.10,
+
+        "critDamage": 0.20
+
+      },
+
+      "materialCost": 8000,
+
+      "materials": [],
+
+      "upgradeInto": "ruby_tier5",
+
+      "upgradeCount": 3
+
+    },
+
+    {
+
+      "runeId": "ruby_tier5",
+
+      "runeName": "Radiant Ruby",
+
+      "runeType": "red",
+
+      "runeTier": 5,
+
+      "runeFamily": "might",
+
+      "compatibleSockets": ["red", "prismatic"],
+
+      "stats": {
+
+        "flatAtk": 300,
+
+        "percentAtk": 0.25,
+
+        "critChance": 0.15,
+
+        "critDamage": 0.40,
+
+        "specialEffectId": "ruby_fury",
+
+        "specialEffect": {
+
+          "effectType": "on_crit",
+
+          "procChance": 0.20,
+
+          "damageBonus": 2.0
+
+        }
+
+      },
+
+      "materialCost": 30000,
+
+      "materials": [],
+
+      "upgradeInto": "",
+
+      "upgradeCount": 0
+
+    },
+
+    {
+
+      "runeId": "sapphire_tier1",
+
+      "runeName": "Chipped Sapphire",
+
+      "runeType": "blue",
+
+      "runeTier": 1,
+
+      "runeFamily": "vitality",
+
+      "compatibleSockets": ["blue", "prismatic"],
+
+      "stats": {
+
+        "flatHp": 150,
+
+        "flatDef": 10
+
+      },
+
+      "materialCost": 100,
+
+      "materials": [],
+
+      "upgradeInto": "sapphire_tier2",
+
+      "upgradeCount": 3
+
+    },
+
+    {
+
+      "runeId": "sapphire_tier3",
+
+      "runeName": "Flawless Sapphire",
+
+      "runeType": "blue",
+
+      "runeTier": 3,
+
+      "runeFamily": "vitality",
+
+      "compatibleSockets": ["blue", "prismatic"],
+
+      "stats": {
+
+        "flatHp": 800,
+
+        "flatDef": 50,
+
+        "percentDef": 0.10
+
+      },
+
+      "materialCost": 2000,
+
+      "materials": [],
+
+      "upgradeInto": "sapphire_tier4",
+
+      "upgradeCount": 3
+
+    },
+
+    {
+
+      "runeId": "emerald_tier1",
+
+      "runeName": "Chipped Emerald",
+
+      "runeType": "green",
+
+      "runeTier": 1,
+
+      "runeFamily": "speed",
+
+      "compatibleSockets": ["green", "prismatic"],
+
+      "stats": {
+
+        "flatSpd": 5,
+
+        "percentSpd": 0.05
+
+      },
+
+      "materialCost": 100,
+
+      "materials": [],
+
+      "upgradeInto": "emerald_tier2",
+
+      "upgradeCount": 3
+
+    },
+
+    {
+
+      "runeId": "emerald_tier3",
+
+      "runeName": "Flawless Emerald",
+
+      "runeType": "green",
+
+      "runeTier": 3,
+
+      "runeFamily": "speed",
+
+      "compatibleSockets": ["green", "prismatic"],
+
+      "stats": {
+
+        "flatSpd": 15,
+
+        "percentSpd": 0.15,
+
+        "evasion": 0.10
+
+      },
+
+      "materialCost": 2000,
+
+      "materials": [],
+
+      "upgradeInto": "emerald_tier4",
+
+      "upgradeCount": 3
+
+    },
+
+    {
+
+      "runeId": "topaz_tier1",
+
+      "runeName": "Chipped Topaz",
+
+      "runeType": "yellow",
+
+      "runeTier": 1,
+
+      "runeFamily": "elemental",
+
+      "compatibleSockets": ["yellow", "prismatic"],
+
+      "stats": {
+
+        "elementalDamage": 0.10
+
+      },
+
+      "materialCost": 100,
+
+      "materials": [],
+
+      "upgradeInto": "topaz_tier2",
+
+      "upgradeCount": 3
+
+    },
+
+    {
+
+      "runeId": "topaz_tier3",
+
+      "runeName": "Flawless Topaz",
+
+      "runeType": "yellow",
+
+      "runeTier": 3,
+
+      "runeFamily": "elemental",
+
+      "compatibleSockets": ["yellow", "prismatic"],
+
+      "stats": {
+
+        "elementalDamage": 0.25,
+
+        "elementalResist": 0.15
+
+      },
+
+      "materialCost": 2000,
+
+      "materials": [],
+
+      "upgradeInto": "topaz_tier4",
+
+      "upgradeCount": 3
+
+    },
+
+    {
+
+      "runeId": "diamond_tier1",
+
+      "runeName": "Chipped Diamond",
+
+      "runeType": "prismatic",
+
+      "runeTier": 1,
+
+      "runeFamily": "omnipotent",
+
+      "compatibleSockets": ["red", "blue", "green", "yellow", "prismatic"],
+
+      "stats": {
+
+        "flatAtk": 8,
+
+        "flatDef": 8,
+
+        "flatHp": 80,
+
+        "flatSpd": 2
+
+      },
+
+      "materialCost": 200,
+
+      "materials": [],
+
+      "upgradeInto": "diamond_tier2",
+
+      "upgradeCount": 3
+
+    }
+
+  ],
+
+  "legendaryRunes": [
+
+    {
+
+      "runeId": "legendary_phoenix_heart",
+
+      "runeName": "Phoenix Heart",
+
+      "legendaryEffect": "Revive once per battle with 50% HP when killed",
+
+      "loreText": "The crystallized heart of an immortal phoenix. Death is but a temporary setback.",
+
+      "requiredLevel": 50,
+
+      "requiredClass": "",
+
+      "stats": {
+
+        "flatHp": 2000,
+
+        "percentHp": 0.30,
+
+        "lifeSteal": 0.15
+
+      },
+
+      "ability": {
+
+        "abilityName": "Rebirth",
+
+        "abilityDescription": "When HP reaches 0, revive with 50% HP and full energy. Once per battle.",
+
+        "abilityType": "proc",
+
+        "procTrigger": "on_death",
+
+        "procChance": 1.0,
+
+        "procEffect": "revive_50_percent"
+
+      }
+
+    },
+
+    {
+
+      "runeId": "legendary_timekeeper",
+
+      "runeName": "Timekeeper's Essence",
+
+      "legendaryEffect": "Skills have no cooldown",
+
+      "loreText": "A fragment of time itself. Those who wield it exist outside the flow of moments.",
+
+      "requiredLevel": 70,
+
+      "requiredClass": "",
+
+      "stats": {
+
+        "flatAtk": 200,
+
+        "cooldownReduction": 1.0,
+
+        "percentSpd": 0.50
+
+      },
+
+      "ability": {
+
+        "abilityName": "Timeless",
+
+        "abilityDescription": "All skills have no cooldown",
+
+        "abilityType": "passive",
+
+        "procTrigger": "",
+
+        "procChance": 1.0,
+
+        "procEffect": "no_cooldown"
+
+      }
+
+    },
+
+    {
+
+      "runeId": "legendary_storm_core",
+
+      "runeName": "Storm Core",
+
+      "legendaryEffect": "Summon a lightning storm every 3 turns",
+
+      "loreText": "The concentrated fury of a thousand storms.",
+
+      "requiredLevel": 60,
+
+      "requiredClass": "",
+
+      "stats": {
+
+        "elementalDamage": 0.50,
+
+        "lightningDamage": 0.80,
+
+        "critChance": 0.20
+
+      },
+
+      "ability": {
+
+        "abilityName": "Storm Unleashed",
+
+        "abilityDescription": "Every 3 turns, summon a lightning storm that deals 1000% lightning damage to all enemies",
+
+        "abilityType": "proc",
+
+        "procTrigger": "turn_3",
+
+        "procChance": 1.0,
+
+        "procEffect": "lightning_storm"
+
+      }
+
+    }
+
+  ],
+
+  "craftingRecipes": [
+
+    {
+
+      "recipeId": "craft_ruby_tier1",
+
+      "resultRuneId": "ruby_tier1",
+
+      "resultQuantity": 1,
+
+      "materials": [
+
+        {"materialId": "red_crystal", "quantity": 3},
+
+        {"materialId": "essence_dust", "quantity": 10}
+
+      ],
+
+      "goldCost": 500,
+
+      "craftingTime": 0
+
+    },
+
+    {
+
+      "recipeId": "craft_sapphire_tier1",
+
+      "resultRuneId": "sapphire_tier1",
+
+      "resultQuantity": 1,
+
+      "materials": [
+
+        {"materialId": "blue_crystal", "quantity": 3},
+
+        {"materialId": "essence_dust", "quantity": 10}
+
+      ],
+
+      "goldCost": 500,
+
+      "craftingTime": 0
+
+    }
+
+  ],
+
+  "upgradeRecipes": [
+
+    {
+
+      "baseRuneId": "ruby_tier1",
+
+      "requiredCount": 3,
+
+      "resultRuneId": "ruby_tier2",
+
+      "goldCost": 1000,
+
+      "successChance": 0.80
+
+    },
+
+    {
+
+      "baseRuneId": "ruby_tier2",
+
+      "requiredCount": 3,
+
+      "resultRuneId": "ruby_tier3",
+
+      "goldCost": 3000,
+
+      "successChance": 0.70
+
+    },
+
+    {
+
+      "baseRuneId": "ruby_tier3",
+
+      "requiredCount": 3,
+
+      "resultRuneId": "ruby_tier4",
+
+      "goldCost": 10000,
+
+      "successChance": 0.60
+
+    },
+
+    {
+
+      "baseRuneId": "ruby_tier4",
+
+      "requiredCount": 3,
+
+      "resultRuneId": "ruby_tier5",
+
+      "goldCost": 50000,
+
+      "successChance": 0.40
+
+    }
+
+  ]
+
+}

@@ -1,0 +1,269 @@
+{
+
+  "ascensions": [
+
+    {
+
+      "heroId": "hero_warrior",
+
+      "maxAscensionTier": 10,
+
+      "tiers": [
+
+        {
+
+          "tier": 1,
+
+          "requiredLevel": 20,
+
+          "newLevelCap": 40,
+
+          "goldCost": 10000,
+
+          "materials": [
+
+            {"materialId": "warrior_essence", "quantity": 5},
+
+            {"materialId": "basic_crystal", "quantity": 10}
+
+          ],
+
+          "statBonuses": {
+
+            "atkBonus": 50,
+
+            "defBonus": 30,
+
+            "hpBonus": 200,
+
+            "spdBonus": 5,
+
+            "atkPercent": 0.05,
+
+            "defPercent": 0.05,
+
+            "hpPercent": 0.05,
+
+            "spdPercent": 0,
+
+            "critBonus": 0.02,
+
+            "critDmgBonus": 0.05,
+
+            "accBonus": 0,
+
+            "resBonus": 0
+
+          },
+
+          "unlockedSkills": [],
+
+          "unlockedPassives": ["passive_warrior_spirit"],
+
+          "talentPointsGranted": 5,
+
+          "unlocksUltimateSkill": false
+
+        },
+
+        {
+
+          "tier": 2,
+
+          "requiredLevel": 40,
+
+          "newLevelCap": 60,
+
+          "goldCost": 25000,
+
+          "materials": [
+
+            {"materialId": "warrior_essence", "quantity": 10},
+
+            {"materialId": "advanced_crystal", "quantity": 5}
+
+          ],
+
+          "statBonuses": {
+
+            "atkBonus": 80,
+
+            "defBonus": 50,
+
+            "hpBonus": 350,
+
+            "spdBonus": 8,
+
+            "atkPercent": 0.08,
+
+            "defPercent": 0.08,
+
+            "hpPercent": 0.08,
+
+            "spdPercent": 0.02,
+
+            "critBonus": 0.03,
+
+            "critDmgBonus": 0.10,
+
+            "accBonus": 0.05,
+
+            "resBonus": 0.05
+
+          },
+
+          "unlockedSkills": ["skill_battle_cry"],
+
+          "unlockedPassives": [],
+
+          "talentPointsGranted": 5,
+
+          "unlocksUltimateSkill": false
+
+        },
+
+        {
+
+          "tier": 3,
+
+          "requiredLevel": 60,
+
+          "newLevelCap": 80,
+
+          "goldCost": 50000,
+
+          "materials": [
+
+            {"materialId": "warrior_essence", "quantity": 20},
+
+            {"materialId": "advanced_crystal", "quantity": 10},
+
+            {"materialId": "hero_soul", "quantity": 3}
+
+          ],
+
+          "statBonuses": {
+
+            "atkBonus": 120,
+
+            "defBonus": 80,
+
+            "hpBonus": 500,
+
+            "spdBonus": 12,
+
+            "atkPercent": 0.12,
+
+            "defPercent": 0.12,
+
+            "hpPercent": 0.12,
+
+            "spdPercent": 0.05,
+
+            "critBonus": 0.05,
+
+            "critDmgBonus": 0.15,
+
+            "accBonus": 0.08,
+
+            "resBonus": 0.08
+
+          },
+
+          "unlockedSkills": [],
+
+          "unlockedPassives": [],
+
+          "talentPointsGranted": 10,
+
+          "unlocksUltimateSkill": true,
+
+          "specialFeature": "skill_evolution",
+
+          "specialConfig": {
+
+            "featureType": "skill_evolution",
+
+            "baseSkillId": "skill_power_slash",
+
+            "evolvedSkillId": "skill_devastating_slash"
+
+          }
+
+        },
+
+        {
+
+          "tier": 4,
+
+          "requiredLevel": 80,
+
+          "newLevelCap": 100,
+
+          "goldCost": 100000,
+
+          "materials": [
+
+            {"materialId": "warrior_essence", "quantity": 30},
+
+            {"materialId": "supreme_crystal", "quantity": 5},
+
+            {"materialId": "hero_soul", "quantity": 5}
+
+          ],
+
+          "statBonuses": {
+
+            "atkBonus": 200,
+
+            "defBonus": 130,
+
+            "hpBonus": 800,
+
+            "spdBonus": 15,
+
+            "atkPercent": 0.15,
+
+            "defPercent": 0.15,
+
+            "hpPercent": 0.15,
+
+            "spdPercent": 0.08,
+
+            "critBonus": 0.08,
+
+            "critDmgBonus": 0.25,
+
+            "accBonus": 0.10,
+
+            "resBonus": 0.10
+
+          },
+
+          "unlockedSkills": ["skill_ultimate_warrior"],
+
+          "unlockedPassives": ["passive_last_stand"],
+
+          "talentPointsGranted": 10,
+
+          "unlocksUltimateSkill": false,
+
+          "specialFeature": "dual_element",
+
+          "specialConfig": {
+
+            "featureType": "dual_element",
+
+            "secondaryElement": "earth"
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}

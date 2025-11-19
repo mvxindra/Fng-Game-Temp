@@ -1,0 +1,1021 @@
+{
+
+  "namedSets": [
+
+    {
+
+      "setId": "berserker_rage_set",
+
+      "setName": "Berserker's Rage",
+
+      "setDescription": "Gear worn by warriors who embrace their primal fury",
+
+      "setTheme": "berserker",
+
+      "setGearIds": ["weapon_berserker_axe", "armor_berserker_plate", "accessory_berserker_amulet", "accessory_berserker_ring", "helmet_berserker", "boots_berserker"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Primal Fury",
+
+        "bonusDescription": "+20% ATK, +15% CRIT Chance",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 20,
+
+          "crit": 15
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Blood Frenzy",
+
+        "bonusDescription": "Gain +5% ATK for each 10% HP lost (up to +50% ATK)",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 30,
+
+          "critDmg": 40
+
+        },
+
+        "specialEffectId": "blood_frenzy",
+
+        "specialEffect": {
+
+          "effectType": "damage_aura",
+
+          "effectValue": 0.5
+
+        }
+
+      },
+
+      "sixPieceBonus": {
+
+        "requiredPieces": 6,
+
+        "bonusName": "Unstoppable Rage",
+
+        "bonusDescription": "When HP drops below 50%, enter Rage mode: +100% ATK, +50% SPD, ignore pain",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 100,
+
+          "spd": 50
+
+        },
+
+        "specialEffectId": "rage_mode",
+
+        "specialEffect": {
+
+          "effectType": "immunity",
+
+          "effectValue": 1.0,
+
+          "statusImmunity": "stun"
+
+        }
+
+      }
+
+    },
+
+    {
+
+      "setId": "immortal_guardian_set",
+
+      "setName": "Immortal Guardian",
+
+      "setDescription": "Legendary armor that has protected countless heroes",
+
+      "setTheme": "tank",
+
+      "setGearIds": ["weapon_guardian_shield", "armor_guardian_plate", "accessory_guardian_amulet", "accessory_guardian_ring", "helmet_guardian", "boots_guardian"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Stalwart Defense",
+
+        "bonusDescription": "+30% DEF, +20% HP",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "def": 30,
+
+          "hp": 20
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Iron Wall",
+
+        "bonusDescription": "Reduce all damage taken by 30%. Reflect 20% of damage back to attacker",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "def": 50,
+
+          "hp": 40
+
+        },
+
+        "specialEffectId": "reflect_damage",
+
+        "specialEffect": {
+
+          "effectType": "reflect_damage",
+
+          "effectValue": 0.2
+
+        }
+
+      },
+
+      "sixPieceBonus": {
+
+        "requiredPieces": 6,
+
+        "bonusName": "Undying Will",
+
+        "bonusDescription": "Cannot be killed. When HP reaches 0, become invincible for 3 turns and heal 50% HP",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "def": 100,
+
+          "hp": 80
+
+        },
+
+        "specialEffectId": "undying",
+
+        "specialEffect": {
+
+          "effectType": "immunity",
+
+          "effectValue": 1.0,
+
+          "statusImmunity": "all"
+
+        }
+
+      }
+
+    },
+
+    {
+
+      "setId": "storm_caller_set",
+
+      "setName": "Storm Caller's Vestments",
+
+      "setDescription": "Robes that channel the fury of storms",
+
+      "setTheme": "lightning",
+
+      "setGearIds": ["weapon_storm_staff", "armor_storm_robe", "accessory_storm_amulet", "accessory_storm_ring"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Thunder Affinity",
+
+        "bonusDescription": "+40% Lightning Damage, +15% SPD",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "magic": 25,
+
+          "spd": 15
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Chain Lightning",
+
+        "bonusDescription": "Lightning attacks chain to 3 additional targets dealing 70% damage each",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "magic": 50,
+
+          "spd": 30
+
+        },
+
+        "specialEffectId": "chain_lightning",
+
+        "specialEffect": {
+
+          "effectType": "damage_aura",
+
+          "effectValue": 0.7,
+
+          "auraRange": 3
+
+        }
+
+      },
+
+      "sixPieceBonus": null
+
+    },
+
+    {
+
+      "setId": "plague_doctor_set",
+
+      "setName": "Plague Doctor's Regalia",
+
+      "setDescription": "Dark garments that spread pestilence and decay",
+
+      "setTheme": "poison",
+
+      "setGearIds": ["weapon_plague_staff", "armor_plague_coat", "accessory_plague_mask", "accessory_plague_vial"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Toxic Mastery",
+
+        "bonusDescription": "Poison damage increased by 50%. Poison lasts 2 turns longer",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 20
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Plague Aura",
+
+        "bonusDescription": "All enemies are poisoned. Poison spreads to nearby enemies each turn",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 40
+
+        },
+
+        "specialEffectId": "plague_spread",
+
+        "specialEffect": {
+
+          "effectType": "damage_aura",
+
+          "effectValue": 0.15,
+
+          "auraRange": 5
+
+        }
+
+      },
+
+      "sixPieceBonus": null
+
+    },
+
+    {
+
+      "setId": "arcane_scholar_set",
+
+      "setName": "Arcane Scholar's Attire",
+
+      "setDescription": "Mystical robes infused with pure arcane energy",
+
+      "setTheme": "magic",
+
+      "setGearIds": ["weapon_arcane_staff", "armor_arcane_robe", "accessory_arcane_orb", "accessory_arcane_tome", "helmet_arcane_hood", "boots_arcane_shoes"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Arcane Power",
+
+        "bonusDescription": "+35% Magic Damage, +20% Cooldown Reduction",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "magic": 35
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Spell Mastery",
+
+        "bonusDescription": "Skills cost 50% less. Spell damage increased by 60%",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "magic": 70
+
+        },
+
+        "specialEffectId": "spell_mastery",
+
+        "specialEffect": {
+
+          "effectType": "damage_aura",
+
+          "effectValue": 0.6
+
+        }
+
+      },
+
+      "sixPieceBonus": {
+
+        "requiredPieces": 6,
+
+        "bonusName": "Arcane Ascension",
+
+        "bonusDescription": "All spells deal double damage. Cast all spells instantly",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "magic": 150
+
+        },
+
+        "specialEffectId": "arcane_ascension",
+
+        "specialEffect": {
+
+          "effectType": "damage_aura",
+
+          "effectValue": 1.0
+
+        }
+
+      }
+
+    },
+
+    {
+
+      "setId": "blood_reaper_set",
+
+      "setName": "Blood Reaper's Embrace",
+
+      "setDescription": "Cursed armor that feeds on the lifeblood of enemies",
+
+      "setTheme": "vampire",
+
+      "setGearIds": ["weapon_blood_scythe", "armor_blood_cloak", "accessory_blood_chalice", "accessory_blood_ring"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Vampiric Touch",
+
+        "bonusDescription": "+25% Life Steal, +20% ATK",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 20
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Blood Feast",
+
+        "bonusDescription": "Heal for 50% of damage dealt. Killing blows restore 30% HP to all allies",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 45,
+
+          "hp": 30
+
+        },
+
+        "specialEffectId": "blood_feast",
+
+        "specialEffect": {
+
+          "effectType": "life_steal",
+
+          "effectValue": 0.5
+
+        }
+
+      },
+
+      "sixPieceBonus": null
+
+    },
+
+    {
+
+      "setId": "frost_warden_set",
+
+      "setName": "Frost Warden's Regalia",
+
+      "setDescription": "Armor forged from eternal ice",
+
+      "setTheme": "ice",
+
+      "setGearIds": ["weapon_frost_blade", "armor_frost_plate", "accessory_frost_amulet", "accessory_frost_crown"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Frozen Heart",
+
+        "bonusDescription": "+40% Ice Damage, +20% DEF",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "def": 20
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Permafrost",
+
+        "bonusDescription": "All attacks freeze enemies for 1 turn. Frozen enemies take +100% damage",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 50
+
+        },
+
+        "specialEffectId": "permafrost",
+
+        "specialEffect": {
+
+          "effectType": "damage_aura",
+
+          "effectValue": 1.0
+
+        }
+
+      },
+
+      "sixPieceBonus": null
+
+    },
+
+    {
+
+      "setId": "holy_crusader_set",
+
+      "setName": "Holy Crusader's Armor",
+
+      "setDescription": "Sacred armor blessed by divine light",
+
+      "setTheme": "light",
+
+      "setGearIds": ["weapon_holy_sword", "armor_holy_plate", "accessory_holy_cross", "accessory_holy_ring", "helmet_holy_helm", "shield_holy_aegis"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Divine Blessing",
+
+        "bonusDescription": "+30% Light Damage, +25% HP, Heal 5% HP per turn",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "hp": 25
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Righteous Fury",
+
+        "bonusDescription": "+80% damage to undead and demons. Immune to dark damage",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 60
+
+        },
+
+        "specialEffectId": "righteous_fury",
+
+        "specialEffect": {
+
+          "effectType": "immunity",
+
+          "effectValue": 1.0,
+
+          "statusImmunity": "dark"
+
+        }
+
+      },
+
+      "sixPieceBonus": {
+
+        "requiredPieces": 6,
+
+        "bonusName": "Divine Intervention",
+
+        "bonusDescription": "When an ally would die, prevent death and heal to 50% HP. Resurrect fallen allies once per battle",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "hp": 80,
+
+          "def": 60
+
+        },
+
+        "specialEffectId": "divine_intervention",
+
+        "specialEffect": {
+
+          "effectType": "immunity",
+
+          "effectValue": 1.0,
+
+          "statusImmunity": "death"
+
+        }
+
+      }
+
+    },
+
+    {
+
+      "setId": "demon_hunter_set",
+
+      "setName": "Demon Hunter's Kit",
+
+      "setDescription": "Specialized gear for hunting creatures of darkness",
+
+      "setTheme": "demon_slayer",
+
+      "setGearIds": ["weapon_demon_blade", "armor_demon_leather", "accessory_demon_ward", "accessory_demon_sigil"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Demon Slayer",
+
+        "bonusDescription": "+50% damage to demons and dark creatures. +25% CRIT Chance vs demons",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 30,
+
+          "crit": 15
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Purging Light",
+
+        "bonusDescription": "Attacks purge dark buffs. Deal +150% damage to demons. Immune to curses",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 70,
+
+          "spd": 25
+
+        },
+
+        "specialEffectId": "demon_purge",
+
+        "specialEffect": {
+
+          "effectType": "immunity",
+
+          "effectValue": 1.0,
+
+          "statusImmunity": "curse"
+
+        }
+
+      },
+
+      "sixPieceBonus": null
+
+    },
+
+    {
+
+      "setId": "natures_wrath_set",
+
+      "setName": "Nature's Wrath",
+
+      "setDescription": "Living armor that channels the power of nature",
+
+      "setTheme": "nature",
+
+      "setGearIds": ["weapon_nature_staff", "armor_nature_bark", "accessory_nature_seed", "accessory_nature_leaf", "helmet_nature_crown", "boots_nature_roots"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Nature's Gift",
+
+        "bonusDescription": "+20% HP, +15% DEF, Regenerate 3% HP per turn",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "hp": 20,
+
+          "def": 15
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Overgrowth",
+
+        "bonusDescription": "Summon 2 nature spirits to fight alongside you. Heal all allies 8% HP per turn",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "hp": 40,
+
+          "atk": 35
+
+        },
+
+        "specialEffectId": "nature_summon",
+
+        "specialEffect": {
+
+          "effectType": "summon",
+
+          "effectValue": 2.0
+
+        }
+
+      },
+
+      "sixPieceBonus": {
+
+        "requiredPieces": 6,
+
+        "bonusName": "Avatar of Nature",
+
+        "bonusDescription": "Transform into nature avatar. Immune to all status effects. Summon forest army",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "hp": 100,
+
+          "atk": 80,
+
+          "def": 80
+
+        },
+
+        "specialEffectId": "nature_avatar",
+
+        "specialEffect": {
+
+          "effectType": "immunity",
+
+          "effectValue": 1.0,
+
+          "statusImmunity": "all"
+
+        }
+
+      }
+
+    },
+
+    {
+
+      "setId": "dragon_slayer_set",
+
+      "setName": "Dragon Slayer's Regalia",
+
+      "setDescription": "Armor worn by legendary dragon hunters",
+
+      "setTheme": "dragon",
+
+      "setGearIds": ["weapon_dragon_blade", "armor_dragon_plate", "accessory_dragon_amulet", "accessory_dragon_ring"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Dragon's Resistance",
+
+        "bonusDescription": "+25% Fire Resistance, +15% All Stats",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 15,
+
+          "def": 15,
+
+          "hp": 15,
+
+          "spd": 15
+
+        },
+
+        "specialEffectId": "fire_resist_aura",
+
+        "specialEffect": {
+
+          "effectType": "immunity",
+
+          "effectValue": 0.25,
+
+          "statusImmunity": "burn"
+
+        }
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Dragon Slayer's Might",
+
+        "bonusDescription": "+50% damage to Dragon-type enemies, immune to fire damage",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 30,
+
+          "critDmg": 50
+
+        },
+
+        "specialEffectId": "dragon_bane",
+
+        "specialEffect": {
+
+          "effectType": "damage_aura",
+
+          "effectValue": 0.5,
+
+          "statusImmunity": "burn"
+
+        }
+
+      },
+
+      "sixPieceBonus": {
+
+        "requiredPieces": 6,
+
+        "bonusName": "Dragonheart",
+
+        "bonusDescription": "Transform into a dragon for 10 turns when HP drops below 30%",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "atk": 100,
+
+          "hp": 50
+
+        },
+
+        "specialEffectId": "dragon_transform",
+
+        "specialEffect": {
+
+          "effectType": "immunity",
+
+          "effectValue": 1.0,
+
+          "statusImmunity": "all"
+
+        }
+
+      }
+
+    },
+
+    {
+
+      "setId": "shadow_assassin_set",
+
+      "setName": "Shadow Assassin's Garb",
+
+      "setDescription": "Equipment favored by master assassins",
+
+      "setTheme": "stealth",
+
+      "setGearIds": ["weapon_shadow_dagger", "armor_shadow_cloak", "accessory_shadow_boots", "accessory_shadow_mask"],
+
+      "twoPieceBonus": {
+
+        "requiredPieces": 2,
+
+        "bonusName": "Shadow Step",
+
+        "bonusDescription": "+30% SPD, +15% Evasion",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "spd": 30
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "fourPieceBonus": {
+
+        "requiredPieces": 4,
+
+        "bonusName": "Deadly Precision",
+
+        "bonusDescription": "+40% CRIT Chance, +80% CRIT Damage, attacks from behind deal triple damage",
+
+        "statBonuses": {},
+
+        "statPercentages": {
+
+          "crit": 40,
+
+          "critDmg": 80
+
+        },
+
+        "specialEffectId": "",
+
+        "specialEffect": null
+
+      },
+
+      "sixPieceBonus": null
+
+    }
+
+  ]
+
+}

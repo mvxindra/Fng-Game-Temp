@@ -1,0 +1,689 @@
+{
+
+  "raidShopItems": [
+
+    {
+
+      "itemId": "raid_mythic_weapon_selector",
+
+      "itemName": "Mythic Weapon Selector",
+
+      "itemType": "gear_selector",
+
+      "description": "Choose any mythic weapon",
+
+      "raidCurrencyCost": 5000,
+
+      "stock": 1,
+
+      "refreshType": "monthly",
+
+      "isExclusive": true,
+
+      "requiredRaidClears": 10
+
+    },
+
+    {
+
+      "itemId": "raid_legendary_gear_box",
+
+      "itemName": "Legendary Gear Box",
+
+      "itemType": "gear_box",
+
+      "description": "Random legendary gear",
+
+      "raidCurrencyCost": 1000,
+
+      "stock": 5,
+
+      "refreshType": "weekly",
+
+      "isExclusive": true,
+
+      "requiredRaidClears": 1
+
+    },
+
+    {
+
+      "itemId": "raid_exclusive_affix_scroll",
+
+      "itemName": "Raid Affix Scroll",
+
+      "itemType": "consumable",
+
+      "description": "Add a raid-exclusive affix to gear",
+
+      "raidCurrencyCost": 2000,
+
+      "stock": 2,
+
+      "refreshType": "weekly",
+
+      "isExclusive": true,
+
+      "requiredRaidClears": 5
+
+    },
+
+    {
+
+      "itemId": "raid_cosmetic_weapon_glow",
+
+      "itemName": "Raid Weapon Glow Pack",
+
+      "itemType": "cosmetic_pack",
+
+      "description": "Special weapon glow effects from raids",
+
+      "raidCurrencyCost": 1500,
+
+      "stock": -1,
+
+      "refreshType": "permanent",
+
+      "isExclusive": true,
+
+      "requiredRaidClears": 3
+
+    },
+
+    {
+
+      "itemId": "raid_title_veteran",
+
+      "itemName": "Title: Raid Veteran",
+
+      "itemType": "title",
+
+      "description": "Equippable title with +10% boss damage",
+
+      "raidCurrencyCost": 3000,
+
+      "stock": 1,
+
+      "refreshType": "permanent",
+
+      "isExclusive": true,
+
+      "requiredRaidClears": 20
+
+    },
+
+    {
+
+      "itemId": "raid_portrait_dragon",
+
+      "itemName": "Dragon Conqueror Portrait",
+
+      "itemType": "portrait",
+
+      "description": "Animated dragon portrait frame",
+
+      "raidCurrencyCost": 2500,
+
+      "stock": 1,
+
+      "refreshType": "permanent",
+
+      "isExclusive": true,
+
+      "requiredRaidClears": 15
+
+    },
+
+    {
+
+      "itemId": "raid_enhancement_stone_mythic",
+
+      "itemName": "Mythic Enhancement Stone",
+
+      "itemType": "material",
+
+      "description": "100% success rate for +14 to +15",
+
+      "raidCurrencyCost": 800,
+
+      "stock": 3,
+
+      "refreshType": "weekly",
+
+      "isExclusive": true,
+
+      "requiredRaidClears": 1
+
+    },
+
+    {
+
+      "itemId": "raid_summon_ticket_premium",
+
+      "itemName": "Premium Raid Summon Ticket",
+
+      "itemType": "summon_ticket",
+
+      "description": "Guaranteed SSR hero summon",
+
+      "raidCurrencyCost": 1200,
+
+      "stock": 2,
+
+      "refreshType": "weekly",
+
+      "isExclusive": false,
+
+      "requiredRaidClears": 0
+
+    },
+
+    {
+
+      "itemId": "raid_soul_cores",
+
+      "itemName": "Soul Cores (x50)",
+
+      "itemType": "currency",
+
+      "description": "50 Soul Cores for hero ascension",
+
+      "raidCurrencyCost": 500,
+
+      "stock": 10,
+
+      "refreshType": "weekly",
+
+      "isExclusive": false,
+
+      "requiredRaidClears": 0
+
+    },
+
+    {
+
+      "itemId": "raid_legendary_rune_box",
+
+      "itemName": "Legendary Rune Box",
+
+      "itemType": "rune_box",
+
+      "description": "Random legendary rune",
+
+      "raidCurrencyCost": 3500,
+
+      "stock": 1,
+
+      "refreshType": "monthly",
+
+      "isExclusive": true,
+
+      "requiredRaidClears": 25
+
+    },
+
+    {
+
+      "itemId": "raid_skill_tome_legendary",
+
+      "itemName": "Legendary Skill Tome",
+
+      "itemType": "skill_tome",
+
+      "description": "Upgrade any skill by 1 level",
+
+      "raidCurrencyCost": 600,
+
+      "stock": 5,
+
+      "refreshType": "weekly",
+
+      "isExclusive": false,
+
+      "requiredRaidClears": 0
+
+    },
+
+    {
+
+      "itemId": "raid_exclusive_gear_dragon_set",
+
+      "itemName": "Dragonborn Armor Piece",
+
+      "itemType": "gear",
+
+      "description": "Raid-exclusive set piece (random slot)",
+
+      "raidCurrencyCost": 4000,
+
+      "stock": 1,
+
+      "refreshType": "monthly",
+
+      "isExclusive": true,
+
+      "requiredRaidClears": 30
+
+    }
+
+  ],
+
+  "exclusiveGearSets": [
+
+    {
+
+      "setId": "raid_dragonborn_set",
+
+      "setName": "Dragonborn Regalia",
+
+      "description": "Exclusive raid set with dragon powers",
+
+      "pieces": 6,
+
+      "setBonuses": [
+
+        {
+
+          "piecesRequired": 2,
+
+          "bonusName": "Dragon's Blood",
+
+          "bonusDescription": "+30% fire damage, +20% fire resistance",
+
+          "statBonuses": {
+
+            "fire_damage": 0.30,
+
+            "fire_resist": 0.20
+
+          }
+
+        },
+
+        {
+
+          "piecesRequired": 4,
+
+          "bonusName": "Dragon's Might",
+
+          "bonusDescription": "+50% damage to bosses, +25% all stats",
+
+          "statBonuses": {
+
+            "boss_damage": 0.50,
+
+            "all_stats": 0.25
+
+          }
+
+        },
+
+        {
+
+          "piecesRequired": 6,
+
+          "bonusName": "Dragonborn",
+
+          "bonusDescription": "Transform into dragon form when below 30% HP, gaining massive stats and immunity",
+
+          "statBonuses": {
+
+            "atk": 500,
+
+            "def": 300,
+
+            "hp": 5000
+
+          },
+
+          "specialEffect": "dragon_transformation"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "setId": "raid_demon_hunter_set",
+
+      "setName": "Demon Hunter's Arsenal",
+
+      "description": "Raid set specialized for demon bosses",
+
+      "pieces": 6,
+
+      "setBonuses": [
+
+        {
+
+          "piecesRequired": 2,
+
+          "bonusName": "Holy Power",
+
+          "bonusDescription": "+40% damage to demons, +30% dark resistance",
+
+          "statBonuses": {
+
+            "demon_damage": 0.40,
+
+            "dark_resist": 0.30
+
+          }
+
+        },
+
+        {
+
+          "piecesRequired": 4,
+
+          "bonusName": "Demon Slayer",
+
+          "bonusDescription": "+60% boss damage, heal for 5% of damage dealt",
+
+          "statBonuses": {
+
+            "boss_damage": 0.60,
+
+            "life_steal": 0.05
+
+          }
+
+        },
+
+        {
+
+          "piecesRequired": 6,
+
+          "bonusName": "Demon Hunter",
+
+          "bonusDescription": "Critical hits against demons deal 500% damage and heal to full",
+
+          "statBonuses": {
+
+            "crit_damage": 2.0
+
+          },
+
+          "specialEffect": "demon_execution"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "setId": "raid_titan_breaker_set",
+
+      "setName": "Titan Breaker",
+
+      "description": "Ultimate raid DPS set",
+
+      "pieces": 6,
+
+      "setBonuses": [
+
+        {
+
+          "piecesRequired": 2,
+
+          "bonusName": "Giant Killer",
+
+          "bonusDescription": "+3% damage per 10M boss HP",
+
+          "statBonuses": {
+
+            "scaling_boss_damage": 0.03
+
+          }
+
+        },
+
+        {
+
+          "piecesRequired": 4,
+
+          "bonusName": "Armor Piercing",
+
+          "bonusDescription": "Ignore 50% of boss defense",
+
+          "statBonuses": {
+
+            "armor_penetration": 0.50
+
+          }
+
+        },
+
+        {
+
+          "piecesRequired": 6,
+
+          "bonusName": "Titan Breaker",
+
+          "bonusDescription": "Deal 5% of boss max HP as bonus damage on crit",
+
+          "statBonuses": {
+
+            "crit_chance": 0.30
+
+          },
+
+          "specialEffect": "titan_execution"
+
+        }
+
+      ]
+
+    }
+
+  ],
+
+  "raidExclusiveAffixes": [
+
+    {
+
+      "affixId": "raid_boss_bane",
+
+      "affixName": "of Boss Bane",
+
+      "description": "+40% damage to all boss enemies",
+
+      "rarity": "legendary",
+
+      "statBonuses": {
+
+        "boss_damage": 0.40
+
+      },
+
+      "obtainMethod": "Top 10 raid ranking or raid affix scroll"
+
+    },
+
+    {
+
+      "affixId": "raid_titan_slayer",
+
+      "affixName": "Titan Slaying",
+
+      "description": "+2% damage per 10M boss HP",
+
+      "rarity": "mythic",
+
+      "statBonuses": {
+
+        "scaling_boss_damage": 0.02
+
+      },
+
+      "obtainMethod": "Top 3 raid ranking only"
+
+    },
+
+    {
+
+      "affixId": "raid_undying",
+
+      "affixName": "of the Undying",
+
+      "description": "Revive once per raid with 50% HP",
+
+      "rarity": "mythic",
+
+      "statBonuses": {
+
+        "hp": 0.20
+
+      },
+
+      "obtainMethod": "Rank 1 reward or raid affix scroll (0.1% chance)"
+
+    },
+
+    {
+
+      "affixId": "raid_bloodthirst",
+
+      "affixName": "Bloodthirsty",
+
+      "description": "+20% lifesteal against bosses",
+
+      "rarity": "legendary",
+
+      "statBonuses": {
+
+        "boss_lifesteal": 0.20
+
+      },
+
+      "obtainMethod": "Raid affix scroll"
+
+    },
+
+    {
+
+      "affixId": "raid_critical_focus",
+
+      "affixName": "of Critical Focus",
+
+      "description": "+50% crit damage to bosses",
+
+      "rarity": "legendary",
+
+      "statBonuses": {
+
+        "boss_crit_damage": 0.50
+
+      },
+
+      "obtainMethod": "Raid affix scroll"
+
+    }
+
+  ],
+
+  "raidCosmetics": [
+
+    {
+
+      "cosmeticId": "raid_glow_dragonfire",
+
+      "cosmeticName": "Dragonfire Weapon Glow",
+
+      "cosmeticType": "weapon_effect",
+
+      "description": "Weapon burns with eternal dragonfire",
+
+      "rarity": "legendary",
+
+      "cost": 1500,
+
+      "requiredClears": 10
+
+    },
+
+    {
+
+      "cosmeticId": "raid_glow_demon_slayer",
+
+      "cosmeticName": "Holy Light Weapon Glow",
+
+      "cosmeticType": "weapon_effect",
+
+      "description": "Weapon radiates holy light",
+
+      "rarity": "epic",
+
+      "cost": 1000,
+
+      "requiredClears": 5
+
+    },
+
+    {
+
+      "cosmeticId": "raid_portrait_dragonborn",
+
+      "cosmeticName": "Dragonborn Portrait",
+
+      "cosmeticType": "portrait",
+
+      "description": "Animated portrait with dragon aura",
+
+      "rarity": "legendary",
+
+      "cost": 2500,
+
+      "requiredClears": 15
+
+    },
+
+    {
+
+      "cosmeticId": "raid_title_dragonslayer",
+
+      "cosmeticName": "Dragonslayer",
+
+      "cosmeticType": "title",
+
+      "description": "+15% damage to dragons",
+
+      "rarity": "epic",
+
+      "cost": 2000,
+
+      "requiredClears": 20,
+
+      "titleEffect": {
+
+        "dragon_damage": 0.15
+
+      }
+
+    },
+
+    {
+
+      "cosmeticId": "raid_hero_skin_dragonborn",
+
+      "cosmeticName": "Dragonborn Armor Skin",
+
+      "cosmeticType": "hero_skin",
+
+      "description": "Full armor skin with dragon scales",
+
+      "rarity": "mythic",
+
+      "cost": 5000,
+
+      "requiredClears": 50
+
+    }
+
+  ]
+
+}

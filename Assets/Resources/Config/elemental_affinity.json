@@ -1,0 +1,313 @@
+{
+
+  "advantageMultiplier": 1.5,
+
+  "disadvantageMultiplier": 0.75,
+
+  "neutralMultiplier": 1.0,
+
+  "immuneMultiplier": 0.0,
+
+  "sameElementReduction": 0.5,
+
+  "elements": [
+
+    {
+
+      "elementId": "fire",
+
+      "elementName": "Fire",
+
+      "description": "Aggressive element focused on high damage and burn effects",
+
+      "color": "#FF4500",
+
+      "baseStats": {
+
+        "atkBonus": 0.10,
+
+        "defBonus": 0,
+
+        "hpBonus": 0,
+
+        "spdBonus": 0.05,
+
+        "critBonus": 0.05,
+
+        "specialAbility": "Burn - Deal damage over time"
+
+      },
+
+      "commonStatusEffects": ["burn", "atk_up"]
+
+    },
+
+    {
+
+      "elementId": "water",
+
+      "elementName": "Water",
+
+      "description": "Versatile element with healing and support capabilities",
+
+      "color": "#1E90FF",
+
+      "baseStats": {
+
+        "atkBonus": 0,
+
+        "defBonus": 0.05,
+
+        "hpBonus": 0.10,
+
+        "spdBonus": 0,
+
+        "critBonus": 0,
+
+        "specialAbility": "Heal - Restore HP over time"
+
+      },
+
+      "commonStatusEffects": ["regen", "def_up"]
+
+    },
+
+    {
+
+      "elementId": "earth",
+
+      "elementName": "Earth",
+
+      "description": "Defensive element with high HP and resistance",
+
+      "color": "#8B4513",
+
+      "baseStats": {
+
+        "atkBonus": 0,
+
+        "defBonus": 0.15,
+
+        "hpBonus": 0.15,
+
+        "spdBonus": -0.05,
+
+        "critBonus": 0,
+
+        "specialAbility": "Shield - Reduce incoming damage"
+
+      },
+
+      "commonStatusEffects": ["def_up", "shield"]
+
+    },
+
+    {
+
+      "elementId": "wind",
+
+      "elementName": "Wind",
+
+      "description": "Speed-focused element with evasion and quick strikes",
+
+      "color": "#00CED1",
+
+      "baseStats": {
+
+        "atkBonus": 0.05,
+
+        "defBonus": 0,
+
+        "hpBonus": 0,
+
+        "spdBonus": 0.15,
+
+        "critBonus": 0.08,
+
+        "specialAbility": "Evasion - Chance to dodge attacks"
+
+      },
+
+      "commonStatusEffects": ["spd_up", "evasion"]
+
+    },
+
+    {
+
+      "elementId": "lightning",
+
+      "elementName": "Lightning",
+
+      "description": "High burst damage with paralysis effects",
+
+      "color": "#FFD700",
+
+      "baseStats": {
+
+        "atkBonus": 0.12,
+
+        "defBonus": 0,
+
+        "hpBonus": 0,
+
+        "spdBonus": 0.10,
+
+        "critBonus": 0.10,
+
+        "specialAbility": "Paralyze - Stun enemies"
+
+      },
+
+      "commonStatusEffects": ["paralyze", "shock"]
+
+    },
+
+    {
+
+      "elementId": "ice",
+
+      "elementName": "Ice",
+
+      "description": "Control element that slows and freezes enemies",
+
+      "color": "#B0E0E6",
+
+      "baseStats": {
+
+        "atkBonus": 0.05,
+
+        "defBonus": 0.05,
+
+        "hpBonus": 0.05,
+
+        "spdBonus": 0,
+
+        "critBonus": 0.03,
+
+        "specialAbility": "Freeze - Immobilize enemies"
+
+      },
+
+      "commonStatusEffects": ["freeze", "slow"]
+
+    },
+
+    {
+
+      "elementId": "light",
+
+      "elementName": "Light",
+
+      "description": "Holy element with healing and damage to dark",
+
+      "color": "#FFFFE0",
+
+      "baseStats": {
+
+        "atkBonus": 0.08,
+
+        "defBonus": 0.05,
+
+        "hpBonus": 0.08,
+
+        "spdBonus": 0,
+
+        "critBonus": 0,
+
+        "specialAbility": "Purify - Remove debuffs"
+
+      },
+
+      "commonStatusEffects": ["regen", "cleanse"]
+
+    },
+
+    {
+
+      "elementId": "dark",
+
+      "elementName": "Dark",
+
+      "description": "Debuff-focused element with life drain",
+
+      "color": "#8B008B",
+
+      "baseStats": {
+
+        "atkBonus": 0.10,
+
+        "defBonus": 0,
+
+        "hpBonus": 0.05,
+
+        "spdBonus": 0,
+
+        "critBonus": 0.05,
+
+        "specialAbility": "Drain - Steal HP from enemies"
+
+      },
+
+      "commonStatusEffects": ["poison", "curse"]
+
+    }
+
+  ],
+
+  "relationships": [
+
+    {"attackingElement": "fire", "defendingElement": "ice", "relationshipType": "advantage"},
+
+    {"attackingElement": "fire", "defendingElement": "earth", "relationshipType": "advantage"},
+
+    {"attackingElement": "fire", "defendingElement": "water", "relationshipType": "disadvantage"},
+
+ 
+
+    {"attackingElement": "water", "defendingElement": "fire", "relationshipType": "advantage"},
+
+    {"attackingElement": "water", "defendingElement": "lightning", "relationshipType": "advantage"},
+
+    {"attackingElement": "water", "defendingElement": "earth", "relationshipType": "disadvantage"},
+
+ 
+
+    {"attackingElement": "earth", "defendingElement": "wind", "relationshipType": "advantage"},
+
+    {"attackingElement": "earth", "defendingElement": "lightning", "relationshipType": "advantage"},
+
+    {"attackingElement": "earth", "defendingElement": "fire", "relationshipType": "disadvantage"},
+
+ 
+
+    {"attackingElement": "wind", "defendingElement": "earth", "relationshipType": "advantage"},
+
+    {"attackingElement": "wind", "defendingElement": "ice", "relationshipType": "advantage"},
+
+    {"attackingElement": "wind", "defendingElement": "lightning", "relationshipType": "disadvantage"},
+
+ 
+
+    {"attackingElement": "lightning", "defendingElement": "water", "relationshipType": "advantage"},
+
+    {"attackingElement": "lightning", "defendingElement": "wind", "relationshipType": "advantage"},
+
+    {"attackingElement": "lightning", "defendingElement": "earth", "relationshipType": "disadvantage"},
+
+ 
+
+    {"attackingElement": "ice", "defendingElement": "water", "relationshipType": "advantage"},
+
+    {"attackingElement": "ice", "defendingElement": "wind", "relationshipType": "advantage"},
+
+    {"attackingElement": "ice", "defendingElement": "fire", "relationshipType": "disadvantage"},
+
+ 
+
+    {"attackingElement": "light", "defendingElement": "dark", "relationshipType": "advantage"},
+
+    {"attackingElement": "dark", "defendingElement": "light", "relationshipType": "advantage"}
+
+  ]
+
+}

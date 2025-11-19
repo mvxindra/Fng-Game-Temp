@@ -1,0 +1,172 @@
+[
+  {
+    "id": "DUNGEON_CRYPT_I_NORMAL",
+    "name": "Forsaken Crypt – Normal",
+    "recommendedPower": 1500,
+    "staminaCost": 10,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GOLD:5000"], "xp": 100 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_BLADE_A1"], "xp": 150 }
+    ]
+  },
+  {
+    "id": "DUNGEON_CRYPT_I_HARD",
+    "name": "Forsaken Crypt – Hard",
+    "recommendedPower": 2500,
+    "staminaCost": 14,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GOLD:8000"], "xp": 150 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_BLADE_A1"], "xp": 220 }
+    ]
+  },
+  {
+    "id": "DUNGEON_CRYPT_I_NIGHTMARE",
+    "name": "Forsaken Crypt – Nightmare",
+    "recommendedPower": 4000,
+    "staminaCost": 18,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT","HERO_WOLF_KNIGHT"], "loot": ["GOLD:12000"], "xp": 220 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_RARE_SWORD"], "xp": 300 }
+    ]
+  },
+
+
+  {
+    "id": "DUNGEON_CRYPT_II_NORMAL",
+    "name": "Haunted Armory – Normal",
+    "recommendedPower": 2200,
+    "staminaCost": 12,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GOLD:6000"], "xp": 120 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_BLADE_A1"], "xp": 160 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:20"], "xp": 200 }
+    ]
+  },
+  {
+    "id": "DUNGEON_CRYPT_II_HARD",
+    "name": "Haunted Armory – Hard",
+    "recommendedPower": 3500,
+    "staminaCost": 16,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GOLD:9000"], "xp": 180 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_RARE_SWORD"], "xp": 240 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:35"], "xp": 300 }
+    ]
+  },
+  {
+    "id": "DUNGEON_CRYPT_II_NIGHTMARE",
+    "name": "Haunted Armory – Nightmare",
+    "recommendedPower": 5200,
+    "staminaCost": 20,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT","HERO_WOLF_KNIGHT"], "loot": ["GOLD:15000"], "xp": 250 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_ELITE_BLADE"], "xp": 320 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:50"], "xp": 380 }
+    ]
+  },
+
+
+  {
+    "id": "DUNGEON_ABYSS_GATE_I_NORMAL",
+    "name": "Abyss Gate I – Normal",
+    "recommendedPower": 2800,
+    "staminaCost": 14,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GOLD:8000"], "xp": 150 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:25"], "xp": 200 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_RARE_SWORD"], "xp": 250 }
+    ]
+  },
+  {
+    "id": "DUNGEON_ABYSS_GATE_I_HARD",
+    "name": "Abyss Gate I – Hard",
+    "recommendedPower": 4200,
+    "staminaCost": 18,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GOLD:12000"], "xp": 200 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:35"], "xp": 260 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_ELITE_BLADE"], "xp": 330 }
+    ]
+  },
+  {
+    "id": "DUNGEON_ABYSS_GATE_I_NIGHTMARE",
+    "name": "Abyss Gate I – Nightmare",
+    "recommendedPower": 6000,
+    "staminaCost": 24,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT","HERO_WOLF_KNIGHT"], "loot": ["GOLD:18000"], "xp": 280 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:50"], "xp": 350 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_ELITE_BLADE"], "xp": 450 }
+    ]
+  },
+
+
+  {
+    "id": "DUNGEON_SHATTERED_TOWER_I_NORMAL",
+    "name": "Shattered Tower I – Normal",
+    "recommendedPower": 4200,
+    "staminaCost": 18,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GOLD:12000"], "xp": 180 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_BLADE_A1"], "xp": 240 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:40"], "xp": 300 }
+    ]
+  },
+  {
+    "id": "DUNGEON_SHATTERED_TOWER_I_HARD",
+    "name": "Shattered Tower I – Hard",
+    "recommendedPower": 5800,
+    "staminaCost": 22,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GOLD:16000"], "xp": 230 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_RARE_SWORD"], "xp": 300 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:55"], "xp": 370 }
+    ]
+  },
+  {
+    "id": "DUNGEON_SHATTERED_TOWER_I_NIGHTMARE",
+    "name": "Shattered Tower I – Nightmare",
+    "recommendedPower": 7600,
+    "staminaCost": 26,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT","HERO_WOLF_KNIGHT"], "loot": ["GOLD:22000"], "xp": 300 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_ELITE_BLADE"], "xp": 380 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:65"], "xp": 450 }
+    ]
+  },
+
+
+  {
+    "id": "DUNGEON_VOID_RIFT_I_NORMAL",
+    "name": "Void Rift I – Normal",
+    "recommendedPower": 9000,
+    "staminaCost": 28,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GOLD:25000"], "xp": 350 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_MYTHIC_BLADE"], "xp": 450 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:100"], "xp": 550 }
+    ]
+  },
+  {
+    "id": "DUNGEON_VOID_RIFT_I_HARD",
+    "name": "Void Rift I – Hard",
+    "recommendedPower": 11000,
+    "staminaCost": 32,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GOLD:30000"], "xp": 420 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_MYTHIC_BLADE"], "xp": 520 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:130"], "xp": 650 }
+    ]
+  },
+  {
+    "id": "DUNGEON_VOID_RIFT_I_NIGHTMARE",
+    "name": "Void Rift I – Nightmare",
+    "recommendedPower": 14000,
+    "staminaCost": 36,
+    "floors": [
+      { "id": "F1", "enemies": ["HERO_WOLF_KNIGHT","HERO_WOLF_KNIGHT"], "loot": ["GOLD:38000"], "xp": 500 },
+      { "id": "F2", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEAR_MYTHIC_BLADE"], "xp": 620 },
+      { "id": "F3", "enemies": ["HERO_WOLF_KNIGHT"], "loot": ["GEMS:180"], "xp": 780 }
+    ]
+  }
+]

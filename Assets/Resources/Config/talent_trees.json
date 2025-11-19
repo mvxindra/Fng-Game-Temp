@@ -1,0 +1,365 @@
+{
+
+  "trees": [
+
+    {
+
+      "treeId": "warrior_tree",
+
+      "heroId": "hero_warrior",
+
+      "treeName": "Path of the Warrior",
+
+      "description": "Choose between raw power, defensive mastery, or balanced combat",
+
+      "maxTalentPoints": 100,
+
+      "talentPointsPerLevel": 1,
+
+      "talentPointsPerAscension": 5,
+
+      "paths": [
+
+        {
+
+          "pathId": "berserker_path",
+
+          "pathName": "Berserker Path",
+
+          "description": "Maximize damage output at the cost of defense",
+
+          "pathType": "damage",
+
+          "nodeIds": ["war_atk1", "war_atk2", "war_crit1", "war_berserker"],
+
+          "keystoneNodeId": "war_berserker",
+
+          "requiredNodesForKeystone": 3
+
+        },
+
+        {
+
+          "pathId": "guardian_path",
+
+          "pathName": "Guardian Path",
+
+          "description": "Become an immovable wall of defense",
+
+          "pathType": "tank",
+
+          "nodeIds": ["war_def1", "war_def2", "war_hp1", "war_guardian"],
+
+          "keystoneNodeId": "war_guardian",
+
+          "requiredNodesForKeystone": 3
+
+        }
+
+      ],
+
+      "nodes": [
+
+        {
+
+          "nodeId": "war_atk1",
+
+          "nodeName": "Power Strike",
+
+          "description": "+5% ATK per rank",
+
+          "tier": 1,
+
+          "pathType": "damage",
+
+          "maxRanks": 5,
+
+          "prerequisiteNodes": [],
+
+          "requiredTalentPoints": 0,
+
+          "requiredAscensionLevel": 0,
+
+          "row": 1,
+
+          "column": 1,
+
+          "effect": {
+
+            "effectType": "stat_boost",
+
+            "statType": "ATK",
+
+            "valuePerRank": 0.05,
+
+            "isPercentage": true
+
+          }
+
+        },
+
+        {
+
+          "nodeId": "war_atk2",
+
+          "nodeName": "Raging Fury",
+
+          "description": "+10% ATK per rank",
+
+          "tier": 2,
+
+          "pathType": "damage",
+
+          "maxRanks": 3,
+
+          "prerequisiteNodes": ["war_atk1"],
+
+          "requiredTalentPoints": 5,
+
+          "requiredAscensionLevel": 0,
+
+          "row": 2,
+
+          "column": 1,
+
+          "effect": {
+
+            "effectType": "stat_boost",
+
+            "statType": "ATK",
+
+            "valuePerRank": 0.10,
+
+            "isPercentage": true
+
+          }
+
+        },
+
+        {
+
+          "nodeId": "war_crit1",
+
+          "nodeName": "Precise Strikes",
+
+          "description": "+3% CRIT chance per rank",
+
+          "tier": 2,
+
+          "pathType": "damage",
+
+          "maxRanks": 3,
+
+          "prerequisiteNodes": ["war_atk1"],
+
+          "requiredTalentPoints": 5,
+
+          "requiredAscensionLevel": 0,
+
+          "row": 2,
+
+          "column": 2,
+
+          "effect": {
+
+            "effectType": "stat_boost",
+
+            "statType": "CRIT",
+
+            "valuePerRank": 0.03,
+
+            "isPercentage": true
+
+          }
+
+        },
+
+        {
+
+          "nodeId": "war_berserker",
+
+          "nodeName": "Berserker Rage",
+
+          "description": "Unlock Berserker Mode skill - Gain massive ATK boost when HP is low",
+
+          "tier": 3,
+
+          "pathType": "damage",
+
+          "maxRanks": 1,
+
+          "prerequisiteNodes": ["war_atk2", "war_crit1"],
+
+          "requiredTalentPoints": 15,
+
+          "requiredAscensionLevel": 1,
+
+          "row": 3,
+
+          "column": 1,
+
+          "effect": {
+
+            "effectType": "skill_unlock",
+
+            "skillId": "skill_berserker_rage"
+
+          }
+
+        },
+
+        {
+
+          "nodeId": "war_def1",
+
+          "nodeName": "Iron Skin",
+
+          "description": "+5% DEF per rank",
+
+          "tier": 1,
+
+          "pathType": "tank",
+
+          "maxRanks": 5,
+
+          "prerequisiteNodes": [],
+
+          "requiredTalentPoints": 0,
+
+          "requiredAscensionLevel": 0,
+
+          "row": 1,
+
+          "column": 3,
+
+          "effect": {
+
+            "effectType": "stat_boost",
+
+            "statType": "DEF",
+
+            "valuePerRank": 0.05,
+
+            "isPercentage": true
+
+          }
+
+        },
+
+        {
+
+          "nodeId": "war_def2",
+
+          "nodeName": "Fortified Defense",
+
+          "description": "+10% DEF per rank",
+
+          "tier": 2,
+
+          "pathType": "tank",
+
+          "maxRanks": 3,
+
+          "prerequisiteNodes": ["war_def1"],
+
+          "requiredTalentPoints": 5,
+
+          "requiredAscensionLevel": 0,
+
+          "row": 2,
+
+          "column": 3,
+
+          "effect": {
+
+            "effectType": "stat_boost",
+
+            "statType": "DEF",
+
+            "valuePerRank": 0.10,
+
+            "isPercentage": true
+
+          }
+
+        },
+
+        {
+
+          "nodeId": "war_hp1",
+
+          "nodeName": "Endurance",
+
+          "description": "+8% HP per rank",
+
+          "tier": 2,
+
+          "pathType": "tank",
+
+          "maxRanks": 3,
+
+          "prerequisiteNodes": ["war_def1"],
+
+          "requiredTalentPoints": 5,
+
+          "requiredAscensionLevel": 0,
+
+          "row": 2,
+
+          "column": 4,
+
+          "effect": {
+
+            "effectType": "stat_boost",
+
+            "statType": "HP",
+
+            "valuePerRank": 0.08,
+
+            "isPercentage": true
+
+          }
+
+        },
+
+        {
+
+          "nodeId": "war_guardian",
+
+          "nodeName": "Guardian's Oath",
+
+          "description": "Unlock Guardian Shield skill - Absorb damage for allies",
+
+          "tier": 3,
+
+          "pathType": "tank",
+
+          "maxRanks": 1,
+
+          "prerequisiteNodes": ["war_def2", "war_hp1"],
+
+          "requiredTalentPoints": 15,
+
+          "requiredAscensionLevel": 1,
+
+          "row": 3,
+
+          "column": 3,
+
+          "effect": {
+
+            "effectType": "skill_unlock",
+
+            "skillId": "skill_guardian_shield"
+
+          }
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}

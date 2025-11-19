@@ -1,0 +1,649 @@
+{
+
+  "affixes": [
+
+    {
+
+      "affixId": "affix_might",
+
+      "affixName": "of Might",
+
+      "affixType": "suffix",
+
+      "affixCategory": "offensive",
+
+      "allowedSlots": ["weapon", "armor", "accessory"],
+
+      "minRarity": 1,
+
+      "statMod": {
+
+        "flatAtk": 10,
+
+        "percentAtk": 0.05
+
+      },
+
+      "dropWeight": 10.0,
+
+      "affixTier": 1
+
+    },
+
+    {
+
+      "affixId": "affix_titans",
+
+      "affixName": "of the Titan",
+
+      "affixType": "suffix",
+
+      "affixCategory": "offensive",
+
+      "allowedSlots": ["weapon", "armor", "accessory"],
+
+      "minRarity": 3,
+
+      "statMod": {
+
+        "flatAtk": 50,
+
+        "percentAtk": 0.15
+
+      },
+
+      "dropWeight": 3.0,
+
+      "affixTier": 3
+
+    },
+
+    {
+
+      "affixId": "affix_vitality",
+
+      "affixName": "of Vitality",
+
+      "affixType": "suffix",
+
+      "affixCategory": "defensive",
+
+      "allowedSlots": ["armor", "accessory"],
+
+      "minRarity": 1,
+
+      "statMod": {
+
+        "flatHp": 100,
+
+        "percentHp": 0.08
+
+      },
+
+      "dropWeight": 10.0,
+
+      "affixTier": 1
+
+    },
+
+    {
+
+      "affixId": "affix_colossus",
+
+      "affixName": "of the Colossus",
+
+      "affixType": "suffix",
+
+      "affixCategory": "defensive",
+
+      "allowedSlots": ["armor", "accessory"],
+
+      "minRarity": 4,
+
+      "statMod": {
+
+        "flatHp": 500,
+
+        "percentHp": 0.20,
+
+        "flatDef": 50
+
+      },
+
+      "dropWeight": 2.0,
+
+      "affixTier": 4
+
+    },
+
+    {
+
+      "affixId": "affix_speed",
+
+      "affixName": "of Speed",
+
+      "affixType": "suffix",
+
+      "affixCategory": "utility",
+
+      "allowedSlots": ["weapon", "armor", "accessory"],
+
+      "minRarity": 1,
+
+      "statMod": {
+
+        "flatSpd": 5,
+
+        "percentSpd": 0.10
+
+      },
+
+      "dropWeight": 8.0,
+
+      "affixTier": 1
+
+    },
+
+    {
+
+      "affixId": "affix_precision",
+
+      "affixName": "Precise",
+
+      "affixType": "prefix",
+
+      "affixCategory": "offensive",
+
+      "allowedSlots": ["weapon"],
+
+      "minRarity": 2,
+
+      "statMod": {
+
+        "critChance": 0.10,
+
+        "accuracy": 0.15
+
+      },
+
+      "dropWeight": 7.0,
+
+      "affixTier": 2
+
+    },
+
+    {
+
+      "affixId": "affix_deadly",
+
+      "affixName": "Deadly",
+
+      "affixType": "prefix",
+
+      "affixCategory": "offensive",
+
+      "allowedSlots": ["weapon"],
+
+      "minRarity": 3,
+
+      "statMod": {
+
+        "critChance": 0.15,
+
+        "critDamage": 0.30,
+
+        "accuracy": 0.20
+
+      },
+
+      "dropWeight": 4.0,
+
+      "affixTier": 3
+
+    },
+
+    {
+
+      "affixId": "affix_vampiric",
+
+      "affixName": "Vampiric",
+
+      "affixType": "prefix",
+
+      "affixCategory": "offensive",
+
+      "allowedSlots": ["weapon"],
+
+      "minRarity": 3,
+
+      "statMod": {
+
+        "lifeSteal": 0.10,
+
+        "flatAtk": 20
+
+      },
+
+      "dropWeight": 5.0,
+
+      "affixTier": 3
+
+    },
+
+    {
+
+      "affixId": "affix_fortified",
+
+      "affixName": "Fortified",
+
+      "affixType": "prefix",
+
+      "affixCategory": "defensive",
+
+      "allowedSlots": ["armor"],
+
+      "minRarity": 2,
+
+      "statMod": {
+
+        "flatDef": 30,
+
+        "percentDef": 0.12,
+
+        "damageReduction": 0.05
+
+      },
+
+      "dropWeight": 8.0,
+
+      "affixTier": 2
+
+    },
+
+    {
+
+      "affixId": "affix_fire_damage",
+
+      "affixName": "of Flames",
+
+      "affixType": "suffix",
+
+      "affixCategory": "elemental",
+
+      "allowedSlots": ["weapon", "accessory"],
+
+      "minRarity": 2,
+
+      "statMod": {
+
+        "fireDamage": 0.20,
+
+        "elementalDamage": 0.10
+
+      },
+
+      "dropWeight": 6.0,
+
+      "affixTier": 2
+
+    },
+
+    {
+
+      "affixId": "affix_ice_damage",
+
+      "affixName": "of Frost",
+
+      "affixType": "suffix",
+
+      "affixCategory": "elemental",
+
+      "allowedSlots": ["weapon", "accessory"],
+
+      "minRarity": 2,
+
+      "statMod": {
+
+        "iceDamage": 0.20,
+
+        "elementalDamage": 0.10
+
+      },
+
+      "dropWeight": 6.0,
+
+      "affixTier": 2
+
+    },
+
+    {
+
+      "affixId": "affix_lightning_damage",
+
+      "affixName": "of Thunder",
+
+      "affixType": "suffix",
+
+      "affixCategory": "elemental",
+
+      "allowedSlots": ["weapon", "accessory"],
+
+      "minRarity": 2,
+
+      "statMod": {
+
+        "lightningDamage": 0.20,
+
+        "elementalDamage": 0.10
+
+      },
+
+      "dropWeight": 6.0,
+
+      "affixTier": 2
+
+    },
+
+    {
+
+      "affixId": "affix_elemental_master",
+
+      "affixName": "Elemental Mastery",
+
+      "affixType": "prefix",
+
+      "affixCategory": "elemental",
+
+      "allowedSlots": ["weapon", "accessory"],
+
+      "minRarity": 4,
+
+      "statMod": {
+
+        "elementalDamage": 0.30,
+
+        "fireDamage": 0.15,
+
+        "iceDamage": 0.15,
+
+        "lightningDamage": 0.15
+
+      },
+
+      "dropWeight": 2.0,
+
+      "affixTier": 4
+
+    },
+
+    {
+
+      "affixId": "affix_fire_resist",
+
+      "affixName": "of Fire Resistance",
+
+      "affixType": "suffix",
+
+      "affixCategory": "defensive",
+
+      "allowedSlots": ["armor", "accessory"],
+
+      "minRarity": 2,
+
+      "statMod": {
+
+        "fireResist": 0.25
+
+      },
+
+      "dropWeight": 6.0,
+
+      "affixTier": 2
+
+    },
+
+    {
+
+      "affixId": "affix_cdr",
+
+      "affixName": "of Haste",
+
+      "affixType": "suffix",
+
+      "affixCategory": "utility",
+
+      "allowedSlots": ["weapon", "accessory"],
+
+      "minRarity": 3,
+
+      "statMod": {
+
+        "cooldownReduction": 0.15,
+
+        "percentSpd": 0.10
+
+      },
+
+      "dropWeight": 5.0,
+
+      "affixTier": 3
+
+    },
+
+    {
+
+      "affixId": "affix_gold_find",
+
+      "affixName": "of Fortune",
+
+      "affixType": "suffix",
+
+      "affixCategory": "utility",
+
+      "allowedSlots": ["accessory"],
+
+      "minRarity": 1,
+
+      "statMod": {
+
+        "goldFind": 0.20,
+
+        "dropRate": 0.10
+
+      },
+
+      "dropWeight": 5.0,
+
+      "affixTier": 1
+
+    },
+
+    {
+
+      "affixId": "affix_exp_gain",
+
+      "affixName": "of Learning",
+
+      "affixType": "suffix",
+
+      "affixCategory": "utility",
+
+      "allowedSlots": ["accessory"],
+
+      "minRarity": 1,
+
+      "statMod": {
+
+        "expGain": 0.25
+
+      },
+
+      "dropWeight": 5.0,
+
+      "affixTier": 1
+
+    },
+
+    {
+
+      "affixId": "affix_crit_damage",
+
+      "affixName": "of Devastation",
+
+      "affixType": "suffix",
+
+      "affixCategory": "offensive",
+
+      "allowedSlots": ["weapon", "accessory"],
+
+      "minRarity": 3,
+
+      "statMod": {
+
+        "critDamage": 0.50,
+
+        "critChance": 0.08
+
+      },
+
+      "dropWeight": 4.0,
+
+      "affixTier": 3
+
+    },
+
+    {
+
+      "affixId": "affix_penetration",
+
+      "affixName": "Piercing",
+
+      "affixType": "prefix",
+
+      "affixCategory": "offensive",
+
+      "allowedSlots": ["weapon"],
+
+      "minRarity": 3,
+
+      "statMod": {
+
+        "penetration": 0.20,
+
+        "trueDamage": 0.10
+
+      },
+
+      "dropWeight": 4.0,
+
+      "affixTier": 3
+
+    },
+
+    {
+
+      "affixId": "affix_ultimate",
+
+      "affixName": "Godly",
+
+      "affixType": "prefix",
+
+      "affixCategory": "offensive",
+
+      "allowedSlots": ["weapon"],
+
+      "minRarity": 6,
+
+      "statMod": {
+
+        "flatAtk": 100,
+
+        "percentAtk": 0.25,
+
+        "critChance": 0.15,
+
+        "critDamage": 0.50,
+
+        "lifeSteal": 0.08
+
+      },
+
+      "dropWeight": 0.5,
+
+      "affixTier": 5
+
+    }
+
+  ],
+
+  "affixPools": [
+
+    {
+
+      "poolId": "weapon_offensive",
+
+      "slot": "weapon",
+
+      "minRarity": 1,
+
+      "affixIds": ["affix_might", "affix_titans", "affix_precision", "affix_deadly", "affix_vampiric", "affix_crit_damage", "affix_penetration"],
+
+      "weights": [10.0, 3.0, 7.0, 4.0, 5.0, 4.0, 4.0]
+
+    },
+
+    {
+
+      "poolId": "armor_defensive",
+
+      "slot": "armor",
+
+      "minRarity": 1,
+
+      "affixIds": ["affix_vitality", "affix_colossus", "affix_fortified", "affix_fire_resist"],
+
+      "weights": [10.0, 2.0, 8.0, 6.0]
+
+    },
+
+    {
+
+      "poolId": "accessory_mixed",
+
+      "slot": "accessory",
+
+      "minRarity": 1,
+
+      "affixIds": ["affix_might", "affix_vitality", "affix_speed", "affix_gold_find", "affix_exp_gain", "affix_cdr"],
+
+      "weights": [8.0, 8.0, 8.0, 5.0, 5.0, 5.0]
+
+    }
+
+  ],
+
+  "generationRules": {
+
+    "minRarity": 1,
+
+    "maxRarity": 7,
+
+    "minAffixTier": 1,
+
+    "maxAffixTier": 5,
+
+    "minRollQuality": 0.7,
+
+    "maxRollQuality": 1.3,
+
+    "offensiveWeight": 0.35,
+
+    "defensiveWeight": 0.30,
+
+    "utilityWeight": 0.20,
+
+    "elementalWeight": 0.15
+
+  }
+
+}

@@ -1,0 +1,5474 @@
+{
+  "chapters": [
+    {
+      "chapter": 1,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH01_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SLIME_BLUE",
+                    "ENEMY_GANG_BRUISER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_SLIME_BLUE",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                }
+              ],
+              "staminaCost": 6
+            },
+            {
+              "stageId": "CH01_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_SLIME_GREEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_SLIME_BLUE",
+                    "ENEMY_GANG_BRUISER"
+                  ]
+                }
+              ],
+              "staminaCost": 6
+            },
+            {
+              "stageId": "CH01_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SLIME_BLUE",
+                    "ENEMY_SLIME_GREEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_RAT_SWARMER",
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_SLIME_GREEN"
+                  ]
+                }
+              ],
+              "staminaCost": 6
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH01_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_RAT_MUTANT",
+                    "ENEMY_GANG_BRUISER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_SLIME_GREEN",
+                    "ENEMY_GANG_GRUNT"
+                  ]
+                }
+              ],
+              "staminaCost": 7
+            },
+            {
+              "stageId": "CH01_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_RAT_SWARMER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_RAT_SWARMER",
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_SLIME_GREEN"
+                  ]
+                }
+              ],
+              "staminaCost": 7
+            },
+            {
+              "stageId": "CH01_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_SLIME_BLUE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SLIME_BLUE",
+                    "ENEMY_SLIME_GREEN",
+                    "ENEMY_RAT_SWARMER"
+                  ]
+                }
+              ],
+              "staminaCost": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH02_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_INFECTED_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_RAT_SWARMER",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                }
+              ],
+              "staminaCost": 6
+            },
+            {
+              "stageId": "CH02_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_GANG_BRUISER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_GANG_SNIPER",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                }
+              ],
+              "staminaCost": 6
+            },
+            {
+              "stageId": "CH02_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_SNIPER",
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_INFECTED_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 6
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH02_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_INFECTED_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 7
+            },
+            {
+              "stageId": "CH02_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_RAT_SWARMER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_PLAGUE_DOCTOR"
+                  ]
+                }
+              ],
+              "staminaCost": 7
+            },
+            {
+              "stageId": "CH02_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_RAT_MUTANT",
+                    "ENEMY_GANG_GRUNT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_RAT_MUTANT"
+                  ]
+                }
+              ],
+              "staminaCost": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH03_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ZEALOT",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                }
+              ],
+              "staminaCost": 6
+            },
+            {
+              "stageId": "CH03_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_ZEALOT",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                }
+              ],
+              "staminaCost": 6
+            },
+            {
+              "stageId": "CH03_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ZEALOT",
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_FOOTMAN"
+                  ]
+                }
+              ],
+              "staminaCost": 6
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH03_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                }
+              ],
+              "staminaCost": 7
+            },
+            {
+              "stageId": "CH03_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                }
+              ],
+              "staminaCost": 7
+            },
+            {
+              "stageId": "CH03_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_PURITY_COMMANDER"
+                  ]
+                }
+              ],
+              "staminaCost": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH04_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                }
+              ],
+              "staminaCost": 8
+            },
+            {
+              "stageId": "CH04_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ZEALOT",
+                    "ENEMY_GANG_BRUISER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                }
+              ],
+              "staminaCost": 8
+            },
+            {
+              "stageId": "CH04_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_PURITY_EXECUTIONER"
+                  ]
+                }
+              ],
+              "staminaCost": 8
+            },
+            {
+              "stageId": "CH04_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH04_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_FOOTMAN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            },
+            {
+              "stageId": "CH04_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            },
+            {
+              "stageId": "CH04_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_SNIPER",
+                    "ENEMY_PURITY_FOOTMAN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            },
+            {
+              "stageId": "CH04_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_CHIMERIC_PROPHET"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH05_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_INFECTED_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                }
+              ],
+              "staminaCost": 8
+            },
+            {
+              "stageId": "CH05_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_INFECTED_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 8
+            },
+            {
+              "stageId": "CH05_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_INFECTED_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 8
+            },
+            {
+              "stageId": "CH05_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_INFECTED_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_INFECTED_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH05_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_INFECTED_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            },
+            {
+              "stageId": "CH05_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            },
+            {
+              "stageId": "CH05_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_INFECTED_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            },
+            {
+              "stageId": "CH05_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_INFECTED_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_INFECTED_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH05_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_INFECTED_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_PLAGUE_DOCTOR"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH05_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH05_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_INFECTED_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH05_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_ABERRATION"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH06_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                }
+              ],
+              "staminaCost": 8
+            },
+            {
+              "stageId": "CH06_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 8
+            },
+            {
+              "stageId": "CH06_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 8
+            },
+            {
+              "stageId": "CH06_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH06_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            },
+            {
+              "stageId": "CH06_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            },
+            {
+              "stageId": "CH06_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                }
+              ],
+              "staminaCost": 9
+            },
+            {
+              "stageId": "CH06_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH06_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH06_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH06_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH06_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_CRYPT_LORD"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH07_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VENOMFANG_SPIDER",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_TOXIC_SPIDER"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH07_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_VENOMFANG_SPIDER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH07_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH07_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_TOXIC_SPIDER",
+                    "ENEMY_VENOMFANG_SPIDER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VENOMFANG_SPIDER",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_TOXIC_SPIDER"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH07_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_TOXIC_SPIDER",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_TOXIC_SPIDER",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            },
+            {
+              "stageId": "CH07_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_TOXIC_SPIDER",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VENOMFANG_SPIDER",
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_INFECTED_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            },
+            {
+              "stageId": "CH07_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_VENOMFANG_SPIDER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            },
+            {
+              "stageId": "CH07_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CHIMERIC_BEAST",
+                    "ENEMY_PLAGUE_DOCTOR"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH07_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_BEAST",
+                    "ENEMY_VENOMFANG_SPIDER",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH07_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_BEAST",
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_TOXIC_SPIDER"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH07_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_INFECTED_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_VENOMFANG_SPIDER"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH07_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_INFECTED_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_ANCIENT_TREANT"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH08_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STORM_MAGE",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_STORM_MAGE",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH08_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_STORM_MAGE",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH08_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_GUARD"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH08_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_STORM_MAGE"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH08_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            },
+            {
+              "stageId": "CH08_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            },
+            {
+              "stageId": "CH08_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            },
+            {
+              "stageId": "CH08_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_STORM_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH08_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STORM_MAGE",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH08_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH08_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_STORM_MAGE",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH08_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STORM_MAGE",
+                    "ENEMY_KT_ELITE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_THUNDER_EMPEROR"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH09_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH09_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH09_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 10
+            },
+            {
+              "stageId": "CH09_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH09_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            },
+            {
+              "stageId": "CH09_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            },
+            {
+              "stageId": "CH09_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 11
+            },
+            {
+              "stageId": "CH09_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH09_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH09_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH09_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH09_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_ANCIENT_DRAGON"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH10_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_FROST_GUARDIAN",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH10_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ICE_WRAITH",
+                    "ENEMY_FROST_GUARDIAN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_FROST_GUARDIAN",
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH10_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_FROST_GUARDIAN",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ICE_WRAITH",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_FROST_GUARDIAN"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH10_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_FROST_GUARDIAN",
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH10_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ICE_WRAITH",
+                    "ENEMY_FROST_GUARDIAN"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            },
+            {
+              "stageId": "CH10_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_FROST_GUARDIAN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ICE_WRAITH",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            },
+            {
+              "stageId": "CH10_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ICE_WRAITH",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_FROST_GUARDIAN",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            },
+            {
+              "stageId": "CH10_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_ICE_WRAITH"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH10_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_FROST_GUARDIAN",
+                    "ENEMY_ICE_WRAITH"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_FROST_GUARDIAN",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH10_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_FROST_GUARDIAN",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH10_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_ICE_WRAITH"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_FROST_GUARDIAN",
+                    "ENEMY_ICE_WRAITH",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH10_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_FROST_TITAN"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH11_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_EXECUTIONER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH11_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH11_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_EXECUTIONER"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH11_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_ZEALOT",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH11_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_EXECUTIONER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_ZEALOT",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            },
+            {
+              "stageId": "CH11_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_EXECUTIONER"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            },
+            {
+              "stageId": "CH11_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_PURITY_FOOTMAN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_EXECUTIONER"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            },
+            {
+              "stageId": "CH11_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH11_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH11_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ZEALOT",
+                    "ENEMY_PURITY_FOOTMAN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_PURITY_ACOLYTE",
+                    "ENEMY_PURITY_ZEALOT"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH11_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_FOOTMAN",
+                    "ENEMY_PURITY_EXECUTIONER",
+                    "ENEMY_PURITY_ACOLYTE"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH11_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PURITY_ZEALOT",
+                    "ENEMY_PURITY_FOOTMAN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_PURITY_COMMANDER"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH12_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH12_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH12_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_DISCIPLE",
+                    "ENEMY_INFECTED_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                }
+              ],
+              "staminaCost": 12
+            },
+            {
+              "stageId": "CH12_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_PLAGUE_DOCTOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_DISCIPLE",
+                    "ENEMY_CHIMERIC_HERALD",
+                    "ENEMY_PLAGUE_DOCTOR"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH12_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_INFECTED_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_HERALD",
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_CHIMERIC_DISCIPLE"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            },
+            {
+              "stageId": "CH12_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_CHANNELER",
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            },
+            {
+              "stageId": "CH12_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_PLAGUE_DOCTOR"
+                  ]
+                }
+              ],
+              "staminaCost": 13
+            },
+            {
+              "stageId": "CH12_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH12_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_BEAST",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_BRUTE",
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_PLAGUE_DOCTOR"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH12_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_PLAGUE_DOCTOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_PLAGUE_BEARER"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH12_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_INFECTED_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_PLAGUE_BEARER",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH12_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFECTED_STALKER",
+                    "ENEMY_INFECTED_CHANNELER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_ABERRATION"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH13_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH13_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH13_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH13_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH13_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            },
+            {
+              "stageId": "CH13_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            },
+            {
+              "stageId": "CH13_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            },
+            {
+              "stageId": "CH13_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH13_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH13_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH13_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH13_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_VOID_LEVIATHAN"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH14_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH14_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH14_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH14_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH14_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CRIMSON_REAPER",
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            },
+            {
+              "stageId": "CH14_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_DEATH_KNIGHT",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            },
+            {
+              "stageId": "CH14_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            },
+            {
+              "stageId": "CH14_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ZOMBIE_BRUTE",
+                    "ENEMY_SKELETON_WARRIOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_CRIMSON_REAPER"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH14_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH14_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_DEATH_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH14_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH14_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SKELETON_WARRIOR",
+                    "ENEMY_ZOMBIE_BRUTE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_FROST_TITAN"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH15_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH15_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH15_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                }
+              ],
+              "staminaCost": 14
+            },
+            {
+              "stageId": "CH15_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH15_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            },
+            {
+              "stageId": "CH15_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            },
+            {
+              "stageId": "CH15_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_LAVA_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 15
+            },
+            {
+              "stageId": "CH15_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH15_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH15_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH15_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH15_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_LAVA_HOUND"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_INFERNAL_TYRANT"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH16_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CORRUPTED_CULTIST",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH16_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_CORRUPTED_CULTIST"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH16_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CORRUPTED_CULTIST",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH16_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CORRUPTED_ANGEL",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CORRUPTED_ANGEL",
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH16_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CORRUPTED_ANGEL",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_CORRUPTED_ANGEL",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            },
+            {
+              "stageId": "CH16_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            },
+            {
+              "stageId": "CH16_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            },
+            {
+              "stageId": "CH16_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_CORRUPTED_CULTIST",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH16_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_CORRUPTED_CULTIST"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH16_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CORRUPTED_ANGEL",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_CORRUPTED_ANGEL"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH16_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CORRUPTED_ANGEL",
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH16_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CORRUPTED_CULTIST",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_ANGEL_OF_RUST"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH17_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH17_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH17_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH17_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_CHIMERIC_WARRIOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_HERALD",
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH17_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_HERALD",
+                    "ENEMY_CHIMERIC_DISCIPLE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_BEAST",
+                    "ENEMY_CHIMERIC_HERALD",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            },
+            {
+              "stageId": "CH17_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_CHIMERIC_DISCIPLE",
+                    "ENEMY_CHIMERIC_WARRIOR"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            },
+            {
+              "stageId": "CH17_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_ELITE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_CHIMERIC_WARRIOR"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            },
+            {
+              "stageId": "CH17_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_DISCIPLE",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH17_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_CHIMERIC_BEAST"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_DISCIPLE",
+                    "ENEMY_CHIMERIC_WARRIOR",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH17_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_BEAST",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_CHIMERIC_BEAST",
+                    "ENEMY_CHIMERIC_HERALD",
+                    "ENEMY_CHIMERIC_WARRIOR"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH17_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_CHIMERIC_HERALD",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH17_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_CHIMERIC_PROPHET"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH18_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_GANG_GRUNT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH18_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH18_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                }
+              ],
+              "staminaCost": 16
+            },
+            {
+              "stageId": "CH18_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_KT_GUARD"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH18_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            },
+            {
+              "stageId": "CH18_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_ELITE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_GANG_SNIPER",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            },
+            {
+              "stageId": "CH18_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_SNIPER",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                }
+              ],
+              "staminaCost": 17
+            },
+            {
+              "stageId": "CH18_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_GANG_GRUNT"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH18_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_GRUNT",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH18_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_SNIPER",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_GANG_BRUISER"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH18_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_GANG_SNIPER"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH18_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_GANG_BRUISER",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_KT_BLACKOPS"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH19_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH19_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH19_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH19_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH19_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            },
+            {
+              "stageId": "CH19_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_GUARD"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            },
+            {
+              "stageId": "CH19_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            },
+            {
+              "stageId": "CH19_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH19_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH19_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH19_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH19_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_KT_BLACKOPS"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH20_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH20_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH20_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH20_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH20_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            },
+            {
+              "stageId": "CH20_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            },
+            {
+              "stageId": "CH20_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            },
+            {
+              "stageId": "CH20_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH20_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH20_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH20_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH20_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_VOID_LEVIATHAN"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH21_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH21_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH21_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 18
+            },
+            {
+              "stageId": "CH21_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_LAVA_HOUND"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH21_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            },
+            {
+              "stageId": "CH21_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            },
+            {
+              "stageId": "CH21_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                }
+              ],
+              "staminaCost": 19
+            },
+            {
+              "stageId": "CH21_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH21_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH21_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH21_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH21_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_INFERNAL_TYRANT"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 22,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH22_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_CORRUPTED_ANGEL"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH22_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_KT_ASSASSIN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH22_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_CORRUPTED_ANGEL"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH22_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH22_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_GUARD",
+                    "ENEMY_STEEL_WARDEN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_KT_GUARD"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            },
+            {
+              "stageId": "CH22_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            },
+            {
+              "stageId": "CH22_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            },
+            {
+              "stageId": "CH22_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_KT_ELITE",
+                    "ENEMY_COMBAT_DRONE"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH22_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            },
+            {
+              "stageId": "CH22_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_STEEL_WARDEN",
+                    "ENEMY_KT_ELITE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            },
+            {
+              "stageId": "CH22_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_COMBAT_DRONE",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_KT_ASSASSIN"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            },
+            {
+              "stageId": "CH22_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_KT_GUARD"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_ANGEL_OF_RUST"
+                  ]
+                }
+              ],
+              "staminaCost": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 23,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH23_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH23_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH23_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH23_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH23_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_VOID_ARCHON"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            },
+            {
+              "stageId": "CH23_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            },
+            {
+              "stageId": "CH23_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_LAVA_HOUND"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            },
+            {
+              "stageId": "CH23_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH23_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_VOID_STALKER",
+                    "ENEMY_LAVA_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            },
+            {
+              "stageId": "CH23_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            },
+            {
+              "stageId": "CH23_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            },
+            {
+              "stageId": "CH23_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_VOID_LEVIATHAN"
+                  ]
+                }
+              ],
+              "staminaCost": 23
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 24,
+      "acts": [
+        {
+          "act": 1,
+          "stages": [
+            {
+              "stageId": "CH24_A1_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CORRUPTED_ANGEL",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_CORRUPTED_ANGEL"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH24_A1_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_CORRUPTED_ANGEL",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH24_A1_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_FIRE_IMP"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                }
+              ],
+              "staminaCost": 20
+            },
+            {
+              "stageId": "CH24_A1_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_CORRUPTED_ANGEL",
+                    "ENEMY_HELLFIRE_MAGE"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_CORRUPTED_ANGEL",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            }
+          ]
+        },
+        {
+          "act": 2,
+          "stages": [
+            {
+              "stageId": "CH24_A2_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_LAVA_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            },
+            {
+              "stageId": "CH24_A2_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_HOLY_INQUISITOR"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_BLOOD_DEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            },
+            {
+              "stageId": "CH24_A2_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_SHADOW_HOUND"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_FIRE_IMP",
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                }
+              ],
+              "staminaCost": 21
+            },
+            {
+              "stageId": "CH24_A2_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_SPAWN",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_SHADOW_HOUND",
+                    "ENEMY_HELLFIRE_MAGE",
+                    "ENEMY_LAVA_HOUND"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            }
+          ]
+        },
+        {
+          "act": 3,
+          "stages": [
+            {
+              "stageId": "CH24_A3_S01",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_VOID_KNIGHT",
+                    "ENEMY_ABYSS_SENTINEL"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_ABYSS_SENTINEL",
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_INFERNO_DAEMON"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            },
+            {
+              "stageId": "CH24_A3_S02",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_INFERNO_DAEMON",
+                    "ENEMY_VOID_KNIGHT"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_LAVA_HOUND",
+                    "ENEMY_VOID_SPAWN"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            },
+            {
+              "stageId": "CH24_A3_S03",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_VOID_STALKER"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "ENEMY_HOLY_INQUISITOR",
+                    "ENEMY_VOID_ARCHON",
+                    "ENEMY_CORRUPTED_ANGEL"
+                  ]
+                }
+              ],
+              "staminaCost": 22
+            },
+            {
+              "stageId": "CH24_A3_S04",
+              "waves": [
+                {
+                  "enemyParty": [
+                    "ENEMY_BLOOD_DEMON",
+                    "ENEMY_CORRUPTED_ANGEL"
+                  ]
+                },
+                {
+                  "enemyParty": [
+                    "BOSS_INFERNAL_TYRANT"
+                  ]
+                }
+              ],
+              "staminaCost": 23
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

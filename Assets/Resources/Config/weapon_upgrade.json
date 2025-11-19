@@ -1,0 +1,388 @@
+{
+  "rarityConfigs": [
+    {
+      "rarity": 3,
+      "baseMaxLevel": 60,
+      "expPerLevel": 100,
+      "hasPassiveAbility": false,
+      "limitBreaks": [
+        {
+          "breakLevel": 1,
+          "maxLevelIncrease": 10,
+          "goldCost": 10000,
+          "materials": [
+            { "materialId": "MAT_WEAPON_SHARD_COMMON", "amount": 20 }
+          ]
+        },
+        {
+          "breakLevel": 2,
+          "maxLevelIncrease": 10,
+          "goldCost": 20000,
+          "materials": [
+            { "materialId": "MAT_WEAPON_SHARD_COMMON", "amount": 40 },
+            { "materialId": "MAT_WEAPON_CORE_RARE", "amount": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "rarity": 4,
+      "baseMaxLevel": 70,
+      "expPerLevel": 150,
+      "hasPassiveAbility": true,
+      "limitBreaks": [
+        {
+          "breakLevel": 1,
+          "maxLevelIncrease": 10,
+          "goldCost": 25000,
+          "materials": [
+            { "materialId": "MAT_WEAPON_SHARD_RARE", "amount": 15 }
+          ],
+          "unlockedPassive": {
+            "id": "PASSIVE_ARMOR_BREAK",
+            "name": "Armor Break",
+            "description": "10% chance to reduce enemy DEF by 20% for 2 turns",
+            "unlockLevel": 80,
+            "effect": {
+              "damageMultiplierPercent": 0,
+              "critDamageBonus": 0,
+              "armorPenetrationPercent": 0,
+              "lifestealPercent": 0,
+              "vampiricStrikePercent": 0,
+              "bleedChancePercent": 0,
+              "bleedDamagePercent": 0,
+              "bleedDuration": 0,
+              "multiStrikeChance": 0,
+              "chainAttackChance": 0,
+              "cleavePercent": 0,
+              "executeDamagePercent": 0,
+              "executeThreshold": 0,
+              "cooldownReductionPercent": 0,
+              "firstStrikeDamage": 0,
+              "counterAttackChance": 0,
+              "trueDamagePercent": 0,
+              "defensiveBreakChance": 10,
+              "defensiveBreakAmount": 20,
+              "defensiveBreakDuration": 2
+            }
+          }
+        },
+        {
+          "breakLevel": 2,
+          "maxLevelIncrease": 10,
+          "goldCost": 40000,
+          "materials": [
+            { "materialId": "MAT_WEAPON_SHARD_RARE", "amount": 30 },
+            { "materialId": "MAT_WEAPON_CORE_RARE", "amount": 10 }
+          ]
+        },
+        {
+          "breakLevel": 3,
+          "maxLevelIncrease": 10,
+          "goldCost": 60000,
+          "materials": [
+            { "materialId": "MAT_WEAPON_SHARD_RARE", "amount": 50 },
+            { "materialId": "MAT_WEAPON_CORE_EPIC", "amount": 5 }
+          ]
+        }
+      ]
+    },
+    {
+      "rarity": 5,
+      "baseMaxLevel": 80,
+      "expPerLevel": 200,
+      "hasPassiveAbility": true,
+      "limitBreaks": [
+        {
+          "breakLevel": 1,
+          "maxLevelIncrease": 10,
+          "goldCost": 50000,
+          "materials": [
+            { "materialId": "MAT_WEAPON_SHARD_EPIC", "amount": 10 }
+          ],
+          "unlockedPassive": {
+            "id": "PASSIVE_LIFESTEAL",
+            "name": "Vampiric Edge",
+            "description": "Heal for 15% of damage dealt",
+            "unlockLevel": 90,
+            "effect": {
+              "damageMultiplierPercent": 0,
+              "critDamageBonus": 0,
+              "armorPenetrationPercent": 0,
+              "lifestealPercent": 15,
+              "vampiricStrikePercent": 0,
+              "bleedChancePercent": 0,
+              "bleedDamagePercent": 0,
+              "bleedDuration": 0,
+              "multiStrikeChance": 0,
+              "chainAttackChance": 0,
+              "cleavePercent": 0,
+              "executeDamagePercent": 0,
+              "executeThreshold": 0,
+              "cooldownReductionPercent": 0,
+              "firstStrikeDamage": 0,
+              "counterAttackChance": 0,
+              "trueDamagePercent": 0,
+              "defensiveBreakChance": 0,
+              "defensiveBreakAmount": 0,
+              "defensiveBreakDuration": 0
+            }
+          }
+        },
+        {
+          "breakLevel": 2,
+          "maxLevelIncrease": 10,
+          "goldCost": 80000,
+          "materials": [
+            { "materialId": "MAT_WEAPON_SHARD_EPIC", "amount": 20 },
+            { "materialId": "MAT_WEAPON_CORE_EPIC", "amount": 8 }
+          ],
+          "unlockedPassive": {
+            "id": "PASSIVE_MULTI_STRIKE",
+            "name": "Double Strike",
+            "description": "20% chance to attack twice",
+            "unlockLevel": 100,
+            "effect": {
+              "damageMultiplierPercent": 0,
+              "critDamageBonus": 0,
+              "armorPenetrationPercent": 0,
+              "lifestealPercent": 0,
+              "vampiricStrikePercent": 0,
+              "bleedChancePercent": 0,
+              "bleedDamagePercent": 0,
+              "bleedDuration": 0,
+              "multiStrikeChance": 20,
+              "chainAttackChance": 0,
+              "cleavePercent": 0,
+              "executeDamagePercent": 0,
+              "executeThreshold": 0,
+              "cooldownReductionPercent": 0,
+              "firstStrikeDamage": 0,
+              "counterAttackChance": 0,
+              "trueDamagePercent": 0,
+              "defensiveBreakChance": 0,
+              "defensiveBreakAmount": 0,
+              "defensiveBreakDuration": 0
+            }
+          }
+        },
+        {
+          "breakLevel": 3,
+          "maxLevelIncrease": 10,
+          "goldCost": 120000,
+          "materials": [
+            { "materialId": "MAT_WEAPON_SHARD_EPIC", "amount": 35 },
+            { "materialId": "MAT_WEAPON_CORE_LEGENDARY", "amount": 5 }
+          ],
+          "unlockedPassive": {
+            "id": "PASSIVE_TRUE_DAMAGE",
+            "name": "Essence Piercer",
+            "description": "20% of damage ignores all defenses",
+            "unlockLevel": 110,
+            "effect": {
+              "damageMultiplierPercent": 0,
+              "critDamageBonus": 0,
+              "armorPenetrationPercent": 0,
+              "lifestealPercent": 0,
+              "vampiricStrikePercent": 0,
+              "bleedChancePercent": 0,
+              "bleedDamagePercent": 0,
+              "bleedDuration": 0,
+              "multiStrikeChance": 0,
+              "chainAttackChance": 0,
+              "cleavePercent": 0,
+              "executeDamagePercent": 0,
+              "executeThreshold": 0,
+              "cooldownReductionPercent": 0,
+              "firstStrikeDamage": 0,
+              "counterAttackChance": 0,
+              "trueDamagePercent": 20,
+              "defensiveBreakChance": 0,
+              "defensiveBreakAmount": 0,
+              "defensiveBreakDuration": 0
+            }
+          }
+        },
+        {
+          "breakLevel": 4,
+          "maxLevelIncrease": 10,
+          "goldCost": 180000,
+          "materials": [
+            { "materialId": "MAT_WEAPON_SHARD_EPIC", "amount": 50 },
+            { "materialId": "MAT_WEAPON_CORE_LEGENDARY", "amount": 10 }
+          ]
+        }
+      ]
+    }
+  ],
+  "passiveAbilities": [
+    {
+      "id": "PASSIVE_BLEED",
+      "name": "Hemorrhage",
+      "description": "30% chance to inflict bleed dealing 15% ATK per turn for 3 turns",
+      "unlockLevel": 100,
+      "effect": {
+        "damageMultiplierPercent": 0,
+        "critDamageBonus": 0,
+        "armorPenetrationPercent": 0,
+        "lifestealPercent": 0,
+        "vampiricStrikePercent": 0,
+        "bleedChancePercent": 30,
+        "bleedDamagePercent": 15,
+        "bleedDuration": 3,
+        "multiStrikeChance": 0,
+        "chainAttackChance": 0,
+        "cleavePercent": 0,
+        "executeDamagePercent": 0,
+        "executeThreshold": 0,
+        "cooldownReductionPercent": 0,
+        "firstStrikeDamage": 0,
+        "counterAttackChance": 0,
+        "trueDamagePercent": 0,
+        "defensiveBreakChance": 0,
+        "defensiveBreakAmount": 0,
+        "defensiveBreakDuration": 0
+      }
+    },
+    {
+      "id": "PASSIVE_EXECUTE",
+      "name": "Executioner's Mercy",
+      "description": "Deal 50% extra damage to enemies below 30% HP",
+      "unlockLevel": 110,
+      "effect": {
+        "damageMultiplierPercent": 0,
+        "critDamageBonus": 0,
+        "armorPenetrationPercent": 0,
+        "lifestealPercent": 0,
+        "vampiricStrikePercent": 0,
+        "bleedChancePercent": 0,
+        "bleedDamagePercent": 0,
+        "bleedDuration": 0,
+        "multiStrikeChance": 0,
+        "chainAttackChance": 0,
+        "cleavePercent": 0,
+        "executeDamagePercent": 50,
+        "executeThreshold": 30,
+        "cooldownReductionPercent": 0,
+        "firstStrikeDamage": 0,
+        "counterAttackChance": 0,
+        "trueDamagePercent": 0,
+        "defensiveBreakChance": 0,
+        "defensiveBreakAmount": 0,
+        "defensiveBreakDuration": 0
+      }
+    },
+    {
+      "id": "PASSIVE_CLEAVE",
+      "name": "Sweeping Blade",
+      "description": "Deal 40% damage to adjacent enemies",
+      "unlockLevel": 100,
+      "effect": {
+        "damageMultiplierPercent": 0,
+        "critDamageBonus": 0,
+        "armorPenetrationPercent": 0,
+        "lifestealPercent": 0,
+        "vampiricStrikePercent": 0,
+        "bleedChancePercent": 0,
+        "bleedDamagePercent": 0,
+        "bleedDuration": 0,
+        "multiStrikeChance": 0,
+        "chainAttackChance": 0,
+        "cleavePercent": 40,
+        "executeDamagePercent": 0,
+        "executeThreshold": 0,
+        "cooldownReductionPercent": 0,
+        "firstStrikeDamage": 0,
+        "counterAttackChance": 0,
+        "trueDamagePercent": 0,
+        "defensiveBreakChance": 0,
+        "defensiveBreakAmount": 0,
+        "defensiveBreakDuration": 0
+      }
+    },
+    {
+      "id": "PASSIVE_COUNTER",
+      "name": "Blade Reflection",
+      "description": "15% chance to counter attack when hit",
+      "unlockLevel": 110,
+      "effect": {
+        "damageMultiplierPercent": 0,
+        "critDamageBonus": 0,
+        "armorPenetrationPercent": 0,
+        "lifestealPercent": 0,
+        "vampiricStrikePercent": 0,
+        "bleedChancePercent": 0,
+        "bleedDamagePercent": 0,
+        "bleedDuration": 0,
+        "multiStrikeChance": 0,
+        "chainAttackChance": 0,
+        "cleavePercent": 0,
+        "executeDamagePercent": 0,
+        "executeThreshold": 0,
+        "cooldownReductionPercent": 0,
+        "firstStrikeDamage": 0,
+        "counterAttackChance": 15,
+        "trueDamagePercent": 0,
+        "defensiveBreakChance": 0,
+        "defensiveBreakAmount": 0,
+        "defensiveBreakDuration": 0
+      }
+    },
+    {
+      "id": "PASSIVE_CDR",
+      "name": "Quickened Resolve",
+      "description": "Reduce all skill cooldowns by 20%",
+      "unlockLevel": 100,
+      "effect": {
+        "damageMultiplierPercent": 0,
+        "critDamageBonus": 0,
+        "armorPenetrationPercent": 0,
+        "lifestealPercent": 0,
+        "vampiricStrikePercent": 0,
+        "bleedChancePercent": 0,
+        "bleedDamagePercent": 0,
+        "bleedDuration": 0,
+        "multiStrikeChance": 0,
+        "chainAttackChance": 0,
+        "cleavePercent": 0,
+        "executeDamagePercent": 0,
+        "executeThreshold": 0,
+        "cooldownReductionPercent": 20,
+        "firstStrikeDamage": 0,
+        "counterAttackChance": 0,
+        "trueDamagePercent": 0,
+        "defensiveBreakChance": 0,
+        "defensiveBreakAmount": 0,
+        "defensiveBreakDuration": 0
+      }
+    },
+    {
+      "id": "PASSIVE_FIRST_STRIKE",
+      "name": "Overwhelming Presence",
+      "description": "Deal 40% extra damage on first attack of battle",
+      "unlockLevel": 90,
+      "effect": {
+        "damageMultiplierPercent": 0,
+        "critDamageBonus": 0,
+        "armorPenetrationPercent": 0,
+        "lifestealPercent": 0,
+        "vampiricStrikePercent": 0,
+        "bleedChancePercent": 0,
+        "bleedDamagePercent": 0,
+        "bleedDuration": 0,
+        "multiStrikeChance": 0,
+        "chainAttackChance": 0,
+        "cleavePercent": 0,
+        "executeDamagePercent": 0,
+        "executeThreshold": 0,
+        "cooldownReductionPercent": 0,
+        "firstStrikeDamage": 40,
+        "counterAttackChance": 0,
+        "trueDamagePercent": 0,
+        "defensiveBreakChance": 0,
+        "defensiveBreakAmount": 0,
+        "defensiveBreakDuration": 0
+      }
+    }
+  ]
+}
