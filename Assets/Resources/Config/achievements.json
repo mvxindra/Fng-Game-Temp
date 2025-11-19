@@ -1,0 +1,582 @@
+{
+  "achievements": [
+    {
+      "achievementId": "first_6star",
+      "achievementName": "Ascension Breakthrough",
+      "description": "Ascend a hero to 6★ for the first time",
+      "category": "progression",
+      "icon": "icon_6star",
+      "tierLevel": 4,
+      "criteria": {
+        "criteriaType": "hero_6star",
+        "targetValue": 1,
+        "specificId": "",
+        "minRarity": 6,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 500},
+        {"rewardType": "material", "rewardId": "legendary_essence", "quantity": 10},
+        {"rewardType": "currency", "rewardId": "soul_cores", "quantity": 50}
+      ],
+      "unlockedTitle": "Transcendent",
+      "unlockedPortrait": "portrait_golden_aura",
+      "achievementPoints": 100,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "first_gear_15",
+      "achievementName": "Master Enhancement",
+      "description": "Enhance a piece of gear to +15",
+      "category": "mastery",
+      "icon": "icon_enhance",
+      "tierLevel": 3,
+      "criteria": {
+        "criteriaType": "gear_15",
+        "targetValue": 1,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 300},
+        {"rewardType": "material", "rewardId": "enhancement_stone_rare", "quantity": 20},
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 100000}
+      ],
+      "unlockedTitle": "Master Blacksmith",
+      "unlockedPortrait": "portrait_hammer_glow",
+      "achievementPoints": 75,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "story_24_3",
+      "achievementName": "Story Complete",
+      "description": "Clear Story Stage 24-3",
+      "category": "progression",
+      "icon": "icon_story",
+      "tierLevel": 5,
+      "criteria": {
+        "criteriaType": "story_clear",
+        "targetValue": 1,
+        "specificId": "story_24_3",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 1000},
+        {"rewardType": "gear", "rewardId": "mythic_weapon_story_reward", "quantity": 1},
+        {"rewardType": "hero", "rewardId": "hero_ssr_selector", "quantity": 1}
+      ],
+      "unlockedTitle": "Story Master",
+      "unlockedPortrait": "portrait_crown_epic",
+      "achievementPoints": 150,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "power_100k",
+      "achievementName": "Power Milestone",
+      "description": "Reach 100,000 total team power",
+      "category": "progression",
+      "icon": "icon_power",
+      "tierLevel": 3,
+      "criteria": {
+        "criteriaType": "total_power",
+        "targetValue": 100000,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 400},
+        {"rewardType": "material", "rewardId": "essence_crystal", "quantity": 50}
+      ],
+      "unlockedTitle": "Rising Star",
+      "unlockedPortrait": "",
+      "achievementPoints": 80,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "collector_50",
+      "achievementName": "Hero Collector",
+      "description": "Own 50 different heroes",
+      "category": "collection",
+      "icon": "icon_collection",
+      "tierLevel": 2,
+      "criteria": {
+        "criteriaType": "collection_count",
+        "targetValue": 50,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "hero_shards", "quantity": 100},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 200},
+        {"rewardType": "item", "rewardId": "summon_ticket_premium", "quantity": 5}
+      ],
+      "unlockedTitle": "The Collector",
+      "unlockedPortrait": "portrait_collection_frame",
+      "achievementPoints": 60,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "collector_100",
+      "achievementName": "Master Collector",
+      "description": "Own 100 different heroes",
+      "category": "collection",
+      "icon": "icon_collection",
+      "tierLevel": 4,
+      "criteria": {
+        "criteriaType": "collection_count",
+        "targetValue": 100,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "hero_shards", "quantity": 300},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 800},
+        {"rewardType": "item", "rewardId": "summon_ticket_premium", "quantity": 20}
+      ],
+      "unlockedTitle": "Grand Collector",
+      "unlockedPortrait": "portrait_ultimate_collection",
+      "achievementPoints": 150,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": "collector_50"
+    },
+    {
+      "achievementId": "arena_challenger",
+      "achievementName": "Challenger Achieved",
+      "description": "Reach Challenger rank in Arena",
+      "category": "combat",
+      "icon": "icon_arena",
+      "tierLevel": 5,
+      "criteria": {
+        "criteriaType": "arena_rank",
+        "targetValue": 3000,
+        "specificId": "challenger",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 2000},
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 1000},
+        {"rewardType": "gear", "rewardId": "mythic_weapon_pvp", "quantity": 1}
+      ],
+      "unlockedTitle": "Challenger",
+      "unlockedPortrait": "portrait_challenger_crown",
+      "achievementPoints": 200,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "guild_raid_veteran",
+      "achievementName": "Raid Veteran",
+      "description": "Participate in 100 guild raids",
+      "category": "social",
+      "icon": "icon_guild_raid",
+      "tierLevel": 3,
+      "criteria": {
+        "criteriaType": "guild_raid_participation",
+        "targetValue": 100,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "guild_coins", "quantity": 500},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 500}
+      ],
+      "unlockedTitle": "Raid Hero",
+      "unlockedPortrait": "",
+      "achievementPoints": 90,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "summon_1000",
+      "achievementName": "Summoning Mastery",
+      "description": "Summon 1000 heroes total",
+      "category": "collection",
+      "icon": "icon_summon",
+      "tierLevel": 4,
+      "criteria": {
+        "criteriaType": "summon_count",
+        "targetValue": 1000,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 1000},
+        {"rewardType": "item", "rewardId": "summon_ticket_premium", "quantity": 50},
+        {"rewardType": "currency", "rewardId": "soul_cores", "quantity": 100}
+      ],
+      "unlockedTitle": "Summoning Legend",
+      "unlockedPortrait": "portrait_summoner_circle",
+      "achievementPoints": 120,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "perfect_clear_boss",
+      "achievementName": "Flawless Victory",
+      "description": "Clear a boss stage without any hero deaths",
+      "category": "combat",
+      "icon": "icon_perfect",
+      "tierLevel": 3,
+      "criteria": {
+        "criteriaType": "perfect_clear",
+        "targetValue": 1,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": "without_death"
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 300},
+        {"rewardType": "material", "rewardId": "legendary_essence", "quantity": 5}
+      ],
+      "unlockedTitle": "Flawless",
+      "unlockedPortrait": "",
+      "achievementPoints": 70,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "speed_demon",
+      "achievementName": "Speed Demon",
+      "description": "Clear a dungeon in under 30 seconds",
+      "category": "combat",
+      "icon": "icon_speed",
+      "tierLevel": 3,
+      "criteria": {
+        "criteriaType": "speed_clear",
+        "targetValue": 30,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 250},
+        {"rewardType": "material", "rewardId": "speed_rune", "quantity": 10}
+      ],
+      "unlockedTitle": "Speed Demon",
+      "unlockedPortrait": "",
+      "achievementPoints": 60,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "gold_millionaire",
+      "achievementName": "Gold Millionaire",
+      "description": "Earn 10,000,000 gold total",
+      "category": "progression",
+      "icon": "icon_gold_pile",
+      "tierLevel": 4,
+      "criteria": {
+        "criteriaType": "gold_earned",
+        "targetValue": 10000000,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 500},
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 500000}
+      ],
+      "unlockedTitle": "Millionaire",
+      "unlockedPortrait": "portrait_gold_frame",
+      "achievementPoints": 100,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "win_streak_20",
+      "achievementName": "Unstoppable",
+      "description": "Win 20 battles in a row",
+      "category": "combat",
+      "icon": "icon_streak",
+      "tierLevel": 4,
+      "criteria": {
+        "criteriaType": "consecutive_wins",
+        "targetValue": 20,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 600},
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 200}
+      ],
+      "unlockedTitle": "Unstoppable",
+      "unlockedPortrait": "portrait_fire_aura",
+      "achievementPoints": 110,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "first_legendary_rune",
+      "achievementName": "Legendary Runesmith",
+      "description": "Socket your first legendary rune",
+      "category": "mastery",
+      "icon": "icon_legendary_rune",
+      "tierLevel": 4,
+      "criteria": {
+        "criteriaType": "socket_legendary_rune",
+        "targetValue": 1,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 400},
+        {"rewardType": "material", "rewardId": "rune_upgrade_stone", "quantity": 10}
+      ],
+      "unlockedTitle": "Runemaster",
+      "unlockedPortrait": "",
+      "achievementPoints": 85,
+      "isHidden": false,
+      "isSecret": false,
+      "prerequisiteAchievement": ""
+    },
+    {
+      "achievementId": "secret_true_power",
+      "achievementName": "???",
+      "description": "Unlock the secret of true power",
+      "category": "progression",
+      "icon": "icon_secret",
+      "tierLevel": 5,
+      "criteria": {
+        "criteriaType": "total_power",
+        "targetValue": 1000000,
+        "specificId": "",
+        "minRarity": 0,
+        "condition": ""
+      },
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 5000},
+        {"rewardType": "gear", "rewardId": "mythic_secret_weapon", "quantity": 1},
+        {"rewardType": "special", "rewardId": "secret_cosmetic", "quantity": 1}
+      ],
+      "unlockedTitle": "Apex Predator",
+      "unlockedPortrait": "portrait_omega_frame",
+      "achievementPoints": 500,
+      "isHidden": true,
+      "isSecret": true,
+      "prerequisiteAchievement": ""
+    }
+  ],
+  "titles": [
+    {
+      "titleId": "title_transcendent",
+      "titleText": "Transcendent",
+      "description": "Ascend a hero to 6★",
+      "rarity": "legendary",
+      "titleEffect": {
+        "bonusAtk": 0,
+        "bonusDef": 0,
+        "bonusHp": 0,
+        "bonusAllStats": 0.05,
+        "bonusExpGain": 0.10,
+        "bonusGoldGain": 0
+      },
+      "unlockedBy": "first_6star"
+    },
+    {
+      "titleId": "title_blacksmith",
+      "titleText": "Master Blacksmith",
+      "description": "Enhance gear to +15",
+      "rarity": "epic",
+      "titleEffect": {
+        "bonusAtk": 0,
+        "bonusDef": 0,
+        "bonusHp": 0,
+        "bonusAllStats": 0.03,
+        "bonusExpGain": 0,
+        "bonusGoldGain": 0.15
+      },
+      "unlockedBy": "first_gear_15"
+    },
+    {
+      "titleId": "title_story_master",
+      "titleText": "Story Master",
+      "description": "Complete the story",
+      "rarity": "legendary",
+      "titleEffect": {
+        "bonusAtk": 0,
+        "bonusDef": 0,
+        "bonusHp": 0,
+        "bonusAllStats": 0.08,
+        "bonusExpGain": 0.20,
+        "bonusGoldGain": 0.20
+      },
+      "unlockedBy": "story_24_3"
+    },
+    {
+      "titleId": "title_collector",
+      "titleText": "The Collector",
+      "description": "Own 50 heroes",
+      "rarity": "rare",
+      "titleEffect": {
+        "bonusAtk": 0,
+        "bonusDef": 0,
+        "bonusHp": 0,
+        "bonusAllStats": 0.02,
+        "bonusExpGain": 0.05,
+        "bonusGoldGain": 0
+      },
+      "unlockedBy": "collector_50"
+    },
+    {
+      "titleId": "title_challenger",
+      "titleText": "Challenger",
+      "description": "Reach Challenger rank",
+      "rarity": "legendary",
+      "titleEffect": {
+        "bonusAtk": 100,
+        "bonusDef": 0,
+        "bonusHp": 0,
+        "bonusAllStats": 0.10,
+        "bonusExpGain": 0,
+        "bonusGoldGain": 0
+      },
+      "unlockedBy": "arena_challenger"
+    },
+    {
+      "titleId": "title_unstoppable",
+      "titleText": "Unstoppable",
+      "description": "20 win streak",
+      "rarity": "epic",
+      "titleEffect": {
+        "bonusAtk": 50,
+        "bonusDef": 0,
+        "bonusHp": 0,
+        "bonusAllStats": 0.05,
+        "bonusExpGain": 0,
+        "bonusGoldGain": 0
+      },
+      "unlockedBy": "win_streak_20"
+    },
+    {
+      "titleId": "title_apex_predator",
+      "titleText": "Apex Predator",
+      "description": "Secret true power",
+      "rarity": "mythic",
+      "titleEffect": {
+        "bonusAtk": 200,
+        "bonusDef": 100,
+        "bonusHp": 1000,
+        "bonusAllStats": 0.20,
+        "bonusExpGain": 0.50,
+        "bonusGoldGain": 0.50
+      },
+      "unlockedBy": "secret_true_power"
+    }
+  ],
+  "portraitFrames": [
+    {
+      "frameId": "portrait_golden_aura",
+      "frameName": "Golden Aura",
+      "description": "Radiant golden aura frame",
+      "rarity": "legendary",
+      "animationType": "glow",
+      "unlockedBy": "first_6star"
+    },
+    {
+      "frameId": "portrait_hammer_glow",
+      "frameName": "Forgemaster's Frame",
+      "description": "Frame with hammer motif",
+      "rarity": "epic",
+      "animationType": "particle",
+      "unlockedBy": "first_gear_15"
+    },
+    {
+      "frameId": "portrait_crown_epic",
+      "frameName": "Crown of Completion",
+      "description": "Epic crown frame",
+      "rarity": "legendary",
+      "animationType": "animated",
+      "unlockedBy": "story_24_3"
+    },
+    {
+      "frameId": "portrait_collection_frame",
+      "frameName": "Collector's Pride",
+      "description": "Frame showing collection achievement",
+      "rarity": "rare",
+      "animationType": "static",
+      "unlockedBy": "collector_50"
+    },
+    {
+      "frameId": "portrait_challenger_crown",
+      "frameName": "Challenger's Crown",
+      "description": "Crown of the Challenger",
+      "rarity": "legendary",
+      "animationType": "animated",
+      "unlockedBy": "arena_challenger"
+    },
+    {
+      "frameId": "portrait_fire_aura",
+      "frameName": "Flames of Victory",
+      "description": "Burning flame aura",
+      "rarity": "epic",
+      "animationType": "particle",
+      "unlockedBy": "win_streak_20"
+    },
+    {
+      "frameId": "portrait_omega_frame",
+      "frameName": "Omega Frame",
+      "description": "Ultimate power frame",
+      "rarity": "mythic",
+      "animationType": "animated",
+      "unlockedBy": "secret_true_power"
+    }
+  ],
+  "rewardTiers": {
+    "milestones": [
+      {
+        "requiredPoints": 500,
+        "rewards": [
+          {"rewardType": "currency", "rewardId": "gems", "quantity": 500}
+        ],
+        "unlockedTitle": "",
+        "unlockedPortrait": ""
+      },
+      {
+        "requiredPoints": 1000,
+        "rewards": [
+          {"rewardType": "currency", "rewardId": "gems", "quantity": 1000},
+          {"rewardType": "gear", "rewardId": "legendary_gear_random", "quantity": 1}
+        ],
+        "unlockedTitle": "Achievement Hunter",
+        "unlockedPortrait": "portrait_achievement_bronze"
+      },
+      {
+        "requiredPoints": 2500,
+        "rewards": [
+          {"rewardType": "currency", "rewardId": "gems", "quantity": 2500},
+          {"rewardType": "gear", "rewardId": "mythic_gear_random", "quantity": 1}
+        ],
+        "unlockedTitle": "Achievement Master",
+        "unlockedPortrait": "portrait_achievement_gold"
+      }
+    ]
+  }
+}

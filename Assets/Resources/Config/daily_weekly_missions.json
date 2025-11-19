@@ -1,0 +1,376 @@
+{
+  "dailyMissions": [
+    {
+      "missionId": "daily_clear_dungeons",
+      "missionName": "Dungeon Explorer",
+      "description": "Clear 5 dungeons",
+      "category": "combat",
+      "objectives": [
+        {
+          "objectiveType": "clear_dungeons",
+          "targetCount": 5,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 3000},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 20},
+        {"rewardType": "item", "rewardId": "stamina_potion", "quantity": 1}
+      ],
+      "missionPoints": 10
+    },
+    {
+      "missionId": "daily_pvp_battles",
+      "missionName": "Arena Warrior",
+      "description": "Complete 3 PvP battles (win or lose)",
+      "category": "pvp",
+      "objectives": [
+        {
+          "objectiveType": "pvp_battles",
+          "targetCount": 3,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 30},
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 2000},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 15}
+      ],
+      "missionPoints": 10
+    },
+    {
+      "missionId": "daily_guild_donation",
+      "missionName": "Guild Supporter",
+      "description": "Donate to your guild",
+      "category": "guild",
+      "objectives": [
+        {
+          "objectiveType": "guild_donation",
+          "targetCount": 1,
+          "currentCount": 0,
+          "minAmount": 1000
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "guild_coins", "quantity": 50},
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 2500},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 10}
+      ],
+      "missionPoints": 10
+    },
+    {
+      "missionId": "daily_enhance_gear",
+      "missionName": "Blacksmith's Apprentice",
+      "description": "Enhance gear 3 times",
+      "category": "enhancement",
+      "objectives": [
+        {
+          "objectiveType": "enhance_gear",
+          "targetCount": 3,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 2000},
+        {"rewardType": "material", "rewardId": "enhancement_stone", "quantity": 5},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 15}
+      ],
+      "missionPoints": 10
+    },
+    {
+      "missionId": "daily_summon_heroes",
+      "missionName": "Summoner's Call",
+      "description": "Summon 3 heroes",
+      "category": "collection",
+      "objectives": [
+        {
+          "objectiveType": "summon_heroes",
+          "targetCount": 3,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "hero_shards", "quantity": 10},
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 3000},
+        {"rewardType": "item", "rewardId": "stamina_potion", "quantity": 1}
+      ],
+      "missionPoints": 15
+    },
+    {
+      "missionId": "daily_complete_quests",
+      "missionName": "Quest Master",
+      "description": "Complete 5 quests or missions",
+      "category": "progression",
+      "objectives": [
+        {
+          "objectiveType": "complete_quests",
+          "targetCount": 5,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 4000},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 25},
+        {"rewardType": "material", "rewardId": "essence_crystal", "quantity": 3}
+      ],
+      "missionPoints": 15
+    },
+    {
+      "missionId": "daily_level_up_hero",
+      "missionName": "Hero Trainer",
+      "description": "Level up any hero 1 time",
+      "category": "progression",
+      "objectives": [
+        {
+          "objectiveType": "level_up_hero",
+          "targetCount": 1,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 2500},
+        {"rewardType": "material", "rewardId": "exp_potion", "quantity": 3},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 10}
+      ],
+      "missionPoints": 10
+    },
+    {
+      "missionId": "daily_spend_stamina",
+      "missionName": "Stamina Burner",
+      "description": "Spend 100 stamina",
+      "category": "activity",
+      "objectives": [
+        {
+          "objectiveType": "spend_stamina",
+          "targetCount": 100,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 3500},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 20},
+        {"rewardType": "item", "rewardId": "stamina_potion", "quantity": 2}
+      ],
+      "missionPoints": 15
+    },
+    {
+      "missionId": "daily_defeat_bosses",
+      "missionName": "Boss Hunter",
+      "description": "Defeat 3 boss enemies",
+      "category": "combat",
+      "objectives": [
+        {
+          "objectiveType": "defeat_bosses",
+          "targetCount": 3,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 4000},
+        {"rewardType": "material", "rewardId": "boss_material", "quantity": 2},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 25}
+      ],
+      "missionPoints": 15
+    },
+    {
+      "missionId": "daily_craft_items",
+      "missionName": "Master Crafter",
+      "description": "Craft 2 items at the forge",
+      "category": "crafting",
+      "objectives": [
+        {
+          "objectiveType": "craft_items",
+          "targetCount": 2,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 3000},
+        {"rewardType": "material", "rewardId": "crafting_material", "quantity": 5},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 15}
+      ],
+      "missionPoints": 10
+    }
+  ],
+  "weeklyMissions": [
+    {
+      "missionId": "weekly_clear_floors",
+      "missionName": "Tower Climber",
+      "description": "Clear 50 dungeon floors",
+      "category": "combat",
+      "objectives": [
+        {
+          "objectiveType": "clear_floors",
+          "targetCount": 50,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 50000},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 200},
+        {"rewardType": "item", "rewardId": "summon_ticket_premium", "quantity": 3},
+        {"rewardType": "gear", "rewardId": "random_4star_gear", "quantity": 1}
+      ],
+      "missionPoints": 100
+    },
+    {
+      "missionId": "weekly_world_boss",
+      "missionName": "World Boss Slayer",
+      "description": "Defeat world boss 5 times",
+      "category": "raid",
+      "objectives": [
+        {
+          "objectiveType": "defeat_world_boss",
+          "targetCount": 5,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 75000},
+        {"rewardType": "currency", "rewardId": "raid_tickets", "quantity": 10},
+        {"rewardType": "material", "rewardId": "legendary_essence", "quantity": 5},
+        {"rewardType": "gear", "rewardId": "random_5star_gear", "quantity": 1}
+      ],
+      "missionPoints": 150
+    },
+    {
+      "missionId": "weekly_spend_stamina",
+      "missionName": "Marathon Runner",
+      "description": "Spend 1000 stamina",
+      "category": "activity",
+      "objectives": [
+        {
+          "objectiveType": "spend_stamina",
+          "targetCount": 1000,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 60000},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 250},
+        {"rewardType": "item", "rewardId": "stamina_potion_large", "quantity": 5},
+        {"rewardType": "material", "rewardId": "essence_crystal", "quantity": 10}
+      ],
+      "missionPoints": 150
+    },
+    {
+      "missionId": "weekly_arena_wins",
+      "missionName": "Arena Champion",
+      "description": "Win 20 arena battles",
+      "category": "pvp",
+      "objectives": [
+        {
+          "objectiveType": "arena_wins",
+          "targetCount": 20,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 500},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 300},
+        {"rewardType": "gear", "rewardId": "random_4star_gear", "quantity": 2},
+        {"rewardType": "item", "rewardId": "summon_ticket_premium", "quantity": 2}
+      ],
+      "missionPoints": 120
+    },
+    {
+      "missionId": "weekly_enhance_15",
+      "missionName": "Master Enhancer",
+      "description": "Get any gear to +15 enhancement",
+      "category": "enhancement",
+      "objectives": [
+        {
+          "objectiveType": "enhance_to_15",
+          "targetCount": 1,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 100000},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 400},
+        {"rewardType": "material", "rewardId": "enhancement_stone_rare", "quantity": 10},
+        {"rewardType": "gear", "rewardId": "random_5star_gear", "quantity": 1}
+      ],
+      "missionPoints": 200
+    },
+    {
+      "missionId": "weekly_summon_ssr",
+      "missionName": "Lucky Summoner",
+      "description": "Summon 3 SSR heroes",
+      "category": "collection",
+      "objectives": [
+        {
+          "objectiveType": "summon_ssr",
+          "targetCount": 3,
+          "currentCount": 0,
+          "minRarity": 5
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "soul_cores", "quantity": 50},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 500},
+        {"rewardType": "item", "rewardId": "summon_ticket_premium", "quantity": 5},
+        {"rewardType": "material", "rewardId": "legendary_essence", "quantity": 3}
+      ],
+      "missionPoints": 150
+    },
+    {
+      "missionId": "weekly_guild_raid",
+      "missionName": "Raid Veteran",
+      "description": "Participate in guild raid 7 times",
+      "category": "guild",
+      "objectives": [
+        {
+          "objectiveType": "guild_raid_participation",
+          "targetCount": 7,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "guild_coins", "quantity": 500},
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 80000},
+        {"rewardType": "material", "rewardId": "raid_material", "quantity": 10},
+        {"rewardType": "gear", "rewardId": "random_4star_gear", "quantity": 2}
+      ],
+      "missionPoints": 140
+    },
+    {
+      "missionId": "weekly_hero_ascend",
+      "missionName": "Ascension Master",
+      "description": "Ascend any hero 1 time",
+      "category": "progression",
+      "objectives": [
+        {
+          "objectiveType": "hero_ascension",
+          "targetCount": 1,
+          "currentCount": 0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "quantity": 120000},
+        {"rewardType": "currency", "rewardId": "soul_cores", "quantity": 30},
+        {"rewardType": "material", "rewardId": "ascension_material", "quantity": 5},
+        {"rewardType": "item", "rewardId": "summon_ticket_premium", "quantity": 3}
+      ],
+      "missionPoints": 180
+    }
+  ],
+  "missionRewards": {
+    "dailyCompletionBonus": {
+      "description": "Complete all 10 daily missions",
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 100},
+        {"rewardType": "item", "rewardId": "mystery_box", "quantity": 1}
+      ]
+    },
+    "weeklyCompletionBonus": {
+      "description": "Complete all 8 weekly missions",
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 1000},
+        {"rewardType": "gear", "rewardId": "random_6star_gear", "quantity": 1},
+        {"rewardType": "item", "rewardId": "summon_ticket_premium", "quantity": 10},
+        {"rewardType": "special", "rewardId": "weekly_completion_title", "quantity": 1}
+      ]
+    }
+  }
+}

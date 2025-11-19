@@ -1,0 +1,5010 @@
+{
+  "socketTypes": [
+    {
+      "socketType": "red",
+      "socketName": "Red Socket",
+      "colorHex": "#FF0000",
+      "description": "Enhances offensive stats"
+    },
+    {
+      "socketType": "blue",
+      "socketName": "Blue Socket",
+      "colorHex": "#0000FF",
+      "description": "Enhances defensive stats"
+    },
+    {
+      "socketType": "green",
+      "socketName": "Green Socket",
+      "colorHex": "#00FF00",
+      "description": "Enhances utility and speed"
+    },
+    {
+      "socketType": "yellow",
+      "socketName": "Yellow Socket",
+      "colorHex": "#FFFF00",
+      "description": "Enhances elemental damage"
+    },
+    {
+      "socketType": "purple",
+      "socketName": "Purple Socket",
+      "colorHex": "#AA00FF",
+      "description": "Enhances magic and mana"
+    },
+    {
+      "socketType": "prismatic",
+      "socketName": "Prismatic Socket",
+      "colorHex": "#FFFFFF",
+      "description": "Accepts any rune type"
+    }
+  ],
+  "runes": [
+    {
+      "runeId": "ruby_t1_base",
+      "runeName": "Chipped Ruby",
+      "runeType": "red",
+      "runeTier": 1,
+      "runeFamily": "might",
+      "variant": "base",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 15,
+        "percentAtk": 0.03
+      },
+      "materialCost": 100,
+      "upgradeInto": "ruby_t2_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t1_assault",
+      "runeName": "Chipped Ruby of Assault",
+      "runeType": "red",
+      "runeTier": 1,
+      "runeFamily": "might",
+      "variant": "assault",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 22,
+        "percentAtk": 0.04
+      },
+      "materialCost": 100,
+      "upgradeInto": "ruby_t2_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t1_guard",
+      "runeName": "Chipped Ruby of Guard",
+      "runeType": "red",
+      "runeTier": 1,
+      "runeFamily": "might",
+      "variant": "guard",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 15,
+        "percentAtk": 0.03,
+        "flatDef": 10
+      },
+      "materialCost": 100,
+      "upgradeInto": "ruby_t2_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t1_swift",
+      "runeName": "Chipped Ruby of Swift",
+      "runeType": "red",
+      "runeTier": 1,
+      "runeFamily": "might",
+      "variant": "swift",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 15,
+        "percentAtk": 0.03,
+        "flatSpd": 3
+      },
+      "materialCost": 100,
+      "upgradeInto": "ruby_t2_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t1_balanced",
+      "runeName": "Chipped Ruby of Balanced",
+      "runeType": "red",
+      "runeTier": 1,
+      "runeFamily": "might",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 15,
+        "percentAtk": 0.03,
+        "flatHp": 100
+      },
+      "materialCost": 100,
+      "upgradeInto": "ruby_t2_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t1_special",
+      "runeName": "Chipped Ruby of Special",
+      "runeType": "red",
+      "runeTier": 1,
+      "runeFamily": "might",
+      "variant": "special",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 15,
+        "percentAtk": 0.03
+      },
+      "materialCost": 100,
+      "upgradeInto": "ruby_t2_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t2_base",
+      "runeName": "Ruby",
+      "runeType": "red",
+      "runeTier": 2,
+      "runeFamily": "might",
+      "variant": "base",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 37,
+        "percentAtk": 0.07
+      },
+      "materialCost": 625,
+      "upgradeInto": "ruby_t3_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t2_assault",
+      "runeName": "Ruby of Assault",
+      "runeType": "red",
+      "runeTier": 2,
+      "runeFamily": "might",
+      "variant": "assault",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 55,
+        "percentAtk": 0.09
+      },
+      "materialCost": 625,
+      "upgradeInto": "ruby_t3_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t2_guard",
+      "runeName": "Ruby of Guard",
+      "runeType": "red",
+      "runeTier": 2,
+      "runeFamily": "might",
+      "variant": "guard",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 37,
+        "percentAtk": 0.07,
+        "flatDef": 25
+      },
+      "materialCost": 625,
+      "upgradeInto": "ruby_t3_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t2_swift",
+      "runeName": "Ruby of Swift",
+      "runeType": "red",
+      "runeTier": 2,
+      "runeFamily": "might",
+      "variant": "swift",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 37,
+        "percentAtk": 0.07,
+        "flatSpd": 7
+      },
+      "materialCost": 625,
+      "upgradeInto": "ruby_t3_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t2_balanced",
+      "runeName": "Ruby of Balanced",
+      "runeType": "red",
+      "runeTier": 2,
+      "runeFamily": "might",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 37,
+        "percentAtk": 0.07,
+        "flatHp": 250
+      },
+      "materialCost": 625,
+      "upgradeInto": "ruby_t3_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t2_special",
+      "runeName": "Ruby of Special",
+      "runeType": "red",
+      "runeTier": 2,
+      "runeFamily": "might",
+      "variant": "special",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 37,
+        "percentAtk": 0.07
+      },
+      "materialCost": 625,
+      "upgradeInto": "ruby_t3_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t3_base",
+      "runeName": "Flawless Ruby",
+      "runeType": "red",
+      "runeTier": 3,
+      "runeFamily": "might",
+      "variant": "base",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 75,
+        "percentAtk": 0.15,
+        "critChance": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "ruby_t4_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t3_assault",
+      "runeName": "Flawless Ruby of Assault",
+      "runeType": "red",
+      "runeTier": 3,
+      "runeFamily": "might",
+      "variant": "assault",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 112,
+        "percentAtk": 0.2,
+        "critChance": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "ruby_t4_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t3_guard",
+      "runeName": "Flawless Ruby of Guard",
+      "runeType": "red",
+      "runeTier": 3,
+      "runeFamily": "might",
+      "variant": "guard",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 75,
+        "percentAtk": 0.15,
+        "critChance": 0.01,
+        "flatDef": 50
+      },
+      "materialCost": 2500,
+      "upgradeInto": "ruby_t4_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t3_swift",
+      "runeName": "Flawless Ruby of Swift",
+      "runeType": "red",
+      "runeTier": 3,
+      "runeFamily": "might",
+      "variant": "swift",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 75,
+        "percentAtk": 0.15,
+        "critChance": 0.01,
+        "flatSpd": 15
+      },
+      "materialCost": 2500,
+      "upgradeInto": "ruby_t4_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t3_balanced",
+      "runeName": "Flawless Ruby of Balanced",
+      "runeType": "red",
+      "runeTier": 3,
+      "runeFamily": "might",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 75,
+        "percentAtk": 0.15,
+        "critChance": 0.01,
+        "flatHp": 500
+      },
+      "materialCost": 2500,
+      "upgradeInto": "ruby_t4_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t3_special",
+      "runeName": "Flawless Ruby of Special",
+      "runeType": "red",
+      "runeTier": 3,
+      "runeFamily": "might",
+      "variant": "special",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 75,
+        "percentAtk": 0.15,
+        "critChance": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "ruby_t4_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t4_base",
+      "runeName": "Perfect Ruby",
+      "runeType": "red",
+      "runeTier": 4,
+      "runeFamily": "might",
+      "variant": "base",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 150,
+        "percentAtk": 0.3,
+        "critChance": 0.01,
+        "critDamage": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "ruby_t5_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t4_assault",
+      "runeName": "Perfect Ruby of Assault",
+      "runeType": "red",
+      "runeTier": 4,
+      "runeFamily": "might",
+      "variant": "assault",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 225,
+        "percentAtk": 0.39,
+        "critChance": 0.01,
+        "critDamage": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "ruby_t5_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t4_guard",
+      "runeName": "Perfect Ruby of Guard",
+      "runeType": "red",
+      "runeTier": 4,
+      "runeFamily": "might",
+      "variant": "guard",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 150,
+        "percentAtk": 0.3,
+        "critChance": 0.01,
+        "critDamage": 0.01,
+        "flatDef": 100
+      },
+      "materialCost": 10000,
+      "upgradeInto": "ruby_t5_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t4_swift",
+      "runeName": "Perfect Ruby of Swift",
+      "runeType": "red",
+      "runeTier": 4,
+      "runeFamily": "might",
+      "variant": "swift",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 150,
+        "percentAtk": 0.3,
+        "critChance": 0.01,
+        "critDamage": 0.01,
+        "flatSpd": 30
+      },
+      "materialCost": 10000,
+      "upgradeInto": "ruby_t5_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t4_balanced",
+      "runeName": "Perfect Ruby of Balanced",
+      "runeType": "red",
+      "runeTier": 4,
+      "runeFamily": "might",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 150,
+        "percentAtk": 0.3,
+        "critChance": 0.01,
+        "critDamage": 0.01,
+        "flatHp": 1000
+      },
+      "materialCost": 10000,
+      "upgradeInto": "ruby_t5_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t4_special",
+      "runeName": "Perfect Ruby of Special",
+      "runeType": "red",
+      "runeTier": 4,
+      "runeFamily": "might",
+      "variant": "special",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 150,
+        "percentAtk": 0.3,
+        "critChance": 0.01,
+        "critDamage": 0.01,
+        "lifeSteal": 0.2
+      },
+      "materialCost": 10000,
+      "upgradeInto": "ruby_t5_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "ruby_t5_base",
+      "runeName": "Radiant Ruby",
+      "runeType": "red",
+      "runeTier": 5,
+      "runeFamily": "might",
+      "variant": "base",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 300,
+        "percentAtk": 0.6,
+        "critChance": 0.02,
+        "critDamage": 0.03
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "ruby_t5_assault",
+      "runeName": "Radiant Ruby of Assault",
+      "runeType": "red",
+      "runeTier": 5,
+      "runeFamily": "might",
+      "variant": "assault",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 450,
+        "percentAtk": 0.78,
+        "critChance": 0.02,
+        "critDamage": 0.03
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "ruby_t5_guard",
+      "runeName": "Radiant Ruby of Guard",
+      "runeType": "red",
+      "runeTier": 5,
+      "runeFamily": "might",
+      "variant": "guard",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 300,
+        "percentAtk": 0.6,
+        "critChance": 0.02,
+        "critDamage": 0.03,
+        "flatDef": 200
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "ruby_t5_swift",
+      "runeName": "Radiant Ruby of Swift",
+      "runeType": "red",
+      "runeTier": 5,
+      "runeFamily": "might",
+      "variant": "swift",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 300,
+        "percentAtk": 0.6,
+        "critChance": 0.02,
+        "critDamage": 0.03,
+        "flatSpd": 60
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "ruby_t5_balanced",
+      "runeName": "Radiant Ruby of Balanced",
+      "runeType": "red",
+      "runeTier": 5,
+      "runeFamily": "might",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 300,
+        "percentAtk": 0.6,
+        "critChance": 0.02,
+        "critDamage": 0.03,
+        "flatHp": 2000
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "ruby_t5_special",
+      "runeName": "Radiant Ruby of Special",
+      "runeType": "red",
+      "runeTier": 5,
+      "runeFamily": "might",
+      "variant": "special",
+      "compatibleSockets": [
+        "red",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 300,
+        "percentAtk": 0.6,
+        "critChance": 0.02,
+        "critDamage": 0.03,
+        "lifeSteal": 0.25
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "sapphire_t1_base",
+      "runeName": "Chipped Sapphire",
+      "runeType": "blue",
+      "runeTier": 1,
+      "runeFamily": "vitality",
+      "variant": "base",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 150,
+        "flatDef": 10
+      },
+      "materialCost": 100,
+      "upgradeInto": "sapphire_t2_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t1_assault",
+      "runeName": "Chipped Sapphire of Assault",
+      "runeType": "blue",
+      "runeTier": 1,
+      "runeFamily": "vitality",
+      "variant": "assault",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 150,
+        "flatDef": 10,
+        "flatAtk": 10
+      },
+      "materialCost": 100,
+      "upgradeInto": "sapphire_t2_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t1_guard",
+      "runeName": "Chipped Sapphire of Guard",
+      "runeType": "blue",
+      "runeTier": 1,
+      "runeFamily": "vitality",
+      "variant": "guard",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 150,
+        "flatDef": 15,
+        "percentDef": 0.0
+      },
+      "materialCost": 100,
+      "upgradeInto": "sapphire_t2_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t1_swift",
+      "runeName": "Chipped Sapphire of Swift",
+      "runeType": "blue",
+      "runeTier": 1,
+      "runeFamily": "vitality",
+      "variant": "swift",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 150,
+        "flatDef": 10,
+        "flatSpd": 3
+      },
+      "materialCost": 100,
+      "upgradeInto": "sapphire_t2_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t1_balanced",
+      "runeName": "Chipped Sapphire of Balanced",
+      "runeType": "blue",
+      "runeTier": 1,
+      "runeFamily": "vitality",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 150,
+        "flatDef": 10,
+        "flatAtk": 8
+      },
+      "materialCost": 100,
+      "upgradeInto": "sapphire_t2_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t1_special",
+      "runeName": "Chipped Sapphire of Special",
+      "runeType": "blue",
+      "runeTier": 1,
+      "runeFamily": "vitality",
+      "variant": "special",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 150,
+        "flatDef": 10
+      },
+      "materialCost": 100,
+      "upgradeInto": "sapphire_t2_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t2_base",
+      "runeName": "Sapphire",
+      "runeType": "blue",
+      "runeTier": 2,
+      "runeFamily": "vitality",
+      "variant": "base",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 375,
+        "flatDef": 25
+      },
+      "materialCost": 625,
+      "upgradeInto": "sapphire_t3_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t2_assault",
+      "runeName": "Sapphire of Assault",
+      "runeType": "blue",
+      "runeTier": 2,
+      "runeFamily": "vitality",
+      "variant": "assault",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 375,
+        "flatDef": 25,
+        "flatAtk": 25
+      },
+      "materialCost": 625,
+      "upgradeInto": "sapphire_t3_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t2_guard",
+      "runeName": "Sapphire of Guard",
+      "runeType": "blue",
+      "runeTier": 2,
+      "runeFamily": "vitality",
+      "variant": "guard",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 375,
+        "flatDef": 37,
+        "percentDef": 0.0
+      },
+      "materialCost": 625,
+      "upgradeInto": "sapphire_t3_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t2_swift",
+      "runeName": "Sapphire of Swift",
+      "runeType": "blue",
+      "runeTier": 2,
+      "runeFamily": "vitality",
+      "variant": "swift",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 375,
+        "flatDef": 25,
+        "flatSpd": 7
+      },
+      "materialCost": 625,
+      "upgradeInto": "sapphire_t3_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t2_balanced",
+      "runeName": "Sapphire of Balanced",
+      "runeType": "blue",
+      "runeTier": 2,
+      "runeFamily": "vitality",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 375,
+        "flatDef": 25,
+        "flatAtk": 20
+      },
+      "materialCost": 625,
+      "upgradeInto": "sapphire_t3_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t2_special",
+      "runeName": "Sapphire of Special",
+      "runeType": "blue",
+      "runeTier": 2,
+      "runeFamily": "vitality",
+      "variant": "special",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 375,
+        "flatDef": 25
+      },
+      "materialCost": 625,
+      "upgradeInto": "sapphire_t3_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t3_base",
+      "runeName": "Flawless Sapphire",
+      "runeType": "blue",
+      "runeTier": 3,
+      "runeFamily": "vitality",
+      "variant": "base",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 750,
+        "flatDef": 50,
+        "percentDef": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "sapphire_t4_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t3_assault",
+      "runeName": "Flawless Sapphire of Assault",
+      "runeType": "blue",
+      "runeTier": 3,
+      "runeFamily": "vitality",
+      "variant": "assault",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 750,
+        "flatDef": 50,
+        "percentDef": 0.01,
+        "flatAtk": 50
+      },
+      "materialCost": 2500,
+      "upgradeInto": "sapphire_t4_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t3_guard",
+      "runeName": "Flawless Sapphire of Guard",
+      "runeType": "blue",
+      "runeTier": 3,
+      "runeFamily": "vitality",
+      "variant": "guard",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 750,
+        "flatDef": 75,
+        "percentDef": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "sapphire_t4_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t3_swift",
+      "runeName": "Flawless Sapphire of Swift",
+      "runeType": "blue",
+      "runeTier": 3,
+      "runeFamily": "vitality",
+      "variant": "swift",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 750,
+        "flatDef": 50,
+        "percentDef": 0.01,
+        "flatSpd": 15
+      },
+      "materialCost": 2500,
+      "upgradeInto": "sapphire_t4_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t3_balanced",
+      "runeName": "Flawless Sapphire of Balanced",
+      "runeType": "blue",
+      "runeTier": 3,
+      "runeFamily": "vitality",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 750,
+        "flatDef": 50,
+        "percentDef": 0.01,
+        "flatAtk": 40
+      },
+      "materialCost": 2500,
+      "upgradeInto": "sapphire_t4_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t3_special",
+      "runeName": "Flawless Sapphire of Special",
+      "runeType": "blue",
+      "runeTier": 3,
+      "runeFamily": "vitality",
+      "variant": "special",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 750,
+        "flatDef": 50,
+        "percentDef": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "sapphire_t4_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t4_base",
+      "runeName": "Perfect Sapphire",
+      "runeType": "blue",
+      "runeTier": 4,
+      "runeFamily": "vitality",
+      "variant": "base",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 1500,
+        "flatDef": 100,
+        "percentDef": 0.01,
+        "percentHp": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "sapphire_t5_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t4_assault",
+      "runeName": "Perfect Sapphire of Assault",
+      "runeType": "blue",
+      "runeTier": 4,
+      "runeFamily": "vitality",
+      "variant": "assault",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 1500,
+        "flatDef": 100,
+        "percentDef": 0.01,
+        "percentHp": 0.01,
+        "flatAtk": 100
+      },
+      "materialCost": 10000,
+      "upgradeInto": "sapphire_t5_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t4_guard",
+      "runeName": "Perfect Sapphire of Guard",
+      "runeType": "blue",
+      "runeTier": 4,
+      "runeFamily": "vitality",
+      "variant": "guard",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 1500,
+        "flatDef": 150,
+        "percentDef": 0.01,
+        "percentHp": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "sapphire_t5_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t4_swift",
+      "runeName": "Perfect Sapphire of Swift",
+      "runeType": "blue",
+      "runeTier": 4,
+      "runeFamily": "vitality",
+      "variant": "swift",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 1500,
+        "flatDef": 100,
+        "percentDef": 0.01,
+        "percentHp": 0.01,
+        "flatSpd": 30
+      },
+      "materialCost": 10000,
+      "upgradeInto": "sapphire_t5_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t4_balanced",
+      "runeName": "Perfect Sapphire of Balanced",
+      "runeType": "blue",
+      "runeTier": 4,
+      "runeFamily": "vitality",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 1500,
+        "flatDef": 100,
+        "percentDef": 0.01,
+        "percentHp": 0.01,
+        "flatAtk": 80
+      },
+      "materialCost": 10000,
+      "upgradeInto": "sapphire_t5_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t4_special",
+      "runeName": "Perfect Sapphire of Special",
+      "runeType": "blue",
+      "runeTier": 4,
+      "runeFamily": "vitality",
+      "variant": "special",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 1500,
+        "flatDef": 100,
+        "percentDef": 0.01,
+        "percentHp": 0.01,
+        "damageReduction": 0.2
+      },
+      "materialCost": 10000,
+      "upgradeInto": "sapphire_t5_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "sapphire_t5_base",
+      "runeName": "Radiant Sapphire",
+      "runeType": "blue",
+      "runeTier": 5,
+      "runeFamily": "vitality",
+      "variant": "base",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 3000,
+        "flatDef": 200,
+        "percentDef": 0.02,
+        "percentHp": 0.01
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "sapphire_t5_assault",
+      "runeName": "Radiant Sapphire of Assault",
+      "runeType": "blue",
+      "runeTier": 5,
+      "runeFamily": "vitality",
+      "variant": "assault",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 3000,
+        "flatDef": 200,
+        "percentDef": 0.02,
+        "percentHp": 0.01,
+        "flatAtk": 200
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "sapphire_t5_guard",
+      "runeName": "Radiant Sapphire of Guard",
+      "runeType": "blue",
+      "runeTier": 5,
+      "runeFamily": "vitality",
+      "variant": "guard",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 3000,
+        "flatDef": 300,
+        "percentDef": 0.03,
+        "percentHp": 0.01
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "sapphire_t5_swift",
+      "runeName": "Radiant Sapphire of Swift",
+      "runeType": "blue",
+      "runeTier": 5,
+      "runeFamily": "vitality",
+      "variant": "swift",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 3000,
+        "flatDef": 200,
+        "percentDef": 0.02,
+        "percentHp": 0.01,
+        "flatSpd": 60
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "sapphire_t5_balanced",
+      "runeName": "Radiant Sapphire of Balanced",
+      "runeType": "blue",
+      "runeTier": 5,
+      "runeFamily": "vitality",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 3000,
+        "flatDef": 200,
+        "percentDef": 0.02,
+        "percentHp": 0.01,
+        "flatAtk": 160
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "sapphire_t5_special",
+      "runeName": "Radiant Sapphire of Special",
+      "runeType": "blue",
+      "runeTier": 5,
+      "runeFamily": "vitality",
+      "variant": "special",
+      "compatibleSockets": [
+        "blue",
+        "prismatic"
+      ],
+      "stats": {
+        "flatHp": 3000,
+        "flatDef": 200,
+        "percentDef": 0.02,
+        "percentHp": 0.01,
+        "damageReduction": 0.25
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "emerald_t1_base",
+      "runeName": "Chipped Emerald",
+      "runeType": "green",
+      "runeTier": 1,
+      "runeFamily": "speed",
+      "variant": "base",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 5,
+        "percentSpd": 0.03
+      },
+      "materialCost": 100,
+      "upgradeInto": "emerald_t2_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t1_assault",
+      "runeName": "Chipped Emerald of Assault",
+      "runeType": "green",
+      "runeTier": 1,
+      "runeFamily": "speed",
+      "variant": "assault",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 5,
+        "percentSpd": 0.03,
+        "flatAtk": 12
+      },
+      "materialCost": 100,
+      "upgradeInto": "emerald_t2_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t1_guard",
+      "runeName": "Chipped Emerald of Guard",
+      "runeType": "green",
+      "runeTier": 1,
+      "runeFamily": "speed",
+      "variant": "guard",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 5,
+        "percentSpd": 0.03,
+        "flatDef": 8
+      },
+      "materialCost": 100,
+      "upgradeInto": "emerald_t2_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t1_swift",
+      "runeName": "Chipped Emerald of Swift",
+      "runeType": "green",
+      "runeTier": 1,
+      "runeFamily": "speed",
+      "variant": "swift",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 7,
+        "percentSpd": 0.04
+      },
+      "materialCost": 100,
+      "upgradeInto": "emerald_t2_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t1_balanced",
+      "runeName": "Chipped Emerald of Balanced",
+      "runeType": "green",
+      "runeTier": 1,
+      "runeFamily": "speed",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 5,
+        "percentSpd": 0.03,
+        "flatHp": 80
+      },
+      "materialCost": 100,
+      "upgradeInto": "emerald_t2_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t1_special",
+      "runeName": "Chipped Emerald of Special",
+      "runeType": "green",
+      "runeTier": 1,
+      "runeFamily": "speed",
+      "variant": "special",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 5,
+        "percentSpd": 0.03
+      },
+      "materialCost": 100,
+      "upgradeInto": "emerald_t2_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t2_base",
+      "runeName": "Emerald",
+      "runeType": "green",
+      "runeTier": 2,
+      "runeFamily": "speed",
+      "variant": "base",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 12,
+        "percentSpd": 0.06
+      },
+      "materialCost": 625,
+      "upgradeInto": "emerald_t3_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t2_assault",
+      "runeName": "Emerald of Assault",
+      "runeType": "green",
+      "runeTier": 2,
+      "runeFamily": "speed",
+      "variant": "assault",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 12,
+        "percentSpd": 0.06,
+        "flatAtk": 30
+      },
+      "materialCost": 625,
+      "upgradeInto": "emerald_t3_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t2_guard",
+      "runeName": "Emerald of Guard",
+      "runeType": "green",
+      "runeTier": 2,
+      "runeFamily": "speed",
+      "variant": "guard",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 12,
+        "percentSpd": 0.06,
+        "flatDef": 20
+      },
+      "materialCost": 625,
+      "upgradeInto": "emerald_t3_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t2_swift",
+      "runeName": "Emerald of Swift",
+      "runeType": "green",
+      "runeTier": 2,
+      "runeFamily": "speed",
+      "variant": "swift",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 18,
+        "percentSpd": 0.08
+      },
+      "materialCost": 625,
+      "upgradeInto": "emerald_t3_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t2_balanced",
+      "runeName": "Emerald of Balanced",
+      "runeType": "green",
+      "runeTier": 2,
+      "runeFamily": "speed",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 12,
+        "percentSpd": 0.06,
+        "flatHp": 200
+      },
+      "materialCost": 625,
+      "upgradeInto": "emerald_t3_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t2_special",
+      "runeName": "Emerald of Special",
+      "runeType": "green",
+      "runeTier": 2,
+      "runeFamily": "speed",
+      "variant": "special",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 12,
+        "percentSpd": 0.06
+      },
+      "materialCost": 625,
+      "upgradeInto": "emerald_t3_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t3_base",
+      "runeName": "Flawless Emerald",
+      "runeType": "green",
+      "runeTier": 3,
+      "runeFamily": "speed",
+      "variant": "base",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 25,
+        "percentSpd": 0.12,
+        "evasion": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "emerald_t4_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t3_assault",
+      "runeName": "Flawless Emerald of Assault",
+      "runeType": "green",
+      "runeTier": 3,
+      "runeFamily": "speed",
+      "variant": "assault",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 25,
+        "percentSpd": 0.12,
+        "evasion": 0.01,
+        "flatAtk": 60
+      },
+      "materialCost": 2500,
+      "upgradeInto": "emerald_t4_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t3_guard",
+      "runeName": "Flawless Emerald of Guard",
+      "runeType": "green",
+      "runeTier": 3,
+      "runeFamily": "speed",
+      "variant": "guard",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 25,
+        "percentSpd": 0.12,
+        "evasion": 0.01,
+        "flatDef": 40
+      },
+      "materialCost": 2500,
+      "upgradeInto": "emerald_t4_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t3_swift",
+      "runeName": "Flawless Emerald of Swift",
+      "runeType": "green",
+      "runeTier": 3,
+      "runeFamily": "speed",
+      "variant": "swift",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 37,
+        "percentSpd": 0.16,
+        "evasion": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "emerald_t4_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t3_balanced",
+      "runeName": "Flawless Emerald of Balanced",
+      "runeType": "green",
+      "runeTier": 3,
+      "runeFamily": "speed",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 25,
+        "percentSpd": 0.12,
+        "evasion": 0.01,
+        "flatHp": 400
+      },
+      "materialCost": 2500,
+      "upgradeInto": "emerald_t4_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t3_special",
+      "runeName": "Flawless Emerald of Special",
+      "runeType": "green",
+      "runeTier": 3,
+      "runeFamily": "speed",
+      "variant": "special",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 25,
+        "percentSpd": 0.12,
+        "evasion": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "emerald_t4_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t4_base",
+      "runeName": "Perfect Emerald",
+      "runeType": "green",
+      "runeTier": 4,
+      "runeFamily": "speed",
+      "variant": "base",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 50,
+        "percentSpd": 0.25,
+        "evasion": 0.02,
+        "accuracy": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "emerald_t5_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t4_assault",
+      "runeName": "Perfect Emerald of Assault",
+      "runeType": "green",
+      "runeTier": 4,
+      "runeFamily": "speed",
+      "variant": "assault",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 50,
+        "percentSpd": 0.25,
+        "evasion": 0.02,
+        "accuracy": 0.01,
+        "flatAtk": 120
+      },
+      "materialCost": 10000,
+      "upgradeInto": "emerald_t5_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t4_guard",
+      "runeName": "Perfect Emerald of Guard",
+      "runeType": "green",
+      "runeTier": 4,
+      "runeFamily": "speed",
+      "variant": "guard",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 50,
+        "percentSpd": 0.25,
+        "evasion": 0.02,
+        "accuracy": 0.01,
+        "flatDef": 80
+      },
+      "materialCost": 10000,
+      "upgradeInto": "emerald_t5_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t4_swift",
+      "runeName": "Perfect Emerald of Swift",
+      "runeType": "green",
+      "runeTier": 4,
+      "runeFamily": "speed",
+      "variant": "swift",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 75,
+        "percentSpd": 0.33,
+        "evasion": 0.02,
+        "accuracy": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "emerald_t5_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t4_balanced",
+      "runeName": "Perfect Emerald of Balanced",
+      "runeType": "green",
+      "runeTier": 4,
+      "runeFamily": "speed",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 50,
+        "percentSpd": 0.25,
+        "evasion": 0.02,
+        "accuracy": 0.01,
+        "flatHp": 800
+      },
+      "materialCost": 10000,
+      "upgradeInto": "emerald_t5_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t4_special",
+      "runeName": "Perfect Emerald of Special",
+      "runeType": "green",
+      "runeTier": 4,
+      "runeFamily": "speed",
+      "variant": "special",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 50,
+        "percentSpd": 0.25,
+        "evasion": 0.02,
+        "accuracy": 0.01,
+        "counterChance": 0.4
+      },
+      "materialCost": 10000,
+      "upgradeInto": "emerald_t5_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "emerald_t5_base",
+      "runeName": "Radiant Emerald",
+      "runeType": "green",
+      "runeTier": 5,
+      "runeFamily": "speed",
+      "variant": "base",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 100,
+        "percentSpd": 0.5,
+        "evasion": 0.02,
+        "accuracy": 0.02
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "emerald_t5_assault",
+      "runeName": "Radiant Emerald of Assault",
+      "runeType": "green",
+      "runeTier": 5,
+      "runeFamily": "speed",
+      "variant": "assault",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 100,
+        "percentSpd": 0.5,
+        "evasion": 0.02,
+        "accuracy": 0.02,
+        "flatAtk": 240
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "emerald_t5_guard",
+      "runeName": "Radiant Emerald of Guard",
+      "runeType": "green",
+      "runeTier": 5,
+      "runeFamily": "speed",
+      "variant": "guard",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 100,
+        "percentSpd": 0.5,
+        "evasion": 0.02,
+        "accuracy": 0.02,
+        "flatDef": 160
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "emerald_t5_swift",
+      "runeName": "Radiant Emerald of Swift",
+      "runeType": "green",
+      "runeTier": 5,
+      "runeFamily": "speed",
+      "variant": "swift",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 150,
+        "percentSpd": 0.65,
+        "evasion": 0.02,
+        "accuracy": 0.02
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "emerald_t5_balanced",
+      "runeName": "Radiant Emerald of Balanced",
+      "runeType": "green",
+      "runeTier": 5,
+      "runeFamily": "speed",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 100,
+        "percentSpd": 0.5,
+        "evasion": 0.02,
+        "accuracy": 0.02,
+        "flatHp": 1600
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "emerald_t5_special",
+      "runeName": "Radiant Emerald of Special",
+      "runeType": "green",
+      "runeTier": 5,
+      "runeFamily": "speed",
+      "variant": "special",
+      "compatibleSockets": [
+        "green",
+        "prismatic"
+      ],
+      "stats": {
+        "flatSpd": 100,
+        "percentSpd": 0.5,
+        "evasion": 0.02,
+        "accuracy": 0.02,
+        "counterChance": 0.5
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "topaz_t1_base",
+      "runeName": "Chipped Topaz",
+      "runeType": "yellow",
+      "runeTier": 1,
+      "runeFamily": "elemental",
+      "variant": "base",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.03
+      },
+      "materialCost": 100,
+      "upgradeInto": "topaz_t2_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t1_assault",
+      "runeName": "Chipped Topaz of Assault",
+      "runeType": "yellow",
+      "runeTier": 1,
+      "runeFamily": "elemental",
+      "variant": "assault",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.04,
+        "flatAtk": 12
+      },
+      "materialCost": 100,
+      "upgradeInto": "topaz_t2_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t1_guard",
+      "runeName": "Chipped Topaz of Guard",
+      "runeType": "yellow",
+      "runeTier": 1,
+      "runeFamily": "elemental",
+      "variant": "guard",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.03,
+        "elementalResist": 0.0
+      },
+      "materialCost": 100,
+      "upgradeInto": "topaz_t2_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t1_swift",
+      "runeName": "Chipped Topaz of Swift",
+      "runeType": "yellow",
+      "runeTier": 1,
+      "runeFamily": "elemental",
+      "variant": "swift",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.03,
+        "flatSpd": 3
+      },
+      "materialCost": 100,
+      "upgradeInto": "topaz_t2_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t1_balanced",
+      "runeName": "Chipped Topaz of Balanced",
+      "runeType": "yellow",
+      "runeTier": 1,
+      "runeFamily": "elemental",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.03,
+        "flatHp": 80
+      },
+      "materialCost": 100,
+      "upgradeInto": "topaz_t2_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t1_special",
+      "runeName": "Chipped Topaz of Special",
+      "runeType": "yellow",
+      "runeTier": 1,
+      "runeFamily": "elemental",
+      "variant": "special",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.03
+      },
+      "materialCost": 100,
+      "upgradeInto": "topaz_t2_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t2_base",
+      "runeName": "Topaz",
+      "runeType": "yellow",
+      "runeTier": 2,
+      "runeFamily": "elemental",
+      "variant": "base",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.07,
+        "elementalResist": 0.02
+      },
+      "materialCost": 625,
+      "upgradeInto": "topaz_t3_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t2_assault",
+      "runeName": "Topaz of Assault",
+      "runeType": "yellow",
+      "runeTier": 2,
+      "runeFamily": "elemental",
+      "variant": "assault",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.1,
+        "elementalResist": 0.02,
+        "flatAtk": 30
+      },
+      "materialCost": 625,
+      "upgradeInto": "topaz_t3_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t2_guard",
+      "runeName": "Topaz of Guard",
+      "runeType": "yellow",
+      "runeTier": 2,
+      "runeFamily": "elemental",
+      "variant": "guard",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.07,
+        "elementalResist": 0.03
+      },
+      "materialCost": 625,
+      "upgradeInto": "topaz_t3_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t2_swift",
+      "runeName": "Topaz of Swift",
+      "runeType": "yellow",
+      "runeTier": 2,
+      "runeFamily": "elemental",
+      "variant": "swift",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.07,
+        "elementalResist": 0.02,
+        "flatSpd": 7
+      },
+      "materialCost": 625,
+      "upgradeInto": "topaz_t3_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t2_balanced",
+      "runeName": "Topaz of Balanced",
+      "runeType": "yellow",
+      "runeTier": 2,
+      "runeFamily": "elemental",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.07,
+        "elementalResist": 0.02,
+        "flatHp": 200
+      },
+      "materialCost": 625,
+      "upgradeInto": "topaz_t3_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t2_special",
+      "runeName": "Topaz of Special",
+      "runeType": "yellow",
+      "runeTier": 2,
+      "runeFamily": "elemental",
+      "variant": "special",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.07,
+        "elementalResist": 0.02
+      },
+      "materialCost": 625,
+      "upgradeInto": "topaz_t3_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t3_base",
+      "runeName": "Flawless Topaz",
+      "runeType": "yellow",
+      "runeTier": 3,
+      "runeFamily": "elemental",
+      "variant": "base",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.15,
+        "elementalResist": 0.02
+      },
+      "materialCost": 2500,
+      "upgradeInto": "topaz_t4_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t3_assault",
+      "runeName": "Flawless Topaz of Assault",
+      "runeType": "yellow",
+      "runeTier": 3,
+      "runeFamily": "elemental",
+      "variant": "assault",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.21,
+        "elementalResist": 0.02,
+        "flatAtk": 60
+      },
+      "materialCost": 2500,
+      "upgradeInto": "topaz_t4_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t3_guard",
+      "runeName": "Flawless Topaz of Guard",
+      "runeType": "yellow",
+      "runeTier": 3,
+      "runeFamily": "elemental",
+      "variant": "guard",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.15,
+        "elementalResist": 0.03
+      },
+      "materialCost": 2500,
+      "upgradeInto": "topaz_t4_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t3_swift",
+      "runeName": "Flawless Topaz of Swift",
+      "runeType": "yellow",
+      "runeTier": 3,
+      "runeFamily": "elemental",
+      "variant": "swift",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.15,
+        "elementalResist": 0.02,
+        "flatSpd": 15
+      },
+      "materialCost": 2500,
+      "upgradeInto": "topaz_t4_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t3_balanced",
+      "runeName": "Flawless Topaz of Balanced",
+      "runeType": "yellow",
+      "runeTier": 3,
+      "runeFamily": "elemental",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.15,
+        "elementalResist": 0.02,
+        "flatHp": 400
+      },
+      "materialCost": 2500,
+      "upgradeInto": "topaz_t4_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t3_special",
+      "runeName": "Flawless Topaz of Special",
+      "runeType": "yellow",
+      "runeTier": 3,
+      "runeFamily": "elemental",
+      "variant": "special",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.15,
+        "elementalResist": 0.02
+      },
+      "materialCost": 2500,
+      "upgradeInto": "topaz_t4_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t4_base",
+      "runeName": "Perfect Topaz",
+      "runeType": "yellow",
+      "runeTier": 4,
+      "runeFamily": "elemental",
+      "variant": "base",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.3,
+        "elementalResist": 0.03,
+        "elementalPenetration": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "topaz_t5_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t4_assault",
+      "runeName": "Perfect Topaz of Assault",
+      "runeType": "yellow",
+      "runeTier": 4,
+      "runeFamily": "elemental",
+      "variant": "assault",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.42,
+        "elementalResist": 0.03,
+        "elementalPenetration": 0.01,
+        "flatAtk": 120
+      },
+      "materialCost": 10000,
+      "upgradeInto": "topaz_t5_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t4_guard",
+      "runeName": "Perfect Topaz of Guard",
+      "runeType": "yellow",
+      "runeTier": 4,
+      "runeFamily": "elemental",
+      "variant": "guard",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.3,
+        "elementalResist": 0.04,
+        "elementalPenetration": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "topaz_t5_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t4_swift",
+      "runeName": "Perfect Topaz of Swift",
+      "runeType": "yellow",
+      "runeTier": 4,
+      "runeFamily": "elemental",
+      "variant": "swift",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.3,
+        "elementalResist": 0.03,
+        "elementalPenetration": 0.01,
+        "flatSpd": 30
+      },
+      "materialCost": 10000,
+      "upgradeInto": "topaz_t5_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t4_balanced",
+      "runeName": "Perfect Topaz of Balanced",
+      "runeType": "yellow",
+      "runeTier": 4,
+      "runeFamily": "elemental",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.3,
+        "elementalResist": 0.03,
+        "elementalPenetration": 0.01,
+        "flatHp": 800
+      },
+      "materialCost": 10000,
+      "upgradeInto": "topaz_t5_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t4_special",
+      "runeName": "Perfect Topaz of Special",
+      "runeType": "yellow",
+      "runeTier": 4,
+      "runeFamily": "elemental",
+      "variant": "special",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.3,
+        "elementalResist": 0.03,
+        "elementalPenetration": 0.01,
+        "elementalMastery": 0.8
+      },
+      "materialCost": 10000,
+      "upgradeInto": "topaz_t5_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "topaz_t5_base",
+      "runeName": "Radiant Topaz",
+      "runeType": "yellow",
+      "runeTier": 5,
+      "runeFamily": "elemental",
+      "variant": "base",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.6,
+        "elementalResist": 0.04,
+        "elementalPenetration": 0.03
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "topaz_t5_assault",
+      "runeName": "Radiant Topaz of Assault",
+      "runeType": "yellow",
+      "runeTier": 5,
+      "runeFamily": "elemental",
+      "variant": "assault",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.84,
+        "elementalResist": 0.04,
+        "elementalPenetration": 0.03,
+        "flatAtk": 240
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "topaz_t5_guard",
+      "runeName": "Radiant Topaz of Guard",
+      "runeType": "yellow",
+      "runeTier": 5,
+      "runeFamily": "elemental",
+      "variant": "guard",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.6,
+        "elementalResist": 0.06,
+        "elementalPenetration": 0.03
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "topaz_t5_swift",
+      "runeName": "Radiant Topaz of Swift",
+      "runeType": "yellow",
+      "runeTier": 5,
+      "runeFamily": "elemental",
+      "variant": "swift",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.6,
+        "elementalResist": 0.04,
+        "elementalPenetration": 0.03,
+        "flatSpd": 60
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "topaz_t5_balanced",
+      "runeName": "Radiant Topaz of Balanced",
+      "runeType": "yellow",
+      "runeTier": 5,
+      "runeFamily": "elemental",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.6,
+        "elementalResist": 0.04,
+        "elementalPenetration": 0.03,
+        "flatHp": 1600
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "topaz_t5_special",
+      "runeName": "Radiant Topaz of Special",
+      "runeType": "yellow",
+      "runeTier": 5,
+      "runeFamily": "elemental",
+      "variant": "special",
+      "compatibleSockets": [
+        "yellow",
+        "prismatic"
+      ],
+      "stats": {
+        "elementalDamage": 0.6,
+        "elementalResist": 0.04,
+        "elementalPenetration": 0.03,
+        "elementalMastery": 1.0
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "amethyst_t1_base",
+      "runeName": "Chipped Amethyst",
+      "runeType": "purple",
+      "runeTier": 1,
+      "runeFamily": "arcane",
+      "variant": "base",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 20,
+        "manaRegen": 5
+      },
+      "materialCost": 100,
+      "upgradeInto": "amethyst_t2_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t1_assault",
+      "runeName": "Chipped Amethyst of Assault",
+      "runeType": "purple",
+      "runeTier": 1,
+      "runeFamily": "arcane",
+      "variant": "assault",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 30,
+        "manaRegen": 5
+      },
+      "materialCost": 100,
+      "upgradeInto": "amethyst_t2_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t1_guard",
+      "runeName": "Chipped Amethyst of Guard",
+      "runeType": "purple",
+      "runeTier": 1,
+      "runeFamily": "arcane",
+      "variant": "guard",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 20,
+        "manaRegen": 5,
+        "flatDef": 10
+      },
+      "materialCost": 100,
+      "upgradeInto": "amethyst_t2_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t1_swift",
+      "runeName": "Chipped Amethyst of Swift",
+      "runeType": "purple",
+      "runeTier": 1,
+      "runeFamily": "arcane",
+      "variant": "swift",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 20,
+        "manaRegen": 5,
+        "flatSpd": 3
+      },
+      "materialCost": 100,
+      "upgradeInto": "amethyst_t2_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t1_balanced",
+      "runeName": "Chipped Amethyst of Balanced",
+      "runeType": "purple",
+      "runeTier": 1,
+      "runeFamily": "arcane",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 20,
+        "manaRegen": 5,
+        "flatHp": 100
+      },
+      "materialCost": 100,
+      "upgradeInto": "amethyst_t2_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t1_special",
+      "runeName": "Chipped Amethyst of Special",
+      "runeType": "purple",
+      "runeTier": 1,
+      "runeFamily": "arcane",
+      "variant": "special",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 20,
+        "manaRegen": 5
+      },
+      "materialCost": 100,
+      "upgradeInto": "amethyst_t2_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t2_base",
+      "runeName": "Amethyst",
+      "runeType": "purple",
+      "runeTier": 2,
+      "runeFamily": "arcane",
+      "variant": "base",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 50,
+        "manaRegen": 12
+      },
+      "materialCost": 625,
+      "upgradeInto": "amethyst_t3_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t2_assault",
+      "runeName": "Amethyst of Assault",
+      "runeType": "purple",
+      "runeTier": 2,
+      "runeFamily": "arcane",
+      "variant": "assault",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 75,
+        "manaRegen": 12
+      },
+      "materialCost": 625,
+      "upgradeInto": "amethyst_t3_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t2_guard",
+      "runeName": "Amethyst of Guard",
+      "runeType": "purple",
+      "runeTier": 2,
+      "runeFamily": "arcane",
+      "variant": "guard",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 50,
+        "manaRegen": 12,
+        "flatDef": 25
+      },
+      "materialCost": 625,
+      "upgradeInto": "amethyst_t3_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t2_swift",
+      "runeName": "Amethyst of Swift",
+      "runeType": "purple",
+      "runeTier": 2,
+      "runeFamily": "arcane",
+      "variant": "swift",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 50,
+        "manaRegen": 12,
+        "flatSpd": 7
+      },
+      "materialCost": 625,
+      "upgradeInto": "amethyst_t3_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t2_balanced",
+      "runeName": "Amethyst of Balanced",
+      "runeType": "purple",
+      "runeTier": 2,
+      "runeFamily": "arcane",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 50,
+        "manaRegen": 12,
+        "flatHp": 250
+      },
+      "materialCost": 625,
+      "upgradeInto": "amethyst_t3_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t2_special",
+      "runeName": "Amethyst of Special",
+      "runeType": "purple",
+      "runeTier": 2,
+      "runeFamily": "arcane",
+      "variant": "special",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 50,
+        "manaRegen": 12
+      },
+      "materialCost": 625,
+      "upgradeInto": "amethyst_t3_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t3_base",
+      "runeName": "Flawless Amethyst",
+      "runeType": "purple",
+      "runeTier": 3,
+      "runeFamily": "arcane",
+      "variant": "base",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 100,
+        "manaRegen": 25,
+        "cooldownReduction": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "amethyst_t4_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t3_assault",
+      "runeName": "Flawless Amethyst of Assault",
+      "runeType": "purple",
+      "runeTier": 3,
+      "runeFamily": "arcane",
+      "variant": "assault",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 150,
+        "manaRegen": 25,
+        "cooldownReduction": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "amethyst_t4_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t3_guard",
+      "runeName": "Flawless Amethyst of Guard",
+      "runeType": "purple",
+      "runeTier": 3,
+      "runeFamily": "arcane",
+      "variant": "guard",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 100,
+        "manaRegen": 25,
+        "cooldownReduction": 0.01,
+        "flatDef": 50
+      },
+      "materialCost": 2500,
+      "upgradeInto": "amethyst_t4_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t3_swift",
+      "runeName": "Flawless Amethyst of Swift",
+      "runeType": "purple",
+      "runeTier": 3,
+      "runeFamily": "arcane",
+      "variant": "swift",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 100,
+        "manaRegen": 25,
+        "cooldownReduction": 0.01,
+        "flatSpd": 15
+      },
+      "materialCost": 2500,
+      "upgradeInto": "amethyst_t4_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t3_balanced",
+      "runeName": "Flawless Amethyst of Balanced",
+      "runeType": "purple",
+      "runeTier": 3,
+      "runeFamily": "arcane",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 100,
+        "manaRegen": 25,
+        "cooldownReduction": 0.01,
+        "flatHp": 500
+      },
+      "materialCost": 2500,
+      "upgradeInto": "amethyst_t4_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t3_special",
+      "runeName": "Flawless Amethyst of Special",
+      "runeType": "purple",
+      "runeTier": 3,
+      "runeFamily": "arcane",
+      "variant": "special",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 100,
+        "manaRegen": 25,
+        "cooldownReduction": 0.01
+      },
+      "materialCost": 2500,
+      "upgradeInto": "amethyst_t4_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t4_base",
+      "runeName": "Perfect Amethyst",
+      "runeType": "purple",
+      "runeTier": 4,
+      "runeFamily": "arcane",
+      "variant": "base",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 200,
+        "manaRegen": 50,
+        "cooldownReduction": 0.01,
+        "spellVamp": 0.0
+      },
+      "materialCost": 10000,
+      "upgradeInto": "amethyst_t5_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t4_assault",
+      "runeName": "Perfect Amethyst of Assault",
+      "runeType": "purple",
+      "runeTier": 4,
+      "runeFamily": "arcane",
+      "variant": "assault",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 300,
+        "manaRegen": 50,
+        "cooldownReduction": 0.01,
+        "spellVamp": 0.0
+      },
+      "materialCost": 10000,
+      "upgradeInto": "amethyst_t5_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t4_guard",
+      "runeName": "Perfect Amethyst of Guard",
+      "runeType": "purple",
+      "runeTier": 4,
+      "runeFamily": "arcane",
+      "variant": "guard",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 200,
+        "manaRegen": 50,
+        "cooldownReduction": 0.01,
+        "spellVamp": 0.0,
+        "flatDef": 100
+      },
+      "materialCost": 10000,
+      "upgradeInto": "amethyst_t5_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t4_swift",
+      "runeName": "Perfect Amethyst of Swift",
+      "runeType": "purple",
+      "runeTier": 4,
+      "runeFamily": "arcane",
+      "variant": "swift",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 200,
+        "manaRegen": 50,
+        "cooldownReduction": 0.01,
+        "spellVamp": 0.0,
+        "flatSpd": 30
+      },
+      "materialCost": 10000,
+      "upgradeInto": "amethyst_t5_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t4_balanced",
+      "runeName": "Perfect Amethyst of Balanced",
+      "runeType": "purple",
+      "runeTier": 4,
+      "runeFamily": "arcane",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 200,
+        "manaRegen": 50,
+        "cooldownReduction": 0.01,
+        "spellVamp": 0.0,
+        "flatHp": 1000
+      },
+      "materialCost": 10000,
+      "upgradeInto": "amethyst_t5_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t4_special",
+      "runeName": "Perfect Amethyst of Special",
+      "runeType": "purple",
+      "runeTier": 4,
+      "runeFamily": "arcane",
+      "variant": "special",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 200,
+        "manaRegen": 50,
+        "cooldownReduction": 0.01,
+        "spellVamp": 0.0,
+        "manaCostReduction": 0.6
+      },
+      "materialCost": 10000,
+      "upgradeInto": "amethyst_t5_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "amethyst_t5_base",
+      "runeName": "Radiant Amethyst",
+      "runeType": "purple",
+      "runeTier": 5,
+      "runeFamily": "arcane",
+      "variant": "base",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 400,
+        "manaRegen": 100,
+        "cooldownReduction": 0.02,
+        "spellVamp": 0.01
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "amethyst_t5_assault",
+      "runeName": "Radiant Amethyst of Assault",
+      "runeType": "purple",
+      "runeTier": 5,
+      "runeFamily": "arcane",
+      "variant": "assault",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 600,
+        "manaRegen": 100,
+        "cooldownReduction": 0.02,
+        "spellVamp": 0.01
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "amethyst_t5_guard",
+      "runeName": "Radiant Amethyst of Guard",
+      "runeType": "purple",
+      "runeTier": 5,
+      "runeFamily": "arcane",
+      "variant": "guard",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 400,
+        "manaRegen": 100,
+        "cooldownReduction": 0.02,
+        "spellVamp": 0.01,
+        "flatDef": 200
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "amethyst_t5_swift",
+      "runeName": "Radiant Amethyst of Swift",
+      "runeType": "purple",
+      "runeTier": 5,
+      "runeFamily": "arcane",
+      "variant": "swift",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 400,
+        "manaRegen": 100,
+        "cooldownReduction": 0.02,
+        "spellVamp": 0.01,
+        "flatSpd": 60
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "amethyst_t5_balanced",
+      "runeName": "Radiant Amethyst of Balanced",
+      "runeType": "purple",
+      "runeTier": 5,
+      "runeFamily": "arcane",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 400,
+        "manaRegen": 100,
+        "cooldownReduction": 0.02,
+        "spellVamp": 0.01,
+        "flatHp": 2000
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "amethyst_t5_special",
+      "runeName": "Radiant Amethyst of Special",
+      "runeType": "purple",
+      "runeTier": 5,
+      "runeFamily": "arcane",
+      "variant": "special",
+      "compatibleSockets": [
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatMagicPower": 400,
+        "manaRegen": 100,
+        "cooldownReduction": 0.02,
+        "spellVamp": 0.01,
+        "manaCostReduction": 0.75
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "diamond_t1_base",
+      "runeName": "Chipped Diamond",
+      "runeType": "prismatic",
+      "runeTier": 1,
+      "runeFamily": "omnipotent",
+      "variant": "base",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 8,
+        "flatDef": 8,
+        "flatHp": 80,
+        "flatSpd": 2
+      },
+      "materialCost": 100,
+      "upgradeInto": "diamond_t2_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t1_assault",
+      "runeName": "Chipped Diamond of Assault",
+      "runeType": "prismatic",
+      "runeTier": 1,
+      "runeFamily": "omnipotent",
+      "variant": "assault",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 14,
+        "flatDef": 8,
+        "flatHp": 80,
+        "flatSpd": 2
+      },
+      "materialCost": 100,
+      "upgradeInto": "diamond_t2_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t1_guard",
+      "runeName": "Chipped Diamond of Guard",
+      "runeType": "prismatic",
+      "runeTier": 1,
+      "runeFamily": "omnipotent",
+      "variant": "guard",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 8,
+        "flatDef": 14,
+        "flatHp": 120,
+        "flatSpd": 2
+      },
+      "materialCost": 100,
+      "upgradeInto": "diamond_t2_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t1_swift",
+      "runeName": "Chipped Diamond of Swift",
+      "runeType": "prismatic",
+      "runeTier": 1,
+      "runeFamily": "omnipotent",
+      "variant": "swift",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 8,
+        "flatDef": 8,
+        "flatHp": 80,
+        "flatSpd": 4
+      },
+      "materialCost": 100,
+      "upgradeInto": "diamond_t2_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t1_balanced",
+      "runeName": "Chipped Diamond of Balanced",
+      "runeType": "prismatic",
+      "runeTier": 1,
+      "runeFamily": "omnipotent",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 8,
+        "flatDef": 8,
+        "flatHp": 80,
+        "flatSpd": 2
+      },
+      "materialCost": 100,
+      "upgradeInto": "diamond_t2_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t1_special",
+      "runeName": "Chipped Diamond of Special",
+      "runeType": "prismatic",
+      "runeTier": 1,
+      "runeFamily": "omnipotent",
+      "variant": "special",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 8,
+        "flatDef": 8,
+        "flatHp": 80,
+        "flatSpd": 2
+      },
+      "materialCost": 100,
+      "upgradeInto": "diamond_t2_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t2_base",
+      "runeName": "Diamond",
+      "runeType": "prismatic",
+      "runeTier": 2,
+      "runeFamily": "omnipotent",
+      "variant": "base",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 20,
+        "flatDef": 20,
+        "flatHp": 200,
+        "flatSpd": 5
+      },
+      "materialCost": 625,
+      "upgradeInto": "diamond_t3_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t2_assault",
+      "runeName": "Diamond of Assault",
+      "runeType": "prismatic",
+      "runeTier": 2,
+      "runeFamily": "omnipotent",
+      "variant": "assault",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 36,
+        "flatDef": 20,
+        "flatHp": 200,
+        "flatSpd": 5
+      },
+      "materialCost": 625,
+      "upgradeInto": "diamond_t3_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t2_guard",
+      "runeName": "Diamond of Guard",
+      "runeType": "prismatic",
+      "runeTier": 2,
+      "runeFamily": "omnipotent",
+      "variant": "guard",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 20,
+        "flatDef": 36,
+        "flatHp": 300,
+        "flatSpd": 5
+      },
+      "materialCost": 625,
+      "upgradeInto": "diamond_t3_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t2_swift",
+      "runeName": "Diamond of Swift",
+      "runeType": "prismatic",
+      "runeTier": 2,
+      "runeFamily": "omnipotent",
+      "variant": "swift",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 20,
+        "flatDef": 20,
+        "flatHp": 200,
+        "flatSpd": 10
+      },
+      "materialCost": 625,
+      "upgradeInto": "diamond_t3_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t2_balanced",
+      "runeName": "Diamond of Balanced",
+      "runeType": "prismatic",
+      "runeTier": 2,
+      "runeFamily": "omnipotent",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 20,
+        "flatDef": 20,
+        "flatHp": 200,
+        "flatSpd": 5
+      },
+      "materialCost": 625,
+      "upgradeInto": "diamond_t3_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t2_special",
+      "runeName": "Diamond of Special",
+      "runeType": "prismatic",
+      "runeTier": 2,
+      "runeFamily": "omnipotent",
+      "variant": "special",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 20,
+        "flatDef": 20,
+        "flatHp": 200,
+        "flatSpd": 5
+      },
+      "materialCost": 625,
+      "upgradeInto": "diamond_t3_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t3_base",
+      "runeName": "Flawless Diamond",
+      "runeType": "prismatic",
+      "runeTier": 3,
+      "runeFamily": "omnipotent",
+      "variant": "base",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 40,
+        "flatDef": 40,
+        "flatHp": 400,
+        "flatSpd": 10,
+        "percentAllStats": 0.0
+      },
+      "materialCost": 2500,
+      "upgradeInto": "diamond_t4_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t3_assault",
+      "runeName": "Flawless Diamond of Assault",
+      "runeType": "prismatic",
+      "runeTier": 3,
+      "runeFamily": "omnipotent",
+      "variant": "assault",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 72,
+        "flatDef": 40,
+        "flatHp": 400,
+        "flatSpd": 10,
+        "percentAllStats": 0.0
+      },
+      "materialCost": 2500,
+      "upgradeInto": "diamond_t4_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t3_guard",
+      "runeName": "Flawless Diamond of Guard",
+      "runeType": "prismatic",
+      "runeTier": 3,
+      "runeFamily": "omnipotent",
+      "variant": "guard",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 40,
+        "flatDef": 72,
+        "flatHp": 600,
+        "flatSpd": 10,
+        "percentAllStats": 0.0
+      },
+      "materialCost": 2500,
+      "upgradeInto": "diamond_t4_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t3_swift",
+      "runeName": "Flawless Diamond of Swift",
+      "runeType": "prismatic",
+      "runeTier": 3,
+      "runeFamily": "omnipotent",
+      "variant": "swift",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 40,
+        "flatDef": 40,
+        "flatHp": 400,
+        "flatSpd": 20,
+        "percentAllStats": 0.0
+      },
+      "materialCost": 2500,
+      "upgradeInto": "diamond_t4_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t3_balanced",
+      "runeName": "Flawless Diamond of Balanced",
+      "runeType": "prismatic",
+      "runeTier": 3,
+      "runeFamily": "omnipotent",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 40,
+        "flatDef": 40,
+        "flatHp": 400,
+        "flatSpd": 10,
+        "percentAllStats": 0.0
+      },
+      "materialCost": 2500,
+      "upgradeInto": "diamond_t4_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t3_special",
+      "runeName": "Flawless Diamond of Special",
+      "runeType": "prismatic",
+      "runeTier": 3,
+      "runeFamily": "omnipotent",
+      "variant": "special",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 40,
+        "flatDef": 40,
+        "flatHp": 400,
+        "flatSpd": 10,
+        "percentAllStats": 0.0
+      },
+      "materialCost": 2500,
+      "upgradeInto": "diamond_t4_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t4_base",
+      "runeName": "Perfect Diamond",
+      "runeType": "prismatic",
+      "runeTier": 4,
+      "runeFamily": "omnipotent",
+      "variant": "base",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 80,
+        "flatDef": 80,
+        "flatHp": 800,
+        "flatSpd": 20,
+        "percentAllStats": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "diamond_t5_base",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t4_assault",
+      "runeName": "Perfect Diamond of Assault",
+      "runeType": "prismatic",
+      "runeTier": 4,
+      "runeFamily": "omnipotent",
+      "variant": "assault",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 144,
+        "flatDef": 80,
+        "flatHp": 800,
+        "flatSpd": 20,
+        "percentAllStats": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "diamond_t5_assault",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t4_guard",
+      "runeName": "Perfect Diamond of Guard",
+      "runeType": "prismatic",
+      "runeTier": 4,
+      "runeFamily": "omnipotent",
+      "variant": "guard",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 80,
+        "flatDef": 144,
+        "flatHp": 1200,
+        "flatSpd": 20,
+        "percentAllStats": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "diamond_t5_guard",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t4_swift",
+      "runeName": "Perfect Diamond of Swift",
+      "runeType": "prismatic",
+      "runeTier": 4,
+      "runeFamily": "omnipotent",
+      "variant": "swift",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 80,
+        "flatDef": 80,
+        "flatHp": 800,
+        "flatSpd": 40,
+        "percentAllStats": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "diamond_t5_swift",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t4_balanced",
+      "runeName": "Perfect Diamond of Balanced",
+      "runeType": "prismatic",
+      "runeTier": 4,
+      "runeFamily": "omnipotent",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 80,
+        "flatDef": 80,
+        "flatHp": 800,
+        "flatSpd": 20,
+        "percentAllStats": 0.01
+      },
+      "materialCost": 10000,
+      "upgradeInto": "diamond_t5_balanced",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t4_special",
+      "runeName": "Perfect Diamond of Special",
+      "runeType": "prismatic",
+      "runeTier": 4,
+      "runeFamily": "omnipotent",
+      "variant": "special",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 80,
+        "flatDef": 80,
+        "flatHp": 800,
+        "flatSpd": 20,
+        "percentAllStats": 0.01,
+        "allResist": 0.4
+      },
+      "materialCost": 10000,
+      "upgradeInto": "diamond_t5_special",
+      "upgradeCount": 3
+    },
+    {
+      "runeId": "diamond_t5_base",
+      "runeName": "Radiant Diamond",
+      "runeType": "prismatic",
+      "runeTier": 5,
+      "runeFamily": "omnipotent",
+      "variant": "base",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 160,
+        "flatDef": 160,
+        "flatHp": 1600,
+        "flatSpd": 40,
+        "percentAllStats": 0.01
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "diamond_t5_assault",
+      "runeName": "Radiant Diamond of Assault",
+      "runeType": "prismatic",
+      "runeTier": 5,
+      "runeFamily": "omnipotent",
+      "variant": "assault",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 288,
+        "flatDef": 160,
+        "flatHp": 1600,
+        "flatSpd": 40,
+        "percentAllStats": 0.01
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "diamond_t5_guard",
+      "runeName": "Radiant Diamond of Guard",
+      "runeType": "prismatic",
+      "runeTier": 5,
+      "runeFamily": "omnipotent",
+      "variant": "guard",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 160,
+        "flatDef": 288,
+        "flatHp": 2400,
+        "flatSpd": 40,
+        "percentAllStats": 0.01
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "diamond_t5_swift",
+      "runeName": "Radiant Diamond of Swift",
+      "runeType": "prismatic",
+      "runeTier": 5,
+      "runeFamily": "omnipotent",
+      "variant": "swift",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 160,
+        "flatDef": 160,
+        "flatHp": 1600,
+        "flatSpd": 80,
+        "percentAllStats": 0.01
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "diamond_t5_balanced",
+      "runeName": "Radiant Diamond of Balanced",
+      "runeType": "prismatic",
+      "runeTier": 5,
+      "runeFamily": "omnipotent",
+      "variant": "balanced",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 160,
+        "flatDef": 160,
+        "flatHp": 1600,
+        "flatSpd": 40,
+        "percentAllStats": 0.01
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    },
+    {
+      "runeId": "diamond_t5_special",
+      "runeName": "Radiant Diamond of Special",
+      "runeType": "prismatic",
+      "runeTier": 5,
+      "runeFamily": "omnipotent",
+      "variant": "special",
+      "compatibleSockets": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "purple",
+        "prismatic"
+      ],
+      "stats": {
+        "flatAtk": 160,
+        "flatDef": 160,
+        "flatHp": 1600,
+        "flatSpd": 40,
+        "percentAllStats": 0.01,
+        "allResist": 0.5
+      },
+      "materialCost": 40000,
+      "upgradeInto": "",
+      "upgradeCount": 0
+    }
+  ],
+  "legendaryRunes": [
+    {
+      "runeId": "legendary_phoenix_heart",
+      "runeName": "Phoenix Heart",
+      "legendaryEffect": "Revive once per battle with 50% HP",
+      "loreText": "The crystallized heart of an immortal phoenix",
+      "stats": {
+        "flatHp": 2000,
+        "percentHp": 0.3,
+        "lifeSteal": 0.15
+      },
+      "requiredLevel": 50
+    },
+    {
+      "runeId": "legendary_timekeeper",
+      "runeName": "Timekeeper's Essence",
+      "legendaryEffect": "All skills have no cooldown",
+      "loreText": "A fragment of time itself",
+      "stats": {
+        "flatAtk": 200,
+        "cooldownReduction": 1.0,
+        "percentSpd": 0.5
+      },
+      "requiredLevel": 70
+    },
+    {
+      "runeId": "legendary_storm_core",
+      "runeName": "Storm Core",
+      "legendaryEffect": "Lightning storm every 3 turns",
+      "loreText": "Concentrated fury of a thousand storms",
+      "stats": {
+        "elementalDamage": 0.5,
+        "lightningDamage": 0.8,
+        "critChance": 0.2
+      },
+      "requiredLevel": 60
+    },
+    {
+      "runeId": "legendary_void_shard",
+      "runeName": "Void Shard",
+      "legendaryEffect": "Ignore 50% of enemy defense",
+      "loreText": "Fragment from the abyss beyond reality",
+      "stats": {
+        "flatAtk": 300,
+        "armorPenetration": 0.5,
+        "percentAtk": 0.25
+      },
+      "requiredLevel": 65
+    },
+    {
+      "runeId": "legendary_immortal_soul",
+      "runeName": "Immortal Soul",
+      "legendaryEffect": "Cannot drop below 1 HP for 5 seconds",
+      "loreText": "Soul of an unkillable warrior",
+      "stats": {
+        "flatHp": 3000,
+        "percentHp": 0.4,
+        "damageReduction": 0.2
+      },
+      "requiredLevel": 75
+    },
+    {
+      "runeId": "legendary_infinity_edge",
+      "runeName": "Infinity Edge",
+      "legendaryEffect": "Critical hits deal 300% damage instead of 200%",
+      "loreText": "Blade that cuts through probability itself",
+      "stats": {
+        "flatAtk": 250,
+        "critChance": 0.3,
+        "critDamage": 1.0
+      },
+      "requiredLevel": 68
+    },
+    {
+      "runeId": "legendary_dragons_wrath",
+      "runeName": "Dragon's Wrath",
+      "legendaryEffect": "All damage becomes fire damage and ignores resistance",
+      "loreText": "Essence of the first dragon",
+      "stats": {
+        "flatAtk": 280,
+        "elementalDamage": 0.8,
+        "fireDamage": 1.2
+      },
+      "requiredLevel": 72
+    },
+    {
+      "runeId": "legendary_chaos_orb",
+      "runeName": "Chaos Orb",
+      "legendaryEffect": "Random effect each turn (buff or debuff)",
+      "loreText": "Crystallized chaos energy",
+      "stats": {
+        "percentAllStats": 0.2,
+        "luck": 0.5
+      },
+      "requiredLevel": 55
+    },
+    {
+      "runeId": "legendary_eternity_clock",
+      "runeName": "Eternity Clock",
+      "legendaryEffect": "Gain extra turn when killing an enemy",
+      "loreText": "Clock that measures infinite time",
+      "stats": {
+        "flatSpd": 100,
+        "percentSpd": 0.6,
+        "cooldownReduction": 0.5
+      },
+      "requiredLevel": 80
+    },
+    {
+      "runeId": "legendary_demon_core",
+      "runeName": "Demon Core",
+      "legendaryEffect": "Deal 2% of enemy max HP as bonus damage",
+      "loreText": "Heart of an archdem",
+      "stats": {
+        "flatAtk": 220,
+        "percentAtk": 0.3,
+        "lifeSteal": 0.25
+      },
+      "requiredLevel": 70
+    }
+  ],
+  "upgradeRecipes": [
+    {
+      "baseRuneId": "ruby_t1_base",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t2_base",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "ruby_t1_assault",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t2_assault",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "ruby_t1_guard",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t2_guard",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "ruby_t1_swift",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t2_swift",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "ruby_t1_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t2_balanced",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "ruby_t1_special",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t2_special",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "sapphire_t1_base",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t2_base",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "sapphire_t1_assault",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t2_assault",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "sapphire_t1_guard",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t2_guard",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "sapphire_t1_swift",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t2_swift",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "sapphire_t1_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t2_balanced",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "sapphire_t1_special",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t2_special",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "emerald_t1_base",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t2_base",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "emerald_t1_assault",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t2_assault",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "emerald_t1_guard",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t2_guard",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "emerald_t1_swift",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t2_swift",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "emerald_t1_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t2_balanced",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "emerald_t1_special",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t2_special",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "topaz_t1_base",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t2_base",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "topaz_t1_assault",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t2_assault",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "topaz_t1_guard",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t2_guard",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "topaz_t1_swift",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t2_swift",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "topaz_t1_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t2_balanced",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "topaz_t1_special",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t2_special",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "amethyst_t1_base",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t2_base",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "amethyst_t1_assault",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t2_assault",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "amethyst_t1_guard",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t2_guard",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "amethyst_t1_swift",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t2_swift",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "amethyst_t1_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t2_balanced",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "amethyst_t1_special",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t2_special",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "diamond_t1_base",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t2_base",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "diamond_t1_assault",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t2_assault",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "diamond_t1_guard",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t2_guard",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "diamond_t1_swift",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t2_swift",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "diamond_t1_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t2_balanced",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "diamond_t1_special",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t2_special",
+      "goldCost": 1000,
+      "successChance": 0.8
+    },
+    {
+      "baseRuneId": "ruby_t2_base",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t3_base",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "ruby_t2_assault",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t3_assault",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "ruby_t2_guard",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t3_guard",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "ruby_t2_swift",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t3_swift",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "ruby_t2_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t3_balanced",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "ruby_t2_special",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t3_special",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "sapphire_t2_base",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t3_base",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "sapphire_t2_assault",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t3_assault",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "sapphire_t2_guard",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t3_guard",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "sapphire_t2_swift",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t3_swift",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "sapphire_t2_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t3_balanced",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "sapphire_t2_special",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t3_special",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "emerald_t2_base",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t3_base",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "emerald_t2_assault",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t3_assault",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "emerald_t2_guard",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t3_guard",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "emerald_t2_swift",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t3_swift",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "emerald_t2_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t3_balanced",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "emerald_t2_special",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t3_special",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "topaz_t2_base",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t3_base",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "topaz_t2_assault",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t3_assault",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "topaz_t2_guard",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t3_guard",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "topaz_t2_swift",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t3_swift",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "topaz_t2_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t3_balanced",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "topaz_t2_special",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t3_special",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "amethyst_t2_base",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t3_base",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "amethyst_t2_assault",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t3_assault",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "amethyst_t2_guard",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t3_guard",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "amethyst_t2_swift",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t3_swift",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "amethyst_t2_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t3_balanced",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "amethyst_t2_special",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t3_special",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "diamond_t2_base",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t3_base",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "diamond_t2_assault",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t3_assault",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "diamond_t2_guard",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t3_guard",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "diamond_t2_swift",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t3_swift",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "diamond_t2_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t3_balanced",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "diamond_t2_special",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t3_special",
+      "goldCost": 3000,
+      "successChance": 0.7
+    },
+    {
+      "baseRuneId": "ruby_t3_base",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t4_base",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "ruby_t3_assault",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t4_assault",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "ruby_t3_guard",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t4_guard",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "ruby_t3_swift",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t4_swift",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "ruby_t3_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t4_balanced",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "ruby_t3_special",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t4_special",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "sapphire_t3_base",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t4_base",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "sapphire_t3_assault",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t4_assault",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "sapphire_t3_guard",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t4_guard",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "sapphire_t3_swift",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t4_swift",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "sapphire_t3_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t4_balanced",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "sapphire_t3_special",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t4_special",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "emerald_t3_base",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t4_base",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "emerald_t3_assault",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t4_assault",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "emerald_t3_guard",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t4_guard",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "emerald_t3_swift",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t4_swift",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "emerald_t3_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t4_balanced",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "emerald_t3_special",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t4_special",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "topaz_t3_base",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t4_base",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "topaz_t3_assault",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t4_assault",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "topaz_t3_guard",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t4_guard",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "topaz_t3_swift",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t4_swift",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "topaz_t3_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t4_balanced",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "topaz_t3_special",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t4_special",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "amethyst_t3_base",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t4_base",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "amethyst_t3_assault",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t4_assault",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "amethyst_t3_guard",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t4_guard",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "amethyst_t3_swift",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t4_swift",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "amethyst_t3_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t4_balanced",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "amethyst_t3_special",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t4_special",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "diamond_t3_base",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t4_base",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "diamond_t3_assault",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t4_assault",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "diamond_t3_guard",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t4_guard",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "diamond_t3_swift",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t4_swift",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "diamond_t3_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t4_balanced",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "diamond_t3_special",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t4_special",
+      "goldCost": 10000,
+      "successChance": 0.6
+    },
+    {
+      "baseRuneId": "ruby_t4_base",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t5_base",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "ruby_t4_assault",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t5_assault",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "ruby_t4_guard",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t5_guard",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "ruby_t4_swift",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t5_swift",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "ruby_t4_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t5_balanced",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "ruby_t4_special",
+      "requiredCount": 3,
+      "resultRuneId": "ruby_t5_special",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "sapphire_t4_base",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t5_base",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "sapphire_t4_assault",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t5_assault",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "sapphire_t4_guard",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t5_guard",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "sapphire_t4_swift",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t5_swift",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "sapphire_t4_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t5_balanced",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "sapphire_t4_special",
+      "requiredCount": 3,
+      "resultRuneId": "sapphire_t5_special",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "emerald_t4_base",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t5_base",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "emerald_t4_assault",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t5_assault",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "emerald_t4_guard",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t5_guard",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "emerald_t4_swift",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t5_swift",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "emerald_t4_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t5_balanced",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "emerald_t4_special",
+      "requiredCount": 3,
+      "resultRuneId": "emerald_t5_special",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "topaz_t4_base",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t5_base",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "topaz_t4_assault",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t5_assault",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "topaz_t4_guard",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t5_guard",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "topaz_t4_swift",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t5_swift",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "topaz_t4_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t5_balanced",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "topaz_t4_special",
+      "requiredCount": 3,
+      "resultRuneId": "topaz_t5_special",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "amethyst_t4_base",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t5_base",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "amethyst_t4_assault",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t5_assault",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "amethyst_t4_guard",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t5_guard",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "amethyst_t4_swift",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t5_swift",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "amethyst_t4_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t5_balanced",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "amethyst_t4_special",
+      "requiredCount": 3,
+      "resultRuneId": "amethyst_t5_special",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "diamond_t4_base",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t5_base",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "diamond_t4_assault",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t5_assault",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "diamond_t4_guard",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t5_guard",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "diamond_t4_swift",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t5_swift",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "diamond_t4_balanced",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t5_balanced",
+      "goldCost": 50000,
+      "successChance": 0.4
+    },
+    {
+      "baseRuneId": "diamond_t4_special",
+      "requiredCount": 3,
+      "resultRuneId": "diamond_t5_special",
+      "goldCost": 50000,
+      "successChance": 0.4
+    }
+  ],
+  "totalRunes": 180,
+  "totalLegendary": 10,
+  "totalUpgradeRecipes": 144
+}
