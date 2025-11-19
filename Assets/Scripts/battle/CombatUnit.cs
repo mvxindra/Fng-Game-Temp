@@ -154,4 +154,12 @@ public class CombatUnit : MonoBehaviour
     {
         cachedWeaponPassives = null;
     }
+
+    // Helper methods for compatibility
+    public string GetHeroId() => heroId;
+    public int GetAttack() => GetCurrentATK();
+    public int GetDefense() => GetCurrentDEF();
+    public int GetMaxHP() => BaseHP;
+    public int GetCurrentHP() => CurrentHP;
+    public int GetLevel() => 1; // TODO: Add level tracking
 }
