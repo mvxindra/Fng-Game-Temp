@@ -1,0 +1,206 @@
+{
+  "raidBosses": [
+    {
+      "bossId": "raid_ancient_dragon",
+      "bossName": "Ancient Dragon",
+      "bossLevel": 50,
+      "bossHP": 10000000,
+      "bossAtk": 5000,
+      "bossDef": 2000,
+      "difficulty": "hard",
+      "duration": 24,
+      "requirements": {
+        "minGuildLevel": 3,
+        "minPlayerLevel": 30,
+        "energyCost": 20
+      },
+      "phases": [
+        {
+          "phaseNumber": 1,
+          "hpThreshold": 1.0,
+          "gainedAbilities": ["fire_breath"],
+          "summonedMinions": [],
+          "mechanicType": "normal",
+          "mechanicDescription": "Standard combat phase"
+        },
+        {
+          "phaseNumber": 2,
+          "hpThreshold": 0.66,
+          "gainedAbilities": ["tail_swipe", "wing_buffet"],
+          "summonedMinions": ["drake_minion"],
+          "mechanicType": "summon",
+          "mechanicDescription": "Summons drake minions"
+        },
+        {
+          "phaseNumber": 3,
+          "hpThreshold": 0.33,
+          "gainedAbilities": ["meteor_storm"],
+          "summonedMinions": [],
+          "mechanicType": "enrage",
+          "mechanicDescription": "Dragon enters enraged state, dealing increased damage"
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "guild_coins", "quantity": 500},
+        {"rewardType": "material", "rewardId": "dragon_scale", "quantity": 10},
+        {"rewardType": "gear", "rewardId": "legendary_weapon_random", "quantity": 1}
+      ],
+      "guildExpReward": 1000,
+      "guildGoldReward": 50000
+    },
+    {
+      "bossId": "raid_demon_lord",
+      "bossName": "Demon Lord Azmodan",
+      "bossLevel": 60,
+      "bossHP": 25000000,
+      "bossAtk": 8000,
+      "bossDef": 3000,
+      "difficulty": "extreme",
+      "duration": 48,
+      "requirements": {
+        "minGuildLevel": 5,
+        "minPlayerLevel": 40,
+        "energyCost": 30
+      },
+      "phases": [
+        {
+          "phaseNumber": 1,
+          "hpThreshold": 1.0,
+          "gainedAbilities": ["shadow_bolt"],
+          "summonedMinions": [],
+          "mechanicType": "normal",
+          "mechanicDescription": "Standard combat phase"
+        },
+        {
+          "phaseNumber": 2,
+          "hpThreshold": 0.75,
+          "gainedAbilities": ["hellfire"],
+          "summonedMinions": ["demon_warrior", "demon_warrior"],
+          "mechanicType": "summon",
+          "mechanicDescription": "Summons demon warriors"
+        },
+        {
+          "phaseNumber": 3,
+          "hpThreshold": 0.50,
+          "gainedAbilities": ["dark_shield"],
+          "summonedMinions": [],
+          "mechanicType": "shield",
+          "mechanicDescription": "Gains damage reduction shield"
+        },
+        {
+          "phaseNumber": 4,
+          "hpThreshold": 0.25,
+          "gainedAbilities": ["apocalypse"],
+          "summonedMinions": ["demon_general"],
+          "mechanicType": "enrage",
+          "mechanicDescription": "Ultimate enrage - massive damage increase"
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "guild_coins", "quantity": 1000},
+        {"rewardType": "material", "rewardId": "demon_horn", "quantity": 15},
+        {"rewardType": "gear", "rewardId": "mythic_weapon_random", "quantity": 1},
+        {"rewardType": "hero", "rewardId": "hero_shard_ssr", "quantity": 50}
+      ],
+      "guildExpReward": 2500,
+      "guildGoldReward": 100000
+    }
+  ],
+  "coopDungeons": [
+    {
+      "dungeonId": "coop_elite_trials",
+      "dungeonName": "Elite Trials",
+      "description": "Face waves of elite enemies with a partner",
+      "difficulty": "hard",
+      "maxPlayers": 2,
+      "waves": 10,
+      "energyCost": 15,
+      "waveConfigs": [
+        {
+          "waveNumber": 1,
+          "enemies": ["elite_warrior", "elite_mage"],
+          "bossId": "",
+          "difficultyMultiplier": 1.0
+        },
+        {
+          "waveNumber": 5,
+          "enemies": ["elite_warrior", "elite_mage", "elite_archer"],
+          "bossId": "mini_boss_golem",
+          "difficultyMultiplier": 1.5
+        },
+        {
+          "waveNumber": 10,
+          "enemies": [],
+          "bossId": "final_boss_hydra",
+          "difficultyMultiplier": 2.0
+        }
+      ],
+      "rewards": [
+        {"rewardType": "currency", "rewardId": "gold", "minAmount": 5000, "maxAmount": 10000},
+        {"rewardType": "material", "rewardId": "essence_crystal", "minAmount": 5, "maxAmount": 15},
+        {"rewardType": "gear", "rewardId": "epic_gear_random", "minAmount": 1, "maxAmount": 2}
+      ]
+    }
+  ],
+  "guildShopItems": [
+    {
+      "itemId": "guild_shop_skillbook",
+      "itemName": "Skill Book (Random)",
+      "itemType": "skill_book",
+      "cost": 500,
+      "stock": 5,
+      "refreshType": "weekly"
+    },
+    {
+      "itemId": "guild_shop_hero_shard",
+      "itemName": "Hero Shard (SSR)",
+      "itemType": "hero_shard",
+      "cost": 1000,
+      "stock": 3,
+      "refreshType": "weekly"
+    },
+    {
+      "itemId": "guild_shop_legendary_gear",
+      "itemName": "Legendary Gear Box",
+      "itemType": "gear_box",
+      "cost": 2000,
+      "stock": 1,
+      "refreshType": "monthly"
+    }
+  ],
+  "guildBuffs": [
+    {
+      "buffId": "guild_buff_atk",
+      "buffName": "Guild Attack Boost",
+      "description": "Increases all members' attack by 10%",
+      "buffType": "combat",
+      "statAffected": "atk",
+      "bonusValue": 0.10,
+      "duration": 86400,
+      "cost": 10000,
+      "requiredGuildLevel": 2
+    },
+    {
+      "buffId": "guild_buff_exp",
+      "buffName": "Guild EXP Boost",
+      "description": "Increases EXP gained by 25%",
+      "buffType": "progression",
+      "statAffected": "exp_gain",
+      "bonusValue": 0.25,
+      "duration": 86400,
+      "cost": 15000,
+      "requiredGuildLevel": 3
+    },
+    {
+      "buffId": "guild_buff_gold",
+      "buffName": "Guild Gold Boost",
+      "description": "Increases gold earned by 30%",
+      "buffType": "economy",
+      "statAffected": "gold_gain",
+      "bonusValue": 0.30,
+      "duration": 86400,
+      "cost": 20000,
+      "requiredGuildLevel": 4
+    }
+  ]
+}

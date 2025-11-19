@@ -1,0 +1,158 @@
+{
+  "rankTiers": [
+    {
+      "rankId": "bronze_1",
+      "rankName": "Bronze I",
+      "minRating": 0,
+      "maxRating": 1099,
+      "rewardMultiplier": 1.0,
+      "seasonRewards": [
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 100},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 50}
+      ]
+    },
+    {
+      "rankId": "silver_1",
+      "rankName": "Silver I",
+      "minRating": 1100,
+      "maxRating": 1399,
+      "rewardMultiplier": 1.2,
+      "seasonRewards": [
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 200},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 100}
+      ]
+    },
+    {
+      "rankId": "gold_1",
+      "rankName": "Gold I",
+      "minRating": 1400,
+      "maxRating": 1699,
+      "rewardMultiplier": 1.5,
+      "seasonRewards": [
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 300},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 200},
+        {"rewardType": "gear", "rewardId": "epic_gear_random", "quantity": 1}
+      ]
+    },
+    {
+      "rankId": "platinum_1",
+      "rankName": "Platinum I",
+      "minRating": 1700,
+      "maxRating": 1999,
+      "rewardMultiplier": 2.0,
+      "seasonRewards": [
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 500},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 300},
+        {"rewardType": "gear", "rewardId": "legendary_gear_random", "quantity": 1}
+      ]
+    },
+    {
+      "rankId": "diamond_1",
+      "rankName": "Diamond I",
+      "minRating": 2000,
+      "maxRating": 2499,
+      "rewardMultiplier": 2.5,
+      "seasonRewards": [
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 800},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 500},
+        {"rewardType": "gear", "rewardId": "legendary_gear_random", "quantity": 2},
+        {"rewardType": "hero", "rewardId": "hero_shard_ssr", "quantity": 30}
+      ]
+    },
+    {
+      "rankId": "master",
+      "rankName": "Master",
+      "minRating": 2500,
+      "maxRating": 2999,
+      "rewardMultiplier": 3.0,
+      "seasonRewards": [
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 1200},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 800},
+        {"rewardType": "gear", "rewardId": "unique_gear_random", "quantity": 1},
+        {"rewardType": "hero", "rewardId": "hero_shard_ssr", "quantity": 50}
+      ]
+    },
+    {
+      "rankId": "challenger",
+      "rankName": "Challenger",
+      "minRating": 3000,
+      "maxRating": 9999,
+      "rewardMultiplier": 5.0,
+      "seasonRewards": [
+        {"rewardType": "currency", "rewardId": "arena_tokens", "quantity": 2000},
+        {"rewardType": "currency", "rewardId": "gems", "quantity": 1500},
+        {"rewardType": "gear", "rewardId": "mythic_gear_random", "quantity": 1},
+        {"rewardType": "hero", "rewardId": "hero_shard_ssr", "quantity": 100},
+        {"rewardType": "special", "rewardId": "challenger_frame", "quantity": 1}
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "seasonId": "season_1",
+      "seasonName": "Season 1: Rise of Heroes",
+      "startDate": "2025-01-01T00:00:00",
+      "endDate": "2025-03-31T23:59:59",
+      "bannedHeroes": ["hero_overpowered_mage"],
+      "seasonRewards": [
+        {
+          "minRank": 1,
+          "maxRank": 1,
+          "rewards": [
+            {"rewardType": "currency", "rewardId": "gems", "quantity": 5000},
+            {"rewardType": "gear", "rewardId": "mythic_weapon_champions_blade", "quantity": 1},
+            {"rewardType": "special", "rewardId": "rank_1_title", "quantity": 1}
+          ]
+        },
+        {
+          "minRank": 2,
+          "maxRank": 10,
+          "rewards": [
+            {"rewardType": "currency", "rewardId": "gems", "quantity": 3000},
+            {"rewardType": "gear", "rewardId": "unique_gear_random", "quantity": 2}
+          ]
+        },
+        {
+          "minRank": 11,
+          "maxRank": 100,
+          "rewards": [
+            {"rewardType": "currency", "rewardId": "gems", "quantity": 1000},
+            {"rewardType": "gear", "rewardId": "legendary_gear_random", "quantity": 2}
+          ]
+        }
+      ]
+    }
+  ],
+  "shopItems": [
+    {
+      "itemId": "arena_hero_shard",
+      "itemName": "Arena Hero Shard",
+      "itemType": "hero_shard",
+      "price": 50,
+      "currencyType": "arena_tokens",
+      "stock": -1,
+      "refreshType": "permanent",
+      "unlockCondition": ""
+    },
+    {
+      "itemId": "arena_legendary_gear",
+      "itemName": "Legendary Gear Box",
+      "itemType": "gear_box",
+      "price": 500,
+      "currencyType": "arena_tokens",
+      "stock": 5,
+      "refreshType": "weekly",
+      "unlockCondition": "gold_1"
+    },
+    {
+      "itemId": "arena_skill_tome",
+      "itemName": "Skill Tome (Epic)",
+      "itemType": "skill_tome",
+      "price": 300,
+      "currencyType": "arena_tokens",
+      "stock": 3,
+      "refreshType": "weekly",
+      "unlockCondition": "silver_1"
+    }
+  ]
+}

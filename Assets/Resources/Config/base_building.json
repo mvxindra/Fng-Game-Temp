@@ -1,0 +1,278 @@
+{
+  "buildingTypes": [
+    {
+      "buildingId": "hq",
+      "buildingName": "Headquarters",
+      "buildingType": "core",
+      "description": "The heart of your base",
+      "maxLevel": 20,
+      "maxCount": 1,
+      "requiredBaseLevel": 1,
+      "buildCost": [],
+      "buildTime": 0,
+      "gridSize": {"width": 3, "height": 3},
+      "upgrades": [
+        {
+          "level": 2,
+          "upgradeCost": [
+            {"resourceType": "gold", "amount": 5000},
+            {"resourceType": "stone", "amount": 100}
+          ],
+          "upgradeTime": 300,
+          "productionBonus": 0,
+          "storageBonus": 0,
+          "unlocks": ["training_hall"]
+        },
+        {
+          "level": 5,
+          "upgradeCost": [
+            {"resourceType": "gold", "amount": 25000},
+            {"resourceType": "stone", "amount": 500},
+            {"resourceType": "iron", "amount": 200}
+          ],
+          "upgradeTime": 1800,
+          "productionBonus": 0,
+          "storageBonus": 0,
+          "unlocks": ["forge", "alchemy_lab"]
+        }
+      ],
+      "production": null
+    },
+    {
+      "buildingId": "training_hall",
+      "buildingName": "Training Hall",
+      "buildingType": "progression",
+      "description": "Train heroes to level up faster",
+      "maxLevel": 10,
+      "maxCount": 1,
+      "requiredBaseLevel": 2,
+      "buildCost": [
+        {"resourceType": "gold", "amount": 10000},
+        {"resourceType": "wood", "amount": 200},
+        {"resourceType": "stone", "amount": 100}
+      ],
+      "buildTime": 600,
+      "gridSize": {"width": 2, "height": 2},
+      "upgrades": [
+        {
+          "level": 2,
+          "upgradeCost": [
+            {"resourceType": "gold", "amount": 15000},
+            {"resourceType": "wood", "amount": 300}
+          ],
+          "upgradeTime": 1200,
+          "productionBonus": 0.10,
+          "storageBonus": 0,
+          "unlocks": []
+        },
+        {
+          "level": 5,
+          "upgradeCost": [
+            {"resourceType": "gold", "amount": 50000},
+            {"resourceType": "wood", "amount": 800},
+            {"resourceType": "iron", "amount": 200}
+          ],
+          "upgradeTime": 3600,
+          "productionBonus": 0.25,
+          "storageBonus": 0,
+          "unlocks": []
+        }
+      ],
+      "production": null
+    },
+    {
+      "buildingId": "mine",
+      "buildingName": "Gold Mine",
+      "buildingType": "production",
+      "description": "Produces gold over time",
+      "maxLevel": 10,
+      "maxCount": 3,
+      "requiredBaseLevel": 1,
+      "buildCost": [
+        {"resourceType": "gold", "amount": 5000},
+        {"resourceType": "wood", "amount": 100},
+        {"resourceType": "stone", "amount": 50}
+      ],
+      "buildTime": 300,
+      "gridSize": {"width": 2, "height": 2},
+      "upgrades": [
+        {
+          "level": 2,
+          "upgradeCost": [
+            {"resourceType": "gold", "amount": 8000},
+            {"resourceType": "stone", "amount": 100}
+          ],
+          "upgradeTime": 600,
+          "productionBonus": 1.2,
+          "storageBonus": 1.2,
+          "unlocks": []
+        },
+        {
+          "level": 5,
+          "upgradeCost": [
+            {"resourceType": "gold", "amount": 30000},
+            {"resourceType": "stone", "amount": 400},
+            {"resourceType": "iron", "amount": 100}
+          ],
+          "upgradeTime": 1800,
+          "productionBonus": 1.5,
+          "storageBonus": 1.5,
+          "unlocks": []
+        }
+      ],
+      "production": {
+        "resourceType": "gold",
+        "baseProduction": 100,
+        "productionInterval": 3600,
+        "storageCapacity": 2400
+      }
+    },
+    {
+      "buildingId": "alchemy_lab",
+      "buildingName": "Alchemy Laboratory",
+      "buildingType": "crafting",
+      "description": "Craft potions and consumables",
+      "maxLevel": 10,
+      "maxCount": 1,
+      "requiredBaseLevel": 5,
+      "buildCost": [
+        {"resourceType": "gold", "amount": 20000},
+        {"resourceType": "wood", "amount": 300},
+        {"resourceType": "stone", "amount": 200}
+      ],
+      "buildTime": 1200,
+      "gridSize": {"width": 2, "height": 2},
+      "upgrades": [
+        {
+          "level": 2,
+          "upgradeCost": [
+            {"resourceType": "gold", "amount": 30000},
+            {"resourceType": "essence_crystal", "amount": 10}
+          ],
+          "upgradeTime": 1800,
+          "productionBonus": 1.1,
+          "storageBonus": 0,
+          "unlocks": ["potion_rare"]
+        }
+      ],
+      "production": null
+    },
+    {
+      "buildingId": "forge",
+      "buildingName": "Forge",
+      "buildingType": "crafting",
+      "description": "Craft and enhance gear",
+      "maxLevel": 10,
+      "maxCount": 1,
+      "requiredBaseLevel": 5,
+      "buildCost": [
+        {"resourceType": "gold", "amount": 25000},
+        {"resourceType": "iron", "amount": 500},
+        {"resourceType": "stone", "amount": 300}
+      ],
+      "buildTime": 1800,
+      "gridSize": {"width": 2, "height": 2},
+      "upgrades": [
+        {
+          "level": 2,
+          "upgradeCost": [
+            {"resourceType": "gold", "amount": 40000},
+            {"resourceType": "iron", "amount": 800}
+          ],
+          "upgradeTime": 2400,
+          "productionBonus": 0,
+          "storageBonus": 0,
+          "unlocks": []
+        }
+      ],
+      "production": null
+    }
+  ],
+  "researchTree": [
+    {
+      "researchId": "research_atk_boost_1",
+      "researchName": "Combat Training I",
+      "description": "Increases all heroes' attack by 5%",
+      "researchCategory": "combat",
+      "prerequisiteResearch": [],
+      "requiredBuilding": "training_hall",
+      "requiredBuildingLevel": 1,
+      "researchCost": [
+        {"resourceType": "gold", "amount": 10000},
+        {"resourceType": "essence_dust", "amount": 50}
+      ],
+      "researchTime": 3600,
+      "statBonus": {
+        "bonusAtk": 0,
+        "bonusDef": 0,
+        "bonusHp": 0,
+        "bonusPercentAtk": 0.05,
+        "bonusPercentDef": 0,
+        "bonusPercentHp": 0
+      }
+    },
+    {
+      "researchId": "research_def_boost_1",
+      "researchName": "Defense Training I",
+      "description": "Increases all heroes' defense by 5%",
+      "researchCategory": "combat",
+      "prerequisiteResearch": [],
+      "requiredBuilding": "training_hall",
+      "requiredBuildingLevel": 1,
+      "researchCost": [
+        {"resourceType": "gold", "amount": 10000},
+        {"resourceType": "essence_dust", "amount": 50}
+      ],
+      "researchTime": 3600,
+      "statBonus": {
+        "bonusAtk": 0,
+        "bonusDef": 0,
+        "bonusHp": 0,
+        "bonusPercentAtk": 0,
+        "bonusPercentDef": 0.05,
+        "bonusPercentHp": 0
+      }
+    },
+    {
+      "researchId": "research_gold_boost",
+      "researchName": "Economic Prosperity",
+      "description": "Increases gold production by 20%",
+      "researchCategory": "economy",
+      "prerequisiteResearch": [],
+      "requiredBuilding": "hq",
+      "requiredBuildingLevel": 3,
+      "researchCost": [
+        {"resourceType": "gold", "amount": 25000}
+      ],
+      "researchTime": 7200,
+      "statBonus": null
+    },
+    {
+      "researchId": "research_hero_slots",
+      "researchName": "Expanded Barracks",
+      "description": "Unlock 5 additional hero slots",
+      "researchCategory": "progression",
+      "prerequisiteResearch": [],
+      "requiredBuilding": "hq",
+      "requiredBuildingLevel": 5,
+      "researchCost": [
+        {"resourceType": "gold", "amount": 50000},
+        {"resourceType": "wood", "amount": 500},
+        {"resourceType": "stone", "amount": 500}
+      ],
+      "researchTime": 10800,
+      "statBonus": null
+    }
+  ],
+  "layoutPresets": [
+    {
+      "presetId": "default",
+      "presetName": "Default Layout",
+      "buildings": [
+        {"buildingTypeId": "hq", "gridX": 5, "gridY": 5},
+        {"buildingTypeId": "mine", "gridX": 2, "gridY": 2},
+        {"buildingTypeId": "mine", "gridX": 8, "gridY": 2}
+      ]
+    }
+  ]
+}

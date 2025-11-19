@@ -1,0 +1,291 @@
+{
+  "currencies": [
+    {
+      "currencyId": "gold",
+      "currencyName": "Gold",
+      "description": "Basic currency for most transactions",
+      "icon": "icon_gold",
+      "isPremium": false,
+      "dailyEarnCap": 100000,
+      "softCapAmount": 1000000,
+      "softCapReduction": 0.5
+    },
+    {
+      "currencyId": "gems",
+      "currencyName": "Gems",
+      "description": "Premium currency",
+      "icon": "icon_gems",
+      "isPremium": true,
+      "dailyEarnCap": 0,
+      "softCapAmount": 0,
+      "softCapReduction": 1.0
+    },
+    {
+      "currencyId": "hero_shards",
+      "currencyName": "Hero Shards",
+      "description": "Used to summon and upgrade heroes",
+      "icon": "icon_hero_shard",
+      "isPremium": false,
+      "dailyEarnCap": 500,
+      "softCapAmount": 0,
+      "softCapReduction": 1.0
+    },
+    {
+      "currencyId": "soul_cores",
+      "currencyName": "Soul Cores",
+      "description": "Rare currency for awakening heroes",
+      "icon": "icon_soul_core",
+      "isPremium": false,
+      "dailyEarnCap": 50,
+      "softCapAmount": 0,
+      "softCapReduction": 1.0
+    },
+    {
+      "currencyId": "premium_orbs",
+      "currencyName": "Premium Orbs",
+      "description": "Ultra-rare currency for exclusive summons",
+      "icon": "icon_premium_orb",
+      "isPremium": true,
+      "dailyEarnCap": 0,
+      "softCapAmount": 0,
+      "softCapReduction": 1.0
+    },
+    {
+      "currencyId": "arena_tokens",
+      "currencyName": "Arena Tokens",
+      "description": "Earned from Arena battles",
+      "icon": "icon_arena_token",
+      "isPremium": false,
+      "dailyEarnCap": 1000,
+      "softCapAmount": 0,
+      "softCapReduction": 1.0
+    },
+    {
+      "currencyId": "guild_coins",
+      "currencyName": "Guild Coins",
+      "description": "Earned from guild activities",
+      "icon": "icon_guild_coin",
+      "isPremium": false,
+      "dailyEarnCap": 500,
+      "softCapAmount": 0,
+      "softCapReduction": 1.0
+    }
+  ],
+  "exchanges": [
+    {
+      "fromCurrencyId": "gems",
+      "toCurrencyId": "gold",
+      "exchangeRate": 1,
+      "outputAmount": 1000,
+      "description": "Convert 1 Gem to 1000 Gold"
+    },
+    {
+      "fromCurrencyId": "gems",
+      "toCurrencyId": "hero_shards",
+      "exchangeRate": 10,
+      "outputAmount": 10,
+      "description": "Convert 10 Gems to 10 Hero Shards"
+    }
+  ],
+  "blackMarket": {
+    "refreshInterval": 21600,
+    "maxOffers": 6,
+    "offers": [
+      {
+        "itemType": "hero",
+        "itemId": "hero_ssr_random",
+        "quantity": 1,
+        "originalPrice": 3000,
+        "discountedPrice": 1500,
+        "currencyType": "gems",
+        "stock": 1,
+        "purchaseLimit": 1,
+        "appearChance": 0.1
+      },
+      {
+        "itemType": "gear",
+        "itemId": "legendary_weapon_random",
+        "quantity": 1,
+        "originalPrice": 1000,
+        "discountedPrice": 500,
+        "currencyType": "gems",
+        "stock": 3,
+        "purchaseLimit": 3,
+        "appearChance": 0.3
+      },
+      {
+        "itemType": "material",
+        "itemId": "legendary_essence",
+        "quantity": 10,
+        "originalPrice": 500,
+        "discountedPrice": 250,
+        "currencyType": "gems",
+        "stock": 5,
+        "purchaseLimit": 5,
+        "appearChance": 0.5
+      },
+      {
+        "itemType": "currency",
+        "itemId": "soul_cores",
+        "quantity": 50,
+        "originalPrice": 800,
+        "discountedPrice": 400,
+        "currencyType": "gems",
+        "stock": 2,
+        "purchaseLimit": 2,
+        "appearChance": 0.4
+      },
+      {
+        "itemType": "summon_ticket",
+        "itemId": "premium_summon_ticket",
+        "quantity": 1,
+        "originalPrice": 300,
+        "discountedPrice": 150,
+        "currencyType": "gems",
+        "stock": 10,
+        "purchaseLimit": 10,
+        "appearChance": 0.6
+      }
+    ]
+  },
+  "shops": [
+    {
+      "shopType": "general",
+      "shopName": "General Shop",
+      "refreshType": "daily",
+      "items": [
+        {
+          "itemId": "potion_health",
+          "itemName": "Health Potion",
+          "itemType": "consumable",
+          "quantity": 1,
+          "price": 100,
+          "currencyType": "gold",
+          "stock": -1,
+          "unlockCondition": ""
+        },
+        {
+          "itemId": "experience_boost",
+          "itemName": "EXP Boost (1h)",
+          "itemType": "boost",
+          "quantity": 1,
+          "price": 50,
+          "currencyType": "gems",
+          "stock": 10,
+          "unlockCondition": ""
+        }
+      ]
+    },
+    {
+      "shopType": "premium",
+      "shopName": "Premium Shop",
+      "refreshType": "weekly",
+      "items": [
+        {
+          "itemId": "hero_ssr_selector",
+          "itemName": "SSR Hero Selector",
+          "itemType": "hero_selector",
+          "quantity": 1,
+          "price": 3000,
+          "currencyType": "gems",
+          "stock": 1,
+          "unlockCondition": "vip_5"
+        },
+        {
+          "itemId": "mythic_gear_box",
+          "itemName": "Mythic Gear Box",
+          "itemType": "gear_box",
+          "quantity": 1,
+          "price": 5000,
+          "currencyType": "gems",
+          "stock": 1,
+          "unlockCondition": "vip_10"
+        }
+      ]
+    }
+  ],
+  "bundles": [
+    {
+      "bundleId": "starter_pack",
+      "bundleName": "Starter Pack",
+      "description": "Great value for new players!",
+      "price": 500,
+      "currencyType": "gems",
+      "isAvailable": true,
+      "purchaseLimit": 1,
+      "purchaseCount": 0,
+      "items": [
+        {"itemType": "currency", "itemId": "gold", "quantity": 50000},
+        {"itemType": "hero", "itemId": "hero_sr_random", "quantity": 3},
+        {"itemType": "gear", "itemId": "epic_gear_random", "quantity": 5}
+      ],
+      "bonusItems": [
+        {"itemType": "currency", "itemId": "gems", "quantity": 100}
+      ]
+    },
+    {
+      "bundleId": "monthly_pack",
+      "bundleName": "Monthly Pack",
+      "description": "Best value! Renews monthly",
+      "price": 1000,
+      "currencyType": "gems",
+      "isAvailable": true,
+      "purchaseLimit": -1,
+      "purchaseCount": 0,
+      "items": [
+        {"itemType": "currency", "itemId": "gold", "quantity": 100000},
+        {"itemType": "currency", "itemId": "hero_shards", "quantity": 300},
+        {"itemType": "currency", "itemId": "soul_cores", "quantity": 50}
+      ],
+      "bonusItems": [
+        {"itemType": "summon_ticket", "itemId": "premium_summon_ticket", "quantity": 10}
+      ]
+    }
+  ],
+  "vipTiers": [
+    {
+      "tier": 0,
+      "tierName": "Standard",
+      "requiredSpending": 0,
+      "dailyBonuses": {
+        "bonusGold": 0,
+        "bonusGems": 0,
+        "bonusEnergy": 0
+      },
+      "perks": []
+    },
+    {
+      "tier": 1,
+      "tierName": "Bronze VIP",
+      "requiredSpending": 1000,
+      "dailyBonuses": {
+        "bonusGold": 1000,
+        "bonusGems": 10,
+        "bonusEnergy": 10
+      },
+      "perks": ["daily_free_summon"]
+    },
+    {
+      "tier": 5,
+      "tierName": "Silver VIP",
+      "requiredSpending": 10000,
+      "dailyBonuses": {
+        "bonusGold": 5000,
+        "bonusGems": 50,
+        "bonusEnergy": 30
+      },
+      "perks": ["daily_free_summon", "auto_battle", "skip_animations"]
+    },
+    {
+      "tier": 10,
+      "tierName": "Gold VIP",
+      "requiredSpending": 50000,
+      "dailyBonuses": {
+        "bonusGold": 10000,
+        "bonusGems": 100,
+        "bonusEnergy": 50
+      },
+      "perks": ["daily_free_summon", "auto_battle", "skip_animations", "exclusive_shop_access", "double_daily_rewards"]
+    }
+  ]
+}
