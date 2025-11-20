@@ -37,6 +37,18 @@ Given a hero with:
 
 A Common (Rarity 1) hero with the same base stats would only have 198 ATK at level 50, making the Legendary hero **49% stronger** due to rarity-based growth.
 
+### Stat Progression Comparison (Base ATK: 100, Growth: 2 ATK/level)
+
+| Level | Common (R1) | Legendary (R5) | Difference |
+|-------|-------------|----------------|------------|
+| 1 | 100 ATK | 100 ATK | 0 (+0%) |
+| 30 | 158 ATK | 216 ATK | +58 (+37%) |
+| 60 | 218 ATK | 336 ATK | +118 (+54%) |
+| 90 | 278 ATK | 456 ATK | +178 (+64%) |
+| 120 | 338 ATK | 576 ATK | +238 (+70%) |
+
+At max level (120), a Legendary hero is **70% stronger** than a Common hero with identical base stats!
+
 ## Implementation Files
 
 ### Core Files
@@ -89,9 +101,9 @@ Debug.Log($"ATK at level 50: {unit.BaseATK}");
 ```csharp
 HeroConfig heroCfg = /* load from JSON */;
 
-// Calculate what stats would be at level 100
-Stats statsAt100 = heroCfg.GetStatsAtLevel(100);
-Debug.Log($"Projected ATK at level 100: {statsAt100.atk}");
+// Calculate what stats would be at level 120 (max level)
+Stats statsAt120 = heroCfg.GetStatsAtLevel(120);
+Debug.Log($"Projected ATK at level 120: {statsAt120.atk}");
 ```
 
 #### Initialize an enemy with rarity-based stats
@@ -159,14 +171,14 @@ Both systems benefit from rarity multipliers, but heroes scale more dramatically
 
 ### Balance Considerations
 
-1. **Early Game**: Rarity differences are small (a few stat points)
-2. **Mid Game** (Level 25-50): Rarity becomes noticeable (10-30% difference)
-3. **Late Game** (Level 50+): Rarity is crucial (50-100%+ difference)
+1. **Early Game** (Level 1-30): Rarity differences are small (a few stat points)
+2. **Mid Game** (Level 30-70): Rarity becomes noticeable (20-40% difference)
+3. **Late Game** (Level 70-120): Rarity is crucial (50-100%+ difference)
 
 This creates a natural progression where:
 - Common heroes are viable early
 - Rare/Epic heroes dominate mid-game
-- Legendary/Mythic heroes are end-game powerhouses
+- Legendary/Mythic heroes are end-game powerhouses (especially at max level 120)
 
 ### Backwards Compatibility
 

@@ -9,7 +9,7 @@ public class RarityGrowthTest : MonoBehaviour
 {
     [Header("Test Configuration")]
     [SerializeField] private bool runOnStart = true;
-    [SerializeField] private int[] testLevels = { 1, 10, 25, 50, 100 };
+    [SerializeField] private int[] testLevels = { 1, 10, 30, 60, 90, 120 };
 
     private void Start()
     {
@@ -133,7 +133,7 @@ public class RarityGrowthTest : MonoBehaviour
         };
 
         // Test at different levels
-        int[] testLevels = { 1, 25, 50 };
+        int[] testLevels = { 1, 30, 60, 120 };
 
         foreach (int level in testLevels)
         {
@@ -158,7 +158,7 @@ public class RarityGrowthTest : MonoBehaviour
     public void CompareGrowthCurves()
     {
         Debug.Log("=== GROWTH CURVE COMPARISON ===\n");
-        Debug.Log("Comparing Common (R1) vs Legendary (R5) hero growth from level 1 to 100\n");
+        Debug.Log("Comparing Common (R1) vs Legendary (R5) hero growth from level 1 to 120 (max level)\n");
 
         var commonHero = new HeroConfig
         {
@@ -181,7 +181,7 @@ public class RarityGrowthTest : MonoBehaviour
         Debug.Log("Level | Common ATK | Legendary ATK | Difference");
         Debug.Log("------|------------|---------------|------------");
 
-        for (int level = 1; level <= 100; level += 10)
+        for (int level = 1; level <= 120; level += 10)
         {
             var commonStats = commonHero.GetStatsAtLevel(level);
             var legendaryStats = legendaryHero.GetStatsAtLevel(level);
