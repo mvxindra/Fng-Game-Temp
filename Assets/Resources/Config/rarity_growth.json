@@ -1,0 +1,67 @@
+{
+  "configs": [
+    {
+      "rarityTier": 1,
+      "growthMultiplier": 1.0,
+      "description": "Common - Base growth rate",
+      "atkGrowthMultiplier": 1.0,
+      "defGrowthMultiplier": 1.0,
+      "hpGrowthMultiplier": 1.0,
+      "spdGrowthMultiplier": 1.0
+    },
+    {
+      "rarityTier": 2,
+      "growthMultiplier": 1.2,
+      "description": "Uncommon - 20% better growth",
+      "atkGrowthMultiplier": 1.0,
+      "defGrowthMultiplier": 1.0,
+      "hpGrowthMultiplier": 1.0,
+      "spdGrowthMultiplier": 1.0
+    },
+    {
+      "rarityTier": 3,
+      "growthMultiplier": 1.5,
+      "description": "Rare - 50% better growth",
+      "atkGrowthMultiplier": 1.0,
+      "defGrowthMultiplier": 1.0,
+      "hpGrowthMultiplier": 1.0,
+      "spdGrowthMultiplier": 1.0
+    },
+    {
+      "rarityTier": 4,
+      "growthMultiplier": 1.8,
+      "description": "Epic - 80% better growth",
+      "atkGrowthMultiplier": 1.0,
+      "defGrowthMultiplier": 1.0,
+      "hpGrowthMultiplier": 1.0,
+      "spdGrowthMultiplier": 1.0
+    },
+    {
+      "rarityTier": 5,
+      "growthMultiplier": 2.0,
+      "description": "Legendary - 2x growth rate",
+      "atkGrowthMultiplier": 1.0,
+      "defGrowthMultiplier": 1.0,
+      "hpGrowthMultiplier": 1.0,
+      "spdGrowthMultiplier": 1.0
+    },
+    {
+      "rarityTier": 6,
+      "growthMultiplier": 2.5,
+      "description": "Unique - 2.5x growth rate",
+      "atkGrowthMultiplier": 1.0,
+      "defGrowthMultiplier": 1.0,
+      "hpGrowthMultiplier": 1.0,
+      "spdGrowthMultiplier": 1.0
+    },
+    {
+      "rarityTier": 7,
+      "growthMultiplier": 3.0,
+      "description": "Mythic - 3x growth rate",
+      "atkGrowthMultiplier": 1.0,
+      "defGrowthMultiplier": 1.0,
+      "hpGrowthMultiplier": 1.0,
+      "spdGrowthMultiplier": 1.0
+    }
+  ]
+}

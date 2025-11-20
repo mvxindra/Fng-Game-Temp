@@ -12,6 +12,7 @@ public class CombatUnit : MonoBehaviour
     public int BaseSPD;
 
     public int CurrentHP;
+    public int Level = 1; // Unit level for stat calculations
 
     public List<SkillInstance> Skills { get; private set; } = new();
     public List<StatusEffectInstance> ActiveStatus { get; private set; } = new();
@@ -25,22 +26,61 @@ public class CombatUnit : MonoBehaviour
     // Cached weapon passives for performance
     private List<WeaponPassiveAbility> cachedWeaponPassives;
 
-    public void InitializeFromHeroConfig(HeroConfig heroCfg)
+    public void InitializeFromHeroConfig(HeroConfig heroCfg, int level = 1)
     {
-        heroId  = heroCfg.id;
-        BaseATK = heroCfg.baseStats.atk;
-        BaseDEF = heroCfg.baseStats.def;
-        BaseHP  = heroCfg.baseStats.hp;
-        BaseSPD = heroCfg.baseStats.spd;
+        heroId = heroCfg.id;
+        Level = level;
+        isEnemy = false;
+
+        // Calculate stats at the specified level using rarity-based growth
+        var statsAtLevel = heroCfg.GetStatsAtLevel(level);
+        BaseATK = statsAtLevel.atk;
+        BaseDEF = statsAtLevel.def;
+        BaseHP = statsAtLevel.hp;
+        BaseSPD = statsAtLevel.spd;
         CurrentHP = BaseHP;
 
         Skills.Clear();
-        foreach (var skillId in heroCfg.skills)
+        if (heroCfg.skills != null)
         {
-            var cfg = SkillDatabase.Instance.GetSkill(skillId);
-            if (cfg != null)
+            foreach (var skillId in heroCfg.skills)
             {
-                Skills.Add(new SkillInstance(cfg));
+                var cfg = SkillDatabase.Instance.GetSkill(skillId);
+                if (cfg != null)
+                {
+                    Skills.Add(new SkillInstance(cfg));
+                }
+            }
+        }
+    }
+
+    /// <summary>
+    /// Initialize combat unit from an enemy config with rarity-based growth.
+    /// </summary>
+    public void InitializeFromEnemyConfig(EnemyConfig enemyCfg, int level = 1)
+    {
+        heroId = enemyCfg.id;
+        Level = level;
+        isEnemy = true;
+
+        // Calculate stats at the specified level using rarity-based growth
+        var statsAtLevel = enemyCfg.GetStatsAtLevel(level);
+        BaseATK = statsAtLevel.atk;
+        BaseDEF = statsAtLevel.def;
+        BaseHP = statsAtLevel.hp;
+        BaseSPD = statsAtLevel.spd;
+        CurrentHP = BaseHP;
+
+        Skills.Clear();
+        if (enemyCfg.skills != null)
+        {
+            foreach (var skillId in enemyCfg.skills)
+            {
+                var cfg = SkillDatabase.Instance.GetSkill(skillId);
+                if (cfg != null)
+                {
+                    Skills.Add(new SkillInstance(cfg));
+                }
             }
         }
     }
@@ -161,5 +201,5 @@ public class CombatUnit : MonoBehaviour
     public int GetDefense() => GetCurrentDEF();
     public int GetMaxHP() => BaseHP;
     public int GetCurrentHP() => CurrentHP;
-    public int GetLevel() => 1; // TODO: Add level tracking
+    public int GetLevel() => Level;
 }
