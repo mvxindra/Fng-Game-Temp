@@ -1,0 +1,229 @@
+{
+  "config": {
+    "marketId": "black_market",
+    "marketName": "Black Market",
+    "refreshIntervalHours": 6,
+    "freeRefreshesPerDay": 3,
+    "refreshCostGems": 50,
+    "simultaneousOffers": 6,
+    "qualityTier": 0
+  },
+  "offerPools": [
+    {
+      "poolId": "early_game",
+      "poolName": "Early Game Offers (1-20)",
+      "minPlayerLevel": 1,
+      "maxPlayerLevel": 20,
+      "offers": [
+        {
+          "itemId": "gold", "itemName": "Gold Pouch", "itemType": "currency",
+          "quantityMin": 5000, "quantityMax": 10000,
+          "currencyType": "gems", "basePrice": 5,
+          "discountMin": 30, "discountMax": 50,
+          "rarity": "common", "appearChance": 0.8, "requiredLevel": 1,
+          "stock": -1, "purchaseLimit": 3
+        },
+        {
+          "itemId": "enhancement_stone_t1", "itemName": "Enhancement Stone I", "itemType": "material",
+          "quantityMin": 5, "quantityMax": 15,
+          "currencyType": "gold", "basePrice": 200,
+          "discountMin": 25, "discountMax": 45,
+          "rarity": "common", "appearChance": 0.7, "requiredLevel": 5,
+          "stock": -1, "purchaseLimit": 5
+        },
+        {
+          "itemId": "GEAR_RARE_SWORD", "itemName": "Rare Sword", "itemType": "gear",
+          "quantityMin": 1, "quantityMax": 1,
+          "currencyType": "gold", "basePrice": 5000,
+          "discountMin": 30, "discountMax": 60,
+          "rarity": "rare", "appearChance": 0.4, "requiredLevel": 10,
+          "stock": 1, "purchaseLimit": 1
+        },
+        {
+          "itemId": "xp_potion_small", "itemName": "Hero XP Potion (S)", "itemType": "material",
+          "quantityMin": 3, "quantityMax": 10,
+          "currencyType": "gold", "basePrice": 300,
+          "discountMin": 35, "discountMax": 55,
+          "rarity": "common", "appearChance": 0.6, "requiredLevel": 5,
+          "stock": -1, "purchaseLimit": 10
+        }
+      ]
+    },
+    {
+      "poolId": "mid_game",
+      "poolName": "Mid Game Offers (21-50)",
+      "minPlayerLevel": 21,
+      "maxPlayerLevel": 50,
+      "offers": [
+        {
+          "itemId": "gold", "itemName": "Gold Chest", "itemType": "currency",
+          "quantityMin": 20000, "quantityMax": 40000,
+          "currencyType": "gems", "basePrice": 15,
+          "discountMin": 25, "discountMax": 45,
+          "rarity": "rare", "appearChance": 0.7, "requiredLevel": 21,
+          "stock": -1, "purchaseLimit": 2
+        },
+        {
+          "itemId": "enhancement_stone_t2", "itemName": "Enhancement Stone II", "itemType": "material",
+          "quantityMin": 10, "quantityMax": 25,
+          "currencyType": "gold", "basePrice": 500,
+          "discountMin": 20, "discountMax": 40,
+          "rarity": "rare", "appearChance": 0.6, "requiredLevel": 25,
+          "stock": -1, "purchaseLimit": 5
+        },
+        {
+          "itemId": "GEAR_ELITE_BLADE", "itemName": "Elite Blade", "itemType": "gear",
+          "quantityMin": 1, "quantityMax": 1,
+          "currencyType": "gold", "basePrice": 15000,
+          "discountMin": 25, "discountMax": 50,
+          "rarity": "epic", "appearChance": 0.3, "requiredLevel": 30,
+          "stock": 1, "purchaseLimit": 1
+        },
+        {
+          "itemId": "ascension_material_t1", "itemName": "Ascension Crystal", "itemType": "material",
+          "quantityMin": 1, "quantityMax": 5,
+          "currencyType": "gold", "basePrice": 2000,
+          "discountMin": 30, "discountMax": 50,
+          "rarity": "epic", "appearChance": 0.4, "requiredLevel": 25,
+          "stock": 5, "purchaseLimit": 3
+        },
+        {
+          "itemId": "HERO_SHARD_WOLF", "itemName": "Wolf Shards", "itemType": "hero_shard",
+          "quantityMin": 3, "quantityMax": 8,
+          "currencyType": "gems", "basePrice": 15,
+          "discountMin": 20, "discountMax": 35,
+          "rarity": "epic", "appearChance": 0.35, "requiredLevel": 30,
+          "stock": 8, "purchaseLimit": 2
+        },
+        {
+          "itemId": "rune_tier2_atk", "itemName": "ATK Rune II", "itemType": "rune",
+          "quantityMin": 1, "quantityMax": 3,
+          "currencyType": "gold", "basePrice": 5000,
+          "discountMin": 25, "discountMax": 45,
+          "rarity": "rare", "appearChance": 0.45, "requiredLevel": 35,
+          "stock": 3, "purchaseLimit": 2
+        }
+      ]
+    },
+    {
+      "poolId": "late_game",
+      "poolName": "Late Game Offers (51-80)",
+      "minPlayerLevel": 51,
+      "maxPlayerLevel": 80,
+      "offers": [
+        {
+          "itemId": "gold", "itemName": "Gold Vault", "itemType": "currency",
+          "quantityMin": 100000, "quantityMax": 200000,
+          "currencyType": "gems", "basePrice": 50,
+          "discountMin": 20, "discountMax": 35,
+          "rarity": "epic", "appearChance": 0.6, "requiredLevel": 51,
+          "stock": -1, "purchaseLimit": 1
+        },
+        {
+          "itemId": "GEAR_MYTHIC_BLADE", "itemName": "Mythic Blade", "itemType": "gear",
+          "quantityMin": 1, "quantityMax": 1,
+          "currencyType": "gems", "basePrice": 200,
+          "discountMin": 15, "discountMax": 30,
+          "rarity": "legendary", "appearChance": 0.2, "requiredLevel": 60,
+          "stock": 1, "purchaseLimit": 1
+        },
+        {
+          "itemId": "limit_break_material", "itemName": "Limit Break Stone", "itemType": "material",
+          "quantityMin": 1, "quantityMax": 3,
+          "currencyType": "gold", "basePrice": 10000,
+          "discountMin": 25, "discountMax": 40,
+          "rarity": "legendary", "appearChance": 0.3, "requiredLevel": 55,
+          "stock": 3, "purchaseLimit": 2
+        },
+        {
+          "itemId": "HERO_SHARD_WOLF", "itemName": "Wolf Shards (Bundle)", "itemType": "hero_shard",
+          "quantityMin": 10, "quantityMax": 20,
+          "currencyType": "gems", "basePrice": 30,
+          "discountMin": 15, "discountMax": 30,
+          "rarity": "legendary", "appearChance": 0.25, "requiredLevel": 55,
+          "stock": 20, "purchaseLimit": 1
+        },
+        {
+          "itemId": "rune_tier3_crit", "itemName": "Crit DMG Rune III", "itemType": "rune",
+          "quantityMin": 1, "quantityMax": 2,
+          "currencyType": "gold", "basePrice": 25000,
+          "discountMin": 20, "discountMax": 35,
+          "rarity": "epic", "appearChance": 0.35, "requiredLevel": 60,
+          "stock": 2, "purchaseLimit": 1
+        },
+        {
+          "itemId": "artifact_fragment", "itemName": "Artifact Fragment", "itemType": "material",
+          "quantityMin": 5, "quantityMax": 15,
+          "currencyType": "gems", "basePrice": 20,
+          "discountMin": 25, "discountMax": 40,
+          "rarity": "epic", "appearChance": 0.4, "requiredLevel": 65,
+          "stock": 15, "purchaseLimit": 2
+        }
+      ]
+    },
+    {
+      "poolId": "end_game",
+      "poolName": "End Game Offers (81-100)",
+      "minPlayerLevel": 81,
+      "maxPlayerLevel": 100,
+      "offers": [
+        {
+          "itemId": "GEAR_LEGENDARY_RELIC", "itemName": "Legendary Relic", "itemType": "gear",
+          "quantityMin": 1, "quantityMax": 1,
+          "currencyType": "gems", "basePrice": 500,
+          "discountMin": 10, "discountMax": 25,
+          "rarity": "mythic", "appearChance": 0.15, "requiredLevel": 85,
+          "stock": 1, "purchaseLimit": 1
+        },
+        {
+          "itemId": "awakening_material", "itemName": "Awakening Essence", "itemType": "material",
+          "quantityMin": 1, "quantityMax": 5,
+          "currencyType": "gems", "basePrice": 100,
+          "discountMin": 15, "discountMax": 30,
+          "rarity": "mythic", "appearChance": 0.25, "requiredLevel": 85,
+          "stock": 5, "purchaseLimit": 2
+        },
+        {
+          "itemId": "HERO_SHARD_WOLF", "itemName": "Wolf Shards (Premium)", "itemType": "hero_shard",
+          "quantityMin": 20, "quantityMax": 50,
+          "currencyType": "gems", "basePrice": 50,
+          "discountMin": 10, "discountMax": 20,
+          "rarity": "mythic", "appearChance": 0.2, "requiredLevel": 90,
+          "stock": 50, "purchaseLimit": 1
+        },
+        {
+          "itemId": "rune_tier4_legendary", "itemName": "Legendary Rune IV", "itemType": "rune",
+          "quantityMin": 1, "quantityMax": 1,
+          "currencyType": "gems", "basePrice": 300,
+          "discountMin": 15, "discountMax": 25,
+          "rarity": "mythic", "appearChance": 0.15, "requiredLevel": 85,
+          "stock": 1, "purchaseLimit": 1
+        },
+        {
+          "itemId": "phoenix_feather", "itemName": "Phoenix Feather Artifact", "itemType": "artifact",
+          "quantityMin": 1, "quantityMax": 1,
+          "currencyType": "gems", "basePrice": 1000,
+          "discountMin": 10, "discountMax": 20,
+          "rarity": "mythic", "appearChance": 0.05, "requiredLevel": 95,
+          "stock": 1, "purchaseLimit": 1
+        },
+        {
+          "itemId": "researchPoints", "itemName": "Research Points", "itemType": "research_points",
+          "quantityMin": 5, "quantityMax": 15,
+          "currencyType": "gems", "basePrice": 50,
+          "discountMin": 20, "discountMax": 35,
+          "rarity": "legendary", "appearChance": 0.3, "requiredLevel": 85,
+          "stock": -1, "purchaseLimit": 3
+        },
+        {
+          "itemId": "MYTHIC_KEY", "itemName": "Mythic Dungeon Key", "itemType": "currency",
+          "quantityMin": 1, "quantityMax": 3,
+          "currencyType": "gems", "basePrice": 150,
+          "discountMin": 15, "discountMax": 30,
+          "rarity": "legendary", "appearChance": 0.25, "requiredLevel": 90,
+          "stock": 3, "purchaseLimit": 2
+        }
+      ]
+    }
+  ]
+}
