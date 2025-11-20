@@ -564,13 +564,13 @@ public class ResearchBonus
 
 /// <summary>
 
-/// Active research
+/// Active research for base building system
 
 /// </summary>
 
 [Serializable]
 
-public class ActiveResearch
+public class BaseBuildingResearch
 
 {
 
