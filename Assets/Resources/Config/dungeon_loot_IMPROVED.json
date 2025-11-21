@@ -1,0 +1,431 @@
+[
+  {
+    "id": "REWARD_NORMAL_T1_GUARANTEED",
+    "loot": [
+      { "reward": "GOLD:2500", "weight": 100 },
+      { "reward": "XP:100", "weight": 100 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T1_COMMON",
+    "loot": [
+      { "reward": "MATERIAL:enhancement_stone_t1:3", "weight": 60 },
+      { "reward": "GEAR:WEAPON_COMMON_SWORD", "weight": 25 },
+      { "reward": "GEAR:ARMOR_COMMON_PLATE", "weight": 15 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T1_UNCOMMON",
+    "loot": [
+      { "reward": "GEAR:WEAPON_RARE_BLADE", "weight": 50 },
+      { "reward": "MATERIAL:xp_potion_small:2", "weight": 30 },
+      { "reward": "GEMS:5", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T1_RARE",
+    "loot": [
+      { "reward": "GEAR:WEAPON_EPIC_SWORD", "weight": 40 },
+      { "reward": "HERO_SHARD_WOLF:1", "weight": 35 },
+      { "reward": "RUNE:rune_tier1_atk", "weight": 25 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_NORMAL_T6_GUARANTEED",
+    "loot": [
+      { "reward": "GOLD:8000", "weight": 100 },
+      { "reward": "XP:600", "weight": 100 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T6_COMMON",
+    "loot": [
+      { "reward": "MATERIAL:enhancement_stone_t2:5", "weight": 50 },
+      { "reward": "GEAR:WEAPON_RARE_BLADE", "weight": 30 },
+      { "reward": "GEAR:ARMOR_RARE_PLATE", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T6_UNCOMMON",
+    "loot": [
+      { "reward": "GEAR:WEAPON_EPIC_BLADE", "weight": 45 },
+      { "reward": "MATERIAL:ascension_crystal_t1:2", "weight": 35 },
+      { "reward": "GEMS:15", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T6_RARE",
+    "loot": [
+      { "reward": "GEAR:WEAPON_LEGENDARY_SWORD", "weight": 40 },
+      { "reward": "HERO_SHARD_WOLF:3", "weight": 35 },
+      { "reward": "RUNE:rune_tier2_crit", "weight": 25 }
+    ]
+  },
+  {
+    "id": "REWARD_NORMAL_T6_EPIC",
+    "loot": [
+      { "reward": "GEAR:WEAPON_MYTHIC_BLADE", "weight": 50 },
+      { "reward": "MATERIAL:artifact_fragment:3", "weight": 30 },
+      { "reward": "GEMS:50", "weight": 20 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_HARD_T1_GUARANTEED",
+    "loot": [
+      { "reward": "GOLD:12000", "weight": 100 },
+      { "reward": "XP:800", "weight": 100 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T1_COMMON",
+    "loot": [
+      { "reward": "MATERIAL:enhancement_stone_t2:5", "weight": 50 },
+      { "reward": "GEAR:WEAPON_RARE_SWORD", "weight": 30 },
+      { "reward": "GEAR:ACCESSORY_RARE_RING", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T1_UNCOMMON",
+    "loot": [
+      { "reward": "GEAR:WEAPON_EPIC_BLADE", "weight": 50 },
+      { "reward": "MATERIAL:xp_potion_medium:3", "weight": 30 },
+      { "reward": "GEMS:25", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T1_RARE",
+    "loot": [
+      { "reward": "GEAR:WEAPON_LEGENDARY_GREATSWORD", "weight": 40 },
+      { "reward": "HERO_SHARD_WOLF:3", "weight": 35 },
+      { "reward": "RUNE:rune_tier2_hp", "weight": 25 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T1_EPIC",
+    "loot": [
+      { "reward": "GEAR:WEAPON_MYTHIC_BLADE", "weight": 45 },
+      { "reward": "MATERIAL:artifact_fragment:5", "weight": 35 },
+      { "reward": "ARENA_TOKENS:50", "weight": 20 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_HARD_T6_GUARANTEED",
+    "loot": [
+      { "reward": "GOLD:45000", "weight": 100 },
+      { "reward": "XP:3000", "weight": 100 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T6_COMMON",
+    "loot": [
+      { "reward": "MATERIAL:enhancement_stone_t3:8", "weight": 45 },
+      { "reward": "GEAR:WEAPON_EPIC_BLADE", "weight": 35 },
+      { "reward": "GEAR:ARMOR_EPIC_PLATE", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T6_UNCOMMON",
+    "loot": [
+      { "reward": "GEAR:WEAPON_LEGENDARY_SWORD", "weight": 50 },
+      { "reward": "MATERIAL:ascension_crystal_t2:5", "weight": 30 },
+      { "reward": "GEMS:60", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T6_RARE",
+    "loot": [
+      { "reward": "GEAR:WEAPON_MYTHIC_RELIC", "weight": 40 },
+      { "reward": "HERO_SHARD_WOLF:8", "weight": 35 },
+      { "reward": "RUNE:rune_tier3_critdmg", "weight": 25 }
+    ]
+  },
+  {
+    "id": "REWARD_HARD_T6_EPIC",
+    "loot": [
+      { "reward": "GEAR:ARTIFACT_PHOENIX_FRAGMENT", "weight": 40 },
+      { "reward": "MATERIAL:limit_break_stone:2", "weight": 35 },
+      { "reward": "GEMS:150", "weight": 25 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_NIGHTMARE_T1_GUARANTEED",
+    "loot": [
+      { "reward": "GOLD:60000", "weight": 100 },
+      { "reward": "XP:5000", "weight": 100 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T1_COMMON",
+    "loot": [
+      { "reward": "MATERIAL:enhancement_stone_t3:10", "weight": 40 },
+      { "reward": "GEAR:WEAPON_EPIC_GREATSWORD", "weight": 35 },
+      { "reward": "GEAR:ACCESSORY_EPIC_AMULET", "weight": 25 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T1_UNCOMMON",
+    "loot": [
+      { "reward": "GEAR:WEAPON_LEGENDARY_BLADE", "weight": 50 },
+      { "reward": "MATERIAL:ascension_crystal_t2:8", "weight": 30 },
+      { "reward": "GEMS:80", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T1_RARE",
+    "loot": [
+      { "reward": "GEAR:WEAPON_MYTHIC_GREATSWORD", "weight": 45 },
+      { "reward": "HERO_SHARD_WOLF:10", "weight": 30 },
+      { "reward": "RUNE:rune_tier3_spd", "weight": 25 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T1_EPIC",
+    "loot": [
+      { "reward": "GEAR:ARTIFACT_DRAGON_FRAGMENT", "weight": 35 },
+      { "reward": "MATERIAL:limit_break_stone:3", "weight": 35 },
+      { "reward": "GUILD_COINS:200", "weight": 30 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T1_MYTHIC",
+    "loot": [
+      { "reward": "ARTIFACT:phoenix_feather", "weight": 60 },
+      { "reward": "GEAR:WEAPON_MYTHIC_LEGENDARY", "weight": 40 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_NIGHTMARE_T6_GUARANTEED",
+    "loot": [
+      { "reward": "GOLD:150000", "weight": 100 },
+      { "reward": "XP:15000", "weight": 100 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T6_COMMON",
+    "loot": [
+      { "reward": "MATERIAL:enhancement_stone_t4:15", "weight": 35 },
+      { "reward": "GEAR:WEAPON_LEGENDARY_BLADE", "weight": 35 },
+      { "reward": "GEAR:ARMOR_LEGENDARY_PLATE", "weight": 30 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T6_UNCOMMON",
+    "loot": [
+      { "reward": "GEAR:WEAPON_MYTHIC_RELIC", "weight": 50 },
+      { "reward": "MATERIAL:ascension_crystal_t3:10", "weight": 30 },
+      { "reward": "GEMS:200", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T6_RARE",
+    "loot": [
+      { "reward": "GEAR:ARTIFACT_GUARDIAN_FRAGMENT", "weight": 40 },
+      { "reward": "HERO_SHARD_WOLF:20", "weight": 35 },
+      { "reward": "RUNE:rune_tier4_legendary", "weight": 25 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T6_EPIC",
+    "loot": [
+      { "reward": "MATERIAL:awakening_essence:1", "weight": 40 },
+      { "reward": "MATERIAL:limit_break_stone:5", "weight": 35 },
+      { "reward": "RESEARCH_POINTS:5", "weight": 25 }
+    ]
+  },
+  {
+    "id": "REWARD_NIGHTMARE_T6_MYTHIC",
+    "loot": [
+      { "reward": "ARTIFACT:dragon_might", "weight": 40 },
+      { "reward": "ARTIFACT:curse_infected", "weight": 35 },
+      { "reward": "MYTHIC_KEY:1", "weight": 25 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_MYTHIC_T1_GUARANTEED",
+    "loot": [
+      { "reward": "GOLD:250000", "weight": 100 },
+      { "reward": "XP:30000", "weight": 100 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T1_COMMON",
+    "loot": [
+      { "reward": "MATERIAL:enhancement_stone_t4:20", "weight": 30 },
+      { "reward": "GEAR:WEAPON_LEGENDARY_RELIC", "weight": 40 },
+      { "reward": "GEAR:ARMOR_LEGENDARY_MYTHIC", "weight": 30 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T1_UNCOMMON",
+    "loot": [
+      { "reward": "GEAR:WEAPON_MYTHIC_LEGENDARY", "weight": 50 },
+      { "reward": "MATERIAL:ascension_crystal_t3:15", "weight": 30 },
+      { "reward": "GEMS:400", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T1_RARE",
+    "loot": [
+      { "reward": "GEAR:ARTIFACT_VOID_FRAGMENT", "weight": 45 },
+      { "reward": "HERO_SHARD_WOLF:30", "weight": 30 },
+      { "reward": "RUNE:rune_tier4_mythic", "weight": 25 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T1_EPIC",
+    "loot": [
+      { "reward": "MATERIAL:awakening_essence:3", "weight": 40 },
+      { "reward": "MATERIAL:limit_break_stone:10", "weight": 35 },
+      { "reward": "RESEARCH_POINTS:10", "weight": 25 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T1_MYTHIC",
+    "loot": [
+      { "reward": "ARTIFACT:void_crystal", "weight": 35 },
+      { "reward": "ARTIFACT:guardian_oath", "weight": 35 },
+      { "reward": "MYTHIC_KEY:3", "weight": 30 }
+    ]
+  },
+
+
+  {
+    "id": "REWARD_MYTHIC_T4_GUARANTEED",
+    "loot": [
+      { "reward": "GOLD:500000", "weight": 100 },
+      { "reward": "XP:100000", "weight": 100 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T4_COMMON",
+    "loot": [
+      { "reward": "MATERIAL:enhancement_stone_t4:30", "weight": 25 },
+      { "reward": "GEAR:WEAPON_MYTHIC_ANCIENT", "weight": 40 },
+      { "reward": "GEAR:ARMOR_MYTHIC_ANCIENT", "weight": 35 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T4_UNCOMMON",
+    "loot": [
+      { "reward": "GEAR:ARTIFACT_COMPLETE_RANDOM", "weight": 50 },
+      { "reward": "MATERIAL:ascension_crystal_t3:25", "weight": 30 },
+      { "reward": "GEMS:1000", "weight": 20 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T4_RARE",
+    "loot": [
+      { "reward": "GEAR:SET_ETERNAL_FLAME_PIECE", "weight": 40 },
+      { "reward": "HERO_SHARD_WOLF:50", "weight": 30 },
+      { "reward": "RUNE:rune_tier4_ancient", "weight": 30 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T4_EPIC",
+    "loot": [
+      { "reward": "MATERIAL:awakening_essence:5", "weight": 35 },
+      { "reward": "MATERIAL:mythic_core:1", "weight": 35 },
+      { "reward": "RESEARCH_POINTS:20", "weight": 30 }
+    ]
+  },
+  {
+    "id": "REWARD_MYTHIC_T4_MYTHIC",
+    "loot": [
+      { "reward": "ARTIFACT:phoenix_feather", "weight": 25 },
+      { "reward": "ARTIFACT:dragon_might", "weight": 25 },
+      { "reward": "ARTIFACT:void_crystal", "weight": 25 },
+      { "reward": "MYTHIC_KEY:5", "weight": 25 }
+    ]
+  },
+
+
+  {
+    "id": "BONUS_FIRST_CLEAR_NORMAL",
+    "loot": [
+      { "reward": "GOLD:10000", "weight": 100 },
+      { "reward": "GEMS:50", "weight": 100 },
+      { "reward": "GEAR:WEAPON_EPIC_GUARANTEED", "weight": 100 }
+    ]
+  },
+  {
+    "id": "BONUS_FIRST_CLEAR_HARD",
+    "loot": [
+      { "reward": "GOLD:50000", "weight": 100 },
+      { "reward": "GEMS:150", "weight": 100 },
+      { "reward": "GEAR:WEAPON_LEGENDARY_GUARANTEED", "weight": 100 }
+    ]
+  },
+  {
+    "id": "BONUS_FIRST_CLEAR_NIGHTMARE",
+    "loot": [
+      { "reward": "GOLD:150000", "weight": 100 },
+      { "reward": "GEMS:500", "weight": 100 },
+      { "reward": "ARTIFACT:RANDOM_GUARANTEED", "weight": 100 }
+    ]
+  },
+  {
+    "id": "BONUS_FIRST_CLEAR_MYTHIC",
+    "loot": [
+      { "reward": "GOLD:500000", "weight": 100 },
+      { "reward": "GEMS:2000", "weight": 100 },
+      { "reward": "ARTIFACT:MYTHIC_RANDOM_GUARANTEED", "weight": 100 },
+      { "reward": "RESEARCH_POINTS:50", "weight": 100 }
+    ]
+  },
+
+
+  {
+    "id": "DAILY_BONUS_DROP",
+    "loot": [
+      { "reward": "GOLD:5000", "weight": 40 },
+      { "reward": "GEMS:25", "weight": 30 },
+      { "reward": "MATERIAL:xp_potion_large:1", "weight": 30 }
+    ]
+  },
+  {
+    "id": "WEEKEND_BONUS_DROP",
+    "loot": [
+      { "reward": "GOLD:15000", "weight": 35 },
+      { "reward": "GEMS:75", "weight": 35 },
+      { "reward": "MATERIAL:stamina_refill:1", "weight": 30 }
+    ]
+  },
+
+
+  {
+    "id": "PITY_RARE_DROP",
+    "loot": [
+      { "reward": "GEAR:WEAPON_EPIC_CHOICE", "weight": 40 },
+      { "reward": "HERO_SHARD_WOLF:5", "weight": 30 },
+      { "reward": "RUNE:rune_tier2_choice", "weight": 30 }
+    ]
+  },
+  {
+    "id": "PITY_EPIC_DROP",
+    "loot": [
+      { "reward": "GEAR:WEAPON_LEGENDARY_CHOICE", "weight": 45 },
+      { "reward": "MATERIAL:artifact_fragment:10", "weight": 30 },
+      { "reward": "GEMS:300", "weight": 25 }
+    ]
+  },
+  {
+    "id": "PITY_LEGENDARY_DROP",
+    "loot": [
+      { "reward": "GEAR:WEAPON_MYTHIC_CHOICE", "weight": 40 },
+      { "reward": "ARTIFACT:CHOICE_CHEST", "weight": 35 },
+      { "reward": "RESEARCH_POINTS:25", "weight": 25 }
+    ]
+  }
+]
